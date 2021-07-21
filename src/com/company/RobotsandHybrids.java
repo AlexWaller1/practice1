@@ -128,6 +128,14 @@ public class RobotsandHybrids {
             }
         }
 
+        for(int i = 0; i < trout.length; i++) {
+            System.out.println(trout[1]);
+        }
+
+        for(int i = 0; i < trout.length; i++) {
+            System.out.println(trout[0]);
+        }
+
 
 
 
