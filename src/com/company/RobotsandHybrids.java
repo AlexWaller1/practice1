@@ -136,6 +136,23 @@ public class RobotsandHybrids {
             System.out.println(trout[0]);
         }
 
+        for(int i = 0; i < robots.length; i++) {
+            if(robots[i] == "Mellon-Tech") {
+                System.out.println("What's up, Mellon-Tech?");
+            }
+            if(robots[i] == "Hank-44") {
+                System.out.println("How's the curling stone, Hank-44?");
+            }
+            else
+                System.out.println("How's the curling stone, Hank-44?");
+        }
+
+        for(int i = 0; i < robots.length; i++) {
+            if(robots[i] == "Mellon-Tech") {
+                System.out.println("What's up Mellon-Tech?");
+            }
+        }
+
 
 
 
