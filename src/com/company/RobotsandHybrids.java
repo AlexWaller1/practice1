@@ -98,6 +98,26 @@ public class RobotsandHybrids {
         else
             System.out.println("There are more than 37 Tree Hybrids");
 
+        System.out.println(robots[2] + " is great at fixing Telecasters. ");
+
+        if (robots.length == 37) {
+            System.out.println("There are 37 Robots.");
+        }
+        else
+            System.out.println("There are 4 robots.");
+
+        if (robots.length == 37 || trees.length == 5) {
+            System.out.println("There are 5 Tree Hybrids");
+        }
+        else
+            System.out.println("There are 37 robots");
+
+        if (robots.length == 4 && rams.length == 4) {
+            System.out.println("There are 4 Ram Hybrids and 4 Robots.");
+        }
+        else
+            System.out.println("4 is not the number.");
+
 
 
 
