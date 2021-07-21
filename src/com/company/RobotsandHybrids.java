@@ -220,7 +220,17 @@ public class RobotsandHybrids {
             w++;
         }
 
+        int s = 0;
+        int t = 0;
 
+        while(s < robots.length){
+            System.out.println("These Robots shred on the Telecaster.");
+            s++;
+            while(t < trees.length){
+                System.out.println("These Trees know high fashion.");
+                t++;
+            }
+        }
 
 
 
