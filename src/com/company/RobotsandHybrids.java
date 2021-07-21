@@ -282,6 +282,29 @@ public class RobotsandHybrids {
         else
             System.out.println(robots[0] + " is an awesome Robot!");
 
+        if(robots[3] == "Mellon-Tech" || trees[0] == "Magnus"){
+            for(int r = 0; t < trees.length; r++){
+                System.out.println("Wait... that's not Mellon-Tech");
+            }
+        }
+        else
+            System.out.println(robots[2] + " loves to play the guitar.");
+
+        if(trees[1] == "Everett" || robots[0] == "Mellon-Tech"){
+            for(int e = 0; e < robots.length; e++){
+                System.out.println(robots[0] + " is a great curler! ");
+            }
+        }
+        else if(rams[0] == "Tony" && robots[0] == "Hank-44"){
+            for(int i = 0; i < trees.length; i++){
+                System.out.println("The Tree Hybrids have great taste in teas");
+            }
+        }
+        else
+            for(int c = 0; c < rams.length; c++){
+                System.out.println("Where is the Randall Park Mall?");
+            }
+
 
         }
     }
