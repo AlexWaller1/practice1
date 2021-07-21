@@ -200,6 +200,27 @@ public class RobotsandHybrids {
         else
             System.out.println("The Green Egg is awesome!");
 
+       // for(int r = 0; r < robots.length; r++){
+         //   while(robots[r] == "Warren-21"){
+              //  System.out.println("How's the brisket, Warren-21?");
+        //    }
+      //  }
+
+        int z = 0;
+
+        while(z < 2){
+                System.out.println("Randall Park Mall.");
+                z ++;
+            }
+
+        int w = 0;
+
+        while(w < robots.length){
+            System.out.println("These Robots fix guitars.");
+            w++;
+        }
+
+
 
 
 
