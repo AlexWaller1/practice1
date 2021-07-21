@@ -137,7 +137,7 @@ public class RobotsandHybrids {
         }
 
         for(int i = 0; i < robots.length; i++) {
-            if(robots[i] == "Mellon-Tech") {
+            if(robots[i] == "Hank-44") {
                 System.out.println("What's up, Mellon-Tech?");
             }
             if(robots[i] == "Hank-44") {
@@ -153,6 +153,52 @@ public class RobotsandHybrids {
             }
         }
 
+        System.out.println(robots[3]);
+        System.out.println(robots[2]);
+        System.out.println(robots[1]);
+        System.out.println(robots[0]);
+
+        if (robots[0] == "Hank-44") {
+            System.out.println("How was the curling match, Hank-44?");
+        }
+        else
+            System.out.println("Wait, where is Warren-21?");
+
+        for( int r = 0; r < robots.length; r++) {
+            for(int m = r + 1; m < robots.length;  m++) {
+                if(robots[r] == "Warren-21" && robots[m] == "Warren-21") {
+                    System.out.println("What is up Warren-21?");
+                }
+                else
+                    System.out.println("Where is Warren-21");
+            }
+        }
+
+        System.out.println(robots[3] + " is friends with " + rams[2]);
+
+
+        if(rams[3] == "Stacey"){
+            System.out.println(rams[3] + " is named after Stacey Peralta. ");
+        }
+        else
+            System.out.println(rams[2] + " is named after Jays Adams. ");
+
+        if(rams[0] == "Otto"){
+            System.out.println("Whoops, that's not Otto. ");
+        }
+        else
+            System.out.println(rams[1] + " is named after Otto Rocket. ");
+
+        System.out.println(robots[2] + " is a mellon-head. ");
+
+        if(robots[3] == "Hank-44" || robots[2] == "Hank-44") {
+            System.out.println("There are 2 robots named " + robots[0]);
+        }
+        else if(robots[3] == "Eggplant-Head") {
+            System.out.println("The robot's name is " + robots[3]);
+        }
+        else
+            System.out.println("The Green Egg is awesome!");
 
 
 
