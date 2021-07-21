@@ -17,13 +17,20 @@ public class RobotsandHybrids {
         String troutHybrid1 = "Rainbow";
         String troutHybrid2 = "Brown";
 
+        String robot1 = "Hank-44";
+        String robot2 = "Warren-21";
+        String robot3 = "Mellon-Tech";
+        String robot4 = "Eggplant-Head";
+
         double ramHybridNo = 4;
         double treeHybridNo = 5;
         double troutHybridNo = 2;
+        double robotNo = 4;
 
         String[] rams = {"Tony", "Otto", "Jay", "Stacey"};
         String[] trees = {"Cornelius", "Magnus", "Owen", "Everett", "Jasper"};
         String[] trout = {"Rainbow", "Brown"};
+        String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
 
         if (rams[0] == trees[0]) {
             System.out.println("These are the same hybrid.");
@@ -47,5 +54,41 @@ public class RobotsandHybrids {
             System.out.println("There are 2 Trout Hybrids.");
 
         System.out.println(troutHybridNo + treeHybridNo);
+
+        System.out.println(robots[3]);
+
+        if (robots[3] == "Eggplant-Head") {
+            System.out.println("The robot's name is Eggplant-Head");
+        }
+        else
+            System.out.println("The robot's name is not Eggplant-Head");
+
+        if (robots[0] == robots[1]) {
+            System.out.println("These are the same robots.");
+        }
+        else
+            System.out.println("These are different robots.");
+
+        System.out.println(robots[2]);
+
+        if (robots[0] == "Hank-44") {
+            System.out.println("Hi, Hank-44!");
+        }
+        else
+            System.out.println("Hey, where's Hank-44?");
+
+        System.out.println("How was curling today?");
+        System.out.println(robotNo * ramHybridNo);
+
+        if (ramHybridNo == robotNo) {
+            System.out.println("There's 4 Robots and 4 Ram Hybrids");
+        }
+        else
+            System.out.println("There's a different number of Ram Hybrids and Robots");
+
+
+
+
+        }
     }
-}
+
