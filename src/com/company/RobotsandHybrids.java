@@ -258,6 +258,30 @@ public class RobotsandHybrids {
             }
         }
 
+        System.out.println(trout[1] + " was incubated at Randall Park Mall");
+        System.out.println((trout[0] + " loves to hang out at the movie theater."));
+
+        double a1 = 37;
+        double a2 = 12;
+        double a3 = 9;
+
+        System.out.println(a1 / a2);
+        System.out.println(a3 / a2);
+        System.out.println((a1 + a2) * a3);
+
+        for(int i = 0; i < a2; i++){
+            System.out.println(a3 * a2);
+        }
+
+        if(robots[3] == "Eggplant-Head" || rams[0] == "Jay"){
+            for(int r = 0; r < robots.length; r++){
+                System.out.println(robots[3] + " is an awesome Robot! ");
+            }
+
+        }
+        else
+            System.out.println(robots[0] + " is an awesome Robot!");
+
 
         }
     }
