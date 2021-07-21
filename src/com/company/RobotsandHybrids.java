@@ -231,8 +231,32 @@ public class RobotsandHybrids {
                 t++;
             }
         }
+        // interesting result from while loop
 
+       int q = 0;
+        int p = 0;
 
+        while(q < rams.length){
+            System.out.println("These Rams go for it at the skate park");
+            q++;
+            while(p < trout.length){
+                System.out.println("These Trout are super resourceful");
+                p++;
+            }
+        }
+        // interesting result from while loop
+        int u = 0;
+        int v = 0;
+
+        while(u < trees.length){
+            System.out.println("The Trees hang out in the Atrium");
+            u++;
+            while( v < robots.length){
+                System.out.println("The Robots were manufactured by Antibi");
+                v++;
+
+            }
+        }
 
 
         }
