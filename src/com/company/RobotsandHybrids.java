@@ -118,6 +118,18 @@ public class RobotsandHybrids {
         else
             System.out.println("4 is not the number.");
 
+        for(int i = 0; i < robots.length; i++) {
+            System.out.println(robots[i]);
+        }
+
+        for(int i = 0; i < trees.length; i++ ) {
+            if(trees[4] == "Jasper"){
+                System.out.println("Jasper is a Tree Hybrid.");
+            }
+        }
+
+
+
 
 
 
