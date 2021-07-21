@@ -86,6 +86,18 @@ public class RobotsandHybrids {
         else
             System.out.println("There's a different number of Ram Hybrids and Robots");
 
+        if (ramHybridNo < 37 && treeHybridNo < 37) {
+            System.out.println("There are less than 37.");
+        }
+        else
+            System.out.println("There's more than 37, or could be equal");
+
+        if (ramHybridNo <= 5 || treeHybridNo > 37) {
+            System.out.println("There are 5 Ram Hybrids.");
+        }
+        else
+            System.out.println("There are more than 37 Tree Hybrids");
+
 
 
 
