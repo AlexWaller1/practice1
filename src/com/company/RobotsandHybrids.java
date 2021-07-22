@@ -502,6 +502,24 @@ public class RobotsandHybrids {
             }
         }
 
+        if(trees[0] == "Cornelius"){
+            for(int i = 2; i < rams.length; i++){
+                System.out.println(trees[i]);
+            }
+        }
+
+        if(trout[0] != "Rainbow" && trout[1] != "Brown"){
+            System.out.println("The Trout are extremely resourceful.");
+        }
+        else if(trout[0] == "Rainbow" && trout[1] == "Brown"){
+            for(int i = 0; i < trout.length; i++){
+                System.out.println(trout[i]);
+            }
+        }
+        else
+            System.out.println("The Trout are awesome!");
+
+
 
 
         }
