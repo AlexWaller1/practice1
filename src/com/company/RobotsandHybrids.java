@@ -377,6 +377,40 @@ public class RobotsandHybrids {
             }
         }
 
+        if (robots[0] == "Hank-44" || robots[2] == "Mellon-Tech"){
+            System.out.println(trees[3] + " is a very fashionable Hybrid ");
+            System.out.println((trees[2] + " is also a very fashionable Hybrid "));
+        }
+        else
+            System.out.println(trees[3] + "soaks in the sun in the Atrium");
+
+        if(trees[4] == "Magnus"){
+            for(int i = 0; i < trees.length; i++){
+                if(trees[0] == "Cornelius"){
+                    System.out.println(i);
+                }
+                else System.out.println("Magnus loves tea.");
+            }
+
+
+
+        }
+        else
+            System.out.println("Magnus loves Tea!");
+
+        if(robots[0] == "Hank-44" && robots[2] == "Mellon-Tech"){
+            for(int i = 0; i < robots.length; i++){
+                if(i == 3){
+                    System.out.println(i);
+                    System.out.println("Mellon-Tech is the " + i + " Robot in the array.");
+                }
+                else
+                    System.out.println("Eggplant-Head is awesome!");
+            }
+        }
+        else
+            System.out.println(robots[1]);
+
         }
     }
 
