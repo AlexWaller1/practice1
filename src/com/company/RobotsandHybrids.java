@@ -549,6 +549,15 @@ public class RobotsandHybrids {
             }
         }
 
+        if(trees[0] == "Cornelius"){
+            if(trees[0] == "Everett"){
+                System.out.println("Hey, Everett!");
+            }
+            else
+                System.out.println("What's going on. Everett!");
+        }
+        else
+            System.out.println(trees[0] + ", how's it going?");
 
 
 
