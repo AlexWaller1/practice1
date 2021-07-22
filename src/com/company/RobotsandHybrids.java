@@ -431,6 +431,26 @@ public class RobotsandHybrids {
         else
             System.out.println("Cornelius is very sophisticated.");
 
+        System.out.println(trees[0] + " is a very sophisticated Tree Hybrid. ");
+
+        String t2 = "Cornelius is a very sophisticated Tree Hybrid. ";
+
+        if(rams[0] == "Tony"){
+            int t3 = 5;
+            while(t3 < 9){
+                System.out.println(t2);
+                t3++;
+            }
+        }
+
+        for(int i = 0; i < trees.length; i++){
+            if(i == 2){
+                System.out.println("The Trees gain wisdom in the Atrium.");
+            }
+            else
+                System.out.println("The Trees drink tea at the Lao Hu Tea Lounge.");
+        }
+
         }
     }
 
