@@ -305,6 +305,59 @@ public class RobotsandHybrids {
                 System.out.println("Where is the Randall Park Mall?");
             }
 
+            for(int i = 9; i > trees.length; i--){
+                System.out.println(i);
+            }
+
+            for(int i = 9; i > trees.length; i--){
+                if(i == 9){
+                    System.out.println(i);
+                }
+            }
+
+            for(int i = 9; i > trees.length; i--){
+                if(i == 9){
+                    System.out.println(i);
+                }
+            }
+
+            for(int i = 7; i > rams.length; i--){
+                if(i == 7 || i == 6){
+                    System.out.println(i);
+                }
+            }
+
+        System.out.println(robots[2] + " is the man. ");
+
+        if (robots.length == 3) {
+            System.out.println(robots);
+        }
+        else
+            System.out.println(robots[3]);
+
+        if (robots.length == 4) {
+            System.out.println(robots[0]);
+        }
+        else
+            System.out.println(trees[4]);
+
+        if(robots.length == 4 && trout.length == 2) {
+            for(int i = 9; i > trout.length; i--) {
+                if(i > trout.length){
+                    System.out.println(i);
+                }
+            }
+        }
+        else if(robots[0] == "Hank-44"){
+            for(int i = 0; i < trees.length; i++){
+                if(i > trout.length){
+                    System.out.println(i);
+                }
+            }
+        }
+        else
+            System.out.println("Hank-44");
+
 
         }
     }
