@@ -630,6 +630,17 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            int y2 = 3;
+            int y3 = 4;
+            while(y3 < 5 && y2 < 4){
+                System.out.println(rams[y2]);
+                System.out.println(trees[y3]);
+                y2++;
+                y3++;
+            }
+        }
+
 
 
 
