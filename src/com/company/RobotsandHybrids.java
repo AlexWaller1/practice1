@@ -451,6 +451,23 @@ public class RobotsandHybrids {
                 System.out.println("The Trees drink tea at the Lao Hu Tea Lounge.");
         }
 
+        if(trout.length != trees.length){
+            System.out.println("The Hybrids love popcorn");
+        }
+        else
+            System.out.println("The Hybrids love to go to the movies.");
+
+        if("Mellon-Tech" == robots[2]){
+            for(int i = 0; i < trees.length; i++){
+                for(int j = 0; j < rams.length; j++){
+                    System.out.println(trees[i]);
+                    System.out.println(rams[j]);
+                }
+            }
+        }
+        else
+            System.out.println("The Hybrids live in the Randall Park Mall.");
+
         }
     }
 
