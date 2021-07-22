@@ -519,6 +519,18 @@ public class RobotsandHybrids {
         else
             System.out.println("The Trout are awesome!");
 
+        System.out.println(trout[0] + " and " + trout[1] + " love the Bighorn River.");
+
+        if(trout[0] == "Rainbow" && robots[2] == "Mellon-Tech"){
+            for(int i = 0; i < trout.length; i++){
+                    int t4 = 4;
+                    while(t4 > trout.length){
+                        System.out.println(trout[i]);
+                        t4--;
+                    }
+            }
+        }
+
 
 
 
