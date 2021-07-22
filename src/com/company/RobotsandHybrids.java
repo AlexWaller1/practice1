@@ -402,7 +402,7 @@ public class RobotsandHybrids {
             for(int i = 0; i < robots.length; i++){
                 if(i == 3){
                     System.out.println(i);
-                    System.out.println("Mellon-Tech is the " + i + " Robot in the array.");
+                    System.out.println("Mellon-Tech is the " + i + "rd Robot in the array.");
                 }
                 else
                     System.out.println("Eggplant-Head is awesome!");
@@ -410,6 +410,20 @@ public class RobotsandHybrids {
         }
         else
             System.out.println(robots[1]);
+
+        if(robots[0] == "Hank-44"){
+            System.out.println(robots[2]);
+        }
+
+        if(robots[2] == "Mellon-Tech" && robots[3] == "Eggplant-Head"){
+            int g1 = 3;
+            while(g1 < trees.length){
+                System.out.println(g1);
+                g1++;
+            }
+        }
+        else
+            System.out.println("Mellon-Tech is the man!");
 
         }
     }
