@@ -531,6 +531,25 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots[0] == "Hank-44"){
+            System.out.println(robots[0] + " is the master of the Green Egg ");
+        }
+        else
+            System.out.println("The Green Egg is the master of the Green Egg.");
+
+        if(robots[1] != "Mellon-Tech"){
+            for(int i = 0; i < trees.length; i++){
+                System.out.println("Hey, " + robots[2] + " , can you fix my guitar?");
+            }
+        }
+
+        if(robots[1] != "Mellon-Tech"){
+            for(int i = 0; i < robots.length; i++){
+                System.out.println("Hey, " + robots[i] + " , can you fix my guitar?");
+            }
+        }
+
+
 
 
 
