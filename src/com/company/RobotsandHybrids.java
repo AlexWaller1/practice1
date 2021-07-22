@@ -490,6 +490,17 @@ public class RobotsandHybrids {
             }
         }
 
+        if(rams[2] == "Stacey"){
+            for(int i = 0; i < trout.length; i++){
+                System.out.println(rams[i]);
+            }
+        }
+
+        if(rams[1] == "Otto"){
+            for(int i = 2; i < rams.length; i++){
+                System.out.println(rams[i]);
+            }
+        }
 
 
 
