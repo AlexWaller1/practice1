@@ -641,6 +641,15 @@ public class RobotsandHybrids {
             }
         }
 
+        System.out.println("Incubator created " + trees[0] + " in the food court.");
+
+        if(robots.length != trees.length && robots[2] == "Mellon-Tech"){
+            for(int i = 4; i < trees.length; i++){
+                System.out.println(trees[i]);
+            }
+        }
+        // will out put the last element in the trees array
+
 
 
 
