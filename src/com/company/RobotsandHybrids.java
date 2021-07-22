@@ -559,6 +559,20 @@ public class RobotsandHybrids {
         else
             System.out.println(trees[0] + ", how's it going?");
 
+        int num1 = 15;
+
+        if(num1 % 3 == 0 && num1 % 5 == 0){
+            System.out.println("RoboHybrid");
+        }
+        else if(num1 % 3 == 0){
+            System.out.println("Robo");
+        }
+        else if(num1 % 5 == 0){
+            System.out.println("Hybrid");
+        }
+        else
+            System.out.println("Trout");
+
 
 
 
