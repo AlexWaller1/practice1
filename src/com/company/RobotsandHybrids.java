@@ -481,6 +481,16 @@ public class RobotsandHybrids {
             System.out.println(robots[i]);
         }
 
+        if(robots[2] == "Mellon-Tech" || robots[3] == "Eggplant-Head"){
+            for(int i = 0; i < rams.length; i++){
+                System.out.println(rams[i]);
+            }
+            for(int i = 0; i < trout.length; i++){
+                System.out.println(trout[i]);
+            }
+        }
+
+
 
 
         }
