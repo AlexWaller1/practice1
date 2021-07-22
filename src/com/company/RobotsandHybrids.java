@@ -597,6 +597,39 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots.length == rams.length){
+            for(int i = 0; i < trees.length; i++){
+                int y2 = 5;
+                while(y2 < 9){
+                    System.out.println(trees[i]);
+                    y2++;
+                }
+            }
+        }
+
+        if(robots.length == rams.length){
+            for(int i = 4; i > trees.length; i++){
+                System.out.println(trees[i]);
+
+                int y2 = 5;
+                while(y2 < 6){
+                    System.out.println(trees[i]);
+                    y2++;
+                }
+            }
+        }
+
+        System.out.println(trout[0] + ", you are an awesome coder.");
+        System.out.println(trees.length * rams.length * robots.length);
+
+        if(robots[3] == "Eggplant-Head"){
+            int y2 = 3;
+            while(y2 < 5){
+                System.out.println(trees[y2]);
+                y2++;
+            }
+        }
+
 
 
 
