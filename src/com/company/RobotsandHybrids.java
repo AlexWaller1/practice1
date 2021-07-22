@@ -460,13 +460,28 @@ public class RobotsandHybrids {
         if("Mellon-Tech" == robots[2]){
             for(int i = 0; i < trees.length; i++){
                 for(int j = 0; j < rams.length; j++){
-                    System.out.println(trees[i]);
-                    System.out.println(rams[j]);
+                    if(i == 1){
+                        System.out.println(trees[1]);
+                    }
+                    if (j == 1){
+                        System.out.println(rams[1]);
+                    }
+
                 }
             }
         }
         else
             System.out.println("The Hybrids live in the Randall Park Mall.");
+
+        for(int i = 0; i < rams.length; i++){
+            System.out.println(rams[i]);
+        }
+
+        for(int i = 0; i < robots.length; i++){
+            System.out.println(robots[i]);
+        }
+
+
 
         }
     }
