@@ -559,6 +559,7 @@ public class RobotsandHybrids {
         else
             System.out.println(trees[0] + ", how's it going?");
 
+        // fizzBuzz
         int num1 = 15;
 
         if(num1 % 3 == 0 && num1 % 5 == 0){
@@ -572,6 +573,30 @@ public class RobotsandHybrids {
         }
         else
             System.out.println("Trout");
+        // fizzBuzz
+
+
+        if(robots.length % 2 == 0){
+            System.out.println("Hey, who's stratocaster is that?");
+        }
+        else
+            System.out.println("Is that Bad Blake's guitar?");
+
+        System.out.println("Mellon-Tech");
+
+        System.out.println(robots[3]);
+
+        if(robots.length == rams.length){
+            for(int i = 0; i < trees.length; i++){
+                int y2 = 5;
+                while(y2 < 9){
+                    System.out.println(i);
+                    y2++;
+                }
+
+            }
+        }
+
 
 
 
