@@ -425,6 +425,12 @@ public class RobotsandHybrids {
         else
             System.out.println("Mellon-Tech is the man!");
 
+        if (trees[0] == "Cornelius"){
+            System.out.println(trees.length * trout.length);
+        }
+        else
+            System.out.println("Cornelius is very sophisticated.");
+
         }
     }
 
