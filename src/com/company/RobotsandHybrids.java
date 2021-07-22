@@ -359,6 +359,24 @@ public class RobotsandHybrids {
             System.out.println("Hank-44");
 
 
+        System.out.println(t);
+
+        if(robots[2] == "Warren-21") {
+            System.out.println("Green Egg");
+        }
+        else
+            System.out.println(("How's the Green Egg, Warren-21?"));
+
+        int t1 = 6;
+
+        while(t1 > 3){
+            System.out.println(t1);
+            t1--;
+            for(int i = 0; i < t1; i++){
+                System.out.println(i);
+            }
+        }
+
         }
     }
 
