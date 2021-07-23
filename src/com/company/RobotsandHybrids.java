@@ -915,6 +915,21 @@ public class RobotsandHybrids {
             }
         }
 
+       /* int i=1;
+        do{
+            System.out.println(i);
+            i++;
+        }while(i<=10); */
+
+        if(robots.length == 4 || dachshunds.length == 9){
+            int d1 = 0;
+            do {
+                System.out.println(dachshunds[d1]);
+                d1++;
+            } while(d1 < 5);
+
+         }
+
 
     }
 }
