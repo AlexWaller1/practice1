@@ -788,6 +788,26 @@ public class RobotsandHybrids {
         }
 
         System.out.println(dachshunds[0]);
+        System.out.println(dachshunds[1]);
+        System.out.println(dachshunds[2]);
+
+        if(dachshunds[1] == "Chipper"){
+            int d1 = 0;
+            while(d1 < 1){
+                System.out.println(dachshunds[d1] + " loves to run in the country.");
+                d1++;
+                int d2 = 1;
+                while(d2 < 2){
+                    System.out.println(dachshunds[d2] + " loves to hunt groundhogs.");
+                    d2++;
+                    int d3 = 2;
+                    while(d3 < 3){
+                        System.out.println(dachshunds[d3] + " loves to play.");
+                        d3++;
+                    }
+                }
+            }
+        }
 
 
 
