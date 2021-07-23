@@ -828,6 +828,23 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots[2] == "Mellon-Tech" || trees.length != 25){
+            for(int i = 0; i < dachshunds.length; i++){
+                if(i == 2){
+                    System.out.println(dachshunds[i]);
+                    for(int j = 0; j < dachshunds.length; j++){
+                        if(j == 1){
+                            System.out.println(dachshunds[j]);
+                            for(int k = 0; k < dachshunds.length; k++){
+                                if(k == 0){
+                                    System.out.println(dachshunds[k]);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
 
 
