@@ -650,6 +650,61 @@ public class RobotsandHybrids {
         }
         // will out put the last element in the trees array
 
+        if(trees.length != 9 || "Eggplant-Head" == rams[3]){
+            for(int i = 0; i < robots.length; i++){
+                if(i < 1){
+                    System.out.println(robots[i]);
+                }
+            }
+        }
+        // print out first element in the array
+
+        if(trees[4] != "KB"){
+            for(int i = 0; i < trees.length; i++){
+                if(i < 1){
+                    System.out.println(trees[i] + " loves the tea at Lao Hu.");
+                }
+                else
+                    System.out.println(trees[i] + " spends his mornings in the Atrium.");
+            }
+        }
+
+        String t37 = "Hybrids Are Awesome!";
+
+        // getBytes() method to convert string
+        // into bytes[]
+        byte[] strAsByteArray = t37.getBytes();
+
+        byte[] result = new byte[strAsByteArray.length];
+
+        for(int i = 0; i < strAsByteArray.length; i++){
+            result[i] = strAsByteArray[strAsByteArray.length - i -1];
+
+            System.out.println(new String(result));
+        }
+        // not the best way to do this, doesn't reverse string in an efficient way
+
+        if(robots[0] == "Hank-44" && robots[2] != "Lao Hu Tea Shop"){
+            for(int i = 0; i < trees.length; i++){
+                if(i > 3){
+                    System.out.println(trees[i]);
+                }
+            }
+        }
+
+        if(trees.length * 2 == 10 && rams[0] == "Tony"){
+            for(int i = 0; i < robots.length; i++){
+                if(i > 2){
+                    System.out.println(robots[i]);
+                }
+            }
+        }
+        // will out put 4 element in robots array
+
+
+
+
+
 
 
 
