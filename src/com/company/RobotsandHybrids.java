@@ -853,6 +853,38 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots[2] == "Hank-44"){
+            System.out.println(robots[2] + " loves to play the guitar.");
+        }
+        else if(robots[0] == "Hank-44"){
+            System.out.println(robots[2] + " and " + robots[3] + " love Pickerel Cola.");
+        }
+        else
+            System.out.println(robots[0] + " loves to grill on the Green Egg.");
+
+        if(robots[0] == "Hank-44"){
+            if(robots.length * dachshunds.length == 20){
+                System.out.println(dachshunds[2] + " loves wubba games.");
+                if(robots[2] == "Mellon-Tech"){
+                    System.out.println(dachshunds[1] + " can be a little stubborn sometimes.");
+                    if(robots[3] == "Eggplant-Head"){
+                        System.out.println(robots[3] + " loves trips to the Minimart.");
+                    }
+                }
+            }
+        }
+
+        if(robots.length * dachshunds.length == 20){
+            System.out.println(robots[1] + " is an amazing curler.");
+            if(37 == 36){
+                System.out.println("Nouvelle Milwaukee");
+            }
+            else if(dachshunds[2] == "Bodhi"){
+                System.out.println("Hey, " + robots[0] + ", cut me some slices of brisket.");
+            }
+        }
+
+
 
     }
 }
