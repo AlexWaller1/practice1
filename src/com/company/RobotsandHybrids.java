@@ -884,6 +884,36 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            System.out.println(robots[2] + ", can you fix that Telecaster?");
+        }
+
+        if(dachshunds.length == 5){
+            System.out.println(dachshunds[2] + ", do you want some popcorn?");
+        }
+
+        if(robots[2] == "Mellon-Tech" && robots[3] == "Eggplant-Head"){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 0){
+                    System.out.println("How's the Green Egg doing, " + robots[r1] + "?");
+                    int r2 = 1;
+                    while(r2 < 2){
+                        System.out.println("Nice curling shot, " + robots[r2] + "!");
+                        r2++;
+                        for(int r3 = 0; r3 < robots.length; r3++){
+                            if(r3 == 2){
+                                System.out.println("You're a guitar repair master, " + robots[2] + "!");
+                                int r4 = 3;
+                                while(r4 < 4){
+                                    System.out.println("You drank the whole case of Pickerel Cola, " + robots[3] + "!?");
+                                    r4++;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
 
     }
