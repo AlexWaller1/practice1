@@ -809,6 +809,24 @@ public class RobotsandHybrids {
             }
         }
 
+        if(robots[0] == "Hank-44"){
+            for(int i = 0; i < robots.length; i++){
+                if(i == 2){
+                    System.out.println(robots[i]);
+                }
+
+            }
+        }
+
+        if(robots[0] == "Hank-44"){
+            for(int i = 0; i < robots.length; i++){
+                if(i == 2){
+                    System.out.println(robots[i]);
+                }
+                else
+                    System.out.println(trees[i]);
+            }
+        }
 
 
 
