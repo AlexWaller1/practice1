@@ -701,6 +701,25 @@ public class RobotsandHybrids {
         }
         // will out put 4 element in robots array
 
+        if(trout.length * 2 != 37){
+            for(int i = 0; i < trout.length; i++){
+                if(i > 0){
+                    System.out.println(trout[i]);
+                }
+            }
+        }
+
+        if(rams[1] == "Otto"){
+            for(int i = 0; i < trees.length; i++){
+                if(i > 2 && i < 4){
+                    System.out.println(trees[i]);
+                }
+            }
+        }
+        // isolating trees[3]
+
+
+
 
 
 
