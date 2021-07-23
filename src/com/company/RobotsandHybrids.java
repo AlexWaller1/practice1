@@ -718,7 +718,53 @@ public class RobotsandHybrids {
         }
         // isolating trees[3]
 
+        if(trout[0] == "Rainbow" && trout[1] == "Brown"){
+            for(int i = 0; i < trees.length; i++){
+                if(i > 0 && i < 4){
+                    System.out.println(trees[i]);
+                }
+            }
+        }
 
+        if(robots.length == 4){
+            System.out.println(robots[2] + " loves Pickerel Cola.");
+        }
+        else
+            System.out.println(robots[3] + " loves Pickerel Cola.");
+
+        if(robots.length == 4 && trout.length * 9 == 18){
+            int s7 = 1;
+            while(s7 < 2){
+                System.out.println(trout[s7]);
+                s7++;
+            }
+        }
+
+        if(trees.length == 5){
+            int s6 = 4;
+            while(s6 > 2){
+                System.out.println(trees[s6]);
+                s6--;
+            }
+        }
+
+        if(trees.length != robots.length){
+            int s6 = 4;
+            while(s6 > 2){
+                System.out.println(trees[s6]);
+                s6--;
+                int s7 = 3;
+                while(s7 > 1){
+                    System.out.println(robots[s7]);
+                    s7--;
+                    // will run 1 for each iteration of the parent loop
+                    // so when the first element is iterated through in parent loop,
+                    // the child while loop will iterate completely once
+                    // then the second element of the parent loop will iterate through
+                    // then the child loop will iterate through completely once again.
+                }
+            }
+        }
 
 
 
