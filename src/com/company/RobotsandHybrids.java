@@ -929,6 +929,16 @@ public class RobotsandHybrids {
             } while(d1 < 5);
 
          }
+        // iterate and print through each element of dachshunds array
+
+        if (robots.length == 4 || dachshunds.length == 9) {
+            int d1 = 4;
+            do {
+                System.out.println(dachshunds[d1]);
+                d1--;
+            } while(d1 >= 0);
+        }
+        // iterate and print backwards through dachshunds array
 
 
     }
