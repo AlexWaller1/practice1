@@ -31,6 +31,7 @@ public class RobotsandHybrids {
         String[] trees = {"Cornelius", "Magnus", "Owen", "Everett", "Jasper"};
         String[] trout = {"Rainbow", "Brown"};
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
+        String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
 
         if (rams[0] == trees[0]) {
             System.out.println("These are the same hybrid.");
@@ -768,6 +769,25 @@ public class RobotsandHybrids {
 
 
 
+        if(dachshunds[0] == "Beezer"){
+             int d1 = 4;
+             while(d1 > 2){
+                 System.out.println(dachshunds[d1]);
+                 d1--;
+                 int t3 = 4;
+                 while(t3 > 2){
+                     System.out.println(trees[t3]);
+                     t3--;
+                     int r1 = 3;
+                     while(r1 > 1){
+                         System.out.println(rams[r1]);
+                         r1--;
+                     }
+                 }
+             }
+        }
+
+        System.out.println(dachshunds[0]);
 
 
 
