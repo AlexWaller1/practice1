@@ -77,6 +77,19 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+         if(robots.length * trout.length == 8){
+             int d1 = 0;
+             do{
+                 System.out.println(dachshunds[d1] + " is a great dachshund!!!");
+                 d1++;
+             }while(d1 <= 4);
+         }
+
+         if(dachshunds.length == 5){
+             for(int d1 = 0; d1 < dachshunds.length; d1++){
+                 System.out.println(dachshunds[d1] + " is a great dachshund!!!");
+             }
+         }
 
 
 
