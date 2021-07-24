@@ -1,5 +1,9 @@
 package com.company;
 
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.Locale;
+
 public class DachshundsAndHybridsAndRobots {
 
     public static void main(String[] args) {
@@ -162,6 +166,23 @@ public class DachshundsAndHybridsAndRobots {
                 System.out.println(dachshunds[d1].chars().count());
             }
         }
+
+        System.out.println(dachshunds[2].charAt(0));
+        // charAt() finds location of string characters along string array
+        // for example, if dachshunds[2] is "Bodhi",
+        // then dachsunds[2].charAt(0) would give us "B"
+
+        System.out.println(dachshunds[1].getBytes(StandardCharsets.UTF_8));
+        // check into that later
+
+        System.out.println(dachshunds[1].toUpperCase(Locale.ROOT));
+        // makes a string all uppercase
+
+        System.out.println(dachshunds[0].length());
+        // can also count the amount of characters in a string
+
+        System.out.println(Arrays.stream(dachshunds).findFirst());
+        // can find find first element in the array
 
 
     }
