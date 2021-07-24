@@ -120,8 +120,16 @@ public class DachshundsAndHybridsAndRobots {
                     }
                 }
             }
+        }
 
+        System.out.println(trout[0]);
 
+        if(dachshunds.length == 5 && trees.length == 5){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                if(d1 == 2){
+                    System.out.println(dachshunds[d1] + " wants to do something!!!!");
+                }
+            }
         }
 
 
