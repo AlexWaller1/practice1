@@ -940,6 +940,31 @@ public class RobotsandHybrids {
         }
         // iterate and print backwards through dachshunds array
 
+        if( dachshunds[2] == "Bodhi" && dachshunds[0] == "Beezer"){
+            int d1 = 4;
+            do{
+                System.out.println(dachshunds[d1] + " is a brown dachshund.");
+                d1--;
+            }while(d1 > 2);
+        }
+        // if the condition is not meant right away, the first result will be outputted and then the do while loop will
+        // break
+
+        if(dachshunds[2] == "Bodhi" && dachshunds[0] == "Beezer"){
+            for(int d1 = 0; d1 < dachshunds.length; d1++) {
+                if (d1 < 1 || d1 == 0 || d1 == 2) {
+                    System.out.println(dachshunds[d1] + " is a brown dachshund.");
+                }
+                if(d1 == 1 || d1 == 4){
+                    System.out.println(dachshunds[d1] + " is a black dachshund.");
+                }
+            }
+        }
+        // if we're trying to pull out multiple elements in the array, it can be better to use or || rather than and &&
+        // if we use and, then the computer will check if a certain element holds two different spots in the array
+        // since elements by definition only hold one spot in the array, using and && will not give us an output
+        // and the program will default to the else if or else statement if there is one
+
 
     }
 }
