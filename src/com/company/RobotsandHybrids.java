@@ -965,6 +965,24 @@ public class RobotsandHybrids {
         // since elements by definition only hold one spot in the array, using and && will not give us an output
         // and the program will default to the else if or else statement if there is one
 
+        System.out.println(robots[0] + ", what's going on?");
+
+        if(robots.length != 34){
+            if(robots[3] == "Mellon-Tech"){
+                System.out.println(robots[3] + ", can you fix my guitar?");
+            }
+            else
+                for(int i = 0; i < robots.length; i++){
+                    if(i == 2){
+                        int r6 = 5;
+                        do{
+                            System.out.println(robots[i] + " is also great at fixing amps.");
+                            r6--;
+                        }while(r6 > 0);
+                    }
+                }
+        }
+
 
     }
 }
