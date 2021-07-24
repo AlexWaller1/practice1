@@ -42,6 +42,22 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(dachshunds[2] + " ran up the Flume Trail!");
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                System.out.println(robots[r1]);
+                if(r1 == 2){
+                    int r2 = 3;
+                    while(r2 >= 0){
+                        System.out.println(rams[r2]);
+                        System.out.println(robots[r1] + " is great at repairing telecasters.");
+                        System.out.println(dachshunds[r1] + " ran the whole Cooper-Kiln Trail!");
+                        r2--;
+                    }
+                    // r1 inherited from parent for loop
+                }
+                    }
+                }
+
 
 
 
