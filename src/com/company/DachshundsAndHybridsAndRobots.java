@@ -27,6 +27,7 @@ public class DachshundsAndHybridsAndRobots {
         double treeHybridNo = 5;
         double troutHybridNo = 2;
         double robotNo = 4;
+        double dachshundNo = 5;
 
         String[] rams = {"Tony", "Otto", "Jay", "Stacey"};
         String[] trees = {"Cornelius", "Magnus", "Owen", "Everett", "Jasper"};
@@ -129,6 +130,36 @@ public class DachshundsAndHybridsAndRobots {
                 if(d1 == 2){
                     System.out.println(dachshunds[d1] + " wants to do something!!!!");
                 }
+            }
+        }
+
+        if(robots[2] == "Mellon-Tech" || trout.length * trees.length == 37){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 3){
+                    System.out.println(robots[r1] + " is not an Eggplant!?");
+                }
+            }
+        }
+
+        System.out.println(treeHybridNo);
+        System.out.println(ramHybridNo);
+        System.out.println(troutHybridNo);
+        System.out.println(robotNo);
+        System.out.println(dachshundNo);
+
+        if(treeHybridNo > dachshundNo){
+            System.out.println(trees[0]);
+        }
+        else
+            System.out.println("There are the same amount of trees and dachshunds!");
+
+        System.out.println(dachshunds.length);
+        System.out.println(dachshunds[0].chars().count());
+        System.out.println(dachshunds[1].chars().count());
+
+        if (dachshunds[0].chars().count() == 6){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                System.out.println(dachshunds[d1].chars().count());
             }
         }
 
