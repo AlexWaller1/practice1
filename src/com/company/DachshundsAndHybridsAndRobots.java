@@ -34,6 +34,16 @@ public class DachshundsAndHybridsAndRobots {
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
 
+        if(robots[0] == "Hank-44"){
+            System.out.println(robots[0] + " is great on the Green Egg.");
+        }
+
+        if( dachshunds[0] == "Beezer" && dachshunds.length == 5){
+            System.out.println(dachshunds[2] + " ran up the Flume Trail!");
+        }
+
+
+
 
     }
 }
