@@ -54,9 +54,29 @@ public class DachshundsAndHybridsAndRobots {
                         r2--;
                     }
                     // r1 inherited from parent for loop
+                    // Eggplant-Head prints last since the nested while loop is hit on the the element before
+                    // therefore the nested while loop completes before the for loop iterates through
+                    // Eggplant-Head's spot on the array.
                 }
                     }
                 }
+
+        if(robots[1] == "Warren-21" || trout[0] == "Rainbow"){
+            int t1 = 1;
+            while(t1 >= 0){
+                System.out.println(trout[t1]);
+                t1--;
+            }
+        }
+
+        if(robots[0] == "Hank-44" || trout[1] == "Brown"){
+            int t1 = 0;
+            while(t1 <= 1){
+                System.out.println(trout[t1]);
+                t1++;
+            }
+        }
+
 
 
 
