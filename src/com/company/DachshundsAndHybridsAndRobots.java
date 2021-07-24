@@ -2,7 +2,7 @@ package com.company;
 
 public class DachshundsAndHybridsAndRobots {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -34,20 +34,20 @@ public class DachshundsAndHybridsAndRobots {
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
 
-        if(robots[0] == "Hank-44"){
+        if (robots[0] == "Hank-44") {
             System.out.println(robots[0] + " is great on the Green Egg.");
         }
 
-        if( dachshunds[0] == "Beezer" && dachshunds.length == 5){
+        if (dachshunds[0] == "Beezer" && dachshunds.length == 5) {
             System.out.println(dachshunds[2] + " ran up the Flume Trail!");
         }
 
-        if(robots[2] == "Mellon-Tech"){
-            for(int r1 = 0; r1 < robots.length; r1++){
+        if (robots[2] == "Mellon-Tech") {
+            for (int r1 = 0; r1 < robots.length; r1++) {
                 System.out.println(robots[r1]);
-                if(r1 == 2){
+                if (r1 == 2) {
                     int r2 = 3;
-                    while(r2 >= 0){
+                    while (r2 >= 0) {
                         System.out.println(rams[r2]);
                         System.out.println(robots[r1] + " is great at repairing telecasters.");
                         System.out.println(dachshunds[r1] + " ran the whole Cooper-Kiln Trail!");
@@ -58,40 +58,71 @@ public class DachshundsAndHybridsAndRobots {
                     // therefore the nested while loop completes before the for loop iterates through
                     // Eggplant-Head's spot on the array.
                 }
-                    }
-                }
+            }
+        }
 
-        if(robots[1] == "Warren-21" || trout[0] == "Rainbow"){
+        if (robots[1] == "Warren-21" || trout[0] == "Rainbow") {
             int t1 = 1;
-            while(t1 >= 0){
+            while (t1 >= 0) {
                 System.out.println(trout[t1]);
                 t1--;
             }
         }
 
-        if(robots[0] == "Hank-44" || trout[1] == "Brown"){
+        if (robots[0] == "Hank-44" || trout[1] == "Brown") {
             int t1 = 0;
-            while(t1 <= 1){
+            while (t1 <= 1) {
                 System.out.println(trout[t1]);
                 t1++;
             }
         }
 
-         if(robots.length * trout.length == 8){
-             int d1 = 0;
-             do{
-                 System.out.println(dachshunds[d1] + " is a great dachshund!!!");
-                 d1++;
-             }while(d1 <= 4);
-         }
+        if (robots.length * trout.length == 8) {
+            int d1 = 0;
+            do {
+                System.out.println(dachshunds[d1] + " is a great dachshund!!!");
+                d1++;
+            } while (d1 <= 4);
+        }
 
-         if(dachshunds.length == 5){
-             for(int d1 = 0; d1 < dachshunds.length; d1++){
-                 System.out.println(dachshunds[d1] + " is a great dachshund!!!");
-             }
-         }
+        if (dachshunds.length == 5) {
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
+                System.out.println(dachshunds[d1] + " is a great dachshund!!!");
+            }
+        }
+
+        if (dachshunds.length == 5) {
+            int d1 = 0;
+            while (d1 <= 4) {
+                System.out.println(dachshunds[d1] + " is a great dachshund!!!");
+                d1++;
+            }
+        }
+
+        if (robots.length == 4 && trout.length == 2) {
+            for (int r1 = 0; r1 < robots.length; r1++) {
+                if (r1 == 0) {
+                    System.out.println(robots[r1] + " grills an awesome Brisket!!!");
+                    int d2 = 1;
+                    while (d2 < 2) {
+                        System.out.println(robots[d2] + " is a great curler.");
+                        d2++;
+                        int r3 = 2;
+                        do {
+                            System.out.println(robots[r3] + " can fix any telecaster.");
+                            r3++;
+                        } while (r3 < 3);
+                        for (int r4 = 0; r4 < robots.length; r4++) {
+                            if (r4 == 3) {
+                                System.out.println(robots[r4] + " loves Pickerel Cola.");
+                            }
+                        }
+                    }
+                }
+            }
 
 
+        }
 
 
     }
