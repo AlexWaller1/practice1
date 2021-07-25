@@ -413,5 +413,40 @@ public class DachshundsAndHybridsAndRobots {
         System.out.println(robots.toString());
         // remember this method
 
+        System.out.println(dachshunds.getClass());
+        // not sure what this does
+
+        if(dachshunds[0].chars().count() == 6){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                if(d1 == 2){
+                    StringBuilder appleHill = new StringBuilder();
+                    // new instance of StringBuilder class
+                    appleHill.append(dachshunds[d1] + " runs up the Mountain Preserve.");
+                    appleHill = appleHill.reverse();
+                    System.out.println(appleHill);
+                    appleHill = appleHill.reverse();
+                    System.out.println(appleHill);
+                }
+            }
+        }
+
+        if(dachshunds.length == 5){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                System.out.println(dachshunds[d1] + " is a great dachshunds!!");
+                System.out.println(dachshunds[d1].chars().count() + " is the amount of letters in this dachshund's name.");
+            }
+        }
+
+        if(robots[2] == "Mellon-Tech" && robots[0] == "Hank-44"){
+            int d1 = 4;
+            while(d1 >= 0){
+                System.out.println(dachshunds[d1]);
+                System.out.println(dachshunds[d1].chars().count());
+                d1--;
+            }
+        }
+
+
+
     }
 }
