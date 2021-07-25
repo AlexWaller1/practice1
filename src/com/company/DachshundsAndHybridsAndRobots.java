@@ -361,5 +361,20 @@ public class DachshundsAndHybridsAndRobots {
             }while(t1 > 0);
         }
 
+        if(rams.length != 49){
+            for(int r1 = 0; r1 < rams.length; r1++){
+                if(r1 == 3){
+                    StringBuilder hybrid = new StringBuilder();
+                    // new instance of string builder class
+                    hybrid.append(rams[r1] + " is named after Stacey Peralta.");
+                    hybrid = hybrid.reverse();
+                    System.out.println(hybrid);
+                    hybrid = hybrid.reverse();
+                    System.out.println(hybrid);
+
+                }
+            }
+        }
+
     }
 }
