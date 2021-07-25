@@ -334,5 +334,19 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(trout.length == 2){
+            for(int t1 = 0; t1 < trout.length; t1++){
+                if(t1 == 0 || t1 == 1){
+                    StringBuilder fish = new StringBuilder();
+                    // new instance of StringBuilder class
+                    fish.append(trout[t1] + " is an extremely resourceful trout.");
+                    fish = fish.reverse();
+                    System.out.println(fish);
+                    fish = fish.reverse();
+                    System.out.println(fish);
+                }
+            }
+        }
+
     }
 }
