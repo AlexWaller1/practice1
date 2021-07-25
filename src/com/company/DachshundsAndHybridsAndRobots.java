@@ -320,5 +320,19 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(dachshunds.length == 5){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 3){
+                    StringBuilder robo = new StringBuilder();
+                    // new instance of StringBuilder class
+                    robo.append(robots[r1] + " drinks 3 cases of Pickerel Cola.");
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                    robo.reverse();
+                    System.out.println(robo);
+                }
+            }
+        }
+
     }
 }
