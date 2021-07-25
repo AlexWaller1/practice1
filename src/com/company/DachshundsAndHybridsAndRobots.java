@@ -376,5 +376,37 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(trout[0] == "brook trout" || robots[2] == "Mellon-Tech"){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 0){
+                    StringBuilder robo = new StringBuilder();
+                    robo.append(robots[r1] + " is an amazing cooler.");
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                    robo = robo.reverse();
+                    System.out.println(robo);
+
+                }
+                if(r1 == 2){
+                    StringBuilder robo = new StringBuilder();
+                    robo.append(robots[2] + " loves Pickerel Cola!");
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                    robo = robo.reverse();
+                    System.out.println(robo);
+
+                }
+            }
+        }
+
+        System.out.println(trees[0].chars().count());
+
+        if(trees[0].chars().count() == 9){
+            for(int t1 = 0; t1 < trees.length; t1++){
+                System.out.println(trees[t1] + " is a Tree Hybrid with GREAT fashion sense.");
+                System.out.println(trees[t1].chars().count());
+            }
+        }
+
     }
 }
