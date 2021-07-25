@@ -459,6 +459,18 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(trees[0] == "Cornelius"){
+            int t1 = 4;
+            do{
+                StringBuilder tree = new StringBuilder();
+                tree.append(trees[t1]);
+                tree = tree.reverse();
+                System.out.println(tree);
+                tree = tree.reverse();
+                System.out.println(tree);
+                t1--;
+            }while(t1 >= 0);
+        }
 
 
 
