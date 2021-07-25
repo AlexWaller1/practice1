@@ -404,9 +404,14 @@ public class DachshundsAndHybridsAndRobots {
         if(trees[0].chars().count() == 9){
             for(int t1 = 0; t1 < trees.length; t1++){
                 System.out.println(trees[t1] + " is a Tree Hybrid with GREAT fashion sense.");
-                System.out.println(trees[t1].chars().count());
+                System.out.println(trees[t1].chars().count() + " is the amount of characters in his name");
             }
         }
+
+        System.out.println(Arrays.stream(trees).findFirst());
+
+        System.out.println(robots.toString());
+        // remember this method
 
     }
 }
