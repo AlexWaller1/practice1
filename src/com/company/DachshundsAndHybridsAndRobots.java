@@ -282,5 +282,43 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(dachshunds.length == 5 || dachshunds.length == 37){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                if(d1 == 0 || d1 == 1){
+                    StringBuilder appleHill = new StringBuilder();
+                    // new instance of StringBuilder class
+                    appleHill.append(dachshunds[d1]);
+                    appleHill = appleHill.reverse();
+                    System.out.println(appleHill);
+                }
+            }
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 2){
+                    StringBuilder robo = new StringBuilder();
+                    // new instance of StringBuilder class
+                    robo.append(robots[r1] + " can fix any telecaster");
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                }
+            }
+        }
+
+        if(robots.length == 4 || robots[2].toUpperCase(Locale.ROOT) == "MELLON-TECH"){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 2){
+                    StringBuilder robo = new StringBuilder();
+                    // new instance of string builder class
+                    robo.append(robots[r1]);
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                }
+            }
+        }
+
     }
 }
