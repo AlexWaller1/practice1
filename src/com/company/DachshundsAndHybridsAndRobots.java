@@ -41,7 +41,7 @@ public class DachshundsAndHybridsAndRobots {
         String[] trout = {"Rainbow", "Brown"};
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
-        int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992};
+        int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
 
         if (robots[0] == "Hank-44") {
             System.out.println(robots[0] + " is great on the Green Egg.");
@@ -498,13 +498,33 @@ public class DachshundsAndHybridsAndRobots {
 
         if(robots[2] == "Mellon-Tech" || rams[3] == "Stacey"){
             int r1 = hybridNo[0], reverse = 0;
+            // r1 = 37;
             while(r1 != 0){
                 int remainder = r1 % 10;
+                // remainder = 37 % 10 = 7
+
                 reverse = reverse * 10 + remainder;
+                //
                 r1 = r1 / 10;
             }
             System.out.println(reverse);
         }
+
+        /*
+
+        number = 37
+        remainder = 37 % 10 = 7
+        reverse = 0 * 10 + 7 = 0 + 7 = 7
+        number = 37 / 10 = 3
+
+        number = 3
+        remainder = 3 % 10 = 3
+        reverse = 7 * 10 + 3 = 73
+        number = 3 /10 = 0
+
+        Now the variable number become 0. Hence, we get the reverse number 73
+
+         */
 
         if(robots.length == 4){
             int r1 = hybridNo[7], reverse = 0;
@@ -515,6 +535,10 @@ public class DachshundsAndHybridsAndRobots {
             }
             System.out.println(reverse);
         }
+
+
+
+
 
 
     }
