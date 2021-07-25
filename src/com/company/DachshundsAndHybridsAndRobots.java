@@ -472,7 +472,28 @@ public class DachshundsAndHybridsAndRobots {
             }while(t1 >= 0);
         }
 
+        if(trees.length == 20 - 15){
+            for(int t1 = 0; t1 < trees.length; t1++){
+                if(t1 == 3){
+                    StringBuilder tree = new StringBuilder();
+                    tree.append(trees[t1] + " is a very fashionable Tree Hybrid.");
+                    tree = tree.reverse();
+                    System.out.println(tree);
+                    tree = tree.reverse();
+                    System.out.println(tree);
+                }
+            }
+        }
 
+        if(dachshunds[2] == "Bodhi" && dachshunds[1] == "Chipper"){
+            int d1 = 4;
+            while(d1 >= 0){
+                if(d1 == 2){
+                    System.out.println(dachshunds[d1] + " jumps over tree logs");
+                }
+                d1--;
+            }
+        }
 
 
     }
