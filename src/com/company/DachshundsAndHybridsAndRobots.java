@@ -1,4 +1,7 @@
 package com.company;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
@@ -183,6 +186,40 @@ public class DachshundsAndHybridsAndRobots {
 
         System.out.println(Arrays.stream(dachshunds).findFirst());
         // can find find first element in the array
+
+        System.out.println(Arrays.stream(dachshunds).count());
+        // counts the elements in an array
+
+        System.out.println(Arrays.stream(rams).count());
+        // counts the elements in an array
+
+        System.out.println(Arrays.stream(trees).iterator());
+        // not sure about this one
+
+        System.out.println(Arrays.stream(trees).limit(0));
+        // not sure about this one
+
+        int ii = 37;
+        System.out.println(trees[0].chars().count());
+
+        if(trees.length == 5){
+            for (int t1 = 0; t1 < trees.length; t1++){
+                System.out.println(trees[t1].chars().count());
+            }
+        }
+
+        StringBuilder reverseTron = new StringBuilder();
+        // definitely need a string builder in order to reverse a string
+
+        reverseTron.append(dachshunds[0]);
+        // we the .append() method to attach the string we want to reverse
+
+        reverseTron = reverseTron.reverse();
+        // new reverseTron equals the old reverseTron reversed
+
+
+        System.out.println(reverseTron);
+        // simply print out the string here
 
 
     }
