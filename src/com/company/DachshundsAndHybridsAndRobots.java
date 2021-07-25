@@ -41,6 +41,7 @@ public class DachshundsAndHybridsAndRobots {
         String[] trout = {"Rainbow", "Brown"};
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
+        int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992};
 
         if (robots[0] == "Hank-44") {
             System.out.println(robots[0] + " is great on the Green Egg.");
@@ -493,6 +494,26 @@ public class DachshundsAndHybridsAndRobots {
                 }
                 d1--;
             }
+        }
+
+        if(robots[2] == "Mellon-Tech" || rams[3] == "Stacey"){
+            int r1 = hybridNo[0], reverse = 0;
+            while(r1 != 0){
+                int remainder = r1 % 10;
+                reverse = reverse * 10 + remainder;
+                r1 = r1 / 10;
+            }
+            System.out.println(reverse);
+        }
+
+        if(robots.length == 4){
+            int r1 = hybridNo[7], reverse = 0;
+            // then initialization for the for loop
+            for(;r1 != 0; r1 = r1 / 10){
+                int remainder = r1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
         }
 
 
