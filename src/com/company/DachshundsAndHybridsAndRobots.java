@@ -446,6 +446,20 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(robots[3] == "Eggplant-Head"){
+            int r1 = 3;
+            while(r1 >= 0){
+                StringBuilder robo = new StringBuilder();
+                robo.append(robots[r1] + " is an awesome robot!");
+                robo = robo.reverse();
+                System.out.println(robo);
+                robo = robo.reverse();
+                System.out.println(robo);
+                r1--;
+            }
+        }
+
+
 
 
     }
