@@ -348,5 +348,18 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(trees.length == 5){
+            StringBuilder tree = new StringBuilder();
+            tree.append(trees[0] + " is very fashionable.");
+            tree = tree.reverse();
+            int t1 = 5;
+            do{
+                System.out.println(tree);
+                tree = tree.reverse();
+                System.out.println(tree);
+                t1--;
+            }while(t1 > 0);
+        }
+
     }
 }
