@@ -790,6 +790,28 @@ public class DachshundsAndHybridsAndRobots {
             }while(d1 >= 0);
         }
 
+        if(rams[3] == "Stacey"){
+            int r1 = 3;
+            while(r1 >= 0){
+                if(r1 == 3){
+                    System.out.println(rams[r1].toUpperCase(Locale.ROOT));
+                }
+                r1--;
+            }
+        }
+
+        if(robots[3] == "Eggplant-Head"){
+            int r2 = hybridNo[8];
+            int r1 = hybridNo[8], reverse = 0;
+
+            for(;r1 != 0; r1 = r1 / 10){
+                int remainder = r1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
 
 
 
