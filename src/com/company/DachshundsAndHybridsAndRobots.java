@@ -9,6 +9,8 @@ import java.util.Locale;
 
 public class DachshundsAndHybridsAndRobots {
 
+    private int x;
+
     public static void main(String[] args) {
 
         String ramHybrid1 = "Tony";
@@ -810,6 +812,36 @@ public class DachshundsAndHybridsAndRobots {
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            for(int r1 = 3; r1 >= 0; r1--){
+                if(r1 == 3){
+                    System.out.println(robots[3].concat(robots[2]).toUpperCase(Locale.ROOT));
+                    // outputs EGGPLANT-HEADMELLON-TECH
+                }
+            }
+        }
+
+        System.out.println(robots[2].compareTo(robots[3]));
+        System.out.println(robots[2].contains(robots[0]));
+        // outputs false
+
+        System.out.println(dachshunds[0].contains(dachshunds[2]));
+        // outputs false
+
+        if(dachshunds[1] == "Chipper" || dachshunds[1] == "Crusoe"){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                if(d1 == 2 || d1 == 0){
+                    StringBuilder appleHill = new StringBuilder();
+                    appleHill.append(dachshunds[d1] + " loves to run fast in the country!!!");
+                    appleHill = appleHill.reverse();
+                    System.out.println(appleHill);
+                    appleHill = appleHill.reverse();
+                    System.out.println(appleHill);
+
+                }
+            }
         }
 
 
