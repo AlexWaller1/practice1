@@ -536,6 +536,39 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(reverse);
         }
 
+        if(trees.length == 5){
+            int t1 = hybridNo[6], reverse = 0;
+            // then initialization for the for loop
+            for(;t1 != 0; t1 = t1 / 10){
+                int remainder = t1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(robots.length == 4){
+            int r1 = hybridNo[6], reverse = 0;
+            // then initialization for the for loop
+            for(;r1 != 0; r1 = r1 / 10){
+                int remainder = r1 % 10;
+                reverse = reverse * 10 + remainder;
+                System.out.println(reverse);
+            }
+        }
+
+        if(rams.length == 4 && rams[3] == "Stacey"){
+            int r2 = hybridNo[9];
+            int r1 = hybridNo[9], reverse = 0;
+            // then initialization
+            for(;r1 != 0; r1 = r1 /10){
+                int remainder = r1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            if(r2 == reverse){
+                System.out.println(r2 + " is a palindrome!!!");
+            }
+        }
+
 
 
 
