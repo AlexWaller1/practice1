@@ -704,6 +704,26 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(trees.length == 5 || dachshunds.length == 37){
+            int d1 = 0;
+            while(d1 < dachshunds.length){
+                if(d1 == 2){
+                    System.out.println(dachshunds[d1] + " jumped over a huge log!");
+                }
+                d1++;
+            }
+        }
+
+        if(trees[0] == "Cornelius"){
+            int t1 = 4;
+            do{
+                if(t1 == 4) {
+                    System.out.println(trees[t1] + " is a very impressive Tree Hybrid.");
+                    t1++;
+                }
+            }while(t1 < trees.length);
+        }
+
 
 
 
