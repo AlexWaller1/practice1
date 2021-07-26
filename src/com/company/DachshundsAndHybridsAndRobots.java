@@ -569,6 +569,29 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(trees.length == 5 && trees[0] == "Cornelius"){
+            int t2 = hybridNo[5];
+            // declaring variable first because this on will not be changed by for loop
+            int t1 = hybridNo[5], reverse = 0;
+            // then initialization
+            for(;t1 != 0; t1 = t1 / 10){
+                // for loop conditions  are while t1 is not equal to 0, then divide that number by 10
+                // if data type int in java is less than 10 and divided by 10, then we will get 0
+                int remainder = t1 % 10;
+                // this will find remainder when number is divided by ten
+                // for example, if 37 is divided by 10, then the remainder will be 37
+                reverse = reverse * 10 + remainder;
+                // if number is 37, the reverse through the first iteration will be 7
+                // on the second iteration, the remainder will be 3 and the reverse will 7
+                // so it will be reverse = 7 * 10 + 3 = 73
+            }
+            if(t2 == reverse){
+                System.out.println(t2 + " is a palindrome!!");
+            }
+            else
+                System.out.println(t2 + " is not a palindrome!!");
+        }
+
 
 
 
