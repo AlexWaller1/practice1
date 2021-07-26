@@ -13,6 +13,9 @@ public class DachshundsAndHybridsAndRobots {
 
     public static void main(String[] args) {
 
+        practice123 practiceObject = new practice123();
+
+
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
         String ramHybrid3 = "Jay";
@@ -44,6 +47,11 @@ public class DachshundsAndHybridsAndRobots {
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
+
+
+        int result = practiceObject.addDigits(hybridNo[7]);
+        System.out.println(result);
+        System.out.println("A" + "B");
 
         if (robots[0] == "Hank-44") {
             System.out.println(robots[0] + " is great on the Green Egg.");
@@ -864,6 +872,28 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        System.out.println(dachshunds[0].concat(dachshunds[1].concat(dachshunds[2])));
+        // output will be BeezerChipperBodhi
+        System.out.println(dachshunds[0].concat(dachshunds[1].concat(dachshunds[2].concat(dachshunds[3].concat(dachshunds[4])))));
+
+        if(trees.length == 5 && rams[1] == "Otto"){
+            int r2 = hybridNo[7];
+            int r1 = hybridNo[7], reverse = 0;
+
+            for(;r1 != 0; r1 = r1 / 10){
+                int remainder = r1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        System.out.println(hybridNo[7]);
+
+        if(trees.length == 5){
+
+        }
 
     }
 }
+
