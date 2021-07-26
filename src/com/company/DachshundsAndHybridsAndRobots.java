@@ -724,7 +724,71 @@ public class DachshundsAndHybridsAndRobots {
             }while(t1 < trees.length);
         }
 
+        System.out.println(dachshunds[2].length());
+        // will output the number of letters in a string
 
+        System.out.println(dachshunds[0].charAt(4));
+        // will out put the letter at a certain string index, given that the 5th letter in Beezer is e
+        // e is what will print
+
+        System.out.println(dachshunds[1].concat(dachshunds[2]));
+        //will combine two strings, this will give us ChipperBodhi
+
+        if(trees[0] == "Cornelius"){
+            int t2 = hybridNo[5];
+            int t1 = hybridNo[5], reverse = 0;
+
+            for(;t1 != 0; t1 = t1 / 10){
+                int remainder = t1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                System.out.println(dachshunds[d1].toUpperCase(Locale.ROOT));
+            }
+        }
+
+        if(robots[3] == "Eggplant-Head"){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(r1 == 3){
+                    StringBuilder robo = new StringBuilder();
+                    robo.append(robots[3] + " loves Pickerel Cola!");
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                    robo = robo.reverse();
+                    System.out.println(robo);
+                }
+            }
+        }
+
+        if(dachshunds[0] == "Beezer" && dachshunds[1] == "Chipper"){
+            int d2 = hybridNo[9];
+            int d1 = hybridNo[9], reverse = 0;
+
+            for(;d1 != 0; d1 = d1 / 10){
+              int remainder = d1 % 10;
+
+              reverse = reverse * 10 + remainder;
+            }
+            if(reverse == d2){
+                System.out.println(d2 + " is a palindrome!");
+            }
+            else
+                System.out.println(d2 + " is not a palindrome!");
+        }
+
+
+        if(trees.length * dachshunds.length == 25){
+            int d1 = 4;
+            do{
+                System.out.println(dachshunds[d1].toUpperCase(Locale.ROOT));
+                d1--;
+            }while(d1 >= 0);
+        }
 
 
 
