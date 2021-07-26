@@ -605,6 +605,77 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(dachshunds.length == 5){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                System.out.println(dachshunds[d1]);
+            }
+        }
+
+        if(dachshunds.length == 5){
+            for(int d1 = 4; d1 >= 0; d1--){
+                System.out.println(dachshunds[d1]);
+            }
+        }
+
+        if(dachshunds.length == 5){
+            int d2 = hybridNo[5];
+            // declaring variable first because this variable will not be changed by the for loop
+            int d1 = hybridNo[5], reverse = 0;
+            // declaring t1 for for loop, and reverse needs to start at 0 pretty much all the time
+            for(;d1 != 0; d1 = d1 / 10){
+                // for loop conditions are while d1 is not equal to 0, then divide that number by 10
+                // if data type int in java is less than 10 and divided by 10, then we will get 0
+                int remainder = d1 % 10;
+                // this will find remainder when number is divided by ten
+                // for example, if 37 is divided by 10, then the remainder will be 7
+                reverse = reverse * 10 + remainder;
+                // if number is 37, the reverse through the first iteration will be 7
+                // on the second iteration, the remainder will be 3 and the reverse will be 7
+                // so it will be reverse = 7 * 10 + 3 = 73
+            }
+            System.out.println(reverse);
+        }
+
+        if(trees.length == 5){
+            int t2 = hybridNo[5];
+
+            int t1 = hybridNo[5], reverse = 0;
+
+            for(;t1 != 0; t1 = t1 / 10){
+
+                int remainder = t1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            int t2 = hybridNo[4];
+            int t1 = hybridNo[4], reverse = 0;
+
+            for(;t1 != 0; t1 = t1 /10){
+
+                int remainder = t1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(trees.length == 5 && robots[2] == "Mellon-Tech"){
+            for(int t1 = 0; t1 < trees.length; t1++){
+                if(t1 == 3){
+                    StringBuilder tree = new StringBuilder();
+                    tree.append(trees[t1] + " is a fine connoisseur of tea");
+                    tree = tree.reverse();
+                    System.out.println(tree);
+                    tree = tree.reverse();
+                    System.out.println(tree);
+                }
+            }
+        }
+
 
 
 
