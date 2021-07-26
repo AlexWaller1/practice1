@@ -592,6 +592,19 @@ public class DachshundsAndHybridsAndRobots {
                 System.out.println(t2 + " is not a palindrome!!");
         }
 
+        if(trees.length == 5){
+            for(int t1 = 0; t1 < trees.length; t1++){
+                if(t1 == 3){
+                    StringBuilder tree = new StringBuilder();
+                    tree.append(trees[t1] + " gains wisdom in the Atrium");
+                    tree = tree.reverse();
+                    System.out.println(tree);
+                    tree = tree.reverse();
+                    System.out.println(tree);
+                }
+            }
+        }
+
 
 
 
