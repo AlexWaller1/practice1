@@ -676,6 +676,34 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(dachshunds[2] == "Bodhi"){
+            int d2 = hybridNo[4];
+            int d1 = hybridNo[4], reverse = 0;
+
+            for(;d1 != 0; d1 = d1 / 10){
+                int remainder = d1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            if(d2 == reverse){
+                System.out.println(d2 + " is a palindrome!");
+            }
+            else
+                System.out.println(d2 + " is not a palindrome!");
+        }
+
+        if(robots.length == 4){
+            for(int r1 = 0; r1 < robots.length; r1++){
+                System.out.println(robots[r1] + " is an awesome robot!");
+            }
+        }
+
+        if(robots.length == 4){
+            for(int r1 = 3; r1 >= 0; r1--){
+                System.out.println(robots[r1] + " is an awesome robot!");
+            }
+        }
+
 
 
 
