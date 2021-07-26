@@ -844,7 +844,25 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(robots.length == 4){
+            int r1 = 3;
+            do{
+                if(r1 == 3){
+                    System.out.println(robots[r1] + " drinks tons of Pickerel Cola.");
+                }
+                r1--;
+            }while(r1 >= 0);
+        }
 
+        if(robots.length == 4){
+            int r1 = 3;
+            while(r1 >= 0){
+                if(r1 == 3){
+                    System.out.println(robots[3] + " drinks 5 cases of Pickerel Cola per day!");
+                }
+                r1--;
+            }
+        }
 
 
     }
