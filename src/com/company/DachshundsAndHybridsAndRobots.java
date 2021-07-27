@@ -1162,6 +1162,35 @@ public class DachshundsAndHybridsAndRobots {
                 System.out.println(r2 + " is not a palindrome");
         }
 
+        if(trees[0] == "Cornelius"){
+            String h2 = "kayak";
+            String h1 = "kayak";
+            StringBuilder hybrid = new StringBuilder();
+            hybrid.append(h1);
+            hybrid = hybrid.reverse();
+            String robo = String.valueOf(hybrid);
+            System.out.println(hybrid);
+            if(h2 == robo){
+                System.out.println(h2 + " is a palindrome.");
+            }
+            else
+                System.out.println(h2 + " is not a palindrome");
+        }
+        // didn't work, couldn't convert StringBuilder object to String object this way
+
+        if(robots.length * dachshunds.length == 20){
+            int t2 = hybridNo[3];
+            int t1 = hybridNo[3], reverse = 0;
+            for(;t1 != 0; t1 = t1 /10){
+
+              int remainder = t1 % 10;
+
+              reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+
     }
 }
 
