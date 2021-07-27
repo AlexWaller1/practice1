@@ -936,6 +936,19 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(countSoFar);
         }
 
+        // System.out.println(Integer.parseInt(robots[2]));
+        // gave an error because string cannot be successfully converted to integers
+
+        System.out.println(Integer.parseInt(hybridString[0]));
+        // does not give an error because string characters can be successfully converted to integers
+
+        if(robots.length == 4 && robots[1] == "Warren-21"){
+            String robot = String.valueOf(hybridNo[9]);
+            System.out.println(robot.concat(hybridString[0]));
+        }
+
+
+
     }
 }
 
