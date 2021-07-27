@@ -910,6 +910,32 @@ public class DachshundsAndHybridsAndRobots {
 
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            String ramString = String.valueOf(hybridNo[7]);
+            // here we are creating a new string called ramString
+            // the .valueOf() method will convert its integer parameter into a string
+            int countSoFar = 0;
+            // declaring countSoFar
+            for(int t1 = 0; t1 < ramString.length(); t1++){
+                // iterating through each character of the string
+                char currentChar = ramString.charAt(t1);
+                // is taking string characters one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // switching characters to string
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // we need to add the integers one at a time as they are iterated through
+                // let's say we have we're iterating through {1, 2, 3, 4}
+                // since countSoFar is initialized at 0, and the first iteration is 1
+                // it will be 0 + 1 = 1
+                // then 1 + 2 = 3
+                // then 3 + 3 = 6
+                // then 6 + 4 = 10
+                // think about x = x + y whenever we need to keep doing a mathematical operation for
+                // each integer we iterate through
+            }
+            System.out.println(countSoFar);
+        }
+
     }
 }
 
