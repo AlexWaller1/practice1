@@ -1002,6 +1002,40 @@ public class DachshundsAndHybridsAndRobots {
                 System.out.println(r2 + " is not a palindrome");
         }
 
+        if(robots.length == 4 && dachshunds[4] == "Star"){
+            StringBuilder appleHill = new StringBuilder();
+            appleHill.append(dachshunds[3] + " is a great dachshund!");
+            appleHill = appleHill.reverse();
+            System.out.println(appleHill);
+            appleHill = appleHill.reverse();
+            System.out.println(appleHill);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            for (int r1 = 0; r1 < robots.length; r1++){
+                StringBuilder robo = new StringBuilder();
+                robo.append(robots[r1] + " is an awesome robot!");
+                robo = robo.reverse();
+                System.out.println(robo);
+                robo = robo.reverse();
+                System.out.println(robo);
+            }
+        }
+
+        if(dachshunds[2] == "Bodhi"){
+            int d2 = hybridNo[9];
+            int d1 = hybridNo[9];
+            int reverse = 0;
+
+            for(;d1 != 0; d1 = d1 / 10){
+                int remainder = d1 % 10;
+
+                reverse = reverse * 10 + remainder;
+
+            }
+            System.out.println(reverse);
+        }
+
     }
 }
 
