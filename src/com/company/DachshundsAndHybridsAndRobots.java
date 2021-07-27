@@ -49,6 +49,7 @@ public class DachshundsAndHybridsAndRobots {
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
+        int[] treeNo = {2, 4, 6, 9, 12};
         String[] hybridString = {"37", "102", "2309", "1992"};
 
 
@@ -1060,6 +1061,36 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(sum);
 
         }
+
+        if(dachshunds.length == 5){
+            int sum = 0;
+
+            for(int d1 = 0; d1 < treeNo.length; d1++){
+                sum = sum + treeNo[d1];
+            }
+            System.out.println(sum);
+        }
+
+        if(trees.length == 5 && robots[1] == "Warren-21"){
+            int product = 0;
+
+            for(int t1 = 0; t1 < treeNo.length; t1++){
+                product = product * treeNo[t1];
+                // won't work using product because anything multiplied by zero will equal zero
+            }
+            System.out.println(product);
+        }
+
+        if(robots.length == 4){
+            int difference = 0;
+
+            for(int r1 = 0; r1 < treeNo.length; r1++){
+                difference = difference - treeNo[r1];
+            }
+            System.out.println(difference);
+        }
+
+
 
     }
 }
