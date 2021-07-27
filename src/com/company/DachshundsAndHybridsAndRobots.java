@@ -985,6 +985,23 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(reverse);
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            int r2 = hybridNo[9];
+            int r1 = hybridNo[9], reverse = 0;
+
+            for(;r1 != 0; r1 = r1 / 10){
+
+              int remainder = r1 % 10;
+
+              reverse = reverse * 10 + remainder;
+            }
+            if(r2 == reverse){
+                System.out.println(r2 + " is a palindrome!");
+            }
+            else
+                System.out.println(r2 + " is not a palindrome");
+        }
+
     }
 }
 
