@@ -14,6 +14,7 @@ public class DachshundsAndHybridsAndRobots {
     public static void main(String[] args) {
 
         practice123 practiceObject = new practice123();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -47,6 +48,7 @@ public class DachshundsAndHybridsAndRobots {
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
+        String[] hybridString = {"37", "102", "2309", "1992"};
 
 
         int result = practiceObject.addDigits(hybridNo[7]);
@@ -891,6 +893,20 @@ public class DachshundsAndHybridsAndRobots {
         System.out.println(hybridNo[7]);
 
         if(trees.length == 5){
+
+            String treeString = String.valueOf(hybridNo[9]);
+            // switching number to a string
+            int countSoFar = 0;
+            // declaring countSoFar
+            for(int t1 = 0; t1 < treeString.length(); t1++){
+                //iterating through each character of the string
+                char currentChar = treeString.charAt(t1);
+                // is taking string characters one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // switching character to string
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(countSoFar);
 
         }
 
