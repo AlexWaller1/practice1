@@ -947,7 +947,43 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(robot.concat(hybridString[0]));
         }
 
+        if(dachshunds[0] == "Beezer" && dachshunds[1] == "Chipper" && dachshunds[2] == "Bodhi"){
+            String hybrid = String.valueOf(hybridNo[9]);
 
+            int countSoFar = 0;
+
+            for(int t1 = 0; t1 < hybrid.length(); t1++){
+                // iterating through each character of the string
+                char currentChar= hybrid.charAt(t1);
+                // gathering string characters one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // switching character to string
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(countSoFar);
+        }
+
+        if(dachshunds[4] == "Star"){
+            StringBuilder appleHill = new StringBuilder();
+            appleHill.append(dachshunds[3] + " and " + dachshunds[4] + " live in Billings.");
+            appleHill = appleHill.reverse();
+            System.out.println(appleHill);
+            appleHill = appleHill.reverse();
+            System.out.println(appleHill);
+
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            int r2 = hybridNo[9];
+            int r1 = hybridNo[9], reverse = 0;
+            for(;r1 != 0; r1 = r1 / 10){
+
+                int remainder = r1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
 
     }
 }
