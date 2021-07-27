@@ -1090,7 +1090,77 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(difference);
         }
 
+        if(robots.length == 4 && robots[0] == "Hank-44"){
+            String robot = String.valueOf(hybridNo[9]);
+            // before we do anything, we need to convert the integer into a string
+            int countSoFar = 0;
+            // will be our incrementing variable
+            for(int r1 = 0; r1 < robot.length(); r1++){
+                // iterating through each character of the string
+                char currentChar = robot.charAt(r1);
+                // gathering the string characters one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // switching character to string
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(countSoFar);
+            // when finding the sum of an integer, there are a few steps to remember that will help us find our
+            // way to a solution
+            // since we're starting out with an integer, we need to convert to a string first so we can extract the
+            // characters from that string
+            // we convert int x to a string by creating a string, and then changing the value of the integer into
+            // a string, for example, String robot = String.valueOf(x);
+        }
 
+        if(rams.length == 4){
+            String ram = String.valueOf(hybridNo[6]);
+            // converting int hybridNo[6] to a string
+            int countSoFar = 0;
+            // this is our incrementing variable
+            for(int r1 = 0; r1 < ram.length(); r1++){
+
+                char currentChar = ram.charAt(r1);
+
+                String currentCharAsString = String.valueOf(currentChar);
+
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(countSoFar);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            String robot = String.valueOf(hybridNo[5]);
+            // must start by converting integer into a string
+            int countSoFar = 0;
+            // we'll define our incremental variable up here
+
+            for(int t1 = 0; t1 < robot.length(); t1++){
+                // iterating through each character in the string
+                char currentChar = robot.charAt(t1);
+                // gather each character 1 by one
+                String currentCharAsString = String.valueOf(currentChar);
+                // convert each character back into a string 1 by 1
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // here we convert each string into an integer, and ten incrementally add it.
+            }
+            System.out.println(countSoFar);
+            // print our sum to the console
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            int r2 = hybridNo[5];
+            int r1 = hybridNo[5], reverse = 0;
+
+            for(;r1 != 0; r1 = r1 / 10){
+                 int remainder = r1 % 10;
+                 reverse = reverse * 10 + remainder;
+            }
+            if (r2 == reverse){
+                System.out.println(r2 + " is a palindrome");
+            }
+            else
+                System.out.println(r2 + " is not a palindrome");
+        }
 
     }
 }
