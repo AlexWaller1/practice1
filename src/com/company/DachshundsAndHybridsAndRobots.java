@@ -1024,8 +1024,20 @@ public class DachshundsAndHybridsAndRobots {
 
         if(dachshunds[2] == "Bodhi"){
             int d2 = hybridNo[9];
+            // will declare this variable since d1 will change throughout iteration
+            // if we want to compare the initial number to the reversed number
+            // we need the original number attached to a variable that won't be modified by
+            // the for loop
             int d1 = hybridNo[9];
+            // variable that will modified by the for loop
             int reverse = 0;
+            // we will use this reverse to add the numbers as they go through the iteration
+            // let's just think about a simple function that adds the hybridsNum array which is
+            // {1, 2, 3, 4}. and we have  int sum = 0 defined before the loop begins
+            // then as our variable d1 goes through the for loop, we can add the numbers as they through the loop
+            // in body of loop, there will be sum = sum + r1, first loop will be sum = 0 + 1
+            // then the next will be sum = 1 + 2, then sum = 3 + 3, then sum = 6 + 4
+            // so when we System.out.println(sum); 10 will print to the console
 
             for(;d1 != 0; d1 = d1 / 10){
                 int remainder = d1 % 10;
