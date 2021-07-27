@@ -48,6 +48,7 @@ public class DachshundsAndHybridsAndRobots {
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
+        int[] roboNo = {1, 2, 3, 4};
         String[] hybridString = {"37", "102", "2309", "1992"};
 
 
@@ -1046,6 +1047,18 @@ public class DachshundsAndHybridsAndRobots {
 
             }
             System.out.println(reverse);
+        }
+
+        if(robots.length == 4 && robots[3] == "Eggplant-Head"){
+            int r1 = 0;
+            String hybridNew = String.valueOf(hybridNo.length);
+            int sum = 0;
+            for(; r1 < roboNo.length; r1++){
+                sum = sum + roboNo[r1];
+                System.out.println(sum);
+            }
+            System.out.println(sum);
+
         }
 
     }
