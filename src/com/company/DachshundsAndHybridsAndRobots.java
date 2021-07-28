@@ -1303,6 +1303,52 @@ public class DachshundsAndHybridsAndRobots {
 
         System.out.println(hammerHead[5]);
 
+        if(hammerHead[3] == "Harvey"){
+            for(int h1 = 0; h1 < hammerHead.length; h1++){
+                if(h1 == 5){
+                    System.out.println(hammerHead[5] + " the Cosmic Trout will make all and everything okay.");
+                }
+            }
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            String soda = String.valueOf(hybridNo[7]);
+            // converting an integer to a string
+           int countSoFar = 0;
+           // countSoFar will be our incremental variable
+            for(int r1 = 0; r1 < soda.length(); r1++){
+                // iterating through each character of the soda string
+                char currentChar = soda.charAt(r1);
+                // gathering each character one by one
+                String currentCharAsString = String.valueOf(currentChar);
+                // one by one taking the characters and converting them to strings
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // one by one changing the string characters to integers, and then adding them
+                // incrementally so we'll get our sum.
+            }
+            System.out.println(countSoFar);
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            int difference = 0;
+            // difference is our incremental variable
+            for(int h1 = 0; h1 < treeNo.length; h1++){
+                difference = difference - treeNo[h1];
+                // incremental variable
+            }
+            System.out.println(difference);
+        }
+
+        if(hammerHead[0] == "Hammerhead" && hammerHead[1] == "Taylor"){
+            int sum = 0;
+            int h2 = 0;
+            for (int h1 = 0; h1 < treeNo.length; h1++){
+                sum = sum + treeNo[h1];
+                h2 = sum / treeNo.length;
+            }
+            System.out.println(h2);
+        }
+
 
     }
 }
