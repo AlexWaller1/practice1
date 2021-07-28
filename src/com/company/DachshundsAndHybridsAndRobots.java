@@ -1257,6 +1257,23 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(samurai[0] == "Lone Wolf Samurai"){
+          int s1 = 8;
+          while(s1 >= 0){
+              System.out.println(samurai[s1]);
+              s1--;
+          }
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int s1 = 0;
+            do{
+                System.out.println(samurai[s1]);
+                s1++;
+            }while(s1 < samurai.length);
+            // remember we can use .length in while and do while loops as well
+        }
+
 
     }
 }
