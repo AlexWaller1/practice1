@@ -1222,6 +1222,19 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(hadal);
         }
 
+        if(pisces[4] == "Hadrian"){
+            int f1 = hybridNo[7];
+            String fish = String.valueOf(f1);
+            int countSoFar = 0;
+            for (int f2 = 0; f2 < fish.length(); f2++){
+                // gather each letter as a character
+                // then convert each character to a string
+                // then convert each character to an integer, and incrementally add them with them with
+                // the countSoFar int variable
+                // countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+        }
+
 
     }
 }
