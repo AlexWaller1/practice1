@@ -1213,6 +1213,15 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(dachshunds[0].concat(robo));
         }
 
+        if(pisces[0] == "Galahad"){
+            StringBuilder hadal = new StringBuilder();
+            hadal.append(pisces[0] + " is a great warrior of the Marianas Trench");
+            hadal = hadal.reverse();
+            System.out.println(hadal);
+            hadal = hadal.reverse();
+            System.out.println(hadal);
+        }
+
 
     }
 }
