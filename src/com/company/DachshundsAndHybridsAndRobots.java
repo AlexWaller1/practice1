@@ -1190,6 +1190,23 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(reverse);
         }
 
+        if(robots.length == 4 && robots[3] == "Eggplant-Head"){
+            int r2 = hybridNo[4];
+            int r1 = hybridNo[4], reverse = 0;
+
+            for(;r1 != 0; r1 = r1 / 10){
+                int remainder = r1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(rams.length == 4){
+            String robo = String.valueOf(hybridNo[4]);
+            System.out.println(dachshunds[0].concat(robo));
+        }
+
 
     }
 }
