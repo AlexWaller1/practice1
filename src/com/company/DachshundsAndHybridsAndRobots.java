@@ -1227,8 +1227,8 @@ public class DachshundsAndHybridsAndRobots {
             String fish = String.valueOf(f1);
             int countSoFar = 0;
             for (int f2 = 0; f2 < fish.length(); f2++){
-                // gather each letter as a character
-                // then convert each character to a string
+                // gather each letter as a character fish.charAt(f2)
+                // then convert each character to a string String.valueOf(currentChar)
                 // then convert each character to an integer, and incrementally add them with them with
                 // the countSoFar int variable
                 // countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
