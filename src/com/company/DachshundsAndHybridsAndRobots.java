@@ -47,8 +47,12 @@ public class DachshundsAndHybridsAndRobots {
         String[] trout = {"Rainbow", "Brown"};
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
-        String[] samurai = {"Lone Wolf Samurai", "Kenji the Crane", "Laramie", "Glynis", "Zeno", "Samos"};
-        String[] bigHornCrew = {"Ace", "Columbus", "Marek", "Radek"};
+        String[] samurai = {"Lone Wolf Samurai", "Kenji the Crane", "Laramie", "Glynis", "Zeno", "Samos",
+        "The Wraith", "Wushu Lizard", "Citrine Dragons"};
+        String[] bigHornCrew = {"Ace", "Columbus", "Marek", "Radek", "Axel"};
+        String[] hammerHead = {"Hammerhead", "Taylor", "Geometry Man", "Harvey", "Wibaux", "The Cosmic Trout"};
+        String[] pisces = {"Galahad", "Governal", "Berinon", "Forthwind", "Hadrian", "Aetius", "Urbicus"};
+        String[] petroleum = {"Thierry", "Laurent", "Antoine", "Hunzuu", "Gilgamesh"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
