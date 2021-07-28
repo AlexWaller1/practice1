@@ -1228,10 +1228,32 @@ public class DachshundsAndHybridsAndRobots {
             int countSoFar = 0;
             for (int f2 = 0; f2 < fish.length(); f2++){
                 // gather each letter as a character fish.charAt(f2)
+                char currentChar = fish.charAt(f2);
                 // then convert each character to a string String.valueOf(currentChar)
+                String currentCharAsString = String.valueOf(currentChar);
                 // then convert each character to an integer, and incrementally add them with them with
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
                 // the countSoFar int variable
                 // countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(countSoFar);
+        }
+        if(pisces[1] == "Governal"){
+            int sum = 0;
+            for(int f1 = 0; f1 < treeNo.length; f1 ++){
+                sum = sum + treeNo[f1];
+                System.out.println(sum);
+                // will show sum incrementing
+            }
+            System.out.println(sum);
+            // will show final sum
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            for (int h1 =0; h1 < hammerHead.length; h1++){
+                if(h1 == 4){
+                    System.out.println(hammerHead[h1]);
+                }
             }
         }
 
