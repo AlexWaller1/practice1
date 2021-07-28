@@ -1274,6 +1274,35 @@ public class DachshundsAndHybridsAndRobots {
             // remember we can use .length in while and do while loops as well
         }
 
+        if(hammerHead[1] == "Taylor"){
+            System.out.println("hybridConsole");
+            StringBuilder spaceShark = new StringBuilder();
+            spaceShark.append(hammerHead[0] + " delivers Pickerel Cola across space");
+            spaceShark = spaceShark.reverse();
+            System.out.println(spaceShark);
+            spaceShark = spaceShark.reverse();
+            System.out.println(spaceShark);
+
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            for (int h1 = 0; h1 < hammerHead.length; h1++){
+                System.out.println(hammerHead[h1]);
+            }
+        }
+
+        if(hammerHead.length == 6){
+            int h1 = 0;
+            do{
+
+                    System.out.println(hammerHead[h1] + " will make all and everything okay.");
+                    h1++;
+
+            }while(h1 < hammerHead.length);
+        }
+
+        System.out.println(hammerHead[5]);
+
 
     }
 }
