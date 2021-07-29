@@ -225,6 +225,7 @@ public class HammerheadPickerelCola {
             scrap.getClass();
             System.out.println(scrap.getClass());
             // getClass() will let you know what type of data it is, in this case it prints String
+            double squareRoot = 0;
             double square = 0;
             int countSoFar = 0;
             // incremental variable
@@ -236,10 +237,14 @@ public class HammerheadPickerelCola {
                 // converting each character back into a string 1 by 1
                 countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
                 // incrementing, also turning each string character back into an integer
+                squareRoot = Math.sqrt(countSoFar);
                 square = Math.pow(countSoFar, 2);
+
             }
             System.out.println(square);
             // output is 441.0, so this is squaring the integer, not finding the square root of one
+            System.out.println(squareRoot);
+            // output is 4.58257569495584
 
         }
 
