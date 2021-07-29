@@ -54,7 +54,7 @@ public class HammerheadPickerelCola {
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
-        String[] hybridString = {"37", "102", "2309", "1992"};
+        String[] hybridString = {"37", "102", "2309", "1992", "44"};
 
         int result = practiceObject.addDigits(hybridNo[7]);
         System.out.println(result);
@@ -100,6 +100,31 @@ public class HammerheadPickerelCola {
                 // converting string character to an integer
             }
             System.out.println(countSoFar + " is the product of digits in this integer.");
+        }
+
+        System.out.println(samurai[2]);
+
+        if(samurai[2] == "Laramie"){
+
+            String scrapper1 = hybridString[0].concat(hybridString[4]);
+            // concatenating strings
+            System.out.println(scrapper1);
+            // making sure strings concatenated by printing string to console
+            int countSoFar = 1;
+            // incremental variable
+            for(int l1 = 0; l1 < scrapper1.length(); l1++){
+                // iterating through each character of the string
+                char currentChar = scrapper1.charAt(l1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character to a string 1 by 1
+                countSoFar = Integer.parseInt(currentCharAsString) / countSoFar;
+                // incremental variable
+            }
+            System.out.println(countSoFar + " is the quotient of the digits of the integer.");
+            // not sure 100% sure this algorithm works
+
+
         }
 
 
