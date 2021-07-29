@@ -239,6 +239,7 @@ public class HammerheadPickerelCola {
                 square = Math.pow(countSoFar, 2);
             }
             System.out.println(square);
+            // output is 441.0, so this is squaring the integer, not finding the square root of one
 
         }
 
