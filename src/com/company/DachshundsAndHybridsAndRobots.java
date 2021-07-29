@@ -1349,6 +1349,33 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(h2);
         }
 
+        if(hammerHead[0] == "Hammerhead"){
+            int h1 = hybridNo[2], reverse = 0;
+            for(;h1 != 0; h1 = h1 / 10){
+                int remainder = h1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        System.out.println(Arrays.stream(hammerHead).sequential());
+        // didn't do much
+        if(hammerHead[0] == "Hammerhead"){
+            for(int h1 =0; h1 < hammerHead.length; h1++){
+                System.out.println(hammerHead[h1]);
+            }
+        }
+
+        System.out.println(hammerHead[4]);
+
+        if(hammerHead[4] == "Wibaux"){
+            StringBuilder whiteFish = new StringBuilder();
+            whiteFish.append(hammerHead[4] + " has a cool exo-suit!");
+            whiteFish = whiteFish.reverse();
+            System.out.println(whiteFish);
+            whiteFish = whiteFish.reverse();
+            System.out.println(whiteFish);
+        }
 
     }
 }
