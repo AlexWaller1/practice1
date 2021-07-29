@@ -124,6 +124,21 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar + " is the quotient of the digits of the integer.");
             // function works
 
+            if(samurai[0] == "Lone Wolf Samurai"){
+                for(int s1 = 0; s1 < samurai.length; s1++){
+                    System.out.println(s1 + " " + samurai[s1]);
+                }
+            }
+
+            if(samurai[3] == "Glynis"){
+                StringBuilder glynis = new StringBuilder();
+                glynis.append(samurai[3] + " is best friends with Laramie.");
+                glynis = glynis.reverse();
+                System.out.println(glynis);
+                glynis = glynis.reverse();
+                System.out.println(glynis);
+            }
+
 
         }
 
