@@ -60,6 +60,50 @@ public class HammerheadPickerelCola {
         System.out.println(result);
         System.out.println("A" + "B");
 
+        if(hammerHead[0] == "Hammerhead"){
+            String shark1 = hybridString[0].concat(hybridString[1]);
+            System.out.println(shark1);
+            int countSoFar = 0;
+            // incremental variable
+            for (int h1 = 0; h1 < shark1.length(); h1++){
+                // iterating through each character 1 by 1
+                char currrentChar = shark1.charAt(h1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currrentChar);
+                // converting each character back into a string character 1 by one
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // converting string characters to integers
+
+            }
+            System.out.println(countSoFar);
+            // print total sum of the integers
+        }
+
+        System.out.println(samurai[1]);
+        System.out.println(samurai[0]);
+
+        if(samurai[0] == "Lone Wolf Samurai" && samurai[1] == "Kenji the Crane"){
+            String crane1 = hybridString[0].concat(hybridString[3]);
+            // concatenating strings
+            System.out.println(crane1);
+            // printing concatenated string to console
+            int countSoFar = 1;
+            // incremental variable when we're trying to find a product
+            for (int c1 = 0; c1 < crane1.length(); c1++){
+                // iterating through each character of the string
+                char currentChar = crane1.charAt(c1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back to a string 1 by 1
+                countSoFar = countSoFar * Integer.parseInt(currentCharAsString);
+                // incremental variable starts at 1 since this is multiplication
+                // converting string character to an integer
+            }
+            System.out.println(countSoFar + " is the product of digits in this integer.");
+        }
+
+
+
 
 
 
