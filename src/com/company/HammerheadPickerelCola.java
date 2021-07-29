@@ -198,6 +198,19 @@ public class HammerheadPickerelCola {
             // product of digits of 3744 is 336
         }
 
+        if(dachshunds[2] == "Bodhi" && dachshunds[1] == "Chipper"){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                if(dachshunds[d1].chars().count() >= 5){
+                    System.out.println(dachshunds[d1] + " has more than five characters in their name");
+
+                }
+                else
+                    System.out.println(dachshunds[d1] + " has less than 5 characters in their name");
+            }
+        }
+
+
+
 
 
 
