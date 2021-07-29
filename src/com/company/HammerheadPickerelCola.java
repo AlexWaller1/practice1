@@ -168,6 +168,37 @@ public class HammerheadPickerelCola {
 
         System.out.println(hammerHead[0]);
 
+        System.out.println(hybridString[3]);
+        System.out.println(hybridString[1]);
+
+        if(samurai[0] == "Lone Wolf Samurai" && samurai[7] == "Wushu Lizard"){
+            int lizard = Integer.parseInt(hybridString[3]);
+            int loneWolf = Integer.parseInt(hybridString[1]);
+            int sum = lizard + loneWolf;
+            System.out.println(sum);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            String robo = hybridString[0].concat(hybridString[4]);
+            // combining strings
+            System.out.println(robo);
+            // printing to console to confirm
+            int product = 1;
+            // incremental variable
+            for(int r1 = 0; r1 < robo.length(); r1++){
+                // iterating through each character of the string
+                char currentChar = robo.charAt(r1);
+                // taking each character of the string 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character to a string 1 by 1
+                product = product * Integer.parseInt(currentCharAsString);
+                // incremental variable
+            }
+            System.out.println(product);
+            // product of digits of 3744 is 336
+        }
+
+
 
 
 
