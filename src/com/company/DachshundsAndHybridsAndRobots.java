@@ -1425,6 +1425,15 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(whiteFish);
         }
 
+        System.out.println(hammerHead[3]);
+        if(hammerHead[3] == "Harvey"){
+            for(int h1 = 0; h1 < hammerHead.length; h1++){
+                if (h1 == 3){
+                    System.out.println(hammerHead[3] + " is a tough beaver from Hardin-37.");
+                }
+            }
+        }
+
 
     }
 }
