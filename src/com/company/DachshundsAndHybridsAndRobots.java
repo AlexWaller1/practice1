@@ -1444,6 +1444,21 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        System.out.println(hammerHead[2]);
+
+        if(hammerHead[2] == "Geometry Man"){
+
+            for(int h1 = 0; h1 < hybridNo.length; h1++){
+                for(int h2 = h1 + 1; h2 < hybridNo.length; h2++){
+                    if(h1 == 7 && h2 == 9){
+                       int sum = hybridNo[h1] + hybridNo[h2];
+                        System.out.println(sum);
+                    }
+
+                }
+            }
+        }
+
 
 
 
