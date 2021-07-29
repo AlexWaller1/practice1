@@ -122,7 +122,7 @@ public class HammerheadPickerelCola {
                 // incremental variable
             }
             System.out.println(countSoFar + " is the quotient of the digits of the integer.");
-            // not sure 100% sure this algorithm works
+            // function works
 
 
         }
