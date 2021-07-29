@@ -1434,6 +1434,16 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        if(hammerHead[0] == "Hammerhead" && hammerHead[3] == "Harvey"){
+            for (int h1 = 0; h1 < hammerHead.length; h1++){
+                for (int h2 = h1 + 1; h2 < hammerHead.length; h2++){
+                    if (h1 == 3){
+                        System.out.println(hammerHead[h2]);
+                    }
+                }
+            }
+        }
+
 
     }
 }
