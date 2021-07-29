@@ -209,6 +209,41 @@ public class HammerheadPickerelCola {
             }
         }
 
+        String ab = "A B";
+        System.out.println(ab.chars().count());
+        // output to console is 3, keep in mind an empty space counts as a character
+        System.out.println(pisces.length);
+        // output is 7
+        System.out.println(hybridNo[9]);
+        // number is 9229
+        System.out.println(hybridNo[9] % 10);
+        // will give us remainder of number
+
+        if(pisces[1] == "Governal"){
+            String scrap = String.valueOf(hybridNo[7]);
+            // converting integer to string
+            scrap.getClass();
+            System.out.println(scrap.getClass());
+            // getClass() will let you know what type of data it is, in this case it prints String
+            double square = 0;
+            int countSoFar = 0;
+            // incremental variable
+            for(int f1 = 0; f1 < scrap.length(); f1++){
+                // iterating through each character of the string
+                char currentChar = scrap.charAt(f1);
+                // gathering up each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back into a string 1 by 1
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // incrementing, also turning each string character back into an integer
+                square = Math.pow(countSoFar, 2);
+            }
+            System.out.println(square);
+
+        }
+
+
+
 
 
 
