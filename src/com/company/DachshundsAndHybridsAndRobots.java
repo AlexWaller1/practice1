@@ -1459,6 +1459,24 @@ public class DachshundsAndHybridsAndRobots {
             }
         }
 
+        System.out.println(samurai.length);
+
+        if(samurai.length == 9 || samurai[1] == "Kenji the Crane"){
+            int s1 = 0;
+            while(s1 <= 8){
+                System.out.println(samurai[s1]);
+                s1++;
+            }
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int s1 = 8;
+            do{
+                System.out.println(samurai[s1]);
+                s1--;
+            }while(s1 >= 0);
+        }
+
 
 
 
