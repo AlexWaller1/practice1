@@ -139,8 +139,34 @@ public class HammerheadPickerelCola {
                 System.out.println(glynis);
             }
 
+            if(samurai[6] == "The Wraith"){
+                System.out.println(hybridNo[4]);
+                String wraith = String.valueOf(hybridNo[4]);
+                StringBuilder wraith1 = new StringBuilder();
+                wraith1.append(wraith);
+                wraith1 = wraith1.reverse();
+                System.out.println(wraith1);
+            }
+
+            if(samurai[7] == "Wushu Lizard"){
+                int w1 = hybridNo[6];
+                // assigning int variable
+                int reverse = 0;
+                // incremental variable
+                for(;w1 != 0; w1 = w1 / 10){
+                    // while w1 does not equal 0
+                    // new w1 will equal previous w1 divided by 10
+                    int remainder = w1 % 10;
+                    // taking the remainder off the number
+                    reverse = reverse * 10 + remainder;
+                }
+                System.out.println(reverse);
+            }
+
 
         }
+
+        System.out.println(hammerHead[0]);
 
 
 
