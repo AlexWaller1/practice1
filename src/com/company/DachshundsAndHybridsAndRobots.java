@@ -1377,6 +1377,55 @@ public class DachshundsAndHybridsAndRobots {
             System.out.println(whiteFish);
         }
 
+        if(hammerHead[2] == "Geometry Man"){
+            int h1 = 0;
+            while(h1 < hammerHead.length){
+                if (h1 < 6 ){
+                    System.out.println(hammerHead[h1] + " will make all okay.");
+                    h1++;
+                }
+            }
+        }
+
+        System.out.println(hammerHead[5]);
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            for(int h1 = 0; h1 < hammerHead.length; h1++){
+                if(h1 == 5){
+                    System.out.println(hammerHead[h1] + " will make all okay.");
+                }
+            }
+        }
+
+        if(robots.length == 4 && robots[2] == "Mellon-Tech"){
+            String robot = String.valueOf(hybridNo[6]);
+            // converting integer to string
+            int countSoFar = 0;
+            // incrementing variable
+            for(int r1 = 0; r1 < robot.length(); r1++){
+                // iterating through each character in the string
+                char currentChar = robot.charAt(r1);
+                // taking the string characters one at a time through the for loop
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back into a string one by one
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // incrementing variable and converting string characters back into integers
+
+            }
+            System.out.println(countSoFar);
+            // printing out the new integer to the console
+        }
+
+        if(hammerHead[4] == "Wibaux"){
+            StringBuilder whiteFish = new StringBuilder();
+            whiteFish.append(hammerHead[4] + " is from Hardin-37.");
+            whiteFish = whiteFish.reverse();
+            System.out.println(whiteFish);
+            whiteFish = whiteFish.reverse();
+            System.out.println(whiteFish);
+        }
+
+
     }
 }
 
