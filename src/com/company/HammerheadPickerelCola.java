@@ -54,6 +54,7 @@ public class HammerheadPickerelCola {
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
+        int[] troutNo = {37, 36, 121, 144};
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
 
         int result = practiceObject.addDigits(hybridNo[7]);
@@ -247,6 +248,46 @@ public class HammerheadPickerelCola {
             // output is 4.58257569495584
 
         }
+
+        System.out.println(Math.sqrt(36));
+        // outputs 6 to console
+        System.out.println(Math.sqrt(144));
+        // outputs 12 to console
+        System.out.println(Math.sqrt(troutNo[0]));
+
+        if(samurai[1] == "Kenji the Crane"){
+            for(int k1 = 0; k1 < troutNo.length; k1++){
+                if(Math.sqrt(troutNo[k1]) == 0){
+                    System.out.println(k1);
+                }
+            }
+        }
+
+        System.out.println(hammerHead.length);
+
+        if(hammerHead[5] == "The Cosmic Trout"){
+            int h1 = 15;
+            if(h1 % 5 == 0 && h1 % 3 == 0){
+                System.out.println("Cosmic Trout");
+            }
+            else if(h1 % 5 == 0){
+                System.out.println("Cosmic");
+            }
+            else if(h1 % 3 == 0){
+                System.out.println("Trout");
+            }
+            else
+                System.out.println("Whitefish");
+        }
+        // remember that we need to use % cause we are ultimately testing for remainder
+        // fizzbuzz type algorithm
+
+
+
+
+
+
+
 
 
 
