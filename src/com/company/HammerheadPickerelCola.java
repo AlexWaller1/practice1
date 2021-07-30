@@ -289,6 +289,7 @@ public class HammerheadPickerelCola {
             // incremental variable for finding a product
             double squareRoot = 0;
             // variable will be used gathering the square root
+            double ogSquareRoot = 0;
             for(int h1 = 0; h1 < beaver.length(); h1++){
                 // iterate through each character of the beaver string
                 char currentChar = beaver.charAt(h1);
@@ -298,12 +299,17 @@ public class HammerheadPickerelCola {
                 countSoFar = countSoFar * Integer.parseInt(currentCharAsString);
                 // incrementing and converting string characters to integers
                 squareRoot = Math.sqrt(countSoFar);
+                // will find square root of product
+                ogSquareRoot = Math.sqrt(hybridNo[3]);
+                // square root of original integer entered
 
             }
             System.out.println("The product of the integers is " + countSoFar);
             // printing product of integers to console
             System.out.println("The square root of that product is " + squareRoot);
             // printing square root of that product to the console
+            System.out.println("The square root of the orignal integer is " + ogSquareRoot);
+            // will print original integer to the console
         }
 
 
