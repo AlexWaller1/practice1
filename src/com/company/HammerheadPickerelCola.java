@@ -290,6 +290,7 @@ public class HammerheadPickerelCola {
             double squareRoot = 0;
             // variable will be used gathering the square root
             double ogSquareRoot = 0;
+            // will be used to get square root of original integer
             for(int h1 = 0; h1 < beaver.length(); h1++){
                 // iterate through each character of the beaver string
                 char currentChar = beaver.charAt(h1);
