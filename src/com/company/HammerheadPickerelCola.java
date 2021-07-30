@@ -282,6 +282,30 @@ public class HammerheadPickerelCola {
         // remember that we need to use % cause we are ultimately testing for remainder
         // fizzbuzz type algorithm
 
+        if(hammerHead[3] == "Harvey"){
+            String beaver = String.valueOf(hybridNo[3]);
+            // converting an integer to a string
+            int countSoFar = 1;
+            // incremental variable for finding a product
+            double squareRoot = 0;
+            // variable will be used gathering the square root
+            for(int h1 = 0; h1 < beaver.length(); h1++){
+                // iterate through each character of the beaver string
+                char currentChar = beaver.charAt(h1);
+                // gathering the characters one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting characters to string characters 1 by 1
+                countSoFar = countSoFar * Integer.parseInt(currentCharAsString);
+                // incrementing and converting string characters to integers
+                squareRoot = Math.sqrt(countSoFar);
+
+            }
+            System.out.println("The product of the integers is " + countSoFar);
+            // printing product of integers to console
+            System.out.println("The square root of that product is " + squareRoot);
+            // printing square root of that product to the console
+        }
+
 
 
 
