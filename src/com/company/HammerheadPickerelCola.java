@@ -1,4 +1,5 @@
 package com.company;
+import javax.swing.*;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -10,7 +11,7 @@ public class HammerheadPickerelCola {
 
     private int x;
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         practice123 practiceObject = new practice123();
         // can implement a function from another class by doing this
@@ -46,7 +47,7 @@ public class HammerheadPickerelCola {
         String[] robots = {"Hank-44", "Warren-21", "Mellon-Tech", "Eggplant-Head"};
         String[] dachshunds = {"Beezer", "Chipper", "Bodhi", "Jake", "Star"};
         String[] samurai = {"Lone Wolf Samurai", "Kenji the Crane", "Laramie", "Glynis", "Zeno", "Samos",
-        "The Wraith", "Wushu Lizard", "Citrine Dragons"};
+                "The Wraith", "Wushu Lizard", "Citrine Dragons"};
         String[] bigHornCrew = {"Ace", "Columbus", "Marek", "Radek", "Axel"};
         String[] hammerHead = {"Hammerhead", "Taylor", "Geometry Man", "Harvey", "Wibaux", "The Cosmic Trout"};
         String[] pisces = {"Galahad", "Governal", "Berinon", "Forthwind", "Hadrian", "Aetius", "Urbicus"};
@@ -61,12 +62,12 @@ public class HammerheadPickerelCola {
         System.out.println(result);
         System.out.println("A" + "B");
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             String shark1 = hybridString[0].concat(hybridString[1]);
             System.out.println(shark1);
             int countSoFar = 0;
             // incremental variable
-            for (int h1 = 0; h1 < shark1.length(); h1++){
+            for (int h1 = 0; h1 < shark1.length(); h1++) {
                 // iterating through each character 1 by 1
                 char currrentChar = shark1.charAt(h1);
                 // gathering each character 1 by 1
@@ -83,14 +84,14 @@ public class HammerheadPickerelCola {
         System.out.println(samurai[1]);
         System.out.println(samurai[0]);
 
-        if(samurai[0] == "Lone Wolf Samurai" && samurai[1] == "Kenji the Crane"){
+        if (samurai[0] == "Lone Wolf Samurai" && samurai[1] == "Kenji the Crane") {
             String crane1 = hybridString[0].concat(hybridString[3]);
             // concatenating strings
             System.out.println(crane1);
             // printing concatenated string to console
             int countSoFar = 1;
             // incremental variable when we're trying to find a product
-            for (int c1 = 0; c1 < crane1.length(); c1++){
+            for (int c1 = 0; c1 < crane1.length(); c1++) {
                 // iterating through each character of the string
                 char currentChar = crane1.charAt(c1);
                 // gathering each character 1 by 1
@@ -105,7 +106,7 @@ public class HammerheadPickerelCola {
 
         System.out.println(samurai[2]);
 
-        if(samurai[2] == "Laramie"){
+        if (samurai[2] == "Laramie") {
 
             String scrapper1 = hybridString[0].concat(hybridString[4]);
             // concatenating strings
@@ -113,7 +114,7 @@ public class HammerheadPickerelCola {
             // making sure strings concatenated by printing string to console
             int countSoFar = 1;
             // incremental variable
-            for(int l1 = 0; l1 < scrapper1.length(); l1++){
+            for (int l1 = 0; l1 < scrapper1.length(); l1++) {
                 // iterating through each character of the string
                 char currentChar = scrapper1.charAt(l1);
                 // gathering each character 1 by 1
@@ -125,13 +126,13 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar + " is the quotient of the digits of the integer.");
             // function works
 
-            if(samurai[0] == "Lone Wolf Samurai"){
-                for(int s1 = 0; s1 < samurai.length; s1++){
+            if (samurai[0] == "Lone Wolf Samurai") {
+                for (int s1 = 0; s1 < samurai.length; s1++) {
                     System.out.println(s1 + " " + samurai[s1]);
                 }
             }
 
-            if(samurai[3] == "Glynis"){
+            if (samurai[3] == "Glynis") {
                 StringBuilder glynis = new StringBuilder();
                 glynis.append(samurai[3] + " is best friends with Laramie.");
                 glynis = glynis.reverse();
@@ -140,7 +141,7 @@ public class HammerheadPickerelCola {
                 System.out.println(glynis);
             }
 
-            if(samurai[6] == "The Wraith"){
+            if (samurai[6] == "The Wraith") {
                 System.out.println(hybridNo[4]);
                 String wraith = String.valueOf(hybridNo[4]);
                 StringBuilder wraith1 = new StringBuilder();
@@ -149,12 +150,12 @@ public class HammerheadPickerelCola {
                 System.out.println(wraith1);
             }
 
-            if(samurai[7] == "Wushu Lizard"){
+            if (samurai[7] == "Wushu Lizard") {
                 int w1 = hybridNo[6];
                 // assigning int variable
                 int reverse = 0;
                 // incremental variable
-                for(;w1 != 0; w1 = w1 / 10){
+                for (; w1 != 0; w1 = w1 / 10) {
                     // while w1 does not equal 0
                     // new w1 will equal previous w1 divided by 10
                     int remainder = w1 % 10;
@@ -172,21 +173,21 @@ public class HammerheadPickerelCola {
         System.out.println(hybridString[3]);
         System.out.println(hybridString[1]);
 
-        if(samurai[0] == "Lone Wolf Samurai" && samurai[7] == "Wushu Lizard"){
+        if (samurai[0] == "Lone Wolf Samurai" && samurai[7] == "Wushu Lizard") {
             int lizard = Integer.parseInt(hybridString[3]);
             int loneWolf = Integer.parseInt(hybridString[1]);
             int sum = lizard + loneWolf;
             System.out.println(sum);
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             String robo = hybridString[0].concat(hybridString[4]);
             // combining strings
             System.out.println(robo);
             // printing to console to confirm
             int product = 1;
             // incremental variable
-            for(int r1 = 0; r1 < robo.length(); r1++){
+            for (int r1 = 0; r1 < robo.length(); r1++) {
                 // iterating through each character of the string
                 char currentChar = robo.charAt(r1);
                 // taking each character of the string 1 by 1
@@ -199,13 +200,12 @@ public class HammerheadPickerelCola {
             // product of digits of 3744 is 336
         }
 
-        if(dachshunds[2] == "Bodhi" && dachshunds[1] == "Chipper"){
-            for(int d1 = 0; d1 < dachshunds.length; d1++){
-                if(dachshunds[d1].chars().count() >= 5){
+        if (dachshunds[2] == "Bodhi" && dachshunds[1] == "Chipper") {
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
+                if (dachshunds[d1].chars().count() >= 5) {
                     System.out.println(dachshunds[d1] + " has more than five characters in their name");
 
-                }
-                else
+                } else
                     System.out.println(dachshunds[d1] + " has less than 5 characters in their name");
             }
         }
@@ -220,7 +220,7 @@ public class HammerheadPickerelCola {
         System.out.println(hybridNo[9] % 10);
         // will give us remainder of number
 
-        if(pisces[1] == "Governal"){
+        if (pisces[1] == "Governal") {
             String scrap = String.valueOf(hybridNo[7]);
             // converting integer to string
             scrap.getClass();
@@ -230,7 +230,7 @@ public class HammerheadPickerelCola {
             double square = 0;
             int countSoFar = 0;
             // incremental variable
-            for(int f1 = 0; f1 < scrap.length(); f1++){
+            for (int f1 = 0; f1 < scrap.length(); f1++) {
                 // iterating through each character of the string
                 char currentChar = scrap.charAt(f1);
                 // gathering up each character 1 by 1
@@ -255,9 +255,9 @@ public class HammerheadPickerelCola {
         // outputs 12 to console
         System.out.println(Math.sqrt(troutNo[0]));
 
-        if(samurai[1] == "Kenji the Crane"){
-            for(int k1 = 0; k1 < troutNo.length; k1++){
-                if(Math.sqrt(troutNo[k1]) == 0){
+        if (samurai[1] == "Kenji the Crane") {
+            for (int k1 = 0; k1 < troutNo.length; k1++) {
+                if (Math.sqrt(troutNo[k1]) == 0) {
                     System.out.println(k1);
                 }
             }
@@ -265,24 +265,21 @@ public class HammerheadPickerelCola {
 
         System.out.println(hammerHead.length);
 
-        if(hammerHead[5] == "The Cosmic Trout"){
+        if (hammerHead[5] == "The Cosmic Trout") {
             int h1 = 15;
-            if(h1 % 5 == 0 && h1 % 3 == 0){
+            if (h1 % 5 == 0 && h1 % 3 == 0) {
                 System.out.println("Cosmic Trout");
-            }
-            else if(h1 % 5 == 0){
+            } else if (h1 % 5 == 0) {
                 System.out.println("Cosmic");
-            }
-            else if(h1 % 3 == 0){
+            } else if (h1 % 3 == 0) {
                 System.out.println("Trout");
-            }
-            else
+            } else
                 System.out.println("Whitefish");
         }
         // remember that we need to use % cause we are ultimately testing for remainder
         // fizzbuzz type algorithm
 
-        if(hammerHead[3] == "Harvey"){
+        if (hammerHead[3] == "Harvey") {
             String beaver = String.valueOf(hybridNo[3]);
             // converting an integer to a string
             int countSoFar = 1;
@@ -291,7 +288,7 @@ public class HammerheadPickerelCola {
             // variable will be used gathering the square root
             double ogSquareRoot = 0;
             // will be used to get square root of original integer
-            for(int h1 = 0; h1 < beaver.length(); h1++){
+            for (int h1 = 0; h1 < beaver.length(); h1++) {
                 // iterate through each character of the beaver string
                 char currentChar = beaver.charAt(h1);
                 // gathering the characters one at a time
@@ -315,28 +312,28 @@ public class HammerheadPickerelCola {
 
         System.out.println(hammerHead[0]);
 
-        if(samurai[0] == "Lone Wolf Samurai"){
+        if (samurai[0] == "Lone Wolf Samurai") {
 
             // function to reverse integer
             int w1 = hybridNo[4], reverse = 0;
             // reverse is incremental variable
 
-            for(;w1 != 0; w1 = w1 / 10){
+            for (; w1 != 0; w1 = w1 / 10) {
 
-               int remainder = w1 % 10;
-               // dividing w1 by 10 and taking the remainder
+                int remainder = w1 % 10;
+                // dividing w1 by 10 and taking the remainder
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
 
         }
 
-        if(samurai[1] == "Kenji the Crane"){
+        if (samurai[1] == "Kenji the Crane") {
             String loneWolf = String.valueOf(hybridNo[4]);
             // converting integer to string
             int countSoFar = 0;
             // incremental variable
-            for(int c1 = 0; c1 < loneWolf.length(); c1++){
+            for (int c1 = 0; c1 < loneWolf.length(); c1++) {
                 // iterating through each character in the string
                 char currentChar = loneWolf.charAt(c1);
                 // taking each character one at a time
@@ -348,30 +345,58 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if (hammerHead[1] == "Taylor") {
+            int Laramie = Integer.parseInt(hybridString[1]);
+            // converting string to integer
+            int Kenji = Integer.parseInt(hybridString[2]);
+            // converting string to integer
+            int product = Kenji * Laramie;
+            System.out.println(product);
+        }
+
+        if (robots[2] == "Mellon-Tech") {
+            for (int h1 = 0; h1 < hammerHead.length; h1++) {
+
+                System.out.println(h1 + " " + hammerHead[h1]);
+            }
+        }
+
+        if (hammerHead[4] == "Wibaux") {
+            StringBuilder wibaux = new StringBuilder();
+            wibaux.append(hammerHead[4] + " really loves Pickerel Cola");
+            wibaux = wibaux.reverse();
+            System.out.println(wibaux);
+            wibaux = wibaux.reverse();
+            System.out.println(wibaux);
+        }
+
+        if (hammerHead[5] == "The Cosmic Trout") {
+            int whiteFish = troutNo[1];
+            double seaWeed = Math.sqrt(whiteFish);
+            // will find the square root of a number
+            double snag = Math.pow(seaWeed, 2);
+            // will multiply the number by specified power
+            System.out.println(seaWeed);
+            System.out.println(snag);
+        }
+
+        if (hammerHead.length == 6 && hammerHead[2] == "Geometry Man") {
+            for (int h1 = 0; h1 < troutNo.length; h1++) {
+                if (troutNo[h1] % Math.sqrt(troutNo[h1]) == 0) {
+                    {
+                        System.out.println(troutNo[h1] + " has a whole number for a square root");
+
+                    }
 
 
 
 
+                }
 
 
+            }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     }
-
-
-
 }
