@@ -313,6 +313,43 @@ public class HammerheadPickerelCola {
             // will print original integer to the console
         }
 
+        System.out.println(hammerHead[0]);
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+
+            // function to reverse integer
+            int w1 = hybridNo[4], reverse = 0;
+            // reverse is incremental variable
+
+            for(;w1 != 0; w1 = w1 / 10){
+
+               int remainder = w1 % 10;
+               // dividing w1 by 10 and taking the remainder
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            String loneWolf = String.valueOf(hybridNo[4]);
+            // converting integer to string
+            int countSoFar = 0;
+            // incremental variable
+            for(int c1 = 0; c1 < loneWolf.length(); c1++){
+                // iterating through each character in the string
+                char currentChar = loneWolf.charAt(c1);
+                // taking each character one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // changing each character back into string characters 1 by 1
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // incrementing sum with each converted integer
+                // also converting strings to integers 1 by 1
+            }
+        }
+
+
+
 
 
 
