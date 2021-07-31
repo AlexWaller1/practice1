@@ -383,15 +383,13 @@ public class HammerheadPickerelCola {
         if (hammerHead.length == 6 && hammerHead[2] == "Geometry Man") {
             for (int h1 = 0; h1 < troutNo.length; h1++) {
                 if (troutNo[h1] % Math.sqrt(troutNo[h1]) == 0) {
-                    {
-                        System.out.println(troutNo[h1] + " has a whole number for a square root");
 
-                    }
-
-
-
+                    System.out.println(troutNo[h1] + " has a whole number for a square root");
 
                 }
+                else
+                    System.out.println(troutNo[h1] + " does not have a whole number for a square root");
+            }
 
 
             }
@@ -399,4 +397,5 @@ public class HammerheadPickerelCola {
 
         }
     }
-}
+
+
