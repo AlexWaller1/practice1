@@ -628,6 +628,42 @@ public class HammerheadPickerelCola {
             System.out.println(fish.toUpperCase());
         }
 
+        System.out.println(pisces[6]);
+
+        if(pisces[5] == "Aetius"){
+            int bh1 = hybridNo[7];
+            int reverse = 0;
+            // incremental variable
+            for(; bh1 != 0; bh1 = bh1 / 10){
+
+                int remainder = bh1 % 10;
+                reverse = reverse * 10 + remainder;
+                System.out.println(reverse);
+            }
+        }
+
+        if(pisces[6] == "Urbicus"){
+            String fish = String.valueOf(hybridNo[7]);
+            int countSoFar = 0, difference = 0, quotient = 1, product = 1, pgf1 = 0;
+            // incremental variables and for loop variable
+
+            for(; pgf1 < fish.length(); pgf1++){
+                // iterating through each character of the string
+                char currentChar = fish.charAt(pgf1);
+                // gathering up each character one by one
+                String currentCharAsString = String.valueOf(currentChar);
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                product = product * Integer.parseInt(currentCharAsString);
+                quotient = Integer.parseInt(currentCharAsString) / quotient;
+                difference = Integer.parseInt(currentCharAsString) - difference;
+
+            }
+            System.out.println("The sum of the digits is " + countSoFar);
+            System.out.println("The product of the digits is " + product);
+            System.out.println("The quotient of the digits is " + quotient);
+            System.out.println("The difference of the digits is " + difference);
+        }
+
 
 
 
