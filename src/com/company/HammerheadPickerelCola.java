@@ -412,6 +412,36 @@ public class HammerheadPickerelCola {
 
         if(samurai[0] == "Lone Wolf Samurai"){
             System.out.println(hammerHead[0].chars().count());
+            int reverse = 0;
+            // incremental variable
+            for(int h1 = treeNo[2]; h1 != 0; h1 = h1 / 10){
+
+                int remainder = h1 % 10;
+                // taking the remainder
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        for(int t1 = 0; t1 < treeNo.length; t1++){
+            System.out.println(treeNo[t1]);
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            for(int t1 = 0; t1 < treeNo.length; t1++){
+                if(treeNo[t1] % Math.sqrt(treeNo[t1]) == 0){
+                    System.out.println(treeNo[t1] + " has a square root that's a whole number");
+                }
+                else
+                    System.out.println(treeNo[t1] + " has a square root that is not a whole number.");
+            }
+        }
+
+        if(hammerHead[3] == "Harvey"){
+            long h1 = hammerHead[4].chars().count();
+            long sum = h1 + 9;
+            System.out.println(h1);
+            System.out.println(sum);
         }
 
 
