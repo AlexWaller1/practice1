@@ -394,6 +394,26 @@ public class HammerheadPickerelCola {
 
             }
 
+        if(hammerHead.length == 6){
+            String cola = String.valueOf(treeNo[0]);
+            // converting integer to string
+            int countSoFar = 0;
+            // incremental variable
+            for(int p1 = 0; p1 < cola.length(); p1++){
+                // iterating through each character of the string
+                char currentChar = cola.charAt(p1);
+                // gathering up each character one by one
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back into a string character
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(countSoFar);
+        }
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            System.out.println(hammerHead[0].chars().count());
+        }
+
 
         }
     }
