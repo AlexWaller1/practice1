@@ -559,6 +559,34 @@ public class HammerheadPickerelCola {
 
         }
 
+        System.out.println(bigHornCrew.length);
+
+        if(bigHornCrew.length == 5){
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                System.out.println(bigHornCrew[bh1]);
+            }
+        }
+
+        if(bigHornCrew[0] == "Ace"){
+            int bh1 = 0;
+            for(; bh1 < bigHornCrew.length; bh1++){
+                String bighorn = bigHornCrew[bh1];
+                bighorn = bighorn.toUpperCase();
+                System.out.println(bighorn);
+            }
+        }
+
+        if(bigHornCrew[4] == "Axel"){
+            int bh1 = 0;
+            for(; bh1 < bigHornCrew.length; bh1++){
+                if(bh1 == 4){
+                    String bighorn = bigHornCrew[bh1];
+                    bighorn = bighorn.toUpperCase();
+                    System.out.println(bighorn);
+                }
+            }
+        }
+
 
 
 
