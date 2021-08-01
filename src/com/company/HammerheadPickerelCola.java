@@ -587,6 +587,47 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(bigHornCrew[1] == "Columbus"){
+            int bh1 = hybridNo[3];
+            int reverse = 0;
+            // incremental variable
+            for(; bh1 != 0; bh1 = bh1 / 10){
+                int remainder = bh1 % 10;
+
+                reverse = reverse * 10 + remainder;
+
+            }
+            System.out.println(reverse);
+        }
+
+        if(bigHornCrew[2] == "Marek"){
+            int bh1 = 0;
+            for(; bh1 < bigHornCrew.length; bh1++){
+                if(bh1 == 0){
+
+                    System.out.println(bigHornCrew[bh1].toUpperCase());
+                    // best to do in one line
+                }
+            }
+        }
+
+        if(bigHornCrew[3] == "Radek"){
+            String trout1 = hammerHead[5];
+            trout1 = trout1.replaceAll("\\s", "Raibow");
+            System.out.println(trout1);
+            System.out.println(trout1.toUpperCase());
+        }
+
+        System.out.println(pisces[4]);
+
+        if(pisces[4] == "Hadrian"){
+            String fish = pisces[4] + " is the general of the Hadal Army";
+            System.out.println(fish);
+            fish = fish.replaceAll("\\s", "||");
+            System.out.println(fish);
+            System.out.println(fish.toUpperCase());
+        }
+
 
 
 
