@@ -462,6 +462,24 @@ public class HammerheadPickerelCola {
 
         }
 
+        if(samurai[7] == "Wushu Lizard"){
+
+            String lizard = samurai[7];
+
+            lizard = lizard.replaceAll("\\s", "");
+            System.out.println(lizard);
+            // worked for taking away all the whitespace
+            // \\s is code for a single space
+        }
+
+        if(samurai[3] == "Glynis"){
+            String glynis = samurai[7];
+
+            glynis = glynis.replaceAll("\\s", hammerHead[0]);
+            // replacing empty spaces with the string "Hammerhead"
+            System.out.println(glynis);
+        }
+
 
 
 
