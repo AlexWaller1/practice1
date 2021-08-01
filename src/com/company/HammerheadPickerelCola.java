@@ -444,6 +444,20 @@ public class HammerheadPickerelCola {
             System.out.println(sum);
         }
 
+        if(hammerHead[4] == "Wibaux"){
+            int sum = Integer.parseInt(hybridString[0]) + Integer.parseInt(hybridString[1]);
+            // converting to strings to integers and then adding them
+            System.out.println(sum);
+        }
+
+        if(samurai[2] == "Laramie"){
+            String sum = hammerHead[0] + hammerHead[4];
+            // another way to concatenate strings
+            System.out.println(sum);
+        }
+
+
+
 
         }
     }
