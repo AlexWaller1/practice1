@@ -521,6 +521,31 @@ public class HammerheadPickerelCola {
 
         }
 
+        if(samurai[7] == "Wushu Lizard"){
+            int s1 = 8;
+            do{
+                StringBuilder wraith = new StringBuilder();
+                wraith.append(samurai[s1]);
+                wraith = wraith.reverse();
+                System.out.println(wraith);
+                s1--;
+            }while(s1 >= 0);
+        }
+        // reversing each string in the array using a do while loop
+
+        System.out.println(pisces.length);
+
+        if(pisces[1] == "Governal"){
+            int fish1 = 6;
+            while(fish1 >= 0){
+                String fish2 = pisces[fish1];
+                fish2 = fish2.toUpperCase(Locale.ROOT);
+                System.out.println(fish2);
+                fish1--;
+            }
+        }
+        // outputting each element in the array with all uppercase letters
+
 
 
 
