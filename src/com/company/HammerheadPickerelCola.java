@@ -480,6 +480,28 @@ public class HammerheadPickerelCola {
             System.out.println(glynis);
         }
 
+        System.out.println(samurai.length);
+
+        if(samurai.length == 9){
+            StringBuilder glynis = new StringBuilder();
+            glynis.append(samurai[3] + " is a green dog from the farthest reaches of space");
+            glynis = glynis.reverse();
+            System.out.println(glynis);
+            String glynis1 = String.valueOf(glynis);
+            glynis1 = glynis1.replaceAll("\\s", "||");
+            System.out.println(glynis1);
+            glynis = glynis.reverse();
+            System.out.println(glynis);
+        }
+
+        if(samurai[2] == "Laramie" && samurai[7] == "Wushu Lizard"){
+            String trout1 = hammerHead[5];
+            trout1 = trout1.replaceAll("\\s", "___");
+            System.out.println(trout1);
+        }
+
+
+
 
 
 
