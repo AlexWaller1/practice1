@@ -546,7 +546,18 @@ public class HammerheadPickerelCola {
         }
         // outputting each element in the array with all uppercase letters
 
+        if(pisces[4] == "Hadrian"){
+            int fish1 = 0;
+            for (; fish1 < pisces.length; fish1++){
+                String fish2 = pisces[fish1];
+                fish2 = fish2.toUpperCase();
+                System.out.println(fish2);
+                fish2 = fish2.toLowerCase();
+                System.out.println(fish2);
+            }
+            // prints string in uppercase and then string in lowercase to console
 
+        }
 
 
 
