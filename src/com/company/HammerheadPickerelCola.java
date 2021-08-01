@@ -500,6 +500,27 @@ public class HammerheadPickerelCola {
             System.out.println(trout1);
         }
 
+        if(robots.length == 4){
+            int s1 = 0;
+            while(s1 < samurai.length){
+                System.out.println(s1 + " " + samurai[s1]);
+                s1++;
+            }
+        }
+
+        if(samurai[6] == "The Wraith"){
+            for(int s1 = 0; s1 < samurai.length; s1++){
+                String wraith = samurai[s1];
+                wraith = wraith.replaceAll("\\s", "!!!");
+                // replacing white spaces with "!!!"
+                wraith = wraith.toUpperCase();
+                // making each string all upper case
+                System.out.println(wraith);
+
+            }
+
+        }
+
 
 
 
