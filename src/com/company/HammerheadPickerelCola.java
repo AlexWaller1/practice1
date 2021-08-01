@@ -454,7 +454,15 @@ public class HammerheadPickerelCola {
             String sum = hammerHead[0] + hammerHead[4];
             // another way to concatenate strings
             System.out.println(sum);
+            String scrapper = String.valueOf(sum);
+            StringBuilder laramie = new StringBuilder();
+            laramie.append(scrapper);
+            laramie = laramie.reverse();
+            System.out.println(laramie);
+
         }
+
+
 
 
 
