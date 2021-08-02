@@ -51,7 +51,7 @@ public class HammerheadPickerelCola {
         String[] bigHornCrew = {"Ace", "Columbus", "Marek", "Radek", "Axel"};
         String[] hammerHead = {"Hammerhead", "Taylor", "Geometry Man", "Harvey", "Wibaux", "The Cosmic Trout"};
         String[] pisces = {"Galahad", "Governal", "Berinon", "Forthwind", "Hadrian", "Aetius", "Urbicus"};
-        String[] petroleum = {"Thierry", "Laurent", "Antoine", "Hunzuu", "Gilgamesh"};
+        String[] ePetroleum = {"Thierry", "Laurent", "Antoine", "Hunzuu", "Gilgamesh"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
@@ -837,8 +837,57 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(bigHornCrew[0] == "Ace" && bigHornCrew[4] == "Axel"){
+            int reverse = 0;
 
+        }
 
+        System.out.println(ePetroleum[0]);
+
+        if(ePetroleum[0] == "Thierry"){
+            for(int ep2 = 0; ep2 < ePetroleum.length; ep2++){
+                System.out.println(ep2 + " " + ePetroleum[ep2]);
+            }
+        }
+
+        if(ePetroleum[4] == "Gilgamesh"){
+            int ep2 = troutNo[1], reverse = 0;
+            // reverse is an incremental variable
+            for(; ep2 != 0; ep2 = ep2 / 10){
+                int remainder = ep2 % 10;
+
+                reverse = reverse * 10 +remainder;
+            }
+            if(reverse % 2 == 0){
+                System.out.println(reverse + " is an even number.");
+            }
+            else
+                System.out.println(reverse + " is an odd number");
+        }
+
+        if(ePetroleum[1] == "Laurent"){
+            int ep1 = 4;
+            do{
+                System.out.println(ePetroleum[ep1] + " is an employee of Emirati Petroleum.");
+                ep1--;
+            }while(ep1 >= 0);
+        }
+
+        if(ePetroleum[2] == "Antoine"){
+            int ep1 = 4;
+            while(ep1 >= 0){
+                System.out.println(ePetroleum[ep1] + " is in Pisces Go Fish");
+                ep1--;
+            }
+        }
+
+        if(ePetroleum[3] == "Hunzuu"){
+            String thierry = ePetroleum[3] + " is Laurent's longtime friend from Paris";
+            System.out.println(thierry);
+            thierry = thierry.replaceAll( ePetroleum[3], ePetroleum[0]);
+            System.out.println(thierry);
+
+        }
 
 
         }
