@@ -778,6 +778,45 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            for(int mellon1 = 0; mellon1 < robots.length; mellon1++){
+                for(int ram1 = 3; ram1 >= 0; ram1--){
+                    System.out.println(mellon1 + " " + robots[mellon1] + " " + ram1 + " " + rams[ram1]);
+                }
+            }
+        }
+
+        System.out.println(pisces[0]);
+        System.out.println(pisces[1]);
+        System.out.println(pisces[4]);
+
+        if(pisces[4] == "Hadrian"){
+            int mellon1 = 0, ram1 = 3;
+            String robo = "", ram = "";
+            for(; mellon1 < robots.length; mellon1++){
+                 robo = mellon1 + " " + robots[mellon1];
+            }
+            for(; ram1 >= 0; ram1--){
+                 ram = ram1 + " " + rams[ram1];
+            }
+            System.out.println(robo + " " + ram);
+        }
+
+        if(pisces[0] == "Galahad"){
+            int fish1 = hybridNo[6], countSoFar = 0, pgf1 = 0;
+            String fish = String.valueOf(fish1);
+            for(; pgf1 < fish.length(); pgf1++){
+                // iterating through each character of the string
+                char currentChar = fish.charAt(pgf1);
+                // gathering up each character one by one
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back to string characters
+                countSoFar = countSoFar + Integer.parseInt(currentCharAsString);
+                // incremental variable   // changing string characters back to integers
+
+            }
+            System.out.println(countSoFar);
+        }
 
 
 
