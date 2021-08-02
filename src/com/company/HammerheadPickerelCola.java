@@ -745,7 +745,38 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(trees[0] == "Cornelius"){
+            int t1 = hybridNo[4], reverse = 0;
+            for(; t1 != 0; t1 = t1 / 10){
+                int remainder = t1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
 
+        if(rams[3] == "Stacey"){
+            String hybrid = hybridString[0];
+            int countSoFar = 1;
+            // incremental variable
+            for(int h1 = 0; h1 < hybrid.length(); h1++){
+                // iterate through each character of the string
+                char currentChar = hybrid.charAt(h1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back to a string character
+                countSoFar = countSoFar * Integer.parseInt(currentCharAsString);
+                // incrementing and converting the strings to integers
+            }
+            System.out.println(countSoFar);
+        }
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            for(int LSW = 0; LSW < samurai.length; LSW++){
+                String loneWolf = samurai[LSW];
+                loneWolf = loneWolf.replaceAll("a", "!");
+                System.out.println(loneWolf);
+            }
+        }
 
 
 
