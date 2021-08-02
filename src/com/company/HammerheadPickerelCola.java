@@ -828,6 +828,15 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(samurai[1] == "Kenji the Crane"){
+            int KTC1 = 0;
+            String crane = "";
+            for (; KTC1 < samurai.length; KTC1++){
+                crane = samurai[KTC1].replaceAll("e", "@@@");
+                System.out.println(crane);
+            }
+        }
+
 
 
 
