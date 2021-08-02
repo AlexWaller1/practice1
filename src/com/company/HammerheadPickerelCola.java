@@ -818,7 +818,15 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar);
         }
 
-
+        if(samurai[7] == "Wushu Lizard"){
+            for(int WL = 0; WL < troutNo.length; WL++){
+                if (troutNo[WL] % Math.sqrt(troutNo[WL]) == 0){
+                    System.out.println(troutNo[WL] + " has a square root that is a whole number");
+                }
+                else
+                    System.out.println(troutNo[WL] + " has a square root that is not a whole number");
+            }
+        }
 
 
 
