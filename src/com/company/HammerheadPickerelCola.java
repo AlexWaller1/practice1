@@ -664,6 +664,61 @@ public class HammerheadPickerelCola {
             System.out.println("The difference of the digits is " + difference);
         }
 
+        if(pisces[0] == "Galahad" && pisces[4] == "Hadrian"){
+            String hadal = pisces[0] + " was once a general in the Hadal Empire.";
+            System.out.println(hadal);
+            hadal = hadal.replaceAll("\\s", "[#}");
+            System.out.println(hadal);
+            System.out.println(hadal.toUpperCase());
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            int pgf1 = hybridNo[5], reverse = 0;
+            // reverse is an incremental variable
+            for(; pgf1 != 0; pgf1 = pgf1 / 10){
+               int remainder = pgf1 % 10;
+               reverse = reverse * 10 +remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(samurai[8] == "Citrine Dragons"){
+            String wushu = String.valueOf(hybridNo[5]);
+            int countSoFar = 1;
+            // converting integer to string
+            int W_L = 0;
+            for(; W_L < wushu.length(); W_L++){
+                // iterating through each character of string
+                char currentChar = wushu.charAt(W_L);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back to a string
+                countSoFar = countSoFar * Integer.parseInt(currentCharAsString);
+
+            }
+            System.out.println(countSoFar);
+        }
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            int LSW = 0;
+            for(; LSW < hybridNo.length; LSW++){
+                System.out.println( LSW + " " + hybridNo[LSW]);
+            }
+        }
+
+        if(samurai[0] == "Lone Wolf Samurai" && samurai[7] == "Wushu Lizard"){
+            int targetKick = 35;
+            for(int LSW = 0; LSW < hybridNo.length; LSW++){
+                for(int WL = LSW + 1; WL < hybridNo.length; WL++){
+                    if(hybridNo[WL] - hybridNo[LSW] == targetKick ){
+                        System.out.println(hybridNo[WL] + " - " + hybridNo[LSW] + " = " + targetKick);
+                    }
+                }
+            }
+        }
+
+
+
 
 
 
