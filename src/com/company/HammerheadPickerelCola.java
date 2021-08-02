@@ -717,6 +717,36 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(pisces[1] == "Governal"){
+            int bullsEyePunch = 2411;
+            for(int LSW = 0; LSW < hybridNo.length; LSW++){
+                for (int WL = LSW + 1; WL < hybridNo.length; WL++){
+                    if(hybridNo[LSW] + hybridNo[WL] == bullsEyePunch){
+                        System.out.println(hybridNo[LSW] + " + " + hybridNo[WL] + " = " + bullsEyePunch);
+                    }
+                }
+            }
+        }
+
+        if(robots[0] == "Hank-44"){
+            int r1 = 3;
+            do{
+                System.out.println(robots[r1] + " is an awesome robot!");
+                r1--;
+            }while(r1 >= 0);
+        }
+
+        if(robots.length == 4){
+            int r1 = 3;
+            for(; r1 >=0; r1--){
+                if (r1 == 3){
+                    System.out.println(robots[r1] + " can fix any telecaster!!!");
+                }
+            }
+        }
+
+
+
 
 
 
