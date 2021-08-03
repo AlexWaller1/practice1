@@ -57,6 +57,7 @@ public class HammerheadPickerelCola {
         int[] treeNo = {2, 4, 6, 9, 12};
         int[] troutNo = {37, 36, 121, 144};
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
+        String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
 
         int result = practiceObject.addDigits(hybridNo[7]);
         System.out.println(result);
@@ -935,6 +936,29 @@ public class HammerheadPickerelCola {
         }
 
         System.out.println(9 % 10);
+        System.out.println(ePetroleum.length);
+
+        if(ePetroleum[2] == "Antoine"){
+            int pgf1 = 4;
+            while(pgf1 >= 0){
+                System.out.println(ePetroleum[pgf1] + " works for Emirati Petroleum.");
+                pgf1--;
+            }
+
+        }
+
+        if(ePetroleum[0] == "Thierry" && ePetroleum[1] == "Laurent"){
+            int ep1 = 0;
+            for(; ep1 < ePetroleum.length; ep1++){
+                if(ep1 == 0){
+                    System.out.println(ePetroleum[ep1] + " is an Oryx");
+                }
+            }
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+
+        }
 
 
         }
