@@ -1030,6 +1030,70 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(hammerHead[3] == "Harvey"){
+            String trout1 = trout[1];
+
+            int t3 = 0, t4 = trout1.length() - 1;
+            // t3 is indexed at the first character of the string
+            // t4 is indexed at the last character of the string
+            String fish1 = "";
+            // setting this to empty string so it can be called outside of while loop
+            // where it will be used and redefined
+            while(t3 < t4){
+                // until the two variable meet at the same index and are equal
+                if(trout1.charAt(t3) != trout1.charAt(t4)){
+                    // if the two characters are at any point not equal...
+                    // then the word is not a palindrome
+                    fish1 = trout1 + " is not a palindrome.";
+
+                    t3++;
+                    // t3 increments forward to center of string
+                    t4--;
+                    // t4 increments backward to center of string
+                }
+                else
+                    fish1 = trout1 + " is a palindrome";
+                    t3++;
+                    // t3 increments forward to center of string
+                    t4--;
+                    // t4 increments backward to center of string
+            }
+            System.out.println(fish1);
+        }
+
+        if(ePetroleum[0] != "Gilgamesh"){
+            String trout1 = troutString[2];
+            // assigning the string to be used
+
+            int t3 = 0, t4 = trout1.length() - 1;
+            // t3 indexed at beginning of string
+            // t4 indexed at end of string
+
+            String oryx = "";
+            // instantiating variable here so that its scope can be outside of while loop
+
+            while(t3 < t4){
+                // while t3 is incrementing towards t4
+                // while t4 is incrementing towards t3
+                if(trout1.charAt(t3) != trout1.charAt(t4)){
+                    // if t3 and t4 are any point have different values
+                    oryx = trout1 + " is not a palindrome";
+
+                    t3++;
+                    // t3 moves forward to middle of string
+                    t4--;
+                    // t4 moves backward to middle of string
+                }
+                else
+                    oryx = trout1 + " is a palindrome.";
+                    t3++;
+                    // t3 moves forward to middle of string
+                    t4--;
+                    // t4 moves back toward middle of string
+            }
+            System.out.println(oryx);
+        }
+
 
         }
     }
