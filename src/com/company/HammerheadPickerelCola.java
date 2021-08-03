@@ -984,6 +984,52 @@ public class HammerheadPickerelCola {
             System.out.println(fish1);
         }
 
+        if(hammerHead[4] == "Wibaux"){
+            String cola = String.valueOf(hybridNo[7]);
+            // converting integer to a string
+            int sum = 0, product = 1, difference = 0, quotient = 1, remainder = 0;
+            for(int h1 = 0; h1 < cola.length(); h1++){
+                // iterating through each character of the string
+                char currentChar = cola.charAt(h1);
+                // gathering up each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                int h2 = Integer.parseInt(currentCharAsString);
+                sum = sum + h2;
+                difference = h2 - difference;
+                product = product * h2;
+                quotient = h2 / quotient;
+                remainder = h2 % 10;
+            }
+            System.out.println(sum);
+            System.out.println(product);
+            System.out.println(difference);
+            System.out.println(quotient);
+            System.out.println(remainder);
+        }
+
+        System.out.println(hammerHead[2]);
+
+        if(hammerHead[2] == "Geometry Man"){
+            // function to reverse a number
+            int h1 = hybridNo[6], reverse = 0;
+            // assigning variable // incremental variable
+            for(; h1 != 0; h1 = h1 / 10){
+
+                int remainder = h1 % 10;
+
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(samurai[7] == "Wushu Lizard" && hammerHead[0] == "Hammerhead"){
+            for(int h1 = 0; h1 < hammerHead.length; h1++){
+                String pickerel = hammerHead[h1] + " is in Pisces Go Fish 4.";
+                pickerel = pickerel.replaceAll("\\s", "#@!*");
+                System.out.println(pickerel);
+            }
+        }
+
 
         }
     }
