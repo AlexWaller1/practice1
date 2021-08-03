@@ -38,7 +38,7 @@ public class HammerheadPickerelCola {
         double ramHybridNo = 4;
         double treeHybridNo = 5;
         double troutHybridNo = 2;
-        double robotNo = 4;
+        int robotNo = 4;
         double dachshundNo = 5;
 
         String[] rams = {"Tony", "Otto", "Jay", "Stacey"};
@@ -888,6 +888,53 @@ public class HammerheadPickerelCola {
             System.out.println(thierry);
 
         }
+
+        // prime number is a number only divisible by 1 and itself
+        // 3 is an example of a prime number
+
+        if(ePetroleum[2] == "Antoine"){
+            int ep1 = hybridNo[4], reverse = 0;
+                                  // incremental variable
+            for(; ep1 != 0; ep1 = ep1 / 10){
+                int remainder = ep1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        System.out.println(pisces.length);
+
+        if(pisces.length == 7){
+            for(int ep1 = 0; ep1 < pisces.length; ep1++){
+                String fish = pisces[ep1] + " is battling in the Hadal Empire.";
+                fish = fish.replaceAll("\\s", "###");
+                System.out.println(fish);
+            }
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            String robot = String.valueOf(robotNo);
+            int r1 = 0, sum = 0, difference = 0, product = 1, quotient = 1, remainder = 0;
+            // variable for For loop  // incremental variable
+            for(; r1 < robot.length(); r1++){
+                // iterating through each character in the string
+                char currentChar = robot.charAt(r1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character ack into strings
+                sum = sum + Integer.parseInt(currentCharAsString);
+                difference = Integer.parseInt(currentCharAsString) - difference;
+                product = product * Integer.parseInt(currentCharAsString);
+                quotient = Integer.parseInt(currentCharAsString) / quotient;
+                remainder = Integer.parseInt(currentCharAsString) % 10;
+            }
+            System.out.println(sum + difference + product + quotient + remainder);
+
+            // will add these all together for output
+            System.out.println(remainder);
+        }
+
+        System.out.println(9 % 10);
 
 
         }
