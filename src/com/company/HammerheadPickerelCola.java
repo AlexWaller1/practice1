@@ -957,7 +957,31 @@ public class HammerheadPickerelCola {
         }
 
         if(samurai[1] == "Kenji the Crane"){
+            String trout1 = troutString[0];
 
+            // Pointers pointing to the beginning
+            // and the end of the string
+            int t3 = 0, t4 = trout1.length() - 1;
+
+            String fish1 = "";
+
+            // While there are characters to compare
+            while(t3 < t4){
+
+                // If there is a mismatch
+                if(trout1.charAt(t3) != trout1.charAt(t4)){
+                   fish1 = trout1 + " is not a palindrome.";
+
+                    // Increment first pointer and decrement the other
+                    t3++;
+                    t4--;
+                }
+                else
+                   fish1 = trout1 + " is a palindrome";
+                    t3++;
+                    t4--;
+            }
+            System.out.println(fish1);
         }
 
 
