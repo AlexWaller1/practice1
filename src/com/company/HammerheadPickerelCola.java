@@ -1333,6 +1333,55 @@ public class HammerheadPickerelCola {
             System.out.println(cola);
         }
 
+        System.out.println(hammerHead[4]);
+
+        if(hammerHead[4] == "Wibaux"){
+            int h1 = 5;
+            for(; h1 >= 0; h1--){
+                String pickerel = hammerHead[h1];
+                pickerel = pickerel.replaceAll("\\s", "%@%@%");
+                System.out.println(pickerel);
+            }
+        }
+
+        if(hammerHead[5] == "The Cosmic Trout"){
+            int bh1 = hybridNo[6], reverse = 0;
+            for(; bh1 != 0; bh1 = bh1 /10){
+                int remainder = bh1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(samurai[3] == "Glynis"){
+            String merganser = "";
+            for(int bh1 = 0; bh1 < troutString.length; bh1++){
+                // iterating through every index of the troutString array
+                String mallard1 = troutString[bh1];
+                // mallard1 equals every string of the troutString array
+                int duck1 = 0;
+                // duck1 is the first index of the string
+                int duck2 = mallard1.length() - 1;
+                // duck2 is the last index of the string
+                for(; duck1 < duck2; duck1++, duck2--){
+                    // until the duck1 and duck2 meet in the middle...
+                    // duck1 will increase
+                    // and duck2 will decrease
+                    if(mallard1.charAt(duck1++) != mallard1.charAt(duck2--)){
+                        // important to put ++ and -- or else just the first and last character
+                        // of the string will be tested, so a word like dachshund, which has d for the first
+                        // and last characters of the word, will evaluate to a palindrome when
+                        // the word is not a palindrome
+                        merganser = mallard1 + " is not a palindrome.";
+                    }
+                    else
+                        merganser = mallard1 + " is a palindrome.";
+                }
+                System.out.println(merganser);
+            }
+
+        }
+
         }
     }
 
