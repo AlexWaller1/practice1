@@ -1167,6 +1167,22 @@ public class HammerheadPickerelCola {
         }
         // finding product of a numbers digits with a while loop
 
+        System.out.println(troutNo.length);
+
+        if(bigHornCrew.length != 9){
+            String bigHorn = String.valueOf(troutNo[1]);
+            int product = 1;
+            int bh1 = 0;
+            do{
+                char currentChar = bigHorn.charAt(bh1);
+                String currentCharAsString = String.valueOf(currentChar);
+                product = product * Integer.parseInt(currentCharAsString);
+                bh1++;
+            }while(bh1 < bigHorn.length());
+            System.out.println(product);
+        }
+        // finding product of number's digits with a do while loop
+
         }
     }
 
