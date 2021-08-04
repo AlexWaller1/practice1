@@ -1231,7 +1231,10 @@ public class HammerheadPickerelCola {
             }
 
         }
-        // currently does not work, is not correctly checking the strings
+        // now it actually works, remember when comparing the two spots on the string that we need .charAt() method
+        // appended to the string variable name. before the variables were just being used. Since 0 is obviously
+        // not equal to the index spot of the last spot of the string, then even strings that are palindromes
+        // would not evaluate to palindromes since the string itself wasn't actually being tested
 
         }
     }
