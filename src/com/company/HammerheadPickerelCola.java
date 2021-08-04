@@ -1153,6 +1153,20 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
+        if(bigHornCrew[4] == "Axel"){
+            String bigHorn = String.valueOf(troutNo[3]);
+            int product = 1;
+            int bh1 = 0;
+            while(bh1 < bigHorn.length()){
+                char currentChar = bigHorn.charAt(bh1);
+                String currentCharAsString = String.valueOf(currentChar);
+                product = product * Integer.parseInt(currentCharAsString);
+                bh1++;
+            }
+            System.out.println(product);
+        }
+        // finding product of a numbers digits with a while loop
+
         }
     }
 
