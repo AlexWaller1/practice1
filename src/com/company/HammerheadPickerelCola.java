@@ -1130,6 +1130,29 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            int r1 = 0;
+            while(r1 < robots.length){
+                System.out.println(r1 + " " + robots[r1]);
+                r1++;
+            }
+        }
+
+        if (bigHornCrew[0] == "Ace"){
+            String river = String.valueOf(troutNo[2]);
+            int product = 1;
+            // incremental variable
+            for(int bh1 = 0; bh1 < river.length(); bh1++){
+                // iterating through each character of the string
+                char currentChar = river.charAt(bh1);
+                // gathering each character one at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting the characters back into string characters
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(product);
+        }
+
         }
     }
 
