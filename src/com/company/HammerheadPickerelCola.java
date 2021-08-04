@@ -1193,7 +1193,7 @@ public class HammerheadPickerelCola {
             int bov2 = wraith.length() - 1;
 
             while(bov1 < bov2){
-                if(bov1 != bov2){
+                if(wraith.charAt(bov1) != wraith.charAt(bov2)){
                     bovine1 = wraith + " is not a palindrome";
                     bov1++;
                     bov2--;
@@ -1206,6 +1206,32 @@ public class HammerheadPickerelCola {
             System.out.println(bovine1);
         }
         // function will output "Ace is not a palindrome
+
+        if(robots[3] == "Eggplant-Head" && hammerHead[5] == "The Cosmic Trout"){
+            String ace = "";
+
+            for(int a1 = 0; a1 < troutString.length; a1++){
+                String trout2 = troutString[a1];
+                int t2 = 0;
+                int t3 = trout2.length() - 1;
+
+                for(; t2 < t3; t2++, t3--){
+                    if (trout2.charAt(t2) != trout2.charAt(t3)){
+                        ace = trout2 + " is not a palindrome.";
+
+
+                    }
+                    else
+                        ace = trout2 + " is a palindrome.";
+
+
+                }
+                System.out.println(ace);
+
+            }
+
+        }
+        // currently does not work, is not correctly checking the strings
 
         }
     }
