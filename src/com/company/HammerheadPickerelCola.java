@@ -1284,6 +1284,23 @@ public class HammerheadPickerelCola {
             // fixed it!!!! needed to add ++ and -- in if statement
         }
 
+        if(robots.length == 9 || robots[3] == "Eggplant-head"){
+            String robo = "";
+            for(int r1 = 0; r1 < troutString.length; r1++){
+                String robo1 = troutString[r1];
+                int r2 = 0;
+                int r3 = robo1.length() - 1;
+                for(; r2 < r3; r2++, r3--){
+                    if(robo1.charAt(r2++) != robo1.charAt(r3--)){
+                        robo = robo1 + " is not a palindrome.";
+                    }
+                    else
+                        robo = robo1 + " is a palindrome.";
+                }
+                System.out.println(robo);
+            }
+        }
+
         }
     }
 
