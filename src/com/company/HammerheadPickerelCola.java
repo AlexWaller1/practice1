@@ -1235,6 +1235,53 @@ public class HammerheadPickerelCola {
         // appended to the string variable name. before the variables were just being used. Since 0 is obviously
         // not equal to the index spot of the last spot of the string, then even strings that are palindromes
         // would not evaluate to palindromes since the string itself wasn't actually being tested
+        // scratch that, dachshund is evaluating to a palindrome, it appear that the algorithm is only evaluating the
+        // first and last letter of the string
+
+        if(bigHornCrew[0] == "Ace"){
+            String mallard = "";
+            for(int bh1 = 0; bh1 < troutString.length; bh1++){
+                String crane = troutString[bh1];
+                int bh2 = 0;
+                // index for beginning of string
+                int bh3 = crane.length() - 1;
+                // index for end of string
+                for(; bh2 < bh3; bh2++, bh3--){
+                    if(crane.charAt(bh2) != crane.charAt(bh3)){
+                        mallard = crane + " is not a palindrome";
+                    }
+                    else
+                        mallard = crane + " is a palindrome";
+                }
+                System.out.println(mallard);
+            }
+            // for some reason dachshund is evaluating to a
+
+        }
+
+        if(dachshunds[4] == "Star"){
+            String otter = "";
+            for(int bh1 = 0; bh1 < troutString.length; bh1++){
+                String mallard = troutString[bh1];
+                int bh2 = 0;
+                // bh2 will start at first index of string
+                int bh3 = mallard.length() - 1;
+                // bh3 will start at last index of string
+                while(bh2 < bh3){
+                    if(mallard.charAt(bh2) != mallard.charAt(bh3)){
+                        otter = mallard + " is not a palindrome";
+                        bh2++;
+                        bh3--;
+                    }
+                    else
+                        otter = mallard + " is a palinndrome";
+                        bh2++;
+                        bh3--;
+                }
+                System.out.println(otter);
+            }
+            // same problems here, dachshund is evaluating to a palindrome
+        }
 
         }
     }
