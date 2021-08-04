@@ -1247,7 +1247,7 @@ public class HammerheadPickerelCola {
                 int bh3 = crane.length() - 1;
                 // index for end of string
                 for(; bh2 < bh3; bh2++, bh3--){
-                    if(crane.charAt(bh2) != crane.charAt(bh3)){
+                    if(crane.charAt(bh2++) != crane.charAt(bh3--)){
                         mallard = crane + " is not a palindrome";
                     }
                     else
@@ -1268,7 +1268,7 @@ public class HammerheadPickerelCola {
                 int bh3 = mallard.length() - 1;
                 // bh3 will start at last index of string
                 while(bh2 < bh3){
-                    if(mallard.charAt(bh2) != mallard.charAt(bh3)){
+                    if(mallard.charAt(bh2++) != mallard.charAt(bh3--)){
                         otter = mallard + " is not a palindrome";
                         bh2++;
                         bh3--;
@@ -1281,6 +1281,7 @@ public class HammerheadPickerelCola {
                 System.out.println(otter);
             }
             // same problems here, dachshund is evaluating to a palindrome
+            // fixed it!!!! needed to add ++ and -- in if statement
         }
 
         }
