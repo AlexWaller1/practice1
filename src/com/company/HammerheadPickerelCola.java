@@ -1307,6 +1307,32 @@ public class HammerheadPickerelCola {
         // this worked out, dachshund did not evaluate to a palindrome so we know the entire string,
         // not just the first and last character of the string
 
+        if(bigHornCrew[0] == "Ace"){
+            String blackLab = String.valueOf(hybridNo[7]);
+            int sum = 0, product = 1;
+            // incremental variables
+            for(int bh1 = 0; bh1 < blackLab.length(); bh1++){
+                // iterating through each character of the string
+                char currentChar = blackLab.charAt(bh1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back to a string
+                sum = sum + Integer.parseInt(currentCharAsString);
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(sum);
+            System.out.println(product);
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            StringBuilder cola = new StringBuilder();
+            cola.append(hammerHead[0] + " has an awesome jacket!");
+            cola = cola.reverse();
+            System.out.println(cola);
+            cola = cola.reverse();
+            System.out.println(cola);
+        }
+
         }
     }
 
