@@ -1183,6 +1183,30 @@ public class HammerheadPickerelCola {
         }
         // finding product of number's digits with a do while loop
 
+        System.out.println(samurai[6]);
+
+        if(samurai[6] == "The Wraith"){
+            String wraith = bigHornCrew[0];
+            String bovine1 = "";
+
+            int bov1 = 0;
+            int bov2 = wraith.length() - 1;
+
+            while(bov1 < bov2){
+                if(bov1 != bov2){
+                    bovine1 = wraith + " is not a palindrome";
+                    bov1++;
+                    bov2--;
+                }
+                else
+                    bovine1 = wraith + " is not a palindrome";
+                    bov1++;
+                    bov2--;
+            }
+            System.out.println(bovine1);
+        }
+        // function will output "Ace is not a palindrome
+
         }
     }
 
