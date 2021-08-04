@@ -1289,9 +1289,13 @@ public class HammerheadPickerelCola {
             for(int r1 = 0; r1 < troutString.length; r1++){
                 String robo1 = troutString[r1];
                 int r2 = 0;
+                // r2 starts at first index of string
                 int r3 = robo1.length() - 1;
+                // r3 starts at last index of string
                 for(; r2 < r3; r2++, r3--){
                     if(robo1.charAt(r2++) != robo1.charAt(r3--)){
+                        // the ++ and the -- are the key to having the entire
+                        // string tested. otherwise just the first and last character get tested
                         robo = robo1 + " is not a palindrome.";
                     }
                     else
@@ -1300,6 +1304,8 @@ public class HammerheadPickerelCola {
                 System.out.println(robo);
             }
         }
+        // this worked out, dachshund did not evaluate to a palindrome so we know the entire string,
+        // not just the first and last character of the string
 
         }
     }
