@@ -1094,6 +1094,41 @@ public class HammerheadPickerelCola {
             System.out.println(oryx);
         }
 
+        if(bigHornCrew[0] == "Ace"){
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                System.out.println("Hi, " + bigHornCrew[bh1] + ", isn't it a great day on the Bighorn!");
+            }
+        }
+
+        if(bigHornCrew[1] == "Columbus"){
+            StringBuilder columbus = new StringBuilder();
+            columbus.append(bigHornCrew[1] + " is going to Nebraska for the Great Crane Migration.");
+            columbus = columbus.reverse();
+            System.out.println(columbus);
+            columbus = columbus.reverse();
+            System.out.println(columbus);
+        }
+
+        if(bigHornCrew[4] == "Axel"){
+            int h1 = hybridNo[5], reverse = 0;
+            // assigning integer to variable // incremental variable
+            for(; h1 != 0; h1 = h1 / 10){
+                int remainder = h1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(robots[1] == "Warren-21"){
+            int r1 = 0;
+            for(; r1 < treeNo.length; r1++){
+                if(treeNo[r1] % Math.sqrt(treeNo[r1]) == 0){
+                    System.out.println(treeNo[r1] + " has a whole number square root.");
+                }
+                else
+                    System.out.println(treeNo[r1] + " does not have a whole number square root.");
+            }
+        }
 
         }
     }
