@@ -1580,6 +1580,25 @@ public class HammerheadPickerelCola {
 
         }
 
+        if(hammerHead[2] == "Geometry Man"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                System.out.println(hammerHead[hh1] + " is from the far far reaches of space.");
+            }
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                if (hh1 == 3 || hh1 == 4){
+                    System.out.println(hammerHead[hh1] + " is from Hardin-37.");
+                }
+                else if(hh1 == 0 || hh1 == 1){
+                    System.out.println(hammerHead[hh1] + " are delivering Pickerel Cola to the far reaches of space.");
+                }
+                else
+                    System.out.println(hammerHead[hh1] + " is a Cosmic Entity.");
+            }
+        }
+
 
         }
     }
