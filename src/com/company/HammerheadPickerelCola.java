@@ -1680,6 +1680,19 @@ public class HammerheadPickerelCola {
             System.out.println(bigHorn);
         }
 
+        System.out.println(ePetroleum[3]);
+        // Hunzuu!!!
+
+        if(ePetroleum[3] == "Hunzuu"){
+            String hunzuu = ePetroleum[3] + " is a snake with a robo-suit";
+            System.out.println(hunzuu);
+            hunzuu = hunzuu.replaceAll("\\s", "!!");
+            System.out.println(hunzuu);
+            StringBuilder snake = new StringBuilder();
+            snake = snake.append(hunzuu + ". He works for Gilgamesh.");
+            System.out.println(snake);
+        }
+
 
         }
     }
