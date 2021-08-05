@@ -1458,6 +1458,22 @@ public class HammerheadPickerelCola {
             // this works!!! will output name of pisces character and the amount of letters in their name
         }
 
+        if(hammerHead[5] == "The Cosmic Trout"){
+            String minName = "";
+            int min = hammerHead[0].length();
+            // setting first element in the array as the minimum element
+            // since it will be the first element iterated through
+            for(int h1 = 0; h1 < hammerHead.length; h1++){
+                if(hammerHead[h1].length() < min){
+                    min = hammerHead[h1].length();
+                    minName = hammerHead[h1];
+                }
+            }
+            System.out.println(minName + " has " + min + " characters in their name.");
+            // printed "Taylor has 6 characters in their name
+            // Harvey could have also been printed but Taylor came first
+        }
+
 
         }
     }
