@@ -1639,6 +1639,38 @@ public class HammerheadPickerelCola {
 
         }
 
+        System.out.println(ePetroleum[4]);
+
+        if(ePetroleum[4] == "Gilgamesh"){
+            int max = ePetroleum[0].length();
+            String maxName = "";
+            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
+                if(ePetroleum[ep1].length() > max){
+                    max = ePetroleum[ep1].length();
+                    maxName = ePetroleum[ep1];
+                }
+            }
+            System.out.println(maxName + " has " + max + " characters in his name");
+        }
+
+        if(samurai[3] == "Glynis"){
+            String yokohama = hybridString[1];
+            int product = 1;
+            // incremental variable
+            for(int bh1 = 0; bh1 < yokohama.length(); bh1++){
+                // iterating through each character of the string
+                char currentChar = yokohama.charAt(bh1);
+                // gathering up the characters 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting character to a string 1 by 1
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(product);
+        }
+
+        System.out.println(samurai[1].charAt(0));
+        // will return K
+
 
         }
     }
