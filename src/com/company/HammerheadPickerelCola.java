@@ -1615,6 +1615,30 @@ public class HammerheadPickerelCola {
             System.out.println(laurent1);
         }
 
+        if(ePetroleum[2] == "Antoine"){
+            String oryx = "";
+            for(int bh1 = 0; bh1 < samurai.length; bh1++){
+                String kenji = samurai[bh1];
+                // kenji equals all the strings of the samurai array
+                int zeno = 0;
+                // first index of string
+                int samos = kenji.length() - 1;
+                // last index of string
+                for(; zeno < samos; zeno++, samos--){
+                    // for loop runs until zeno and samos will meet at the same index
+                    if(kenji.charAt(zeno++) != kenji.charAt(samos--)){
+                        // if the two indexes are not the same letter at any point
+                        // the string will evaluate to not a palindrome
+                      oryx = kenji + " is not a palindrome";
+                    }
+                    else
+                        oryx = kenji + " is a palindrome";
+                }
+                System.out.println(oryx);
+            }
+
+        }
+
 
         }
     }
