@@ -1464,7 +1464,7 @@ public class HammerheadPickerelCola {
             // setting first element in the array as the minimum element
             // since it will be the first element iterated through
             for(int h1 = 0; h1 < hammerHead.length; h1++){
-                if(hammerHead[h1].length() < min){
+                if(hammerHead[h1].length() <= min){
                     min = hammerHead[h1].length();
                     minName = hammerHead[h1];
                 }
@@ -1472,6 +1472,9 @@ public class HammerheadPickerelCola {
             System.out.println(minName + " has " + min + " characters in their name.");
             // printed "Taylor has 6 characters in their name
             // Harvey could have also been printed but Taylor came first
+            // Same deal with Wibaux
+            // if we use <= instead of <, the last element matching the condtion in the array will
+            // print to console instead of the first
         }
 
 
