@@ -1421,6 +1421,13 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(samurai[7] == "Wushu Lizard"){
+            int lws1 = hammerHead[0].length();
+            // lws1 equals the amount of characters in "Hammerhead"
+            System.out.println(lws1);
+        }
+
+
         }
     }
 
