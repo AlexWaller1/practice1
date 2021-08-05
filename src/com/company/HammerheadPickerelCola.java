@@ -1382,6 +1382,45 @@ public class HammerheadPickerelCola {
 
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            String telecaster = String.valueOf(troutNo[2]);
+            // converting integer to string
+            int sum = 0, product = 1;
+            // incremental variables
+            for(int bh1 = 0; bh1 < telecaster.length(); bh1++){
+                // iterating through each character of the converted string
+                char currentChar = telecaster.charAt(bh1);
+                // gathering each character one by one
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character to string one by one
+                sum = sum + Integer.parseInt(currentCharAsString);
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(sum);
+            System.out.println(product);
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            String pickerel = "";
+            for(int hh1 = 0; hh1 < rams.length; hh1++){
+                String ramHybrid = rams[hh1].toLowerCase();
+                // had to use toLowerCase() method since the same letter in different cases
+                // will not evaluate as same letter in program
+                int ram1 = 0;
+                // first index of string
+                int ram2 = ramHybrid.length() - 1;
+                // last index of string
+                for(; ram1 < ram2; ram1++, ram2--){
+                    if(ramHybrid.charAt(ram1++) != ramHybrid.charAt(ram2--)){
+                        pickerel = ramHybrid + " is not a palindrome.";
+                    }
+                    else
+                        pickerel = ramHybrid + " is a palindrome";
+                }
+                System.out.println(pickerel);
+            }
+        }
+
         }
     }
 
