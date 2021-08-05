@@ -1671,6 +1671,15 @@ public class HammerheadPickerelCola {
         System.out.println(samurai[1].charAt(0));
         // will return K
 
+        if(bigHornCrew[0] == "Ace"){
+            String ace = bigHornCrew[0] + " rules the Bighorn!";
+            System.out.println(ace);
+            StringBuilder bigHorn = new StringBuilder();
+            bigHorn.append(ace);
+            bigHorn = bigHorn.reverse();
+            System.out.println(bigHorn);
+        }
+
 
         }
     }
