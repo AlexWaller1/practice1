@@ -1524,6 +1524,61 @@ public class HammerheadPickerelCola {
             System.out.println(avg);
         }
         // This works!!!
+        System.out.println(hybridString[1]);
+        System.out.println(Integer.parseInt(hybridString[1]));
+
+        if(samurai[2] == "Laramie"){
+            int bh1 = Integer.parseInt(hybridString[1]), reverse = 0;
+            // converting string to integer             // incremental variable
+            for(; bh1 != 0; bh1 = bh1 / 10){
+                int remainder = bh1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(samurai[3] == "Glynis"){
+            String telecaster = String.valueOf(hybridNo[3]);
+            // converting Integer to String
+            int product = 1;
+            // incremental variable
+            for(int bh1 = 0; bh1 < telecaster.length(); bh1++){
+                // iterating through each character of the string
+                char currentChar = telecaster.charAt(bh1);
+                // gathering each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back to a string
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(product);
+        }
+        System.out.println(hybridNo[3]);
+        System.out.println(hammerHead[3]);
+
+        if(hammerHead[3] == "Harvey"){
+            String hardin = "";
+            for(int bh1 = 0; bh1 < hybridString.length; bh1++){
+                String stX = hybridString[bh1];
+                // gathering up all the string elements in this variable
+                int river = 0;
+                // first index of string
+                int landing = stX.length() - 1;
+                // last index of string
+                for(; river < landing; river++, landing--){
+                    // while river is less than landing on the string index...
+                    // river increases by one and landing decreases by one
+                    if(stX.charAt(river++) != stX.charAt(landing--)){
+                        // stX.charAt(river++) starts at beginning of string and moves forward by 1
+                        // stX.charAt(landing--) starts at of string and moves backward by 1
+                        hardin = stX + " is not a palindrome";
+                    }
+                    else
+                        hardin = stX + " is a palindrome";
+                }
+                System.out.println(hardin);
+            }
+
+        }
 
 
         }
