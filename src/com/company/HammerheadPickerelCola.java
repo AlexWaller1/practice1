@@ -1442,6 +1442,22 @@ public class HammerheadPickerelCola {
             System.out.println(max);
         }
 
+        if(hammerHead[4] == "Wibaux"){
+            String maxName = "";
+            int max = pisces[0].length();
+            // setting first element in the array as the max
+            // since it will be the first element iterated through
+            for(int h1 = 0; h1 < pisces.length; h1++){
+                if(pisces[h1].length() > max){
+                   max = pisces[h1].length();
+                   maxName = pisces[h1];
+                }
+
+            }
+            System.out.println(maxName + " has " + max + " letters in his name.");
+            // this works!!! will output name of pisces character and the amount of letters in their name
+        }
+
 
         }
     }
