@@ -1484,6 +1484,14 @@ public class HammerheadPickerelCola {
             // console prints "Laramie*is*a*super*fun*guy!
         }
 
+        if(samurai[3] == "Glynis"){
+            StringBuilder glynis = new StringBuilder();
+            glynis.append(samurai[3] + " is a green dog from the far reaches of space!");
+            System.out.println(glynis);
+            glynis = glynis.reverse();
+            System.out.println(glynis);
+        }
+
 
         }
     }
