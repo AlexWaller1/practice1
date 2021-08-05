@@ -1473,8 +1473,15 @@ public class HammerheadPickerelCola {
             // printed "Taylor has 6 characters in their name
             // Harvey could have also been printed but Taylor came first
             // Same deal with Wibaux
-            // if we use <= instead of <, the last element matching the condtion in the array will
+            // if we use <= instead of <, the last element matching the condition in the array will
             // print to console instead of the first
+        }
+
+        if(samurai[2] == "Laramie"){
+            String robot = samurai[2] + " is a super fun guy!";
+            robot = robot.replaceAll("\\s", "*");
+            System.out.println(robot);
+            // console prints "Laramie*is*a*super*fun*guy!
         }
 
 
