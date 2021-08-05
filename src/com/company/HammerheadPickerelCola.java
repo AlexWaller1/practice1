@@ -1492,6 +1492,39 @@ public class HammerheadPickerelCola {
             System.out.println(glynis);
         }
 
+        System.out.println(samurai[3].length());
+        System.out.println(samurai[3] + " " + samurai[3].length());
+
+        if(dachshunds[0] == "Beezer" && dachshunds[1] == "Chipper"){
+            int max = Integer.parseInt(hybridString[0]);
+            // converting the first elements of the String array to an integer
+            // since we will iterate through each array element to find the greatest number
+            // we will set the max to the first array element
+            for(int bh1 = 0; bh1 < hybridString.length; bh1++){
+                if(Integer.parseInt(hybridString[bh1]) > max){
+                    max = Integer.parseInt(hybridString[bh1]);
+                }
+            }
+            System.out.println(max);
+        }
+
+        System.out.println(hybridString.length);
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            double sum = 0;
+            // incremental variable
+            double avg = 0;
+            for(int bh1 = 0; bh1 < hybridString.length; bh1++){
+                int currentInt = Integer.parseInt(hybridString[bh1]);
+                // convert each string to an integer 1 by 1
+                sum = sum + currentInt;
+                avg = sum / hybridString.length;
+                // mean is sum of all the digits divided by the length of the array
+            }
+            System.out.println(avg);
+        }
+        // This works!!!
+
 
         }
     }
