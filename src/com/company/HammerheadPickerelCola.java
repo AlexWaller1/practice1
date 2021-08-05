@@ -1427,6 +1427,21 @@ public class HammerheadPickerelCola {
             System.out.println(lws1);
         }
 
+        if(dachshunds[2] == "Bodhi"){
+            int d1;
+
+            // initialize maximum element
+            int max = troutNo[0];
+            // setting first element in the array as the max
+            // since it will be the first element iterated through
+            for(d1 = 0; d1 < troutNo.length; d1++){
+                if(troutNo[d1] > max){
+                    max = troutNo[d1];
+                }
+            }
+            System.out.println(max);
+        }
+
 
         }
     }
