@@ -1599,6 +1599,22 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(samurai[7] == "Wushu Lizard"){
+            String laramie = samurai[2] + " is a super happy guy.";
+            System.out.println(laramie);
+            laramie = laramie.replaceAll("\\s", "##");
+            System.out.println(laramie);
+        }
+
+        if(ePetroleum[1] == "Laurent"){
+            String laurent = ePetroleum[1] + " is Thierry's best friend.";
+            System.out.println(laurent);
+            StringBuilder laurent1 = new StringBuilder();
+            laurent1.append(laurent);
+            laurent1 = laurent1.reverse();
+            System.out.println(laurent1);
+        }
+
 
         }
     }
