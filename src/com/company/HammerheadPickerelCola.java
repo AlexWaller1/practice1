@@ -1871,6 +1871,7 @@ public class HammerheadPickerelCola {
                         System.out.println(fuel1.charAt(ep2));
                         char currentChar = fuel1.charAt(ep2);
                         String oil = String.valueOf(currentChar);
+                        // takes in characters 1 by 1
                         fuel = fuel + oil;
 
                     }
@@ -1881,6 +1882,18 @@ public class HammerheadPickerelCola {
         // outputs the second letter in each name
         // also adds those characters together to make a single string
 
+        if(rams[3] == "Stacey"){
+            int r1 = 0;
+            for(; r1 < rams.length; r1++){
+                String ram = rams[r1] + " is an awesome Ram Hybrid.";
+                ram = ram.replaceAll("\\s", "!!!");
+                System.out.println(ram);
+                StringBuilder hybrid = new StringBuilder();
+                hybrid = hybrid.append(ram);
+                hybrid = hybrid.reverse();
+                System.out.println(hybrid);
+            }
+        }
 
         }
     }
