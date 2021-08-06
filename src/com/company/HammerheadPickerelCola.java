@@ -1969,11 +1969,16 @@ public class HammerheadPickerelCola {
         if(robots[2] == "Mellon-Tech"){
             int r1 = 0;
             int r2 = robots[2].length() - 1;
+            String mellon = "";
             String mellon_tech = robots[2];
             do{
                 System.out.println(mellon_tech.charAt(r1));
+                char currentChar = mellon_tech.charAt(r1);
+                String tech = String.valueOf(currentChar);
+                mellon = mellon + tech;
                 r1++;
             }while(r1 <= r2);
+            System.out.println(mellon);
         }
 
         }
