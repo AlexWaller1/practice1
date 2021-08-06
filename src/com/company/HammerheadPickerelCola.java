@@ -1734,6 +1734,24 @@ public class HammerheadPickerelCola {
             }while(t2 >= 0);
         }
 
+        if(trees[1] == "Magnus"){
+            String cornelius = trees[0];
+            int t2 = trees[0].length() - 1;
+            do{
+                System.out.println(cornelius.charAt(t2));
+                t2--;
+            }while(t2 >= 0);
+        }
+
+        if(trees[4] == "Jasper"){
+            String jasper = trees[4];
+            int t2 = 0;
+            do{
+                System.out.println(jasper.charAt(t2));
+                t2++;
+            }while(t2 < jasper.length());
+        }
+
 
         }
     }
