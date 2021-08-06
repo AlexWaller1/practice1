@@ -1784,6 +1784,25 @@ public class HammerheadPickerelCola {
             // prints to console "Chipper has 7 letters in his name."
         }
 
+        if(hammerHead[0] == "Hammerhead"){
+            int hh1 = hybridNo[4], reverse = 0;
+            // declaring variable name // incremental variable
+            for(; hh1 != 0; hh1 = hh1 / 10){
+                int remainder = hh1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(bigHornCrew[4] == "Axel"){
+            String otter = bigHornCrew[4] + " is an awesome otter who lives on the Bighorn!";
+            System.out.println(otter);
+            StringBuilder axel = new StringBuilder();
+            axel.append(otter);
+            axel = axel.reverse();
+            System.out.println(axel);
+        }
+
 
         }
     }
