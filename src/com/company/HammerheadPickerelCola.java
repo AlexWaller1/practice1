@@ -1958,6 +1958,24 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
+        if(robots[0] == "Hank-44"){
+            int r1 = 0;
+            while(r1 < robots[0].length()){
+                System.out.println(robots[0].charAt(r1));
+                r1++;
+            }
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            int r1 = 0;
+            int r2 = robots[2].length() - 1;
+            String mellon_tech = robots[2];
+            do{
+                System.out.println(mellon_tech.charAt(r1));
+                r1++;
+            }while(r1 <= r2);
+        }
+
         }
     }
 
