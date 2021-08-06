@@ -1693,6 +1693,38 @@ public class HammerheadPickerelCola {
             System.out.println(snake);
         }
 
+        if(dachshunds[2] == "Bodhi"){
+            String dachshund = String.valueOf(hybridNo[5]);
+            int product = 1;
+            for(int d1 = 0; d1 < dachshund.length(); d1++){
+                char currentChar = dachshund.charAt(d1);
+                String currentCharAsString = String.valueOf(currentChar);
+                product = product * Integer.parseInt(currentCharAsString);
+
+            }
+            System.out.println(product);
+        }
+        System.out.println(hybridNo[5]);
+
+        if(samurai[2] == "Laramie"){
+            int crane = treeNo[2], reverse = 0;
+                                  // incremental variable
+            for(; crane != 0; crane = crane / 10){
+                int remainder = crane % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(trees[0] == "Cornelius"  && trout[1] == "Brown"){
+            int tree = trees.length - 1;
+            while(tree >= 0){
+                System.out.println(trees[tree]);
+                tree--;
+            }
+            System.out.println(tree);
+        }
+
 
         }
     }
