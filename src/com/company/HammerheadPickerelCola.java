@@ -1945,6 +1945,19 @@ public class HammerheadPickerelCola {
 
         }
 
+        if(robots[3] == "Eggplant-Head"){
+            String robot = String.valueOf(hybridNo[3]);
+            int product = 1;
+            for(int r1 = 0; r1 < robot.length(); r1++){
+                // iterating through each character of string robot
+                char currentChar = robot.charAt(r1);
+                // gathering up each character 1 at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(product);
+        }
+
         }
     }
 
