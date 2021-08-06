@@ -1860,6 +1860,20 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(ePetroleum[0].length() == 7){
+            String fuel = "";
+            int ep1 = 0;
+            for(; ep1 < ePetroleum.length; ep1++){
+                String fuel1 = ePetroleum[ep1];
+                for(int ep2 = 0; ep2 < fuel1.length(); ep2++){
+                    if(ep2 == 1){
+                        System.out.println(fuel1.charAt(ep2));
+                    }
+                }
+            }
+        }
+        // outputs the second letter in each name
+
 
         }
     }
