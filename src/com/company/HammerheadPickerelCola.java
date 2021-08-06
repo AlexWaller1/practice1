@@ -1803,6 +1803,27 @@ public class HammerheadPickerelCola {
             System.out.println(axel);
         }
 
+        if(bigHornCrew.length == 5){
+            String crane = bigHornCrew[1] + " is a Sandhill Crane.";
+            String red = samurai[1] + " is a Red Crowned Crane.";
+            crane = crane.concat(red);
+            crane = crane.replaceAll("\\s", "!!!");
+            System.out.println(crane);
+        }
+
+        if(hammerHead[4].length() == 6){
+            System.out.println(hammerHead[4]);
+        }
+
+        System.out.println(bigHornCrew[2]);
+
+        if(bigHornCrew[2].length() == bigHornCrew[3].length()){
+            if(bigHornCrew[2].charAt(1) == bigHornCrew[3].charAt(1)){
+                String mallard = bigHornCrew[2] + " and " + bigHornCrew[3] + " both have a as the second letter in their name.";
+                System.out.println(mallard);
+            }
+        }
+
 
         }
     }
