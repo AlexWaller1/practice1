@@ -1895,6 +1895,33 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            String robo = "";
+            String roboStringSum = "";
+            // incremental String variable
+            for(int r1 = 0; r1 < robots.length; r1++){
+                // iterating through each element of robots array
+                String chappie = robots[r1];
+                // chappie is equal to all strings of the array
+                for(int r2 = 0; r2 < chappie.length(); r2++){
+                    // iterating through each string's characters of the robots array
+                    if(r2 == 0){
+                        // if r2 is the first index of a given string
+                        char currentChar = chappie.charAt(r2);
+                        // gathering each character at the 0 index one at a time
+                        String cyber_tech = String.valueOf(currentChar);
+                        // converting each of those characters to strings 1 by 1
+                        roboStringSum = roboStringSum + cyber_tech;
+                        // adding those strings together, essentially concatenation
+                        System.out.println(cyber_tech);
+
+                    }
+
+                }
+            }
+            System.out.println(roboStringSum);
+        }
+
         }
     }
 
