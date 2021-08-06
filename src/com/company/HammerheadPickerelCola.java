@@ -1922,6 +1922,29 @@ public class HammerheadPickerelCola {
             System.out.println(roboStringSum);
         }
 
+        System.out.println(ePetroleum[4]);
+
+        if(ePetroleum.length == 5){
+            String fuel = "";
+            for(int r1 = 0; r1 < robots.length; r1++){
+                String petroleum = robots[r1];
+                // petroleum represents every string of the array
+                int r2 = 0;
+                // first index of string
+                int r3 = petroleum.length() -1;
+                // last index of string
+                for(; r2 < r3; r2++, r3--){
+                    if (petroleum.charAt(r2++) != petroleum.charAt(r3--)){
+                        fuel = petroleum + " is not a palindrome.";
+                    }
+                    else
+                        fuel = petroleum + " is a palindrome.";
+                }
+                System.out.println(fuel);
+            }
+
+        }
+
         }
     }
 
