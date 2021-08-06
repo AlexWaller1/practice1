@@ -1981,6 +1981,22 @@ public class HammerheadPickerelCola {
             System.out.println(mellon);
         }
 
+        if(dachshunds[0] == "Beezer"){
+            for (int d1 = 0; d1 < dachshunds.length; d1++){
+               String dachshund = dachshunds[d1] + " is an awesome dachshund!!!";
+                System.out.println(dachshund);
+                dachshund = dachshund.replaceAll("\\s", "==");
+                System.out.println(dachshund);
+                StringBuilder badger_hound = new StringBuilder();
+                badger_hound = badger_hound.append(dachshund);
+                badger_hound = badger_hound.reverse();
+                System.out.println(badger_hound);
+                badger_hound = badger_hound.reverse();
+                System.out.println(badger_hound);
+
+            }
+        }
+
         }
     }
 
