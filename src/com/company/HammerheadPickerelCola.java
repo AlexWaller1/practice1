@@ -1824,6 +1824,42 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(samurai[7] == "Wushu Lizard" && robots[0] == "Hank-44"){
+            int max = robots[0].length();
+           //
+            for(int r1 = 0; r1 < robots.length; r1++){
+                if(robots[r1].length() > max){
+                    max = robots[r1].length();
+                }
+                System.out.println(max);
+            }
+
+        }
+
+        System.out.println(Math.sqrt(81));
+
+        if(bigHornCrew[0].length() == 3){
+            // testing for palindrome algorithm
+            String mallardsLanding = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                String bigHorn = bigHornCrew[bh1];
+                // bigHorn equals each string of the bigHornCrew array
+                int bh2 = 0;
+                // bh2 is the first index of the string
+                int bh3 = bigHorn.length() - 1;
+                // bh3 is the last index of the string
+                for(; bh2 < bh3; bh2++, bh3--){
+                    // bh2 increments by 1 and bh3 increments by -1 before they meet in the middle of the string
+                    if(bigHorn.charAt(bh2++) != bigHorn.charAt(bh3--)){
+                        // if statement will evaluate two indexes as they make their way towards the center of the string
+                        System.out.println(bigHorn + " is not a palindrome.");
+                    }
+                    else
+                        System.out.println(bigHorn + " is a palindrome.");
+                }
+            }
+        }
+
 
         }
     }
