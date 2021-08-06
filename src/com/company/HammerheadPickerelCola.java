@@ -1761,7 +1761,12 @@ public class HammerheadPickerelCola {
             }
         }
 
-
+        if(dachshunds[0] == "Beezer"){
+            String Beezer = dachshunds[0];
+            for(int d1 = 0; d1 < Beezer.length(); d1++){
+                System.out.println(Beezer.charAt(d1));
+            }
+        }
 
 
         }
