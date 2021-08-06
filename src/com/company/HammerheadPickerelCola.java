@@ -1725,6 +1725,15 @@ public class HammerheadPickerelCola {
             System.out.println(tree);
         }
 
+        if(trees[2] == "Owen"){
+            String owen = trees[2];
+            int t2 = 3;
+            do{
+                System.out.println(owen.charAt(t2));
+                t2--;
+            }while(t2 >= 0);
+        }
+
 
         }
     }
