@@ -1862,17 +1862,24 @@ public class HammerheadPickerelCola {
 
         if(ePetroleum[0].length() == 7){
             String fuel = "";
+            // incremental variable
             int ep1 = 0;
             for(; ep1 < ePetroleum.length; ep1++){
                 String fuel1 = ePetroleum[ep1];
                 for(int ep2 = 0; ep2 < fuel1.length(); ep2++){
                     if(ep2 == 1){
                         System.out.println(fuel1.charAt(ep2));
+                        char currentChar = fuel1.charAt(ep2);
+                        String oil = String.valueOf(currentChar);
+                        fuel = fuel + oil;
+
                     }
                 }
             }
+            System.out.println(fuel);
         }
         // outputs the second letter in each name
+        // also adds those characters together to make a single string
 
 
         }
