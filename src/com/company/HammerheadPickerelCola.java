@@ -1768,6 +1768,22 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(dachshunds[1] == "Chipper"){
+            String dachshundName = "";
+            int max = dachshunds[0].length();
+            // when testing for max or min, always start with first element that will be iterated
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                if (dachshunds[d1].length() > max){
+                    max = dachshunds[d1].length();
+                    dachshundName = dachshunds[d1];
+
+                }
+
+            }
+            System.out.println(dachshundName + " has " + max + " letters in his name.");
+            // prints to console "Chipper has 7 letters in his name."
+        }
+
 
         }
     }
