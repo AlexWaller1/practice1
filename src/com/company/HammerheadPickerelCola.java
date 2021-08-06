@@ -1752,6 +1752,17 @@ public class HammerheadPickerelCola {
             }while(t2 < jasper.length());
         }
 
+        if(hammerHead[0] == "Hammerhead"){
+            String hammer = hammerHead[0];
+            int hh1 = 0;
+            while(hh1 < hammer.length()){
+                System.out.println(hammer.charAt(hh1));
+                hh1++;
+            }
+        }
+
+
+
 
         }
     }
