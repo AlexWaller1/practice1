@@ -2069,6 +2069,16 @@ public class HammerheadPickerelCola {
             // but not the rest of the results
         }
 
+        if(ePetroleum.length == 5){
+            String bodhi = dachshunds[2] + " loves to run up the Adirondacks!";
+            bodhi = bodhi.replaceAll("\\s", "!!!");
+            System.out.println(bodhi);
+            StringBuilder dachshund = new StringBuilder();
+            dachshund.append(bodhi);
+            dachshund = dachshund.reverse();
+            System.out.println(dachshund);
+        }
+
         }
     }
 
