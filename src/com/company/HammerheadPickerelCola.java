@@ -2079,6 +2079,53 @@ public class HammerheadPickerelCola {
             System.out.println(dachshund);
         }
 
+        if(ePetroleum[2] == "Antoine"){
+            int ep1 = 4;
+            for(; ep1 >= 0; ep1--){
+                if (ep1 == 2){
+                    String antoine = ePetroleum[ep1] + " is the CEO of Clichy Security Solutions.";
+                    System.out.println(antoine);
+                }
+            }
+        }
+
+        if(trees[0] == "Cornelius"){
+            int t2 = 4;
+            do{
+                System.out.println(trees[t2] + " is an incredibly fashionable hybrid.");
+                t2--;
+            }while(t2 >= 0);
+        }
+
+        if(trees[4] == "Jasper"){
+            String tree = "";
+            // incremental variable
+            int t2 = 0;
+            for(; t2 < trees.length; t2++){
+                if (t2 == 0){
+                    System.out.println(trees[t2].charAt(t2));
+                    tree = tree + trees[t2];
+                }
+
+            }
+            System.out.println(tree);
+        }
+
+        if(trees[4] == "Jasper") {
+            String tree2 = "";
+            for (int t2 = 0; t2 < trees.length; t2++) {
+                String tree1 = trees[t2];
+                System.out.println(tree1);
+                for(int t3 = 0; t3 < tree1.length(); t3++){
+                    if (t3 == 0){
+                        System.out.println(tree1.charAt(t3));
+                        tree2 = tree2 + tree1.charAt(t3);
+                    }
+                }
+            }
+            System.out.println(tree2);
+        }
+
         }
     }
 
