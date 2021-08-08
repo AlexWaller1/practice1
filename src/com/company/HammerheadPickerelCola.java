@@ -2232,6 +2232,28 @@ public class HammerheadPickerelCola {
             System.out.println(sum);
         }
 
+        System.out.println(robots[2]);
+        System.out.println(robots[3]);
+
+        if(robots[2] == "Mellon-Tech"){
+            int product = 1;
+            for(int mt1 = 0; mt1 < hybridNo.length; mt1++){
+                int m_tech = hybridNo[mt1];
+                String m_tech1 = String.valueOf(m_tech);
+                for(int eggPlant = 0; eggPlant < m_tech1.length(); eggPlant++){
+                    if(eggPlant == 0){
+                        char currentChar = m_tech1.charAt(eggPlant);
+                        System.out.println(currentChar);
+                        String currentCharAsString = String.valueOf(currentChar);
+                        product = product * Integer.parseInt(currentCharAsString);
+
+                    }
+                }
+            }
+            System.out.println(product);
+            // product is 15552!!!
+        }
+
 
 
         }
