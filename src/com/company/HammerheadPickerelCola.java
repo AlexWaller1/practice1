@@ -2188,6 +2188,34 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(rams.length == 4){
+            int hybrid = 37;
+            // finding reverse of these digits
+            int reverse = 0;
+            // incremental variable
+            for(; hybrid != 0; hybrid = hybrid / 10){
+                int remainder = hybrid % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+
+        }
+
+        if(trees.length != 37){
+            String hybrid = String.valueOf(37);
+            // finding product of digits of 37
+            int product = 1;
+            for(int hybrid1 = 0; hybrid1 < hybrid.length(); hybrid1++){
+                // iterating through each character of the string
+                char currentChar = hybrid.charAt(hybrid1);
+                // gathering each character 1 at a time
+                String currentCharAsString = String.valueOf(currentChar);
+                // then converting each character to a string
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(product);
+        }
+
 
 
         }
