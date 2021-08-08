@@ -2216,6 +2216,22 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
+        if(samurai[2] == "Laramie"){
+            int sum = 0;
+            for(int WL = 0; WL < hybridString.length; WL++){
+                String hybrid = hybridString[WL];
+                for(int lsw = 0; lsw < hybrid.length(); lsw++){
+                    if(lsw == 0){
+                        System.out.println(hybrid.charAt(lsw));
+                        String tree = String.valueOf(hybrid.charAt(lsw));
+                        int hybridInt = Integer.parseInt(tree);
+                        sum = sum + hybridInt;
+                    }
+                }
+            }
+            System.out.println(sum);
+        }
+
 
 
         }
