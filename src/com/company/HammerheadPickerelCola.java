@@ -2033,6 +2033,42 @@ public class HammerheadPickerelCola {
             System.out.println(reverse);
         }
 
+        if(samurai[3] == "Glynis"){
+            String incubator = "Incubator";
+            int inc1 = 0;
+            String antibi = "";
+            while(inc1 < incubator.length()){
+                System.out.println(incubator.charAt(inc1));
+                antibi = antibi + incubator.charAt(inc1);
+                inc1++;
+
+            }
+            System.out.println(antibi);
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            String dachshund = "";
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                // iterating through each dachshund of the dachshund array
+                String appleHill = dachshunds[d1];
+                // appleHill equals every iterated string of the dachshunds array
+                int appleHill1 = 0;
+                // first index of the string
+                int appleHill2 = appleHill.length() - 1;
+                // last index of string
+                for(; appleHill1 < appleHill2; appleHill1++, appleHill2--){
+                    if(appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)){
+                        dachshund = appleHill + " is not a palindrome";
+                    }
+                    else
+                        dachshund = appleHill + " is a palindrome.";
+                }
+                System.out.println(dachshund);
+            }
+            // putting System.out.println(dachshund) will only print last element of array's results
+            // but not the rest of the results
+        }
+
         }
     }
 
