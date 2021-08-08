@@ -2165,6 +2165,29 @@ public class HammerheadPickerelCola {
         }
         // function to test for even numbers and odd numbers works!!!
 
+        if(rams.length == 4){
+            int max = rams[0].length();
+            // max equals length of first string in the array
+            for(int r1 = 0; r1 < rams.length; r1++){
+                if(rams[r1].length() > max){
+                    max = rams[r1].length();
+                  String maxName = rams[r1];
+                    System.out.println(maxName + " --- " + max);
+                }
+            }
+
+        }
+
+        if(trees.length == 5){
+            for(int t2 = 0; t2 < treeNo.length; t2++){
+                if(treeNo[t2] % Math.sqrt(treeNo[t2]) == 0){
+                    System.out.println(treeNo[t2] + " has a whole number for a square root");
+                }
+                else
+                    System.out.println(treeNo[t2] + " has a square root that is not a whole number.");
+            }
+        }
+
 
 
         }
