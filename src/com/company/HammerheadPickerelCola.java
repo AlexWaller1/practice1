@@ -2113,11 +2113,15 @@ public class HammerheadPickerelCola {
 
         if(trees[4] == "Jasper") {
             String tree2 = "";
+            // incremental variable
             for (int t2 = 0; t2 < trees.length; t2++) {
                 String tree1 = trees[t2];
+                // tree1 equals each Tree Hybrid of the trees array
                 System.out.println(tree1);
                 for(int t3 = 0; t3 < tree1.length(); t3++){
+                    // iterating through each character of a given string
                     if (t3 == 0){
+                        // if t3 is equal to the first index
                         System.out.println(tree1.charAt(t3));
                         tree2 = tree2 + tree1.charAt(t3);
                     }
@@ -2125,6 +2129,43 @@ public class HammerheadPickerelCola {
             }
             System.out.println(tree2);
         }
+
+        if(rams[1] == "Otto"){
+            String ram = "";
+            // incremental variable
+            for(int r1 = 0; r1 < rams.length; r1++){
+                String ram1 = rams[r1].toLowerCase();
+                // ram1 equals every Ram Hybrid of the rams array
+                int ram2 = 0;
+                // first index of string
+                int ram3 = ram1.length() - 1;
+                // last index of string
+                for(; ram2 < ram3; ram2++, ram3--){
+                    // ram2 will increase and ran2 will decrease until they meet in the middle
+                    if(ram1.charAt(ram2++) != ram1.charAt(ram3--)){
+                        System.out.println(ram1 + " is not a palindrome.");
+                    }
+                    else
+                        System.out.println(ram1 + " is a palindrome");
+                }
+            }
+        }
+
+        if(rams[2] == "Jay" && rams[2].length() == 3){
+            for(int r1 = 0; r1 < hybridString.length; r1++){
+                String ram = hybridString[r1];
+                // all string values of the hybridString array
+                int ram1 = Integer.parseInt(ram);
+               if(ram1 % 2 == 0){
+                   System.out.println(ram1 + " is an even number");
+               }
+               else
+                   System.out.println(ram1 + " is an odd number.");
+            }
+        }
+        // function to test for even numbers and odd numbers works!!!
+
+
 
         }
     }
