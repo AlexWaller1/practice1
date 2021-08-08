@@ -58,6 +58,7 @@ public class HammerheadPickerelCola {
         int[] troutNo = {37, 36, 121, 144};
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
         String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
+        String[] robotString = {"1", "2", "3", "4", "5"};
 
         int result = practiceObject.addDigits(hybridNo[7]);
         System.out.println(result);
@@ -1995,6 +1996,41 @@ public class HammerheadPickerelCola {
                 System.out.println(badger_hound);
 
             }
+        }
+
+      //  System.out.println(ePetroleum[4].charAt(dachshundNo));
+
+        if(dachshunds.length == 5){
+            int badger_hound = Integer.parseInt(robotString[1]);
+            System.out.println(dachshunds[badger_hound]);
+
+        }
+
+        if(ePetroleum[4] == "Gilgamesh"){
+            // find product of digits of an integer
+            String gilgamesh = String.valueOf(hybridNo[3]);
+            int product = 1;
+            // incremental variable
+            for(int gil1 = 0; gil1 < gilgamesh.length(); gil1++){
+                // iterating through each character of the string
+                char currentChar = gilgamesh.charAt(gil1);
+                // gathering up each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting each character back into a string 1 by 1
+                product = product * Integer.parseInt(currentCharAsString);
+            }
+            System.out.println(product);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            // reversing a number
+            int r1 = 2037, reverse = 0;
+            // declaring variable // incremental variable
+            for(; r1 != 0; r1 = r1 / 10){
+                int remainder = r1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
         }
 
         }
