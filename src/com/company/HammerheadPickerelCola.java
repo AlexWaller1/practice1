@@ -2464,6 +2464,24 @@ public class HammerheadPickerelCola {
         // will remove the element at that index from the arrayList
         System.out.println(badgerHounds);
 
+        if(hammerHead[4] == "Wibaux"){
+            for(int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++){
+                System.out.println(badgerHounds.get(1));
+            }
+        }
+
+        System.out.println(badgerHounds.get(0));
+        // will print Anubis to console
+
+        if(badgerHounds.get(0) == "Anubis"){
+            for(int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++){
+                if (bh1 == 4){
+                    System.out.println(badgerHounds.get(bh1));
+                    // prints M'arcuzz M'orzz to console
+                }
+            }
+        }
+
 
 
 
