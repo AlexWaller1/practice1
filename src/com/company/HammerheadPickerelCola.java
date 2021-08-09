@@ -2488,6 +2488,21 @@ public class HammerheadPickerelCola {
             System.out.println(badger_hound);
         }
 
+        if(badgerHounds.get(4) == "M'arcuzz M'orzz"){
+            String martian = badgerHounds.get(0);
+            int max = martian.length();
+            String maxName = "";
+            for (int ep1 = 0; ep1 < badgerHounds.toArray().length; ep1++){
+                if(badgerHounds.get(ep1).length() > max){
+                    max = badgerHounds.get(ep1).length();
+                    maxName = badgerHounds.get(ep1);
+                }
+            }
+            System.out.println(maxName + " " + max);
+            // prints The Giant Sturgeon to the console
+            // important to remember that empty spaces are counted as characters
+        }
+
 
 
 
