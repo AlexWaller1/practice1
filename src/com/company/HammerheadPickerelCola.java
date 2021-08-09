@@ -2296,6 +2296,48 @@ public class HammerheadPickerelCola {
             System.out.println(trout1);
         }
 
+        if(trout[1] == "Brown"){
+            int sum = 0; // incremental variable
+            // want to convert all integers in array to strings
+            // then convert back to integers
+            // then test whether they have whole numbers as square roots
+            for(int trout1 = 0; trout1 < hybridNo.length; trout1++){
+                System.out.println(hybridNo[trout1]);
+                String trout2 = String.valueOf(hybridNo[trout1]);
+                for(int trout3 = 0; trout3 < trout2.length(); trout3++){
+                   char currentChar = trout2.charAt(trout3);
+                   String currentCharAsString = String.valueOf(currentChar);
+                   sum = sum + Integer.parseInt(currentCharAsString);
+                }
+                System.out.println(sum);
+            }
+
+        }
+
+        System.out.println(dachshunds[2]);
+
+        if(robots[2] == "Mellon-Tech"){
+            int sum = 0; // incremental variable
+            int trout1 = 0;
+            String trout2 = "";
+            int trout3 = 0;
+            // want to convert all integers in arrays to strings
+            // then convert back to integers
+            // then test whether they have whole numbers as square roots
+            for(; trout1 < hybridNo.length; trout1++){
+                System.out.println(hybridNo[trout1]);
+                // making sure elements of array print out properly
+                trout2 = String.valueOf(hybridNo[trout1]);
+                // converting all string elements to integers and assigning them to trout2
+            }
+            for(; trout3 < trout2.length(); trout3++){
+                char currentChar = trout2.charAt(trout3);
+                String currentCharAsString = String.valueOf(currentChar);
+                sum = sum + Integer.parseInt(currentCharAsString);
+                System.out.println(sum);
+            }
+
+        }
 
 
         }
