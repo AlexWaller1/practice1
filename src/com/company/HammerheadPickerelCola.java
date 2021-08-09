@@ -2282,6 +2282,20 @@ public class HammerheadPickerelCola {
             // will print "plant" to the console
         }
 
+        System.out.println(trout[1]);
+
+        if(trout[0] == "Rainbow"){
+            String trout1 = trout[0];
+            trout1 = trout1.concat(" Trout");
+            System.out.println(trout1);
+            for(int t2 = 0; t2 < trout1.length(); t2++){
+                char currentChar = trout1.charAt(t2);
+                System.out.println(currentChar);
+            }
+            trout1 = trout1.replaceAll("Rainbow ", "");
+            System.out.println(trout1);
+        }
+
 
 
         }
