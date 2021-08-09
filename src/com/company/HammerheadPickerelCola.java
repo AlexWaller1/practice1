@@ -2482,6 +2482,12 @@ public class HammerheadPickerelCola {
             }
         }
 
+        if(badgerHounds.get(0).length() == 6){
+            String badger_hound = badgerHounds.get(0);
+            badger_hound = badger_hound.toUpperCase();
+            System.out.println(badger_hound);
+        }
+
 
 
 
