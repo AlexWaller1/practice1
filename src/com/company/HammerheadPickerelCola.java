@@ -2254,6 +2254,34 @@ public class HammerheadPickerelCola {
             // product is 15552!!!
         }
 
+        if(dachshunds[3] == "Jake"){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                String appleHill = dachshunds[d1];
+                // appleHill equals every dachshund of  dachshunds array
+                int d2 = 0;
+                // first index of string
+                int d3 = appleHill.length() - 1;
+                // last index of string
+                for(; d2 < d3; d2++, d3--){
+                    // d2 will increase and d3 will decrease until they meet in the middle of the string
+                    if(appleHill.charAt(d2++) != appleHill.charAt(d3--)){
+                        System.out.println(appleHill + " is not a palindrome.");
+                    }
+                    else
+                        System.out.println(appleHill + " is a palindrome.");
+                    // wonder why Beezer and Chipper are both printing twice to the console
+                }
+            }
+        }
+
+        if(robots[3] == "Eggplant-Head"){
+            String eggPlant = robots[3];
+            eggPlant = eggPlant.replaceAll("Egg", "");
+            eggPlant = eggPlant.replaceAll("-Head", "");
+            System.out.println(eggPlant);
+            // will print "plant" to the console
+        }
+
 
 
         }
