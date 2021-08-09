@@ -2453,7 +2453,16 @@ public class HammerheadPickerelCola {
         System.out.println(badgerHounds);
         // will print the elements in 1 row to the console between square brackets [ ]
 
+        if(hammerHead[0] == "Hammerhead"){
+            badgerHounds.add("The Giant Sturgeon");
+        }
+        System.out.println(badgerHounds);
 
+        badgerHounds.add("Hum");
+        System.out.println(badgerHounds);
+        badgerHounds.remove(6);
+        // will remove the element at that index from the arrayList
+        System.out.println(badgerHounds);
 
 
 
