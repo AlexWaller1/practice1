@@ -2523,11 +2523,12 @@ public class HammerheadPickerelCola {
                 // last index of string
                 for(; appleHill1 < appleHill2; appleHill1++, appleHill2--){
                     if (appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)){
-                        System.out.println(appleHill + " is not a palindrome.");
+                        dachshund = appleHill + " is not a palindrome.";
                     }
                     else
-                        System.out.println(appleHill + " is a palindrome.");
+                        dachshund = appleHill + " is a palindrome.";
                 }
+                System.out.println(dachshund);
             }
         }
         // ask why each element is iterating twice
@@ -2549,6 +2550,17 @@ public class HammerheadPickerelCola {
             }
 
         }
+
+        System.out.println(badgerHounds.get(0));
+
+        if(badgerHounds.get(0) == "Anubis"){
+            int bh1 = 0;
+            while(bh1 < badgerHounds.toArray().length){
+                System.out.println(badgerHounds.get(bh1));
+                bh1++;
+            }
+        }
+        // how to list out elements of an array list
 
 
 
