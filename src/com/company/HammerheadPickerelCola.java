@@ -59,6 +59,12 @@ public class HammerheadPickerelCola {
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
         String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
         String[] robotString = {"1", "2", "3", "4", "5"};
+        ArrayList<String> badgerHounds = new ArrayList<String>();
+        badgerHounds.add("Anubis");
+        badgerHounds.add("The Miner");
+        badgerHounds.add("Gawain");
+        badgerHounds.add("The Element");
+        badgerHounds.add("M'arcuzz M'orzz");
 
         int result = practiceObject.addDigits(hybridNo[7]);
         System.out.println(result);
@@ -2344,7 +2350,113 @@ public class HammerheadPickerelCola {
 
         }
         // this didn't quite work
-//
+
+        System.out.println(dachshunds[2] + " is wild!!!");
+
+        if(samurai[7] == "Wushu Lizard"){
+            String appleHill = "";
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+
+                appleHill = appleHill + " and " + dachshunds[d1];
+                appleHill = appleHill.replaceAll("and", " ");
+                System.out.println(appleHill);
+
+
+            }
+            System.out.println(appleHill);
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            char currentChar;
+            String currentCharAsString = "";
+            String pickerel = "";
+            int sum = 0;
+            // incremental variable
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                pickerel = String.valueOf(hybridNo[hh1]);
+               // System.out.println(pickerel);
+                for(int hh2 = 0; hh2 < pickerel.length(); hh2++){
+                    currentChar = pickerel.charAt(hh2);
+                    currentCharAsString = String.valueOf(currentChar);
+                   // sum = sum + Integer.parseInt(currentCharAsString);
+                    for(int hh3 = 0; hh3 < currentCharAsString.length(); hh3++){
+                        sum = sum + Integer.parseInt(currentCharAsString);
+
+                    }
+
+                }
+                System.out.println(sum);
+            }
+
+
+        }
+        // didn't quite work it is adding the sums but adding adding up the sums of all the numbers in the array
+        // but we want the sum of the digits of each of the integer elements, not the combined sum of every digit
+        // in the array
+
+        if(ePetroleum[2] == "Antoine"){
+            for(int ep1 = 0; ep1 < hybridNo.length; ep1++){
+                int ep2 = hybridNo[ep1];
+               // System.out.println(ep2);
+                String fuel = String.valueOf(ep2);
+                for(int ep3 = 0; ep3 < fuel.length(); ep3++){
+                    System.out.println(fuel);
+
+
+                }
+            }
+        }
+        System.out.println(ePetroleum[4]);
+        System.out.println(ePetroleum[3]);
+
+        if(ePetroleum[4] == "Gilgamesh"){
+            int ep2 = 0;
+            String fuel = "";
+            int ep1 = 0;
+            int sum = 0;
+            for(; ep1 < hybridNo.length; ep1++){
+                 ep2 = hybridNo[ep1];
+               // System.out.println(ep2);
+                fuel = String.valueOf(ep2);
+               // System.out.println(fuel);
+                for(int ep3 = 0; ep3 < fuel.length(); ep3++) {
+                    char currentChar = fuel.charAt(ep3);
+                    // System.out.println(currentChar);
+                    String pisces1 = String.valueOf(currentChar);
+                 //   System.out.println(pisces1);
+                    for (int ep4 = 0; ep4 < pisces1.length(); ep4++) {
+                        sum = sum + Integer.parseInt(pisces1);
+                        System.out.println(sum);
+                    }
+
+                }
+                // Still adding every digit in array and not just adding sum of elements
+
+
+
+            }
+
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int max = ePetroleum[0].length();
+            String maxName = "";
+            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
+                if(ePetroleum[ep1].length() > max){
+                    max = ePetroleum[ep1].length();
+                    maxName = ePetroleum[ep1];
+                }
+            }
+            System.out.println(maxName + " " + max);
+        }
+
+        System.out.println(badgerHounds);
+        // will print the elements in 1 row to the console between square brackets [ ]
+
+
+
+
+
 
         }
     }
