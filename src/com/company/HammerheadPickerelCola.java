@@ -2571,8 +2571,30 @@ public class HammerheadPickerelCola {
         }
         // how to list out elements of an array list using while loop
 
+        System.out.println(badgerHounds.toArray().length);
+        // 6
 
+        if(badgerHounds.toArray().length == 6){
+            for(int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++){
+                String houndsWI = badgerHounds.get(bh1);
+                houndsWI = houndsWI.replaceAll("\\s", "!!!");
+                System.out.println(houndsWI);
+            }
+        }
 
+        if(badgerHounds.get(5) == "The Giant Sturgeon"){
+            String greenEgg = badgerHounds.get(5) + " doesn't appreciate fishing lures.";
+            System.out.println(greenEgg);
+            StringBuilder greenEgg1 = new StringBuilder();
+            greenEgg1 = greenEgg1.append(greenEgg);
+            greenEgg1 = greenEgg1.reverse();
+            System.out.println(greenEgg1);
+            greenEgg1 = greenEgg1.deleteCharAt(20);
+            // removed the "e" from appreciate
+            System.out.println(greenEgg1);
+            greenEgg1 = greenEgg1.reverse();
+            System.out.println(greenEgg1);
+        }
 
 
 
