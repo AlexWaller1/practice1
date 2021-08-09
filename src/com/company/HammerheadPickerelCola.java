@@ -2503,6 +2503,53 @@ public class HammerheadPickerelCola {
             // important to remember that empty spaces are counted as characters
         }
 
+        if(hammerHead[0] == "Hammerhead"){
+            int hh1 = hybridNo[5], reverse = 0;
+            for(; hh1 != 0; hh1 = hh1 / 10){
+                int remainder = hh1 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(hammerHead[4] == "Wibaux"){
+            String dachshund = "";
+            for(int hh1 = 0; hh1 < ePetroleum.length; hh1++){
+                String appleHill = ePetroleum[hh1];
+                // appleHill equal to all string elements of ePetroleum array
+                int appleHill1 = 0;
+                // first index of string
+                int appleHill2 = appleHill.length() - 1;
+                // last index of string
+                for(; appleHill1 < appleHill2; appleHill1++, appleHill2--){
+                    if (appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)){
+                        System.out.println(appleHill + " is not a palindrome.");
+                    }
+                    else
+                        System.out.println(appleHill + " is a palindrome.");
+                }
+            }
+        }
+        // ask why each element is iterating twice
+
+        if(hammerHead[5] == "The Cosmic Trout"){
+            String shark = "";
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String trout1 = hammerHead[hh1];
+                int hh2 = 0;
+                int hh3 = trout1.length() - 1;
+                for(; hh2 < hh3; hh2++, hh3--){
+                    if(trout1.charAt(hh2++) != trout1.charAt(hh3--)){
+                        shark = trout1 + " is not a palindrome.";
+                    }
+                    else
+                        shark = trout1 + " is a palindrome";
+                }
+                System.out.println(shark);
+            }
+
+        }
+
 
 
 
