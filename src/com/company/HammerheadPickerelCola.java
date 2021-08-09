@@ -2307,12 +2307,17 @@ public class HammerheadPickerelCola {
                 for(int trout3 = 0; trout3 < trout2.length(); trout3++){
                    char currentChar = trout2.charAt(trout3);
                    String currentCharAsString = String.valueOf(currentChar);
-                   sum = sum + Integer.parseInt(currentCharAsString);
+                  for(int trout4 = 0; trout4 < currentCharAsString.length(); trout4++){
+                      sum = sum + Integer.parseInt(currentCharAsString);
+
+                  }
+
                 }
                 System.out.println(sum);
             }
 
         }
+        // didn't quite work
 
         System.out.println(dachshunds[2]);
 
@@ -2338,6 +2343,7 @@ public class HammerheadPickerelCola {
             }
 
         }
+        // this didn't quite work
 
 
         }
