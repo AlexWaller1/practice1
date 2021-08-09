@@ -2560,7 +2560,18 @@ public class HammerheadPickerelCola {
                 bh1++;
             }
         }
-        // how to list out elements of an array list
+        // how to list out elements of an array list using while loop
+
+        if (badgerHounds.get(3) == "The Element"){
+            int bh1 = 0;
+            do {
+                System.out.println(badgerHounds.get(bh1).toUpperCase());
+                bh1++;
+            }while(bh1 < badgerHounds.toArray().length);
+        }
+        // how to list out elements of an array list using while loop
+
+
 
 
 
