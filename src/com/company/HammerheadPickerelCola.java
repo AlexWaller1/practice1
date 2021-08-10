@@ -394,20 +394,19 @@ public class HammerheadPickerelCola {
 
                     System.out.println(troutNo[h1] + " has a whole number for a square root");
 
-                }
-                else
+                } else
                     System.out.println(troutNo[h1] + " does not have a whole number for a square root");
             }
 
 
-            }
+        }
 
-        if(hammerHead.length == 6){
+        if (hammerHead.length == 6) {
             String cola = String.valueOf(treeNo[0]);
             // converting integer to string
             int countSoFar = 0;
             // incremental variable
-            for(int p1 = 0; p1 < cola.length(); p1++){
+            for (int p1 = 0; p1 < cola.length(); p1++) {
                 // iterating through each character of the string
                 char currentChar = cola.charAt(p1);
                 // gathering up each character one by one
@@ -418,11 +417,11 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar);
         }
 
-        if(samurai[0] == "Lone Wolf Samurai"){
+        if (samurai[0] == "Lone Wolf Samurai") {
             System.out.println(hammerHead[0].chars().count());
             int reverse = 0;
             // incremental variable
-            for(int h1 = treeNo[2]; h1 != 0; h1 = h1 / 10){
+            for (int h1 = treeNo[2]; h1 != 0; h1 = h1 / 10) {
 
                 int remainder = h1 % 10;
                 // taking the remainder
@@ -431,34 +430,33 @@ public class HammerheadPickerelCola {
             System.out.println(reverse);
         }
 
-        for(int t1 = 0; t1 < treeNo.length; t1++){
+        for (int t1 = 0; t1 < treeNo.length; t1++) {
             System.out.println(treeNo[t1]);
         }
 
-        if(samurai[1] == "Kenji the Crane"){
-            for(int t1 = 0; t1 < treeNo.length; t1++){
-                if(treeNo[t1] % Math.sqrt(treeNo[t1]) == 0){
+        if (samurai[1] == "Kenji the Crane") {
+            for (int t1 = 0; t1 < treeNo.length; t1++) {
+                if (treeNo[t1] % Math.sqrt(treeNo[t1]) == 0) {
                     System.out.println(treeNo[t1] + " has a square root that's a whole number");
-                }
-                else
+                } else
                     System.out.println(treeNo[t1] + " has a square root that is not a whole number.");
             }
         }
 
-        if(hammerHead[3] == "Harvey"){
+        if (hammerHead[3] == "Harvey") {
             long h1 = hammerHead[4].chars().count();
             long sum = h1 + 9;
             System.out.println(h1);
             System.out.println(sum);
         }
 
-        if(hammerHead[4] == "Wibaux"){
+        if (hammerHead[4] == "Wibaux") {
             int sum = Integer.parseInt(hybridString[0]) + Integer.parseInt(hybridString[1]);
             // converting to strings to integers and then adding them
             System.out.println(sum);
         }
 
-        if(samurai[2] == "Laramie"){
+        if (samurai[2] == "Laramie") {
             String sum = hammerHead[0] + hammerHead[4];
             // another way to concatenate strings
             System.out.println(sum);
@@ -470,7 +468,7 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
 
             String lizard = samurai[7];
 
@@ -480,7 +478,7 @@ public class HammerheadPickerelCola {
             // \\s is code for a single space
         }
 
-        if(samurai[3] == "Glynis"){
+        if (samurai[3] == "Glynis") {
             String glynis = samurai[7];
 
             glynis = glynis.replaceAll("\\s", hammerHead[0]);
@@ -490,7 +488,7 @@ public class HammerheadPickerelCola {
 
         System.out.println(samurai.length);
 
-        if(samurai.length == 9){
+        if (samurai.length == 9) {
             StringBuilder glynis = new StringBuilder();
             glynis.append(samurai[3] + " is a green dog from the farthest reaches of space");
             glynis = glynis.reverse();
@@ -502,22 +500,22 @@ public class HammerheadPickerelCola {
             System.out.println(glynis);
         }
 
-        if(samurai[2] == "Laramie" && samurai[7] == "Wushu Lizard"){
+        if (samurai[2] == "Laramie" && samurai[7] == "Wushu Lizard") {
             String trout1 = hammerHead[5];
             trout1 = trout1.replaceAll("\\s", "___");
             System.out.println(trout1);
         }
 
-        if(robots.length == 4){
+        if (robots.length == 4) {
             int s1 = 0;
-            while(s1 < samurai.length){
+            while (s1 < samurai.length) {
                 System.out.println(s1 + " " + samurai[s1]);
                 s1++;
             }
         }
 
-        if(samurai[6] == "The Wraith"){
-            for(int s1 = 0; s1 < samurai.length; s1++){
+        if (samurai[6] == "The Wraith") {
+            for (int s1 = 0; s1 < samurai.length; s1++) {
                 String wraith = samurai[s1];
                 wraith = wraith.replaceAll("\\s", "!!!");
                 // replacing white spaces with "!!!"
@@ -529,23 +527,23 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
             int s1 = 8;
-            do{
+            do {
                 StringBuilder wraith = new StringBuilder();
                 wraith.append(samurai[s1]);
                 wraith = wraith.reverse();
                 System.out.println(wraith);
                 s1--;
-            }while(s1 >= 0);
+            } while (s1 >= 0);
         }
         // reversing each string in the array using a do while loop
 
         System.out.println(pisces.length);
 
-        if(pisces[1] == "Governal"){
+        if (pisces[1] == "Governal") {
             int fish1 = 6;
-            while(fish1 >= 0){
+            while (fish1 >= 0) {
                 String fish2 = pisces[fish1];
                 fish2 = fish2.toUpperCase(Locale.ROOT);
                 System.out.println(fish2);
@@ -554,9 +552,9 @@ public class HammerheadPickerelCola {
         }
         // outputting each element in the array with all uppercase letters
 
-        if(pisces[4] == "Hadrian"){
+        if (pisces[4] == "Hadrian") {
             int fish1 = 0;
-            for (; fish1 < pisces.length; fish1++){
+            for (; fish1 < pisces.length; fish1++) {
                 String fish2 = pisces[fish1];
                 fish2 = fish2.toUpperCase();
                 System.out.println(fish2);
@@ -569,25 +567,25 @@ public class HammerheadPickerelCola {
 
         System.out.println(bigHornCrew.length);
 
-        if(bigHornCrew.length == 5){
-            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+        if (bigHornCrew.length == 5) {
+            for (int bh1 = 0; bh1 < bigHornCrew.length; bh1++) {
                 System.out.println(bigHornCrew[bh1]);
             }
         }
 
-        if(bigHornCrew[0] == "Ace"){
+        if (bigHornCrew[0] == "Ace") {
             int bh1 = 0;
-            for(; bh1 < bigHornCrew.length; bh1++){
+            for (; bh1 < bigHornCrew.length; bh1++) {
                 String bighorn = bigHornCrew[bh1];
                 bighorn = bighorn.toUpperCase();
                 System.out.println(bighorn);
             }
         }
 
-        if(bigHornCrew[4] == "Axel"){
+        if (bigHornCrew[4] == "Axel") {
             int bh1 = 0;
-            for(; bh1 < bigHornCrew.length; bh1++){
-                if(bh1 == 4){
+            for (; bh1 < bigHornCrew.length; bh1++) {
+                if (bh1 == 4) {
                     String bighorn = bigHornCrew[bh1];
                     bighorn = bighorn.toUpperCase();
                     System.out.println(bighorn);
@@ -595,11 +593,11 @@ public class HammerheadPickerelCola {
             }
         }
 
-        if(bigHornCrew[1] == "Columbus"){
+        if (bigHornCrew[1] == "Columbus") {
             int bh1 = hybridNo[3];
             int reverse = 0;
             // incremental variable
-            for(; bh1 != 0; bh1 = bh1 / 10){
+            for (; bh1 != 0; bh1 = bh1 / 10) {
                 int remainder = bh1 % 10;
 
                 reverse = reverse * 10 + remainder;
@@ -608,10 +606,10 @@ public class HammerheadPickerelCola {
             System.out.println(reverse);
         }
 
-        if(bigHornCrew[2] == "Marek"){
+        if (bigHornCrew[2] == "Marek") {
             int bh1 = 0;
-            for(; bh1 < bigHornCrew.length; bh1++){
-                if(bh1 == 0){
+            for (; bh1 < bigHornCrew.length; bh1++) {
+                if (bh1 == 0) {
 
                     System.out.println(bigHornCrew[bh1].toUpperCase());
                     // best to do in one line
@@ -619,7 +617,7 @@ public class HammerheadPickerelCola {
             }
         }
 
-        if(bigHornCrew[3] == "Radek"){
+        if (bigHornCrew[3] == "Radek") {
             String trout1 = hammerHead[5];
             trout1 = trout1.replaceAll("\\s", "Raibow");
             System.out.println(trout1);
@@ -628,7 +626,7 @@ public class HammerheadPickerelCola {
 
         System.out.println(pisces[4]);
 
-        if(pisces[4] == "Hadrian"){
+        if (pisces[4] == "Hadrian") {
             String fish = pisces[4] + " is the general of the Hadal Army";
             System.out.println(fish);
             fish = fish.replaceAll("\\s", "||");
@@ -638,11 +636,11 @@ public class HammerheadPickerelCola {
 
         System.out.println(pisces[6]);
 
-        if(pisces[5] == "Aetius"){
+        if (pisces[5] == "Aetius") {
             int bh1 = hybridNo[7];
             int reverse = 0;
             // incremental variable
-            for(; bh1 != 0; bh1 = bh1 / 10){
+            for (; bh1 != 0; bh1 = bh1 / 10) {
 
                 int remainder = bh1 % 10;
                 reverse = reverse * 10 + remainder;
@@ -650,12 +648,12 @@ public class HammerheadPickerelCola {
             }
         }
 
-        if(pisces[6] == "Urbicus"){
+        if (pisces[6] == "Urbicus") {
             String fish = String.valueOf(hybridNo[7]);
             int countSoFar = 0, difference = 0, quotient = 1, product = 1, pgf1 = 0;
             // incremental variables and for loop variable
 
-            for(; pgf1 < fish.length(); pgf1++){
+            for (; pgf1 < fish.length(); pgf1++) {
                 // iterating through each character of the string
                 char currentChar = fish.charAt(pgf1);
                 // gathering up each character one by one
@@ -672,7 +670,7 @@ public class HammerheadPickerelCola {
             System.out.println("The difference of the digits is " + difference);
         }
 
-        if(pisces[0] == "Galahad" && pisces[4] == "Hadrian"){
+        if (pisces[0] == "Galahad" && pisces[4] == "Hadrian") {
             String hadal = pisces[0] + " was once a general in the Hadal Empire.";
             System.out.println(hadal);
             hadal = hadal.replaceAll("\\s", "[#}");
@@ -680,22 +678,22 @@ public class HammerheadPickerelCola {
             System.out.println(hadal.toUpperCase());
         }
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
             int pgf1 = hybridNo[5], reverse = 0;
             // reverse is an incremental variable
-            for(; pgf1 != 0; pgf1 = pgf1 / 10){
-               int remainder = pgf1 % 10;
-               reverse = reverse * 10 +remainder;
+            for (; pgf1 != 0; pgf1 = pgf1 / 10) {
+                int remainder = pgf1 % 10;
+                reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(samurai[8] == "Citrine Dragons"){
+        if (samurai[8] == "Citrine Dragons") {
             String wushu = String.valueOf(hybridNo[5]);
             int countSoFar = 1;
             // converting integer to string
             int W_L = 0;
-            for(; W_L < wushu.length(); W_L++){
+            for (; W_L < wushu.length(); W_L++) {
                 // iterating through each character of string
                 char currentChar = wushu.charAt(W_L);
                 // gathering each character 1 by 1
@@ -707,66 +705,66 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar);
         }
 
-        if(samurai[0] == "Lone Wolf Samurai"){
+        if (samurai[0] == "Lone Wolf Samurai") {
             int LSW = 0;
-            for(; LSW < hybridNo.length; LSW++){
-                System.out.println( LSW + " " + hybridNo[LSW]);
+            for (; LSW < hybridNo.length; LSW++) {
+                System.out.println(LSW + " " + hybridNo[LSW]);
             }
         }
 
-        if(samurai[0] == "Lone Wolf Samurai" && samurai[7] == "Wushu Lizard"){
+        if (samurai[0] == "Lone Wolf Samurai" && samurai[7] == "Wushu Lizard") {
             int targetKick = 35;
-            for(int LSW = 0; LSW < hybridNo.length; LSW++){
-                for(int WL = LSW + 1; WL < hybridNo.length; WL++){
-                    if(hybridNo[WL] - hybridNo[LSW] == targetKick ){
+            for (int LSW = 0; LSW < hybridNo.length; LSW++) {
+                for (int WL = LSW + 1; WL < hybridNo.length; WL++) {
+                    if (hybridNo[WL] - hybridNo[LSW] == targetKick) {
                         System.out.println(hybridNo[WL] + " - " + hybridNo[LSW] + " = " + targetKick);
                     }
                 }
             }
         }
 
-        if(pisces[1] == "Governal"){
+        if (pisces[1] == "Governal") {
             int bullsEyePunch = 2411;
-            for(int LSW = 0; LSW < hybridNo.length; LSW++){
-                for (int WL = LSW + 1; WL < hybridNo.length; WL++){
-                    if(hybridNo[LSW] + hybridNo[WL] == bullsEyePunch){
+            for (int LSW = 0; LSW < hybridNo.length; LSW++) {
+                for (int WL = LSW + 1; WL < hybridNo.length; WL++) {
+                    if (hybridNo[LSW] + hybridNo[WL] == bullsEyePunch) {
                         System.out.println(hybridNo[LSW] + " + " + hybridNo[WL] + " = " + bullsEyePunch);
                     }
                 }
             }
         }
 
-        if(robots[0] == "Hank-44"){
+        if (robots[0] == "Hank-44") {
             int r1 = 3;
-            do{
+            do {
                 System.out.println(robots[r1] + " is an awesome robot!");
                 r1--;
-            }while(r1 >= 0);
+            } while (r1 >= 0);
         }
 
-        if(robots.length == 4){
+        if (robots.length == 4) {
             int r1 = 3;
-            for(; r1 >=0; r1--){
-                if (r1 == 3){
+            for (; r1 >= 0; r1--) {
+                if (r1 == 3) {
                     System.out.println(robots[r1] + " can fix any telecaster!!!");
                 }
             }
         }
 
-        if(trees[0] == "Cornelius"){
+        if (trees[0] == "Cornelius") {
             int t1 = hybridNo[4], reverse = 0;
-            for(; t1 != 0; t1 = t1 / 10){
+            for (; t1 != 0; t1 = t1 / 10) {
                 int remainder = t1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(rams[3] == "Stacey"){
+        if (rams[3] == "Stacey") {
             String hybrid = hybridString[0];
             int countSoFar = 1;
             // incremental variable
-            for(int h1 = 0; h1 < hybrid.length(); h1++){
+            for (int h1 = 0; h1 < hybrid.length(); h1++) {
                 // iterate through each character of the string
                 char currentChar = hybrid.charAt(h1);
                 // gathering each character 1 by 1
@@ -778,17 +776,17 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar);
         }
 
-        if(samurai[0] == "Lone Wolf Samurai"){
-            for(int LSW = 0; LSW < samurai.length; LSW++){
+        if (samurai[0] == "Lone Wolf Samurai") {
+            for (int LSW = 0; LSW < samurai.length; LSW++) {
                 String loneWolf = samurai[LSW];
                 loneWolf = loneWolf.replaceAll("a", "!");
                 System.out.println(loneWolf);
             }
         }
 
-        if(robots[2] == "Mellon-Tech"){
-            for(int mellon1 = 0; mellon1 < robots.length; mellon1++){
-                for(int ram1 = 3; ram1 >= 0; ram1--){
+        if (robots[2] == "Mellon-Tech") {
+            for (int mellon1 = 0; mellon1 < robots.length; mellon1++) {
+                for (int ram1 = 3; ram1 >= 0; ram1--) {
                     System.out.println(mellon1 + " " + robots[mellon1] + " " + ram1 + " " + rams[ram1]);
                 }
             }
@@ -798,22 +796,22 @@ public class HammerheadPickerelCola {
         System.out.println(pisces[1]);
         System.out.println(pisces[4]);
 
-        if(pisces[4] == "Hadrian"){
+        if (pisces[4] == "Hadrian") {
             int mellon1 = 0, ram1 = 3;
             String robo = "", ram = "";
-            for(; mellon1 < robots.length; mellon1++){
-                 robo = mellon1 + " " + robots[mellon1];
+            for (; mellon1 < robots.length; mellon1++) {
+                robo = mellon1 + " " + robots[mellon1];
             }
-            for(; ram1 >= 0; ram1--){
-                 ram = ram1 + " " + rams[ram1];
+            for (; ram1 >= 0; ram1--) {
+                ram = ram1 + " " + rams[ram1];
             }
             System.out.println(robo + " " + ram);
         }
 
-        if(pisces[0] == "Galahad"){
+        if (pisces[0] == "Galahad") {
             int fish1 = hybridNo[6], countSoFar = 0, pgf1 = 0;
             String fish = String.valueOf(fish1);
-            for(; pgf1 < fish.length(); pgf1++){
+            for (; pgf1 < fish.length(); pgf1++) {
                 // iterating through each character of the string
                 char currentChar = fish.charAt(pgf1);
                 // gathering up each character one by one
@@ -826,73 +824,71 @@ public class HammerheadPickerelCola {
             System.out.println(countSoFar);
         }
 
-        if(samurai[7] == "Wushu Lizard"){
-            for(int WL = 0; WL < troutNo.length; WL++){
-                if (troutNo[WL] % Math.sqrt(troutNo[WL]) == 0){
+        if (samurai[7] == "Wushu Lizard") {
+            for (int WL = 0; WL < troutNo.length; WL++) {
+                if (troutNo[WL] % Math.sqrt(troutNo[WL]) == 0) {
                     System.out.println(troutNo[WL] + " has a square root that is a whole number");
-                }
-                else
+                } else
                     System.out.println(troutNo[WL] + " has a square root that is not a whole number");
             }
         }
 
-        if(samurai[1] == "Kenji the Crane"){
+        if (samurai[1] == "Kenji the Crane") {
             int KTC1 = 0;
             String crane = "";
-            for (; KTC1 < samurai.length; KTC1++){
+            for (; KTC1 < samurai.length; KTC1++) {
                 crane = samurai[KTC1].replaceAll("e", "@@@");
                 System.out.println(crane);
             }
         }
 
-        if(bigHornCrew[0] == "Ace" && bigHornCrew[4] == "Axel"){
+        if (bigHornCrew[0] == "Ace" && bigHornCrew[4] == "Axel") {
             int reverse = 0;
 
         }
 
         System.out.println(ePetroleum[0]);
 
-        if(ePetroleum[0] == "Thierry"){
-            for(int ep2 = 0; ep2 < ePetroleum.length; ep2++){
+        if (ePetroleum[0] == "Thierry") {
+            for (int ep2 = 0; ep2 < ePetroleum.length; ep2++) {
                 System.out.println(ep2 + " " + ePetroleum[ep2]);
             }
         }
 
-        if(ePetroleum[4] == "Gilgamesh"){
+        if (ePetroleum[4] == "Gilgamesh") {
             int ep2 = troutNo[1], reverse = 0;
             // reverse is an incremental variable
-            for(; ep2 != 0; ep2 = ep2 / 10){
+            for (; ep2 != 0; ep2 = ep2 / 10) {
                 int remainder = ep2 % 10;
 
-                reverse = reverse * 10 +remainder;
+                reverse = reverse * 10 + remainder;
             }
-            if(reverse % 2 == 0){
+            if (reverse % 2 == 0) {
                 System.out.println(reverse + " is an even number.");
-            }
-            else
+            } else
                 System.out.println(reverse + " is an odd number");
         }
 
-        if(ePetroleum[1] == "Laurent"){
+        if (ePetroleum[1] == "Laurent") {
             int ep1 = 4;
-            do{
+            do {
                 System.out.println(ePetroleum[ep1] + " is an employee of Emirati Petroleum.");
                 ep1--;
-            }while(ep1 >= 0);
+            } while (ep1 >= 0);
         }
 
-        if(ePetroleum[2] == "Antoine"){
+        if (ePetroleum[2] == "Antoine") {
             int ep1 = 4;
-            while(ep1 >= 0){
+            while (ep1 >= 0) {
                 System.out.println(ePetroleum[ep1] + " is in Pisces Go Fish");
                 ep1--;
             }
         }
 
-        if(ePetroleum[3] == "Hunzuu"){
+        if (ePetroleum[3] == "Hunzuu") {
             String thierry = ePetroleum[3] + " is Laurent's longtime friend from Paris";
             System.out.println(thierry);
-            thierry = thierry.replaceAll( ePetroleum[3], ePetroleum[0]);
+            thierry = thierry.replaceAll(ePetroleum[3], ePetroleum[0]);
             System.out.println(thierry);
 
         }
@@ -900,10 +896,10 @@ public class HammerheadPickerelCola {
         // prime number is a number only divisible by 1 and itself
         // 3 is an example of a prime number
 
-        if(ePetroleum[2] == "Antoine"){
+        if (ePetroleum[2] == "Antoine") {
             int ep1 = hybridNo[4], reverse = 0;
-                                  // incremental variable
-            for(; ep1 != 0; ep1 = ep1 / 10){
+            // incremental variable
+            for (; ep1 != 0; ep1 = ep1 / 10) {
                 int remainder = ep1 % 10;
                 reverse = reverse * 10 + remainder;
             }
@@ -912,19 +908,19 @@ public class HammerheadPickerelCola {
 
         System.out.println(pisces.length);
 
-        if(pisces.length == 7){
-            for(int ep1 = 0; ep1 < pisces.length; ep1++){
+        if (pisces.length == 7) {
+            for (int ep1 = 0; ep1 < pisces.length; ep1++) {
                 String fish = pisces[ep1] + " is battling in the Hadal Empire.";
                 fish = fish.replaceAll("\\s", "###");
                 System.out.println(fish);
             }
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             String robot = String.valueOf(robotNo);
             int r1 = 0, sum = 0, difference = 0, product = 1, quotient = 1, remainder = 0;
             // variable for For loop  // incremental variable
-            for(; r1 < robot.length(); r1++){
+            for (; r1 < robot.length(); r1++) {
                 // iterating through each character in the string
                 char currentChar = robot.charAt(r1);
                 // gathering each character 1 by 1
@@ -945,25 +941,25 @@ public class HammerheadPickerelCola {
         System.out.println(9 % 10);
         System.out.println(ePetroleum.length);
 
-        if(ePetroleum[2] == "Antoine"){
+        if (ePetroleum[2] == "Antoine") {
             int pgf1 = 4;
-            while(pgf1 >= 0){
+            while (pgf1 >= 0) {
                 System.out.println(ePetroleum[pgf1] + " works for Emirati Petroleum.");
                 pgf1--;
             }
 
         }
 
-        if(ePetroleum[0] == "Thierry" && ePetroleum[1] == "Laurent"){
+        if (ePetroleum[0] == "Thierry" && ePetroleum[1] == "Laurent") {
             int ep1 = 0;
-            for(; ep1 < ePetroleum.length; ep1++){
-                if(ep1 == 0){
+            for (; ep1 < ePetroleum.length; ep1++) {
+                if (ep1 == 0) {
                     System.out.println(ePetroleum[ep1] + " is an Oryx");
                 }
             }
         }
 
-        if(samurai[1] == "Kenji the Crane"){
+        if (samurai[1] == "Kenji the Crane") {
             String trout1 = troutString[0];
 
             // Pointers pointing to the beginning
@@ -973,29 +969,28 @@ public class HammerheadPickerelCola {
             String fish1 = "";
 
             // While there are characters to compare
-            while(t3 < t4){
+            while (t3 < t4) {
 
                 // If there is a mismatch
-                if(trout1.charAt(t3) != trout1.charAt(t4)){
-                   fish1 = trout1 + " is not a palindrome.";
+                if (trout1.charAt(t3) != trout1.charAt(t4)) {
+                    fish1 = trout1 + " is not a palindrome.";
 
                     // Increment first pointer and decrement the other
                     t3++;
                     t4--;
-                }
-                else
-                   fish1 = trout1 + " is a palindrome";
-                    t3++;
-                    t4--;
+                } else
+                    fish1 = trout1 + " is a palindrome";
+                t3++;
+                t4--;
             }
             System.out.println(fish1);
         }
 
-        if(hammerHead[4] == "Wibaux"){
+        if (hammerHead[4] == "Wibaux") {
             String cola = String.valueOf(hybridNo[7]);
             // converting integer to a string
             int sum = 0, product = 1, difference = 0, quotient = 1, remainder = 0;
-            for(int h1 = 0; h1 < cola.length(); h1++){
+            for (int h1 = 0; h1 < cola.length(); h1++) {
                 // iterating through each character of the string
                 char currentChar = cola.charAt(h1);
                 // gathering up each character 1 by 1
@@ -1016,11 +1011,11 @@ public class HammerheadPickerelCola {
 
         System.out.println(hammerHead[2]);
 
-        if(hammerHead[2] == "Geometry Man"){
+        if (hammerHead[2] == "Geometry Man") {
             // function to reverse a number
             int h1 = hybridNo[6], reverse = 0;
             // assigning variable // incremental variable
-            for(; h1 != 0; h1 = h1 / 10){
+            for (; h1 != 0; h1 = h1 / 10) {
 
                 int remainder = h1 % 10;
 
@@ -1029,15 +1024,15 @@ public class HammerheadPickerelCola {
             System.out.println(reverse);
         }
 
-        if(samurai[7] == "Wushu Lizard" && hammerHead[0] == "Hammerhead"){
-            for(int h1 = 0; h1 < hammerHead.length; h1++){
+        if (samurai[7] == "Wushu Lizard" && hammerHead[0] == "Hammerhead") {
+            for (int h1 = 0; h1 < hammerHead.length; h1++) {
                 String pickerel = hammerHead[h1] + " is in Pisces Go Fish 4.";
                 pickerel = pickerel.replaceAll("\\s", "#@!*");
                 System.out.println(pickerel);
             }
         }
 
-        if(hammerHead[3] == "Harvey"){
+        if (hammerHead[3] == "Harvey") {
             String trout1 = trout[1];
 
             int t3 = 0, t4 = trout1.length() - 1;
@@ -1046,9 +1041,9 @@ public class HammerheadPickerelCola {
             String fish1 = "";
             // setting this to empty string so it can be called outside of while loop
             // where it will be used and redefined
-            while(t3 < t4){
+            while (t3 < t4) {
                 // until the two variable meet at the same index and are equal
-                if(trout1.charAt(t3) != trout1.charAt(t4)){
+                if (trout1.charAt(t3) != trout1.charAt(t4)) {
                     // if the two characters are at any point not equal...
                     // then the word is not a palindrome
                     fish1 = trout1 + " is not a palindrome.";
@@ -1057,18 +1052,17 @@ public class HammerheadPickerelCola {
                     // t3 increments forward to center of string
                     t4--;
                     // t4 increments backward to center of string
-                }
-                else
+                } else
                     fish1 = trout1 + " is a palindrome";
-                    t3++;
-                    // t3 increments forward to center of string
-                    t4--;
-                    // t4 increments backward to center of string
+                t3++;
+                // t3 increments forward to center of string
+                t4--;
+                // t4 increments backward to center of string
             }
             System.out.println(fish1);
         }
 
-        if(ePetroleum[0] != "Gilgamesh"){
+        if (ePetroleum[0] != "Gilgamesh") {
             String trout1 = troutString[2];
             // assigning the string to be used
 
@@ -1079,10 +1073,10 @@ public class HammerheadPickerelCola {
             String oryx = "";
             // instantiating variable here so that its scope can be outside of while loop
 
-            while(t3 < t4){
+            while (t3 < t4) {
                 // while t3 is incrementing towards t4
                 // while t4 is incrementing towards t3
-                if(trout1.charAt(t3) != trout1.charAt(t4)){
+                if (trout1.charAt(t3) != trout1.charAt(t4)) {
                     // if t3 and t4 are any point have different values
                     oryx = trout1 + " is not a palindrome";
 
@@ -1090,24 +1084,23 @@ public class HammerheadPickerelCola {
                     // t3 moves forward to middle of string
                     t4--;
                     // t4 moves backward to middle of string
-                }
-                else
+                } else
                     oryx = trout1 + " is a palindrome.";
-                    t3++;
-                    // t3 moves forward to middle of string
-                    t4--;
-                    // t4 moves back toward middle of string
+                t3++;
+                // t3 moves forward to middle of string
+                t4--;
+                // t4 moves back toward middle of string
             }
             System.out.println(oryx);
         }
 
-        if(bigHornCrew[0] == "Ace"){
-            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+        if (bigHornCrew[0] == "Ace") {
+            for (int bh1 = 0; bh1 < bigHornCrew.length; bh1++) {
                 System.out.println("Hi, " + bigHornCrew[bh1] + ", isn't it a great day on the Bighorn!");
             }
         }
 
-        if(bigHornCrew[1] == "Columbus"){
+        if (bigHornCrew[1] == "Columbus") {
             StringBuilder columbus = new StringBuilder();
             columbus.append(bigHornCrew[1] + " is going to Nebraska for the Great Crane Migration.");
             columbus = columbus.reverse();
@@ -1116,40 +1109,39 @@ public class HammerheadPickerelCola {
             System.out.println(columbus);
         }
 
-        if(bigHornCrew[4] == "Axel"){
+        if (bigHornCrew[4] == "Axel") {
             int h1 = hybridNo[5], reverse = 0;
             // assigning integer to variable // incremental variable
-            for(; h1 != 0; h1 = h1 / 10){
+            for (; h1 != 0; h1 = h1 / 10) {
                 int remainder = h1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(robots[1] == "Warren-21"){
+        if (robots[1] == "Warren-21") {
             int r1 = 0;
-            for(; r1 < treeNo.length; r1++){
-                if(treeNo[r1] % Math.sqrt(treeNo[r1]) == 0){
+            for (; r1 < treeNo.length; r1++) {
+                if (treeNo[r1] % Math.sqrt(treeNo[r1]) == 0) {
                     System.out.println(treeNo[r1] + " has a whole number square root.");
-                }
-                else
+                } else
                     System.out.println(treeNo[r1] + " does not have a whole number square root.");
             }
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             int r1 = 0;
-            while(r1 < robots.length){
+            while (r1 < robots.length) {
                 System.out.println(r1 + " " + robots[r1]);
                 r1++;
             }
         }
 
-        if (bigHornCrew[0] == "Ace"){
+        if (bigHornCrew[0] == "Ace") {
             String river = String.valueOf(troutNo[2]);
             int product = 1;
             // incremental variable
-            for(int bh1 = 0; bh1 < river.length(); bh1++){
+            for (int bh1 = 0; bh1 < river.length(); bh1++) {
                 // iterating through each character of the string
                 char currentChar = river.charAt(bh1);
                 // gathering each character one at a time
@@ -1160,11 +1152,11 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
-        if(bigHornCrew[4] == "Axel"){
+        if (bigHornCrew[4] == "Axel") {
             String bigHorn = String.valueOf(troutNo[3]);
             int product = 1;
             int bh1 = 0;
-            while(bh1 < bigHorn.length()){
+            while (bh1 < bigHorn.length()) {
                 char currentChar = bigHorn.charAt(bh1);
                 String currentCharAsString = String.valueOf(currentChar);
                 product = product * Integer.parseInt(currentCharAsString);
@@ -1176,59 +1168,57 @@ public class HammerheadPickerelCola {
 
         System.out.println(troutNo.length);
 
-        if(bigHornCrew.length != 9){
+        if (bigHornCrew.length != 9) {
             String bigHorn = String.valueOf(troutNo[1]);
             int product = 1;
             int bh1 = 0;
-            do{
+            do {
                 char currentChar = bigHorn.charAt(bh1);
                 String currentCharAsString = String.valueOf(currentChar);
                 product = product * Integer.parseInt(currentCharAsString);
                 bh1++;
-            }while(bh1 < bigHorn.length());
+            } while (bh1 < bigHorn.length());
             System.out.println(product);
         }
         // finding product of number's digits with a do while loop
 
         System.out.println(samurai[6]);
 
-        if(samurai[6] == "The Wraith"){
+        if (samurai[6] == "The Wraith") {
             String wraith = bigHornCrew[0];
             String bovine1 = "";
 
             int bov1 = 0;
             int bov2 = wraith.length() - 1;
 
-            while(bov1 < bov2){
-                if(wraith.charAt(bov1) != wraith.charAt(bov2)){
+            while (bov1 < bov2) {
+                if (wraith.charAt(bov1) != wraith.charAt(bov2)) {
                     bovine1 = wraith + " is not a palindrome";
                     bov1++;
                     bov2--;
-                }
-                else
+                } else
                     bovine1 = wraith + " is not a palindrome";
-                    bov1++;
-                    bov2--;
+                bov1++;
+                bov2--;
             }
             System.out.println(bovine1);
         }
         // function will output "Ace is not a palindrome
 
-        if(robots[3] == "Eggplant-Head" && hammerHead[5] == "The Cosmic Trout"){
+        if (robots[3] == "Eggplant-Head" && hammerHead[5] == "The Cosmic Trout") {
             String ace = "";
 
-            for(int a1 = 0; a1 < troutString.length; a1++){
+            for (int a1 = 0; a1 < troutString.length; a1++) {
                 String trout2 = troutString[a1];
                 int t2 = 0;
                 int t3 = trout2.length() - 1;
 
-                for(; t2 < t3; t2++, t3--){
-                    if (trout2.charAt(t2) != trout2.charAt(t3)){
+                for (; t2 < t3; t2++, t3--) {
+                    if (trout2.charAt(t2) != trout2.charAt(t3)) {
                         ace = trout2 + " is not a palindrome.";
 
 
-                    }
-                    else
+                    } else
                         ace = trout2 + " is a palindrome.";
 
 
@@ -1245,19 +1235,18 @@ public class HammerheadPickerelCola {
         // scratch that, dachshund is evaluating to a palindrome, it appear that the algorithm is only evaluating the
         // first and last letter of the string
 
-        if(bigHornCrew[0] == "Ace"){
+        if (bigHornCrew[0] == "Ace") {
             String mallard = "";
-            for(int bh1 = 0; bh1 < troutString.length; bh1++){
+            for (int bh1 = 0; bh1 < troutString.length; bh1++) {
                 String crane = troutString[bh1];
                 int bh2 = 0;
                 // index for beginning of string
                 int bh3 = crane.length() - 1;
                 // index for end of string
-                for(; bh2 < bh3; bh2++, bh3--){
-                    if(crane.charAt(bh2++) != crane.charAt(bh3--)){
+                for (; bh2 < bh3; bh2++, bh3--) {
+                    if (crane.charAt(bh2++) != crane.charAt(bh3--)) {
                         mallard = crane + " is not a palindrome";
-                    }
-                    else
+                    } else
                         mallard = crane + " is a palindrome";
                 }
                 System.out.println(mallard);
@@ -1266,24 +1255,23 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(dachshunds[4] == "Star"){
+        if (dachshunds[4] == "Star") {
             String otter = "";
-            for(int bh1 = 0; bh1 < troutString.length; bh1++){
+            for (int bh1 = 0; bh1 < troutString.length; bh1++) {
                 String mallard = troutString[bh1];
                 int bh2 = 0;
                 // bh2 will start at first index of string
                 int bh3 = mallard.length() - 1;
                 // bh3 will start at last index of string
-                while(bh2 < bh3){
-                    if(mallard.charAt(bh2++) != mallard.charAt(bh3--)){
+                while (bh2 < bh3) {
+                    if (mallard.charAt(bh2++) != mallard.charAt(bh3--)) {
                         otter = mallard + " is not a palindrome";
                         bh2++;
                         bh3--;
-                    }
-                    else
+                    } else
                         otter = mallard + " is a palinndrome";
-                        bh2++;
-                        bh3--;
+                    bh2++;
+                    bh3--;
                 }
                 System.out.println(otter);
             }
@@ -1291,21 +1279,20 @@ public class HammerheadPickerelCola {
             // fixed it!!!! needed to add ++ and -- in if statement
         }
 
-        if(robots.length == 9 || robots[3] == "Eggplant-head"){
+        if (robots.length == 9 || robots[3] == "Eggplant-head") {
             String robo = "";
-            for(int r1 = 0; r1 < troutString.length; r1++){
+            for (int r1 = 0; r1 < troutString.length; r1++) {
                 String robo1 = troutString[r1];
                 int r2 = 0;
                 // r2 starts at first index of string
                 int r3 = robo1.length() - 1;
                 // r3 starts at last index of string
-                for(; r2 < r3; r2++, r3--){
-                    if(robo1.charAt(r2++) != robo1.charAt(r3--)){
+                for (; r2 < r3; r2++, r3--) {
+                    if (robo1.charAt(r2++) != robo1.charAt(r3--)) {
                         // the ++ and the -- are the key to having the entire
                         // string tested. otherwise just the first and last character get tested
                         robo = robo1 + " is not a palindrome.";
-                    }
-                    else
+                    } else
                         robo = robo1 + " is a palindrome.";
                 }
                 System.out.println(robo);
@@ -1314,11 +1301,11 @@ public class HammerheadPickerelCola {
         // this worked out, dachshund did not evaluate to a palindrome so we know the entire string,
         // not just the first and last character of the string
 
-        if(bigHornCrew[0] == "Ace"){
+        if (bigHornCrew[0] == "Ace") {
             String blackLab = String.valueOf(hybridNo[7]);
             int sum = 0, product = 1;
             // incremental variables
-            for(int bh1 = 0; bh1 < blackLab.length(); bh1++){
+            for (int bh1 = 0; bh1 < blackLab.length(); bh1++) {
                 // iterating through each character of the string
                 char currentChar = blackLab.charAt(bh1);
                 // gathering each character 1 by 1
@@ -1331,7 +1318,7 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             StringBuilder cola = new StringBuilder();
             cola.append(hammerHead[0] + " has an awesome jacket!");
             cola = cola.reverse();
@@ -1342,27 +1329,27 @@ public class HammerheadPickerelCola {
 
         System.out.println(hammerHead[4]);
 
-        if(hammerHead[4] == "Wibaux"){
+        if (hammerHead[4] == "Wibaux") {
             int h1 = 5;
-            for(; h1 >= 0; h1--){
+            for (; h1 >= 0; h1--) {
                 String pickerel = hammerHead[h1];
                 pickerel = pickerel.replaceAll("\\s", "%@%@%");
                 System.out.println(pickerel);
             }
         }
 
-        if(hammerHead[5] == "The Cosmic Trout"){
+        if (hammerHead[5] == "The Cosmic Trout") {
             int bh1 = hybridNo[6], reverse = 0;
-            for(; bh1 != 0; bh1 = bh1 /10){
+            for (; bh1 != 0; bh1 = bh1 / 10) {
                 int remainder = bh1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(samurai[3] == "Glynis"){
+        if (samurai[3] == "Glynis") {
             String merganser = "";
-            for(int bh1 = 0; bh1 < troutString.length; bh1++){
+            for (int bh1 = 0; bh1 < troutString.length; bh1++) {
                 // iterating through every index of the troutString array
                 String mallard1 = troutString[bh1];
                 // mallard1 equals every string of the troutString array
@@ -1370,18 +1357,17 @@ public class HammerheadPickerelCola {
                 // duck1 is the first index of the string
                 int duck2 = mallard1.length() - 1;
                 // duck2 is the last index of the string
-                for(; duck1 < duck2; duck1++, duck2--){
+                for (; duck1 < duck2; duck1++, duck2--) {
                     // until the duck1 and duck2 meet in the middle...
                     // duck1 will increase
                     // and duck2 will decrease
-                    if(mallard1.charAt(duck1++) != mallard1.charAt(duck2--)){
+                    if (mallard1.charAt(duck1++) != mallard1.charAt(duck2--)) {
                         // important to put ++ and -- or else just the first and last character
                         // of the string will be tested, so a word like dachshund, which has d for the first
                         // and last characters of the word, will evaluate to a palindrome when
                         // the word is not a palindrome
                         merganser = mallard1 + " is not a palindrome.";
-                    }
-                    else
+                    } else
                         merganser = mallard1 + " is a palindrome.";
                 }
                 System.out.println(merganser);
@@ -1389,12 +1375,12 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             String telecaster = String.valueOf(troutNo[2]);
             // converting integer to string
             int sum = 0, product = 1;
             // incremental variables
-            for(int bh1 = 0; bh1 < telecaster.length(); bh1++){
+            for (int bh1 = 0; bh1 < telecaster.length(); bh1++) {
                 // iterating through each character of the converted string
                 char currentChar = telecaster.charAt(bh1);
                 // gathering each character one by one
@@ -1407,9 +1393,9 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             String pickerel = "";
-            for(int hh1 = 0; hh1 < rams.length; hh1++){
+            for (int hh1 = 0; hh1 < rams.length; hh1++) {
                 String ramHybrid = rams[hh1].toLowerCase();
                 // had to use toLowerCase() method since the same letter in different cases
                 // will not evaluate as same letter in program
@@ -1417,47 +1403,46 @@ public class HammerheadPickerelCola {
                 // first index of string
                 int ram2 = ramHybrid.length() - 1;
                 // last index of string
-                for(; ram1 < ram2; ram1++, ram2--){
-                    if(ramHybrid.charAt(ram1++) != ramHybrid.charAt(ram2--)){
+                for (; ram1 < ram2; ram1++, ram2--) {
+                    if (ramHybrid.charAt(ram1++) != ramHybrid.charAt(ram2--)) {
                         pickerel = ramHybrid + " is not a palindrome.";
-                    }
-                    else
+                    } else
                         pickerel = ramHybrid + " is a palindrome";
                 }
                 System.out.println(pickerel);
             }
         }
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
             int lws1 = hammerHead[0].length();
             // lws1 equals the amount of characters in "Hammerhead"
             System.out.println(lws1);
         }
 
-        if(dachshunds[2] == "Bodhi"){
+        if (dachshunds[2] == "Bodhi") {
             int d1;
 
             // initialize maximum element
             int max = troutNo[0];
             // setting first element in the array as the max
             // since it will be the first element iterated through
-            for(d1 = 0; d1 < troutNo.length; d1++){
-                if(troutNo[d1] > max){
+            for (d1 = 0; d1 < troutNo.length; d1++) {
+                if (troutNo[d1] > max) {
                     max = troutNo[d1];
                 }
             }
             System.out.println(max);
         }
 
-        if(hammerHead[4] == "Wibaux"){
+        if (hammerHead[4] == "Wibaux") {
             String maxName = "";
             int max = pisces[0].length();
             // setting first element in the array as the max
             // since it will be the first element iterated through
-            for(int h1 = 0; h1 < pisces.length; h1++){
-                if(pisces[h1].length() > max){
-                   max = pisces[h1].length();
-                   maxName = pisces[h1];
+            for (int h1 = 0; h1 < pisces.length; h1++) {
+                if (pisces[h1].length() > max) {
+                    max = pisces[h1].length();
+                    maxName = pisces[h1];
                 }
 
             }
@@ -1465,13 +1450,13 @@ public class HammerheadPickerelCola {
             // this works!!! will output name of pisces character and the amount of letters in their name
         }
 
-        if(hammerHead[5] == "The Cosmic Trout"){
+        if (hammerHead[5] == "The Cosmic Trout") {
             String minName = "";
             int min = hammerHead[0].length();
             // setting first element in the array as the minimum element
             // since it will be the first element iterated through
-            for(int h1 = 0; h1 < hammerHead.length; h1++){
-                if(hammerHead[h1].length() <= min){
+            for (int h1 = 0; h1 < hammerHead.length; h1++) {
+                if (hammerHead[h1].length() <= min) {
                     min = hammerHead[h1].length();
                     minName = hammerHead[h1];
                 }
@@ -1484,14 +1469,14 @@ public class HammerheadPickerelCola {
             // print to console instead of the first
         }
 
-        if(samurai[2] == "Laramie"){
+        if (samurai[2] == "Laramie") {
             String robot = samurai[2] + " is a super fun guy!";
             robot = robot.replaceAll("\\s", "*");
             System.out.println(robot);
             // console prints "Laramie*is*a*super*fun*guy!
         }
 
-        if(samurai[3] == "Glynis"){
+        if (samurai[3] == "Glynis") {
             StringBuilder glynis = new StringBuilder();
             glynis.append(samurai[3] + " is a green dog from the far reaches of space!");
             System.out.println(glynis);
@@ -1502,13 +1487,13 @@ public class HammerheadPickerelCola {
         System.out.println(samurai[3].length());
         System.out.println(samurai[3] + " " + samurai[3].length());
 
-        if(dachshunds[0] == "Beezer" && dachshunds[1] == "Chipper"){
+        if (dachshunds[0] == "Beezer" && dachshunds[1] == "Chipper") {
             int max = Integer.parseInt(hybridString[0]);
             // converting the first elements of the String array to an integer
             // since we will iterate through each array element to find the greatest number
             // we will set the max to the first array element
-            for(int bh1 = 0; bh1 < hybridString.length; bh1++){
-                if(Integer.parseInt(hybridString[bh1]) > max){
+            for (int bh1 = 0; bh1 < hybridString.length; bh1++) {
+                if (Integer.parseInt(hybridString[bh1]) > max) {
                     max = Integer.parseInt(hybridString[bh1]);
                 }
             }
@@ -1517,11 +1502,11 @@ public class HammerheadPickerelCola {
 
         System.out.println(hybridString.length);
 
-        if(samurai[0] == "Lone Wolf Samurai"){
+        if (samurai[0] == "Lone Wolf Samurai") {
             double sum = 0;
             // incremental variable
             double avg = 0;
-            for(int bh1 = 0; bh1 < hybridString.length; bh1++){
+            for (int bh1 = 0; bh1 < hybridString.length; bh1++) {
                 int currentInt = Integer.parseInt(hybridString[bh1]);
                 // convert each string to an integer 1 by 1
                 sum = sum + currentInt;
@@ -1534,22 +1519,22 @@ public class HammerheadPickerelCola {
         System.out.println(hybridString[1]);
         System.out.println(Integer.parseInt(hybridString[1]));
 
-        if(samurai[2] == "Laramie"){
+        if (samurai[2] == "Laramie") {
             int bh1 = Integer.parseInt(hybridString[1]), reverse = 0;
             // converting string to integer             // incremental variable
-            for(; bh1 != 0; bh1 = bh1 / 10){
+            for (; bh1 != 0; bh1 = bh1 / 10) {
                 int remainder = bh1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(samurai[3] == "Glynis"){
+        if (samurai[3] == "Glynis") {
             String telecaster = String.valueOf(hybridNo[3]);
             // converting Integer to String
             int product = 1;
             // incremental variable
-            for(int bh1 = 0; bh1 < telecaster.length(); bh1++){
+            for (int bh1 = 0; bh1 < telecaster.length(); bh1++) {
                 // iterating through each character of the string
                 char currentChar = telecaster.charAt(bh1);
                 // gathering each character 1 by 1
@@ -1562,24 +1547,23 @@ public class HammerheadPickerelCola {
         System.out.println(hybridNo[3]);
         System.out.println(hammerHead[3]);
 
-        if(hammerHead[3] == "Harvey"){
+        if (hammerHead[3] == "Harvey") {
             String hardin = "";
-            for(int bh1 = 0; bh1 < hybridString.length; bh1++){
+            for (int bh1 = 0; bh1 < hybridString.length; bh1++) {
                 String stX = hybridString[bh1];
                 // gathering up all the string elements in this variable
                 int river = 0;
                 // first index of string
                 int landing = stX.length() - 1;
                 // last index of string
-                for(; river < landing; river++, landing--){
+                for (; river < landing; river++, landing--) {
                     // while river is less than landing on the string index...
                     // river increases by one and landing decreases by one
-                    if(stX.charAt(river++) != stX.charAt(landing--)){
+                    if (stX.charAt(river++) != stX.charAt(landing--)) {
                         // stX.charAt(river++) starts at beginning of string and moves forward by 1
                         // stX.charAt(landing--) starts at of string and moves backward by 1
                         hardin = stX + " is not a palindrome";
-                    }
-                    else
+                    } else
                         hardin = stX + " is a palindrome";
                 }
                 System.out.println(hardin);
@@ -1587,33 +1571,31 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(hammerHead[2] == "Geometry Man"){
-            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+        if (hammerHead[2] == "Geometry Man") {
+            for (int hh1 = 0; hh1 < hammerHead.length; hh1++) {
                 System.out.println(hammerHead[hh1] + " is from the far far reaches of space.");
             }
         }
 
-        if(hammerHead[0] == "Hammerhead"){
-            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
-                if (hh1 == 3 || hh1 == 4){
+        if (hammerHead[0] == "Hammerhead") {
+            for (int hh1 = 0; hh1 < hammerHead.length; hh1++) {
+                if (hh1 == 3 || hh1 == 4) {
                     System.out.println(hammerHead[hh1] + " is from Hardin-37.");
-                }
-                else if(hh1 == 0 || hh1 == 1){
+                } else if (hh1 == 0 || hh1 == 1) {
                     System.out.println(hammerHead[hh1] + " are delivering Pickerel Cola to the far reaches of space.");
-                }
-                else
+                } else
                     System.out.println(hammerHead[hh1] + " is a Cosmic Entity.");
             }
         }
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
             String laramie = samurai[2] + " is a super happy guy.";
             System.out.println(laramie);
             laramie = laramie.replaceAll("\\s", "##");
             System.out.println(laramie);
         }
 
-        if(ePetroleum[1] == "Laurent"){
+        if (ePetroleum[1] == "Laurent") {
             String laurent = ePetroleum[1] + " is Thierry's best friend.";
             System.out.println(laurent);
             StringBuilder laurent1 = new StringBuilder();
@@ -1622,23 +1604,22 @@ public class HammerheadPickerelCola {
             System.out.println(laurent1);
         }
 
-        if(ePetroleum[2] == "Antoine"){
+        if (ePetroleum[2] == "Antoine") {
             String oryx = "";
-            for(int bh1 = 0; bh1 < samurai.length; bh1++){
+            for (int bh1 = 0; bh1 < samurai.length; bh1++) {
                 String kenji = samurai[bh1];
                 // kenji equals all the strings of the samurai array
                 int zeno = 0;
                 // first index of string
                 int samos = kenji.length() - 1;
                 // last index of string
-                for(; zeno < samos; zeno++, samos--){
+                for (; zeno < samos; zeno++, samos--) {
                     // for loop runs until zeno and samos will meet at the same index
-                    if(kenji.charAt(zeno++) != kenji.charAt(samos--)){
+                    if (kenji.charAt(zeno++) != kenji.charAt(samos--)) {
                         // if the two indexes are not the same letter at any point
                         // the string will evaluate to not a palindrome
-                      oryx = kenji + " is not a palindrome";
-                    }
-                    else
+                        oryx = kenji + " is not a palindrome";
+                    } else
                         oryx = kenji + " is a palindrome";
                 }
                 System.out.println(oryx);
@@ -1648,11 +1629,11 @@ public class HammerheadPickerelCola {
 
         System.out.println(ePetroleum[4]);
 
-        if(ePetroleum[4] == "Gilgamesh"){
+        if (ePetroleum[4] == "Gilgamesh") {
             int max = ePetroleum[0].length();
             String maxName = "";
-            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
-                if(ePetroleum[ep1].length() > max){
+            for (int ep1 = 0; ep1 < ePetroleum.length; ep1++) {
+                if (ePetroleum[ep1].length() > max) {
                     max = ePetroleum[ep1].length();
                     maxName = ePetroleum[ep1];
                 }
@@ -1660,11 +1641,11 @@ public class HammerheadPickerelCola {
             System.out.println(maxName + " has " + max + " characters in his name");
         }
 
-        if(samurai[3] == "Glynis"){
+        if (samurai[3] == "Glynis") {
             String yokohama = hybridString[1];
             int product = 1;
             // incremental variable
-            for(int bh1 = 0; bh1 < yokohama.length(); bh1++){
+            for (int bh1 = 0; bh1 < yokohama.length(); bh1++) {
                 // iterating through each character of the string
                 char currentChar = yokohama.charAt(bh1);
                 // gathering up the characters 1 by 1
@@ -1678,7 +1659,7 @@ public class HammerheadPickerelCola {
         System.out.println(samurai[1].charAt(0));
         // will return K
 
-        if(bigHornCrew[0] == "Ace"){
+        if (bigHornCrew[0] == "Ace") {
             String ace = bigHornCrew[0] + " rules the Bighorn!";
             System.out.println(ace);
             StringBuilder bigHorn = new StringBuilder();
@@ -1690,7 +1671,7 @@ public class HammerheadPickerelCola {
         System.out.println(ePetroleum[3]);
         // Hunzuu!!!
 
-        if(ePetroleum[3] == "Hunzuu"){
+        if (ePetroleum[3] == "Hunzuu") {
             String hunzuu = ePetroleum[3] + " is a snake with a robo-suit";
             System.out.println(hunzuu);
             hunzuu = hunzuu.replaceAll("\\s", "!!");
@@ -1700,10 +1681,10 @@ public class HammerheadPickerelCola {
             System.out.println(snake);
         }
 
-        if(dachshunds[2] == "Bodhi"){
+        if (dachshunds[2] == "Bodhi") {
             String dachshund = String.valueOf(hybridNo[5]);
             int product = 1;
-            for(int d1 = 0; d1 < dachshund.length(); d1++){
+            for (int d1 = 0; d1 < dachshund.length(); d1++) {
                 char currentChar = dachshund.charAt(d1);
                 String currentCharAsString = String.valueOf(currentChar);
                 product = product * Integer.parseInt(currentCharAsString);
@@ -1713,74 +1694,74 @@ public class HammerheadPickerelCola {
         }
         System.out.println(hybridNo[5]);
 
-        if(samurai[2] == "Laramie"){
+        if (samurai[2] == "Laramie") {
             int crane = treeNo[2], reverse = 0;
-                                  // incremental variable
-            for(; crane != 0; crane = crane / 10){
+            // incremental variable
+            for (; crane != 0; crane = crane / 10) {
                 int remainder = crane % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(trees[0] == "Cornelius"  && trout[1] == "Brown"){
+        if (trees[0] == "Cornelius" && trout[1] == "Brown") {
             int tree = trees.length - 1;
-            while(tree >= 0){
+            while (tree >= 0) {
                 System.out.println(trees[tree]);
                 tree--;
             }
             System.out.println(tree);
         }
 
-        if(trees[2] == "Owen"){
+        if (trees[2] == "Owen") {
             String owen = trees[2];
             int t2 = 3;
-            do{
+            do {
                 System.out.println(owen.charAt(t2));
                 t2--;
-            }while(t2 >= 0);
+            } while (t2 >= 0);
         }
 
-        if(trees[1] == "Magnus"){
+        if (trees[1] == "Magnus") {
             String cornelius = trees[0];
             int t2 = trees[0].length() - 1;
-            do{
+            do {
                 System.out.println(cornelius.charAt(t2));
                 t2--;
-            }while(t2 >= 0);
+            } while (t2 >= 0);
         }
 
-        if(trees[4] == "Jasper"){
+        if (trees[4] == "Jasper") {
             String jasper = trees[4];
             int t2 = 0;
-            do{
+            do {
                 System.out.println(jasper.charAt(t2));
                 t2++;
-            }while(t2 < jasper.length());
+            } while (t2 < jasper.length());
         }
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             String hammer = hammerHead[0];
             int hh1 = 0;
-            while(hh1 < hammer.length()){
+            while (hh1 < hammer.length()) {
                 System.out.println(hammer.charAt(hh1));
                 hh1++;
             }
         }
 
-        if(dachshunds[0] == "Beezer"){
+        if (dachshunds[0] == "Beezer") {
             String Beezer = dachshunds[0];
-            for(int d1 = 0; d1 < Beezer.length(); d1++){
+            for (int d1 = 0; d1 < Beezer.length(); d1++) {
                 System.out.println(Beezer.charAt(d1));
             }
         }
 
-        if(dachshunds[1] == "Chipper"){
+        if (dachshunds[1] == "Chipper") {
             String dachshundName = "";
             int max = dachshunds[0].length();
             // when testing for max or min, always start with first element that will be iterated
-            for(int d1 = 0; d1 < dachshunds.length; d1++){
-                if (dachshunds[d1].length() > max){
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
+                if (dachshunds[d1].length() > max) {
                     max = dachshunds[d1].length();
                     dachshundName = dachshunds[d1];
 
@@ -1791,17 +1772,17 @@ public class HammerheadPickerelCola {
             // prints to console "Chipper has 7 letters in his name."
         }
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             int hh1 = hybridNo[4], reverse = 0;
             // declaring variable name // incremental variable
-            for(; hh1 != 0; hh1 = hh1 / 10){
+            for (; hh1 != 0; hh1 = hh1 / 10) {
                 int remainder = hh1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(bigHornCrew[4] == "Axel"){
+        if (bigHornCrew[4] == "Axel") {
             String otter = bigHornCrew[4] + " is an awesome otter who lives on the Bighorn!";
             System.out.println(otter);
             StringBuilder axel = new StringBuilder();
@@ -1810,7 +1791,7 @@ public class HammerheadPickerelCola {
             System.out.println(axel);
         }
 
-        if(bigHornCrew.length == 5){
+        if (bigHornCrew.length == 5) {
             String crane = bigHornCrew[1] + " is a Sandhill Crane.";
             String red = samurai[1] + " is a Red Crowned Crane.";
             crane = crane.concat(red);
@@ -1818,24 +1799,24 @@ public class HammerheadPickerelCola {
             System.out.println(crane);
         }
 
-        if(hammerHead[4].length() == 6){
+        if (hammerHead[4].length() == 6) {
             System.out.println(hammerHead[4]);
         }
 
         System.out.println(bigHornCrew[2]);
 
-        if(bigHornCrew[2].length() == bigHornCrew[3].length()){
-            if(bigHornCrew[2].charAt(1) == bigHornCrew[3].charAt(1)){
+        if (bigHornCrew[2].length() == bigHornCrew[3].length()) {
+            if (bigHornCrew[2].charAt(1) == bigHornCrew[3].charAt(1)) {
                 String mallard = bigHornCrew[2] + " and " + bigHornCrew[3] + " both have a as the second letter in their name.";
                 System.out.println(mallard);
             }
         }
 
-        if(samurai[7] == "Wushu Lizard" && robots[0] == "Hank-44"){
+        if (samurai[7] == "Wushu Lizard" && robots[0] == "Hank-44") {
             int max = robots[0].length();
-           //
-            for(int r1 = 0; r1 < robots.length; r1++){
-                if(robots[r1].length() > max){
+            //
+            for (int r1 = 0; r1 < robots.length; r1++) {
+                if (robots[r1].length() > max) {
                     max = robots[r1].length();
                 }
                 System.out.println(max);
@@ -1845,36 +1826,35 @@ public class HammerheadPickerelCola {
 
         System.out.println(Math.sqrt(81));
 
-        if(bigHornCrew[0].length() == 3){
+        if (bigHornCrew[0].length() == 3) {
             // testing for palindrome algorithm
             String mallardsLanding = "";
-            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+            for (int bh1 = 0; bh1 < bigHornCrew.length; bh1++) {
                 String bigHorn = bigHornCrew[bh1];
                 // bigHorn equals each string of the bigHornCrew array
                 int bh2 = 0;
                 // bh2 is the first index of the string
                 int bh3 = bigHorn.length() - 1;
                 // bh3 is the last index of the string
-                for(; bh2 < bh3; bh2++, bh3--){
+                for (; bh2 < bh3; bh2++, bh3--) {
                     // bh2 increments by 1 and bh3 increments by -1 before they meet in the middle of the string
-                    if(bigHorn.charAt(bh2++) != bigHorn.charAt(bh3--)){
+                    if (bigHorn.charAt(bh2++) != bigHorn.charAt(bh3--)) {
                         // if statement will evaluate two indexes as they make their way towards the center of the string
                         System.out.println(bigHorn + " is not a palindrome.");
-                    }
-                    else
+                    } else
                         System.out.println(bigHorn + " is a palindrome.");
                 }
             }
         }
 
-        if(ePetroleum[0].length() == 7){
+        if (ePetroleum[0].length() == 7) {
             String fuel = "";
             // incremental variable
             int ep1 = 0;
-            for(; ep1 < ePetroleum.length; ep1++){
+            for (; ep1 < ePetroleum.length; ep1++) {
                 String fuel1 = ePetroleum[ep1];
-                for(int ep2 = 0; ep2 < fuel1.length(); ep2++){
-                    if(ep2 == 1){
+                for (int ep2 = 0; ep2 < fuel1.length(); ep2++) {
+                    if (ep2 == 1) {
                         System.out.println(fuel1.charAt(ep2));
                         char currentChar = fuel1.charAt(ep2);
                         String oil = String.valueOf(currentChar);
@@ -1889,9 +1869,9 @@ public class HammerheadPickerelCola {
         // outputs the second letter in each name
         // also adds those characters together to make a single string
 
-        if(rams[3] == "Stacey"){
+        if (rams[3] == "Stacey") {
             int r1 = 0;
-            for(; r1 < rams.length; r1++){
+            for (; r1 < rams.length; r1++) {
                 String ram = rams[r1] + " is an awesome Ram Hybrid.";
                 ram = ram.replaceAll("\\s", "!!!");
                 System.out.println(ram);
@@ -1902,17 +1882,17 @@ public class HammerheadPickerelCola {
             }
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             String robo = "";
             String roboStringSum = "";
             // incremental String variable
-            for(int r1 = 0; r1 < robots.length; r1++){
+            for (int r1 = 0; r1 < robots.length; r1++) {
                 // iterating through each element of robots array
                 String chappie = robots[r1];
                 // chappie is equal to all strings of the array
-                for(int r2 = 0; r2 < chappie.length(); r2++){
+                for (int r2 = 0; r2 < chappie.length(); r2++) {
                     // iterating through each string's characters of the robots array
-                    if(r2 == 0){
+                    if (r2 == 0) {
                         // if r2 is the first index of a given string
                         char currentChar = chappie.charAt(r2);
                         // gathering each character at the 0 index one at a time
@@ -1931,20 +1911,19 @@ public class HammerheadPickerelCola {
 
         System.out.println(ePetroleum[4]);
 
-        if(ePetroleum.length == 5){
+        if (ePetroleum.length == 5) {
             String fuel = "";
-            for(int r1 = 0; r1 < robots.length; r1++){
+            for (int r1 = 0; r1 < robots.length; r1++) {
                 String petroleum = robots[r1];
                 // petroleum represents every string of the array
                 int r2 = 0;
                 // first index of string
-                int r3 = petroleum.length() -1;
+                int r3 = petroleum.length() - 1;
                 // last index of string
-                for(; r2 < r3; r2++, r3--){
-                    if (petroleum.charAt(r2++) != petroleum.charAt(r3--)){
+                for (; r2 < r3; r2++, r3--) {
+                    if (petroleum.charAt(r2++) != petroleum.charAt(r3--)) {
                         fuel = petroleum + " is not a palindrome.";
-                    }
-                    else
+                    } else
                         fuel = petroleum + " is a palindrome.";
                 }
                 System.out.println(fuel);
@@ -1952,10 +1931,10 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(robots[3] == "Eggplant-Head"){
+        if (robots[3] == "Eggplant-Head") {
             String robot = String.valueOf(hybridNo[3]);
             int product = 1;
-            for(int r1 = 0; r1 < robot.length(); r1++){
+            for (int r1 = 0; r1 < robot.length(); r1++) {
                 // iterating through each character of string robot
                 char currentChar = robot.charAt(r1);
                 // gathering up each character 1 at a time
@@ -1965,32 +1944,32 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
-        if(robots[0] == "Hank-44"){
+        if (robots[0] == "Hank-44") {
             int r1 = 0;
-            while(r1 < robots[0].length()){
+            while (r1 < robots[0].length()) {
                 System.out.println(robots[0].charAt(r1));
                 r1++;
             }
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             int r1 = 0;
             int r2 = robots[2].length() - 1;
             String mellon = "";
             String mellon_tech = robots[2];
-            do{
+            do {
                 System.out.println(mellon_tech.charAt(r1));
                 char currentChar = mellon_tech.charAt(r1);
                 String tech = String.valueOf(currentChar);
                 mellon = mellon + tech;
                 r1++;
-            }while(r1 <= r2);
+            } while (r1 <= r2);
             System.out.println(mellon);
         }
 
-        if(dachshunds[0] == "Beezer"){
-            for (int d1 = 0; d1 < dachshunds.length; d1++){
-               String dachshund = dachshunds[d1] + " is an awesome dachshund!!!";
+        if (dachshunds[0] == "Beezer") {
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
+                String dachshund = dachshunds[d1] + " is an awesome dachshund!!!";
                 System.out.println(dachshund);
                 dachshund = dachshund.replaceAll("\\s", "==");
                 System.out.println(dachshund);
@@ -2004,20 +1983,20 @@ public class HammerheadPickerelCola {
             }
         }
 
-      //  System.out.println(ePetroleum[4].charAt(dachshundNo));
+        //  System.out.println(ePetroleum[4].charAt(dachshundNo));
 
-        if(dachshunds.length == 5){
+        if (dachshunds.length == 5) {
             int badger_hound = Integer.parseInt(robotString[1]);
             System.out.println(dachshunds[badger_hound]);
 
         }
 
-        if(ePetroleum[4] == "Gilgamesh"){
+        if (ePetroleum[4] == "Gilgamesh") {
             // find product of digits of an integer
             String gilgamesh = String.valueOf(hybridNo[3]);
             int product = 1;
             // incremental variable
-            for(int gil1 = 0; gil1 < gilgamesh.length(); gil1++){
+            for (int gil1 = 0; gil1 < gilgamesh.length(); gil1++) {
                 // iterating through each character of the string
                 char currentChar = gilgamesh.charAt(gil1);
                 // gathering up each character 1 by 1
@@ -2028,22 +2007,22 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             // reversing a number
             int r1 = 2037, reverse = 0;
             // declaring variable // incremental variable
-            for(; r1 != 0; r1 = r1 / 10){
+            for (; r1 != 0; r1 = r1 / 10) {
                 int remainder = r1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(samurai[3] == "Glynis"){
+        if (samurai[3] == "Glynis") {
             String incubator = "Incubator";
             int inc1 = 0;
             String antibi = "";
-            while(inc1 < incubator.length()){
+            while (inc1 < incubator.length()) {
                 System.out.println(incubator.charAt(inc1));
                 antibi = antibi + incubator.charAt(inc1);
                 inc1++;
@@ -2052,9 +2031,9 @@ public class HammerheadPickerelCola {
             System.out.println(antibi);
         }
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
             String dachshund = "";
-            for(int d1 = 0; d1 < dachshunds.length; d1++){
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
                 // iterating through each dachshund of the dachshund array
                 String appleHill = dachshunds[d1];
                 // appleHill equals every iterated string of the dachshunds array
@@ -2062,11 +2041,10 @@ public class HammerheadPickerelCola {
                 // first index of the string
                 int appleHill2 = appleHill.length() - 1;
                 // last index of string
-                for(; appleHill1 < appleHill2; appleHill1++, appleHill2--){
-                    if(appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)){
+                for (; appleHill1 < appleHill2; appleHill1++, appleHill2--) {
+                    if (appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)) {
                         dachshund = appleHill + " is not a palindrome";
-                    }
-                    else
+                    } else
                         dachshund = appleHill + " is a palindrome.";
                 }
                 System.out.println(dachshund);
@@ -2075,7 +2053,7 @@ public class HammerheadPickerelCola {
             // but not the rest of the results
         }
 
-        if(ePetroleum.length == 5){
+        if (ePetroleum.length == 5) {
             String bodhi = dachshunds[2] + " loves to run up the Adirondacks!";
             bodhi = bodhi.replaceAll("\\s", "!!!");
             System.out.println(bodhi);
@@ -2085,30 +2063,30 @@ public class HammerheadPickerelCola {
             System.out.println(dachshund);
         }
 
-        if(ePetroleum[2] == "Antoine"){
+        if (ePetroleum[2] == "Antoine") {
             int ep1 = 4;
-            for(; ep1 >= 0; ep1--){
-                if (ep1 == 2){
+            for (; ep1 >= 0; ep1--) {
+                if (ep1 == 2) {
                     String antoine = ePetroleum[ep1] + " is the CEO of Clichy Security Solutions.";
                     System.out.println(antoine);
                 }
             }
         }
 
-        if(trees[0] == "Cornelius"){
+        if (trees[0] == "Cornelius") {
             int t2 = 4;
-            do{
+            do {
                 System.out.println(trees[t2] + " is an incredibly fashionable hybrid.");
                 t2--;
-            }while(t2 >= 0);
+            } while (t2 >= 0);
         }
 
-        if(trees[4] == "Jasper"){
+        if (trees[4] == "Jasper") {
             String tree = "";
             // incremental variable
             int t2 = 0;
-            for(; t2 < trees.length; t2++){
-                if (t2 == 0){
+            for (; t2 < trees.length; t2++) {
+                if (t2 == 0) {
                     System.out.println(trees[t2].charAt(t2));
                     tree = tree + trees[t2];
                 }
@@ -2117,16 +2095,16 @@ public class HammerheadPickerelCola {
             System.out.println(tree);
         }
 
-        if(trees[4] == "Jasper") {
+        if (trees[4] == "Jasper") {
             String tree2 = "";
             // incremental variable
             for (int t2 = 0; t2 < trees.length; t2++) {
                 String tree1 = trees[t2];
                 // tree1 equals each Tree Hybrid of the trees array
                 System.out.println(tree1);
-                for(int t3 = 0; t3 < tree1.length(); t3++){
+                for (int t3 = 0; t3 < tree1.length(); t3++) {
                     // iterating through each character of a given string
-                    if (t3 == 0){
+                    if (t3 == 0) {
                         // if t3 is equal to the first index
                         System.out.println(tree1.charAt(t3));
                         tree2 = tree2 + tree1.charAt(t3);
@@ -2136,70 +2114,67 @@ public class HammerheadPickerelCola {
             System.out.println(tree2);
         }
 
-        if(rams[1] == "Otto"){
+        if (rams[1] == "Otto") {
             String ram = "";
             // incremental variable
-            for(int r1 = 0; r1 < rams.length; r1++){
+            for (int r1 = 0; r1 < rams.length; r1++) {
                 String ram1 = rams[r1].toLowerCase();
                 // ram1 equals every Ram Hybrid of the rams array
                 int ram2 = 0;
                 // first index of string
                 int ram3 = ram1.length() - 1;
                 // last index of string
-                for(; ram2 < ram3; ram2++, ram3--){
+                for (; ram2 < ram3; ram2++, ram3--) {
                     // ram2 will increase and ran2 will decrease until they meet in the middle
-                    if(ram1.charAt(ram2++) != ram1.charAt(ram3--)){
+                    if (ram1.charAt(ram2++) != ram1.charAt(ram3--)) {
                         System.out.println(ram1 + " is not a palindrome.");
-                    }
-                    else
+                    } else
                         System.out.println(ram1 + " is a palindrome");
                 }
             }
         }
 
-        if(rams[2] == "Jay" && rams[2].length() == 3){
-            for(int r1 = 0; r1 < hybridString.length; r1++){
+        if (rams[2] == "Jay" && rams[2].length() == 3) {
+            for (int r1 = 0; r1 < hybridString.length; r1++) {
                 String ram = hybridString[r1];
                 // all string values of the hybridString array
                 int ram1 = Integer.parseInt(ram);
-               if(ram1 % 2 == 0){
-                   System.out.println(ram1 + " is an even number");
-               }
-               else
-                   System.out.println(ram1 + " is an odd number.");
+                if (ram1 % 2 == 0) {
+                    System.out.println(ram1 + " is an even number");
+                } else
+                    System.out.println(ram1 + " is an odd number.");
             }
         }
         // function to test for even numbers and odd numbers works!!!
 
-        if(rams.length == 4){
+        if (rams.length == 4) {
             int max = rams[0].length();
             // max equals length of first string in the array
-            for(int r1 = 0; r1 < rams.length; r1++){
-                if(rams[r1].length() > max){
+            for (int r1 = 0; r1 < rams.length; r1++) {
+                if (rams[r1].length() > max) {
                     max = rams[r1].length();
-                  String maxName = rams[r1];
+                    String maxName = rams[r1];
                     System.out.println(maxName + " --- " + max);
                 }
             }
 
         }
 
-        if(trees.length == 5){
-            for(int t2 = 0; t2 < treeNo.length; t2++){
-                if(treeNo[t2] % Math.sqrt(treeNo[t2]) == 0){
+        if (trees.length == 5) {
+            for (int t2 = 0; t2 < treeNo.length; t2++) {
+                if (treeNo[t2] % Math.sqrt(treeNo[t2]) == 0) {
                     System.out.println(treeNo[t2] + " has a whole number for a square root");
-                }
-                else
+                } else
                     System.out.println(treeNo[t2] + " has a square root that is not a whole number.");
             }
         }
 
-        if(rams.length == 4){
+        if (rams.length == 4) {
             int hybrid = 37;
             // finding reverse of these digits
             int reverse = 0;
             // incremental variable
-            for(; hybrid != 0; hybrid = hybrid / 10){
+            for (; hybrid != 0; hybrid = hybrid / 10) {
                 int remainder = hybrid % 10;
                 reverse = reverse * 10 + remainder;
             }
@@ -2207,11 +2182,11 @@ public class HammerheadPickerelCola {
 
         }
 
-        if(trees.length != 37){
+        if (trees.length != 37) {
             String hybrid = String.valueOf(37);
             // finding product of digits of 37
             int product = 1;
-            for(int hybrid1 = 0; hybrid1 < hybrid.length(); hybrid1++){
+            for (int hybrid1 = 0; hybrid1 < hybrid.length(); hybrid1++) {
                 // iterating through each character of the string
                 char currentChar = hybrid.charAt(hybrid1);
                 // gathering each character 1 at a time
@@ -2222,12 +2197,12 @@ public class HammerheadPickerelCola {
             System.out.println(product);
         }
 
-        if(samurai[2] == "Laramie"){
+        if (samurai[2] == "Laramie") {
             int sum = 0;
-            for(int WL = 0; WL < hybridString.length; WL++){
+            for (int WL = 0; WL < hybridString.length; WL++) {
                 String hybrid = hybridString[WL];
-                for(int lsw = 0; lsw < hybrid.length(); lsw++){
-                    if(lsw == 0){
+                for (int lsw = 0; lsw < hybrid.length(); lsw++) {
+                    if (lsw == 0) {
                         System.out.println(hybrid.charAt(lsw));
                         String tree = String.valueOf(hybrid.charAt(lsw));
                         int hybridInt = Integer.parseInt(tree);
@@ -2241,13 +2216,13 @@ public class HammerheadPickerelCola {
         System.out.println(robots[2]);
         System.out.println(robots[3]);
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             int product = 1;
-            for(int mt1 = 0; mt1 < hybridNo.length; mt1++){
+            for (int mt1 = 0; mt1 < hybridNo.length; mt1++) {
                 int m_tech = hybridNo[mt1];
                 String m_tech1 = String.valueOf(m_tech);
-                for(int eggPlant = 0; eggPlant < m_tech1.length(); eggPlant++){
-                    if(eggPlant == 0){
+                for (int eggPlant = 0; eggPlant < m_tech1.length(); eggPlant++) {
+                    if (eggPlant == 0) {
                         char currentChar = m_tech1.charAt(eggPlant);
                         System.out.println(currentChar);
                         String currentCharAsString = String.valueOf(currentChar);
@@ -2260,27 +2235,26 @@ public class HammerheadPickerelCola {
             // product is 15552!!!
         }
 
-        if(dachshunds[3] == "Jake"){
-            for(int d1 = 0; d1 < dachshunds.length; d1++){
+        if (dachshunds[3] == "Jake") {
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
                 String appleHill = dachshunds[d1];
                 // appleHill equals every dachshund of  dachshunds array
                 int d2 = 0;
                 // first index of string
                 int d3 = appleHill.length() - 1;
                 // last index of string
-                for(; d2 < d3; d2++, d3--){
+                for (; d2 < d3; d2++, d3--) {
                     // d2 will increase and d3 will decrease until they meet in the middle of the string
-                    if(appleHill.charAt(d2++) != appleHill.charAt(d3--)){
+                    if (appleHill.charAt(d2++) != appleHill.charAt(d3--)) {
                         System.out.println(appleHill + " is not a palindrome.");
-                    }
-                    else
+                    } else
                         System.out.println(appleHill + " is a palindrome.");
                     // wonder why Beezer and Chipper are both printing twice to the console
                 }
             }
         }
 
-        if(robots[3] == "Eggplant-Head"){
+        if (robots[3] == "Eggplant-Head") {
             String eggPlant = robots[3];
             eggPlant = eggPlant.replaceAll("Egg", "");
             eggPlant = eggPlant.replaceAll("-Head", "");
@@ -2290,11 +2264,11 @@ public class HammerheadPickerelCola {
 
         System.out.println(trout[1]);
 
-        if(trout[0] == "Rainbow"){
+        if (trout[0] == "Rainbow") {
             String trout1 = trout[0];
             trout1 = trout1.concat(" Trout");
             System.out.println(trout1);
-            for(int t2 = 0; t2 < trout1.length(); t2++){
+            for (int t2 = 0; t2 < trout1.length(); t2++) {
                 char currentChar = trout1.charAt(t2);
                 System.out.println(currentChar);
             }
@@ -2302,21 +2276,21 @@ public class HammerheadPickerelCola {
             System.out.println(trout1);
         }
 
-        if(trout[1] == "Brown"){
+        if (trout[1] == "Brown") {
             int sum = 0; // incremental variable
             // want to convert all integers in array to strings
             // then convert back to integers
             // then test whether they have whole numbers as square roots
-            for(int trout1 = 0; trout1 < hybridNo.length; trout1++){
+            for (int trout1 = 0; trout1 < hybridNo.length; trout1++) {
                 System.out.println(hybridNo[trout1]);
                 String trout2 = String.valueOf(hybridNo[trout1]);
-                for(int trout3 = 0; trout3 < trout2.length(); trout3++){
-                   char currentChar = trout2.charAt(trout3);
-                   String currentCharAsString = String.valueOf(currentChar);
-                  for(int trout4 = 0; trout4 < currentCharAsString.length(); trout4++){
-                      sum = sum + Integer.parseInt(currentCharAsString);
+                for (int trout3 = 0; trout3 < trout2.length(); trout3++) {
+                    char currentChar = trout2.charAt(trout3);
+                    String currentCharAsString = String.valueOf(currentChar);
+                    for (int trout4 = 0; trout4 < currentCharAsString.length(); trout4++) {
+                        sum = sum + Integer.parseInt(currentCharAsString);
 
-                  }
+                    }
 
                 }
                 System.out.println(sum);
@@ -2327,7 +2301,7 @@ public class HammerheadPickerelCola {
 
         System.out.println(dachshunds[2]);
 
-        if(robots[2] == "Mellon-Tech"){
+        if (robots[2] == "Mellon-Tech") {
             int sum = 0; // incremental variable
             int trout1 = 0;
             String trout2 = "";
@@ -2335,13 +2309,13 @@ public class HammerheadPickerelCola {
             // want to convert all integers in arrays to strings
             // then convert back to integers
             // then test whether they have whole numbers as square roots
-            for(; trout1 < hybridNo.length; trout1++){
+            for (; trout1 < hybridNo.length; trout1++) {
                 System.out.println(hybridNo[trout1]);
                 // making sure elements of array print out properly
                 trout2 = String.valueOf(hybridNo[trout1]);
                 // converting all string elements to integers and assigning them to trout2
             }
-            for(; trout3 < trout2.length(); trout3++){
+            for (; trout3 < trout2.length(); trout3++) {
                 char currentChar = trout2.charAt(trout3);
                 String currentCharAsString = String.valueOf(currentChar);
                 sum = sum + Integer.parseInt(currentCharAsString);
@@ -2353,9 +2327,9 @@ public class HammerheadPickerelCola {
 
         System.out.println(dachshunds[2] + " is wild!!!");
 
-        if(samurai[7] == "Wushu Lizard"){
+        if (samurai[7] == "Wushu Lizard") {
             String appleHill = "";
-            for(int d1 = 0; d1 < dachshunds.length; d1++){
+            for (int d1 = 0; d1 < dachshunds.length; d1++) {
 
                 appleHill = appleHill + " and " + dachshunds[d1];
                 appleHill = appleHill.replaceAll("and", " ");
@@ -2366,20 +2340,20 @@ public class HammerheadPickerelCola {
             System.out.println(appleHill);
         }
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             char currentChar;
             String currentCharAsString = "";
             String pickerel = "";
             int sum = 0;
             // incremental variable
-            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+            for (int hh1 = 0; hh1 < hybridNo.length; hh1++) {
                 pickerel = String.valueOf(hybridNo[hh1]);
-               // System.out.println(pickerel);
-                for(int hh2 = 0; hh2 < pickerel.length(); hh2++){
+                // System.out.println(pickerel);
+                for (int hh2 = 0; hh2 < pickerel.length(); hh2++) {
                     currentChar = pickerel.charAt(hh2);
                     currentCharAsString = String.valueOf(currentChar);
-                   // sum = sum + Integer.parseInt(currentCharAsString);
-                    for(int hh3 = 0; hh3 < currentCharAsString.length(); hh3++){
+                    // sum = sum + Integer.parseInt(currentCharAsString);
+                    for (int hh3 = 0; hh3 < currentCharAsString.length(); hh3++) {
                         sum = sum + Integer.parseInt(currentCharAsString);
 
                     }
@@ -2394,12 +2368,12 @@ public class HammerheadPickerelCola {
         // but we want the sum of the digits of each of the integer elements, not the combined sum of every digit
         // in the array
 
-        if(ePetroleum[2] == "Antoine"){
-            for(int ep1 = 0; ep1 < hybridNo.length; ep1++){
+        if (ePetroleum[2] == "Antoine") {
+            for (int ep1 = 0; ep1 < hybridNo.length; ep1++) {
                 int ep2 = hybridNo[ep1];
-               // System.out.println(ep2);
+                // System.out.println(ep2);
                 String fuel = String.valueOf(ep2);
-                for(int ep3 = 0; ep3 < fuel.length(); ep3++){
+                for (int ep3 = 0; ep3 < fuel.length(); ep3++) {
                     System.out.println(fuel);
 
 
@@ -2409,21 +2383,21 @@ public class HammerheadPickerelCola {
         System.out.println(ePetroleum[4]);
         System.out.println(ePetroleum[3]);
 
-        if(ePetroleum[4] == "Gilgamesh"){
+        if (ePetroleum[4] == "Gilgamesh") {
             int ep2 = 0;
             String fuel = "";
             int ep1 = 0;
             int sum = 0;
-            for(; ep1 < hybridNo.length; ep1++){
-                 ep2 = hybridNo[ep1];
-               // System.out.println(ep2);
+            for (; ep1 < hybridNo.length; ep1++) {
+                ep2 = hybridNo[ep1];
+                // System.out.println(ep2);
                 fuel = String.valueOf(ep2);
-               // System.out.println(fuel);
-                for(int ep3 = 0; ep3 < fuel.length(); ep3++) {
+                // System.out.println(fuel);
+                for (int ep3 = 0; ep3 < fuel.length(); ep3++) {
                     char currentChar = fuel.charAt(ep3);
                     // System.out.println(currentChar);
                     String pisces1 = String.valueOf(currentChar);
-                 //   System.out.println(pisces1);
+                    //   System.out.println(pisces1);
                     for (int ep4 = 0; ep4 < pisces1.length(); ep4++) {
                         sum = sum + Integer.parseInt(pisces1);
                         System.out.println(sum);
@@ -2433,16 +2407,15 @@ public class HammerheadPickerelCola {
                 // Still adding every digit in array and not just adding sum of elements
 
 
-
             }
 
         }
 
-        if(samurai[1] == "Kenji the Crane"){
+        if (samurai[1] == "Kenji the Crane") {
             int max = ePetroleum[0].length();
             String maxName = "";
-            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
-                if(ePetroleum[ep1].length() > max){
+            for (int ep1 = 0; ep1 < ePetroleum.length; ep1++) {
+                if (ePetroleum[ep1].length() > max) {
                     max = ePetroleum[ep1].length();
                     maxName = ePetroleum[ep1];
                 }
@@ -2453,7 +2426,7 @@ public class HammerheadPickerelCola {
         System.out.println(badgerHounds);
         // will print the elements in 1 row to the console between square brackets [ ]
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             badgerHounds.add("The Giant Sturgeon");
         }
         System.out.println(badgerHounds);
@@ -2464,8 +2437,8 @@ public class HammerheadPickerelCola {
         // will remove the element at that index from the arrayList
         System.out.println(badgerHounds);
 
-        if(hammerHead[4] == "Wibaux"){
-            for(int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++){
+        if (hammerHead[4] == "Wibaux") {
+            for (int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++) {
                 System.out.println(badgerHounds.get(1));
             }
         }
@@ -2473,27 +2446,27 @@ public class HammerheadPickerelCola {
         System.out.println(badgerHounds.get(0));
         // will print Anubis to console
 
-        if(badgerHounds.get(0) == "Anubis"){
-            for(int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++){
-                if (bh1 == 4){
+        if (badgerHounds.get(0) == "Anubis") {
+            for (int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++) {
+                if (bh1 == 4) {
                     System.out.println(badgerHounds.get(bh1));
                     // prints M'arcuzz M'orzz to console
                 }
             }
         }
 
-        if(badgerHounds.get(0).length() == 6){
+        if (badgerHounds.get(0).length() == 6) {
             String badger_hound = badgerHounds.get(0);
             badger_hound = badger_hound.toUpperCase();
             System.out.println(badger_hound);
         }
 
-        if(badgerHounds.get(4) == "M'arcuzz M'orzz"){
+        if (badgerHounds.get(4) == "M'arcuzz M'orzz") {
             String martian = badgerHounds.get(0);
             int max = martian.length();
             String maxName = "";
-            for (int ep1 = 0; ep1 < badgerHounds.toArray().length; ep1++){
-                if(badgerHounds.get(ep1).length() > max){
+            for (int ep1 = 0; ep1 < badgerHounds.toArray().length; ep1++) {
+                if (badgerHounds.get(ep1).length() > max) {
                     max = badgerHounds.get(ep1).length();
                     maxName = badgerHounds.get(ep1);
                 }
@@ -2503,29 +2476,28 @@ public class HammerheadPickerelCola {
             // important to remember that empty spaces are counted as characters
         }
 
-        if(hammerHead[0] == "Hammerhead"){
+        if (hammerHead[0] == "Hammerhead") {
             int hh1 = hybridNo[5], reverse = 0;
-            for(; hh1 != 0; hh1 = hh1 / 10){
+            for (; hh1 != 0; hh1 = hh1 / 10) {
                 int remainder = hh1 % 10;
                 reverse = reverse * 10 + remainder;
             }
             System.out.println(reverse);
         }
 
-        if(hammerHead[4] == "Wibaux"){
+        if (hammerHead[4] == "Wibaux") {
             String dachshund = "";
-            for(int hh1 = 0; hh1 < ePetroleum.length; hh1++){
+            for (int hh1 = 0; hh1 < ePetroleum.length; hh1++) {
                 String appleHill = ePetroleum[hh1];
                 // appleHill equal to all string elements of ePetroleum array
                 int appleHill1 = 0;
                 // first index of string
                 int appleHill2 = appleHill.length() - 1;
                 // last index of string
-                for(; appleHill1 < appleHill2; appleHill1++, appleHill2--){
-                    if (appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)){
+                for (; appleHill1 < appleHill2; appleHill1++, appleHill2--) {
+                    if (appleHill.charAt(appleHill1++) != appleHill.charAt(appleHill2--)) {
                         dachshund = appleHill + " is not a palindrome.";
-                    }
-                    else
+                    } else
                         dachshund = appleHill + " is a palindrome.";
                 }
                 System.out.println(dachshund);
@@ -2533,17 +2505,16 @@ public class HammerheadPickerelCola {
         }
         // ask why each element is iterating twice
 
-        if(hammerHead[5] == "The Cosmic Trout"){
+        if (hammerHead[5] == "The Cosmic Trout") {
             String shark = "";
-            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+            for (int hh1 = 0; hh1 < hammerHead.length; hh1++) {
                 String trout1 = hammerHead[hh1];
                 int hh2 = 0;
                 int hh3 = trout1.length() - 1;
-                for(; hh2 < hh3; hh2++, hh3--){
-                    if(trout1.charAt(hh2++) != trout1.charAt(hh3--)){
+                for (; hh2 < hh3; hh2++, hh3--) {
+                    if (trout1.charAt(hh2++) != trout1.charAt(hh3--)) {
                         shark = trout1 + " is not a palindrome.";
-                    }
-                    else
+                    } else
                         shark = trout1 + " is a palindrome";
                 }
                 System.out.println(shark);
@@ -2553,36 +2524,36 @@ public class HammerheadPickerelCola {
 
         System.out.println(badgerHounds.get(0));
 
-        if(badgerHounds.get(0) == "Anubis"){
+        if (badgerHounds.get(0) == "Anubis") {
             int bh1 = 0;
-            while(bh1 < badgerHounds.toArray().length){
+            while (bh1 < badgerHounds.toArray().length) {
                 System.out.println(badgerHounds.get(bh1));
                 bh1++;
             }
         }
         // how to list out elements of an array list using while loop
 
-        if (badgerHounds.get(3) == "The Element"){
+        if (badgerHounds.get(3) == "The Element") {
             int bh1 = 0;
             do {
                 System.out.println(badgerHounds.get(bh1).toUpperCase());
                 bh1++;
-            }while(bh1 < badgerHounds.toArray().length);
+            } while (bh1 < badgerHounds.toArray().length);
         }
         // how to list out elements of an array list using while loop
 
         System.out.println(badgerHounds.toArray().length);
         // 6
 
-        if(badgerHounds.toArray().length == 6){
-            for(int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++){
+        if (badgerHounds.toArray().length == 6) {
+            for (int bh1 = 0; bh1 < badgerHounds.toArray().length; bh1++) {
                 String houndsWI = badgerHounds.get(bh1);
                 houndsWI = houndsWI.replaceAll("\\s", "!!!");
                 System.out.println(houndsWI);
             }
         }
 
-        if(badgerHounds.get(5) == "The Giant Sturgeon"){
+        if (badgerHounds.get(5) == "The Giant Sturgeon") {
             String greenEgg = badgerHounds.get(5) + " doesn't appreciate fishing lures.";
             System.out.println(greenEgg);
             StringBuilder greenEgg1 = new StringBuilder();
@@ -2596,9 +2567,50 @@ public class HammerheadPickerelCola {
             System.out.println(greenEgg1);
         }
 
+        System.out.println(hammerHead[2] == "Geometry Man");
+        // True
+        System.out.println(hammerHead[2]);
+        // Geometry Man
 
+        if (hammerHead[2] == "Geometry Man") {
+            int hybrid = Integer.parseInt(hybridString[2]);
+            int reverse = 0;
+            for (; hybrid != 0; hybrid = hybrid / 10) {
+                int remainder = hybrid % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
 
         }
+
+
+        if (ePetroleum[4] == "Gilgamesh") {
+            int ep2 = 0;
+            String fuel = "";
+            int ep1 = 0;
+            int sum = 0;
+            for (; ep1 < hybridNo.length; ep1++) {
+                ep2 = hybridNo[ep1];
+                // System.out.println(ep2);
+                fuel = String.valueOf(ep2);
+                // System.out.println(fuel);
+                for (int ep3 = 0; ep3 < fuel.length(); ep3++) {
+                    char currentChar = fuel.charAt(ep3);
+                    // System.out.println(currentChar);
+                    String pisces1 = String.valueOf(currentChar);
+                    //   System.out.println(pisces1);
+                    for (int ep4 = 0; ep4 < pisces1.length(); ep4++) {
+                        sum = sum + Integer.parseInt(pisces1);
+                        System.out.println(sum);
+                    }
+
+                }
+                // Still adding every digit in array and not just adding sum of elements
+
+
+            }
+        }
+
+
     }
-
-
+}
