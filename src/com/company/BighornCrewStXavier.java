@@ -149,6 +149,28 @@ public class BighornCrewStXavier {
             }while(whiteFish < hybridNo.length);
         }
 
+        if(hammerHead[3] == "Harvey"){
+            int hh1 = 0;
+            for(; hh1 < hammerHead.length; hh1++){
+                if(hh1 == 1){
+                    System.out.println(hammerHead[hh1] + " is a good luck albatross!");
+                }
+            }
+        }
+
+        if(ePetroleum[4] == "Gilgamesh"){
+            String gilgamesh = "";
+            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
+                String hunzuu = ePetroleum[ep1];
+                for(int ep2 = 0; ep2 < hunzuu.length(); ep2++){
+                    if(ep2 == 0){
+                        System.out.println(hunzuu.charAt(ep2));
+
+                    }
+                }
+            }
+        }
+
 
 
     }
