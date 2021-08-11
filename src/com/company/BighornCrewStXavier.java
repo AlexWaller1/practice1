@@ -197,6 +197,31 @@ public class BighornCrewStXavier {
 
         }
 
+        if(bigHornCrew[0] == "Ace"){
+            int bh1 = 37;
+            int sum = 0;
+            // incremental variable
+            while(bh1 > 0){
+                sum = sum + bh1 % 10;
+                bh1 = bh1 / 10;
+            }
+            System.out.println(sum);
+        }
+
+        System.out.println(bigHornCrew[4]);
+        // Axel!!!!! The Man!!!!!
+        if(bigHornCrew[4] == "Axel"){
+            int bh2 = hybridNo[9];
+            int bh1 = hybridNo[9];
+            int sum = 0;
+            // incremental variable
+            for(; bh1 > 0; bh1 = bh1 / 10){
+                sum = sum + bh1 % 10;
+            }
+            System.out.println(bh2);
+            System.out.println(sum);
+        }
+
 
 
     }
