@@ -241,7 +241,17 @@ public class BighornCrewStXavier {
             int wraith1 = 3773;
             int wraith2 = wraith1, product = 1;
             for(; wraith2 != 0; wraith2 = wraith2 / 10){
+                // keep in mind that wraith = wraith / 10 occurs after loop executes
+                // so the first time through the iteration the number is 3773
+                // after we go through the code, then 3773 will be divided by 10
+                // and the result will be 377
+                // then 377 will through as the second iteration of the loop
                 product = product * (wraith2 % 10);
+                // 3773 % 10 = 3
+                // 377 % 10 = 7
+                // 37 % 10 = 7
+                // 3 % 10 = 3
+
             }
             System.out.println("wraith1 == " + wraith1);
             // 3773
@@ -250,6 +260,9 @@ public class BighornCrewStXavier {
             System.out.println("product of integers == " + product);
             // 441
         }
+
+        System.out.println(3 % 10);
+        // 3
 
 
 
