@@ -264,6 +264,28 @@ public class BighornCrewStXavier {
         System.out.println(3 % 10);
         // 3
 
+        if(samurai[2] == "Laramie"){
+            int laramie = hybridNo[3];
+            // 23
+            int reverse = 0;
+            int remainder = 0;
+            for(; laramie > 0; laramie = laramie / 10){
+                // first iteration laramie is 23
+                // after going through loop, laramie is divided by 10
+                // and laramie is now 2
+                remainder = laramie % 10;
+                // 23 % 10 == 3
+                // 2 % 10 == 2
+                reverse = reverse * 10 + remainder;
+                // 0 * 10 + 3 == 3
+                // reverse is now 3
+                // 3 * 10 + 2 == 32
+                // reverse is 32 and laramie is now 0, ending the loop
+            }
+            System.out.println(hybridNo[3]);
+            System.out.println(reverse);
+        }
+
 
 
     }
