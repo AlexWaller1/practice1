@@ -222,6 +222,21 @@ public class BighornCrewStXavier {
             System.out.println(sum);
         }
 
+        if(bigHornCrew[1] == "Columbus"){
+            int bh2 = hybridNo[7];
+            int bh1 = hybridNo[7], sum = 0;
+                                   // incremental variable
+            for(; bh1 > 0; bh1 = bh1 / 10){
+                sum = sum + bh1 % 10;
+            }
+            System.out.println(bh2);
+            if(bh2 == sum){
+                System.out.println(sum + " is a palindrome.");
+            }
+            else
+                System.out.println(sum + " is not a palindrome.");
+        }
+
 
 
     }
