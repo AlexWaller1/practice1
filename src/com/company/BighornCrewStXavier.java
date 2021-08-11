@@ -286,6 +286,15 @@ public class BighornCrewStXavier {
             System.out.println(reverse);
         }
 
+        if(robots[1] == "Warren-21"){
+            int spahn = 2017;
+            int sum = 0;
+            for(; spahn > 0; spahn = spahn / 10){
+                sum = sum + spahn % 10;
+            }
+            System.out.println(sum);
+        }
+
 
 
     }
