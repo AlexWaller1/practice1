@@ -105,6 +105,50 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(dachshunds[2] == "Bodhi"){
+            int hybridTest = 3745, reverse = 0;
+            // integer             // incremental variable
+            for(; hybridTest != 0; hybridTest = hybridTest / 10){
+                int remainder = hybridTest % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+        }
+
+        if(bigHornCrew[0] == "Ace"){
+            String incubator = String.valueOf(hybridNo[5]);
+            int product = 1;
+            for(int bh1 = 0; bh1 < incubator.length(); bh1++){
+                // iterating through every character of the string
+                char currentChar = incubator.charAt(bh1);
+                // gathering up each character 1 by 1
+                String currentCharAsString = String.valueOf(currentChar);
+                // converting characters back to string characters 1 by 1
+                product = product * Integer.parseInt(currentCharAsString);
+
+            }
+            System.out.println(product);
+        }
+
+        System.out.println(hammerHead.length);
+
+        if (hammerHead[2] == "Geometry Man"){
+            int hh1 = 5;
+            while(hh1 >= 0){
+                System.out.println(hammerHead[hh1] + " is the star of Pisces Go Fish 4!!!");
+                hh1--;
+            }
+        }
+
+        if(hammerHead[4] == "Wibaux"){
+            int whiteFish = 0;
+            do{
+                int goldEye = hybridNo[whiteFish] + 37;
+                System.out.println(goldEye);
+                whiteFish++;
+            }while(whiteFish < hybridNo.length);
+        }
+
 
 
     }
