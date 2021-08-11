@@ -72,6 +72,39 @@ public class BighornCrewStXavier {
         System.out.println(result);
         System.out.println("A" + "B");
 
+        if(hammerHead[0] == "Hammerhead"){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                String dachshund = dachshunds[d1] + " is an amazing dachshund!!!";
+                System.out.println(dachshund);
+                dachshund = dachshund.replaceAll("\\s", "______");
+                System.out.println(dachshund);
+                StringBuilder appleHill = new StringBuilder();
+                appleHill.append(dachshund);
+                appleHill = appleHill.reverse();
+                System.out.println(appleHill);
+            }
+        }
+
+        if(rams[3] == "Stacey"){
+            String ramHybrid = "";
+            for(int ram1 = 0; ram1 < rams.length; ram1++){
+                String ram2 = rams[ram1].toLowerCase();
+                // ram2 is equal to every ram hybrid of the rams array
+                int ram3 = 0;
+                // first index of string
+                int ram4 = ram2.length() - 1;
+                // last index of string
+                for(; ram3 < ram4; ram3++, ram4--){
+                    if(ram2.charAt(ram3++) != ram2.charAt(ram4--)){
+                        ramHybrid = ram2 + " is not a palindrome.";
+                    }
+                    else
+                        ramHybrid = ram2 + " is a palindrome.";
+                }
+                System.out.println(ramHybrid);
+            }
+        }
+
 
 
     }
