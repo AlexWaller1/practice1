@@ -237,6 +237,20 @@ public class BighornCrewStXavier {
                 System.out.println(sum + " is not a palindrome.");
         }
 
+        if(samurai[6] == "The Wraith"){
+            int wraith1 = 3773;
+            int wraith2 = wraith1, product = 1;
+            for(; wraith2 != 0; wraith2 = wraith2 / 10){
+                product = product * (wraith2 % 10);
+            }
+            System.out.println("wraith1 == " + wraith1);
+            // 3773
+            System.out.println("wraith2 == " + wraith2);
+            // 0
+            System.out.println("product of integers == " + product);
+            // 441
+        }
+
 
 
     }
