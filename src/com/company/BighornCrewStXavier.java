@@ -295,6 +295,28 @@ public class BighornCrewStXavier {
             System.out.println(sum);
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            int mellon_tech = 31;
+            int product = 1;
+            for(; mellon_tech > 0; mellon_tech = mellon_tech / 10){
+                product = product * (mellon_tech % 10);
+            }
+            System.out.println(product);
+        }
+
+        System.out.println(robotNo);
+        System.out.println(rams);
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            for(int lws1 = 0; lws1 < treeNo.length; lws1++){
+                if (treeNo[lws1] % Math.sqrt(treeNo[lws1]) == 0){
+                    System.out.println(treeNo[lws1] + " has a whole number square root.");
+                }
+                else
+                    System.out.println(treeNo[lws1] + " does not have a whole number square root.");
+            }
+        }
+
 
 
     }
