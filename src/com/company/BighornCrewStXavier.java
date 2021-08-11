@@ -171,6 +171,32 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(ePetroleum[3] == "Hunzuu"){
+            String antoine = "";
+            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
+                char currentChar = ePetroleum[ep1].charAt(0);
+                System.out.println(currentChar);
+                antoine = antoine + currentChar;
+            }
+            System.out.println(antoine);
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            int hh1 = 414, hh2 = 414, reverse = 0;
+            // assigning integers     // incremental variable
+            for(; hh2 != 0; hh2 = hh2 / 10){
+                int remainder = hh2 % 10;
+                reverse = reverse * 10 + remainder;
+            }
+            System.out.println(reverse);
+            if(reverse == hh1){
+                System.out.println(reverse + " is a palindrome");
+            }
+            else
+                System.out.println(reverse + " is not a palindrome.");
+
+        }
+
 
 
     }
