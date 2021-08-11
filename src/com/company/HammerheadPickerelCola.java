@@ -2606,6 +2606,9 @@ public class HammerheadPickerelCola {
 
                 }
                 // Still adding every digit in array and not just adding sum of elements
+                // Int[] arr = {37, 23, 17}
+                // [10, 5, 8]
+                // 10, 15
 
 
             }
