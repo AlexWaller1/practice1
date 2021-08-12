@@ -317,6 +317,18 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(samurai[1] == "Kenji the Crane"){
+            int sum = 0;
+            for(int ktc1 = 0; ktc1 < hybridNo.length; ktc1++){
+                int crane37 = hybridNo[ktc1];
+                for(; crane37 > 0; crane37 = crane37 / 10){
+                    sum = sum + (crane37 % 10);
+                }
+                System.out.println(sum);
+            }
+        }
+        // still adding all integers of array, not stopping with just an element
+
 
 
     }
