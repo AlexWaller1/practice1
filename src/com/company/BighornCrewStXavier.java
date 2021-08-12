@@ -395,6 +395,17 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(ePetroleum[4] == "Gilgamesh"){
+            long charCount = 0;
+            String petroleum = "";
+            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
+                charCount = ePetroleum[ep1].chars().count();
+                petroleum = ePetroleum[ep1];
+                System.out.println(petroleum + " has " + charCount + " letters.");
+            }
+
+        }
+
 
 
     }
