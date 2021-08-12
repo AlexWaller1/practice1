@@ -526,6 +526,69 @@ public class BighornCrewStXavier {
 
         }
 
+        if(bigHornCrew[2] == "Marek"){
+            int bh1 = 37;
+            int sum = 0;
+            // incremental variable
+            for(; bh1 > 0; bh1 = bh1 / 10){
+                // 37
+                // 37 / 10 == 3
+                // 3
+                sum = sum + (bh1 % 10);
+                // 0 + (37 % 10) = 7
+                // 7 + (3 % 10) = 10
+                // sum is 10
+            }
+            System.out.println(sum);
+        }
+
+        if(samurai[6] == "The Wraith"){
+            String wraith = "";
+            for(int lsw1 = 0; lsw1 < samurai.length; lsw1++){
+                String wraith1 = samurai[lsw1].toLowerCase();
+                // all string elements of the samurai array
+                int wraith2 = 0;
+                // first index of string
+                int wraith3 = wraith1.length() - 1;
+                // last index of string
+                for(; wraith2 < wraith3; wraith2++, wraith3--){
+                    if (wraith1.charAt(wraith2++) != wraith1.charAt(wraith3--)){
+                        wraith = wraith1 + " is not a palindrome.";
+                    }
+                    else
+                        wraith = wraith1 + " is a palindrome.";
+                }
+                System.out.println(wraith);
+            }
+        }
+
+        if(hammerHead[0] == "Hammerhead" && hammerHead[4] == "Wibaux"){
+            String[] superCroc = {"Super Croc", "Frankenwurst"};
+            System.out.println(superCroc.length);
+            for(int sc1 = 0; sc1 < superCroc.length; sc1++){
+                System.out.println(superCroc[sc1]);
+            }
+        }
+
+        if(trees[1] == "Magnus"){
+            int[] treeInts = {54, 45, 44, 37, 89, 81, 99, 36, 12};
+            for(int tree1 = 0; tree1 < treeInts.length; tree1++){
+                int tree2 = treeInts[tree1];
+                if(tree2 % 6 == 0 && tree2 % 9 == 0){
+                    System.out.println(tree2 + " FizzBuzz!");
+                }
+                else if(tree2 % 9 == 0){
+                    System.out.println(tree2 + " Fizz!");
+                }
+                else if(tree2 % 6 == 0){
+                    System.out.println(tree2 + " Buzz!");
+                }
+                else
+                    System.out.println(tree2 + " No Fizz!");
+            }
+
+        }
+
 
 
 
