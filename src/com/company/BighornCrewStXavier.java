@@ -406,6 +406,25 @@ public class BighornCrewStXavier {
 
         }
 
+        if(samurai[1] == "Kenji the Crane"){
+            int kenji = 3754;
+            int reverse = 0, remainder = 0;
+            for(; kenji > 0; kenji = kenji / 10){
+                remainder = kenji % 10;
+                // 3754 % 10 = 4
+                // 375 % 10 = 5
+                // 37 % 10 = 7
+                // 3 % 10 = 3
+                reverse = reverse * 10 + remainder;
+                // 0 * 10 + 4 = 4
+                // 4 * 10 + 5 = 45
+                // 45 * 10 + 7 = 457
+                // 457 * 10 + 3 = 4573
+                // reverse = 4573
+            }
+            System.out.println(reverse);
+        }
+
 
 
     }
