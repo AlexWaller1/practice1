@@ -589,6 +589,27 @@ public class BighornCrewStXavier {
 
         }
 
+        if(rams[1] == "Otto"){
+            System.out.println(rams[2]);
+            // Jay
+            System.out.println(rams[2].charAt(rams[2].length() - 1));
+            // y
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            String mellon_tech = robots[2];
+            mellon_tech = mellon_tech.replaceAll("-", "_");
+            System.out.println(mellon_tech);
+        }
+
+       if(robots[3] == "Eggplant-Head"){
+           String eggplant = robots[3];
+           System.out.println(eggplant.toUpperCase());
+           // EGGPLANT-HEAD
+           System.out.printf("Eggplant-Head");
+           // Eggplant-Head
+       }
+
 
 
 
