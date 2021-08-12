@@ -465,5 +465,58 @@ public class BighornCrewStXavier {
 
         System.out.println(37 / 10);
 
+        System.out.println(0 / 10);
+
+        if(bigHornCrew[0] == "Ace"){
+            int max = bigHornCrew[0].length();
+            String maxName = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                if (bigHornCrew[bh1].length() > max){
+                    max = bigHornCrew[bh1].length();
+                    maxName = bigHornCrew[bh1];
+
+                }
+
+            }
+            System.out.println(maxName + " " + max);
+            // Columbus 8
+        }
+
+        if(bigHornCrew[1] == "Columbus"){
+            int min = bigHornCrew[4].length();
+            String minName = "";
+            for(int bh1 = 0; bh1 >= 0; bh1--){
+                if(bigHornCrew[bh1].length() < min){
+                    min = bigHornCrew[bh1].length();
+                    minName = bigHornCrew[bh1];
+                }
+            }
+            System.out.println(minName + " " + min);
+            System.out.println(minName);
+        }
+        // interesting stuff here, Ace is the proper output here since he has the fewest letters in his name
+        // he's also at the 0 index of the bigHornCrewArray, for whatever reason, when we make him the starting
+        // point of the iteration
+
+        if(bigHornCrew[1] == "Columbus"){
+            int min = bigHornCrew[0].length();
+            String minName = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++) {
+                if (bigHornCrew[bh1].length() <= min) {
+                    min = bigHornCrew[bh1].length();
+                    minName = bigHornCrew[bh1];
+                }
+            }
+
+            System.out.println(minName + " " + min);
+        }
+        // this worked!!! output was "Ace 3"
+
+
+
+
+
+
+
     }
 }
