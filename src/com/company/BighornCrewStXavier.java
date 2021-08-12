@@ -512,6 +512,20 @@ public class BighornCrewStXavier {
         }
         // this worked!!! output was "Ace 3"
 
+        System.out.println(hammerHead[5]);
+
+        if(hammerHead[5] == "The Cosmic Trout"){
+            int[] hybridYears = {2000, 2004, 2008, 2012, 2016, 2020};
+            for (int hybrid1 = 0; hybrid1 < hybridYears.length; hybrid1++){
+                int ramYear = hybridYears[hybrid1];
+                // all integers of hybridYears array
+                if(ramYear % 4 == 0 && ramYear % 5 == 0){
+                    System.out.println(ramYear);
+                }
+            }
+
+        }
+
 
 
 
