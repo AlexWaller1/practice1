@@ -329,6 +329,16 @@ public class BighornCrewStXavier {
         }
         // still adding all integers of array, not stopping with just an element
 
+        if(robots[3] == "Eggplant-Head"){
+            String eggPlantHead = robots[3] + " is an maven on the telecaster";
+            eggPlantHead = eggPlantHead.replaceAll("\\s", "::::");
+            System.out.println(eggPlantHead);
+            StringBuilder robo_eggPlant = new StringBuilder();
+            robo_eggPlant.append(eggPlantHead);
+            robo_eggPlant = robo_eggPlant.reverse();
+            System.out.println(robo_eggPlant);
+        }
+
 
 
     }
