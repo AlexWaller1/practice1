@@ -425,7 +425,45 @@ public class BighornCrewStXavier {
             System.out.println(reverse);
         }
 
+        if(samurai[3] == "Glynis"){
+            for(int lws1 = 0; lws1 < samurai.length; lws1++){
+                System.out.println(samurai[lws1].charAt(0));
+            }
+        }
 
+        if(samurai[7] == "Wushu Lizard"){
+            int lws1 = 567493;
+            int reverse = 0, remainder = 0;
+            for(; lws1 > 0; lws1 = lws1 / 10){
+                // 567493
+                // ***after first loop completes***
+                // 567493 / 10 = 56749
+                // 56749 / 10 = 5674
+                // 5674 / 10 = 567
+                // 567 / 10 = 56
+                // 56 / 10 = 5
+                remainder = lws1 % 10;
+                // 567493 % 10 = 3
+                // 56749 % 10 = 9
+                // 5674 % 10 = 4
+                // 567 % 10 = 7
+                // 56 % 10 = 6
+                // 5 % 10 = 5
+
+                reverse = reverse * 10 + remainder;
+                // 0 * 10 + 3
+                // 3 * 10 + 9 = 39
+                // 39 * 10 + 4 = 394
+                // 394 * 10 + 7 = 3947
+                // 3947 * 10 + 6 = 39476
+                // 39476 * 10 + 5 = 394765
+                // reverse = 394765
+            }
+            System.out.println(reverse);
+            // reverse = 394765
+        }
+
+        System.out.println(37 / 10);
 
     }
 }
