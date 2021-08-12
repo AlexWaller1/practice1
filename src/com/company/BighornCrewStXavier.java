@@ -339,6 +339,35 @@ public class BighornCrewStXavier {
             System.out.println(robo_eggPlant);
         }
 
+        if(bigHornCrew[2] == "Marek"){
+            int billings = 406;
+            int sum = 0;
+            for(; billings > 0; billings = billings / 10){
+                sum = sum + billings % 10;
+            }
+            System.out.println(sum);
+        }
+
+        if(bigHornCrew[3] == "Radek"){
+            String merganser = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                String mallard = bigHornCrew[bh1].toLowerCase();
+                // all strings elements of bigHornCrew
+                int mallard1 = 0;
+                // first index of string
+                int mallard2 = mallard.length() - 1;
+                // last index of string
+                for(; mallard1 < mallard2; mallard1++, mallard2--){
+                    if(mallard.charAt(mallard1++) != mallard.charAt(mallard2--)){
+                        merganser = mallard + " is not a palindrome";
+                    }
+                    else
+                        merganser = mallard + " is a palindrome";
+                }
+                System.out.println(merganser);
+            }
+        }
+
 
 
     }
