@@ -368,7 +368,21 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(ePetroleum[1] == "Laurent"){
+            String laurent = ePetroleum[1];
+            for(int clichy1= 0; clichy1 < laurent.length(); clichy1++){
+                System.out.println(laurent.charAt(clichy1));
+            }
+        }
 
+        if(bigHornCrew[4] == "Axel"){
+            for(int ep1 = 0; ep1 < ePetroleum.length; ep1++){
+                String antoine = ePetroleum[ep1];
+                for (int ep2 = 0; ep2 < antoine.length(); ep2++){
+                    System.out.println(antoine.charAt(ep2));
+                }
+            }
+        }
 
 
 
