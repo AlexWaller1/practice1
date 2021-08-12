@@ -384,6 +384,17 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(rams[2] == "Jay"){
+            int ramHybrid = 0;
+            for(int r1 = 0; r1 < hybridNo.length; r1++){
+                for(int r2 = 0; r2 < treeNo.length; r2++){
+                    ramHybrid = r1 + r2;
+
+                }
+                System.out.println(ramHybrid);
+            }
+        }
+
 
 
     }
