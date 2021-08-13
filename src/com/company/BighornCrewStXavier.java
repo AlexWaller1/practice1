@@ -20,6 +20,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         WushuLizardStringBuilder blueTape = new WushuLizardStringBuilder();
         // can implement a function from another class by doing this
+        RoboPalindrome roboCurler = new RoboPalindrome();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -640,8 +642,14 @@ public class BighornCrewStXavier {
        }
 
        if(hammerHead[4] == "Wibaux"){
-
+          for(int hh1 = 0; hh1 < rams.length; hh1++){
+              String ram37 = rams[hh1].toLowerCase();
+              // ram37 equals all the Ram Hybrids of the rams array
+              String tree37 = roboCurler.robotPalindrome(ram37);
+              System.out.println(tree37);
+          }
        }
+       // this works!!!
 
 
 
