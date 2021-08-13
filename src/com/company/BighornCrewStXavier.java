@@ -608,12 +608,18 @@ public class BighornCrewStXavier {
            String eggplant = robots[3];
            System.out.println(eggplant.toUpperCase());
            // EGGPLANT-HEAD
-           System.out.printf("Eggplant-Head");
+        //   System.out.printf("Eggplant-Head");
            // Eggplant-Head
        }
 
        if(samurai[7] == "Wushu Lizard"){
-           int hh1 = 0;
+           // hybridInteger
+           int hh1 = hybridInteger.reverseHybridInteger(37);
+           int hh2 = hybridInteger.reverseHybridInteger(10945);
+           System.out.println(hh1);
+           // 73
+           System.out.println(hh2);
+           // 54901
        }
 
 
