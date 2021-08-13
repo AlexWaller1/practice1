@@ -628,6 +628,12 @@ public class BighornCrewStXavier {
           // blueTape
            String lizard = blueTape.samuraiStringBuilder(samurai[7]);
            System.out.println(lizard);
+           String samurai1 = blueTape.samuraiStringBuilder(samurai[1]);
+           System.out.println(samurai1);
+           StringBuilder kenji = new StringBuilder();
+           kenji.append(samurai1);
+           kenji = kenji.reverse();
+           System.out.println(kenji);
        }
 
 
