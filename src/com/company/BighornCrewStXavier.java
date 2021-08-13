@@ -18,6 +18,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HybridReverseInteger hybridInteger = new HybridReverseInteger();
         // can implement a function from another class by doing this
+        WushuLizardStringBuilder blueTape = new WushuLizardStringBuilder();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -623,7 +625,9 @@ public class BighornCrewStXavier {
        }
 
        if(hammerHead[0] == "Hammerhead"){
-
+          // blueTape
+           String lizard = blueTape.samuraiStringBuilder(samurai[7]);
+           System.out.println(lizard);
        }
 
 
