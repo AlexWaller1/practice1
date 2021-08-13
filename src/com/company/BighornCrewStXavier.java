@@ -651,6 +651,16 @@ public class BighornCrewStXavier {
        }
        // this works!!!
 
+        if(samurai[1] == "Kenji the Crane"){
+            for(int hh1 = 0; hh1 < troutString.length; hh1++){
+                String perch = troutString[hh1].toLowerCase();
+                // perch equals all the strings of the troutString array
+                String goldEye37 = roboCurler.robotPalindrome(perch);
+                System.out.println(goldEye37);
+            }
+        }
+        // This Works
+
 
 
 
