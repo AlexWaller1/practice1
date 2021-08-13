@@ -16,6 +16,8 @@ public class BighornCrewStXavier {
 
         practice123 practiceObject = new practice123();
         // can implement a function from another class by doing this
+        HybridReverseInteger hybridInteger = new HybridReverseInteger();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -608,6 +610,10 @@ public class BighornCrewStXavier {
            // EGGPLANT-HEAD
            System.out.printf("Eggplant-Head");
            // Eggplant-Head
+       }
+
+       if(samurai[7] == "Wushu Lizard"){
+           int hh1 = 0;
        }
 
 
