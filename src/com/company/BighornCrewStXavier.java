@@ -24,6 +24,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Mellon_TechExclamationPoint mellon = new Mellon_TechExclamationPoint();
         // can implement a function from another class by doing this
+        AddArrayDigits hybridArray = new AddArrayDigits();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -758,6 +760,21 @@ public class BighornCrewStXavier {
             }
         }
         // it works!!!
+
+        if("Chipper" == dachshunds[1]){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                System.out.println(hh2);
+                int hh3 = hybridInteger.reverseHybridInteger(hh2);
+                System.out.println(hh3);
+                int hh4 = hybridArray.digitSum(hh3);
+                System.out.println(hh4);
+            }
+        }
+        // this works!!!
+        // start with 37
+        // reverse to 73
+        // adds digits to 10
 
 
 
