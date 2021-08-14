@@ -29,6 +29,9 @@ public class BighornCrewStXavier {
         Hank_44AddDigits greenEgg = new Hank_44AddDigits();
         // can implement a function from another class by doing this
         HybridsArrayIteration cornelius = new HybridsArrayIteration();
+        // can implement a function from another class by doing this
+        HammerheadFirstCharacter taylor = new HammerheadFirstCharacter();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -793,6 +796,23 @@ public class BighornCrewStXavier {
             String[] treeHybrids = cornelius.randallPark(trees);
             System.out.println(treeHybrids);
         }
+        // didn't quite work
+
+        if(hammerHead[2] == "Geometry Man"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String trout37 = hammerHead[hh1];
+                String trout9 = taylor.wibaux(trout37);
+                System.out.println(trout9);
+            }
+        }
+        // This worked!!!
+        //   H
+        //   T
+        //   G
+        //   H
+        //   W
+        //   T
+
 
 
 
