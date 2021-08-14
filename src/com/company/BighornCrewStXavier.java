@@ -749,6 +749,16 @@ public class BighornCrewStXavier {
         }
         // it works!!!
 
+        if(samurai[1] == "Kenji the Crane"){
+            System.out.println("Hi, Bodhi!");
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                String badgerHound = dachshunds[d1] + " is an awesome dachshund!";
+                String appleHill = mellon.mellonTech(badgerHound);
+                System.out.println(appleHill);
+            }
+        }
+        // it works!!!
+
 
 
 

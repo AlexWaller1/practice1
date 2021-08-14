@@ -7,3 +7,4 @@ public class Mellon_TechExclamationPoint {
         return hank;
     }
 }
+// remember to instantiate new instance of this algorithm in whatever class we are calling it in.
