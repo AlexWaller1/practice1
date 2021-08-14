@@ -661,6 +661,25 @@ public class BighornCrewStXavier {
             System.out.println(reverse);
         }
 
+        if(bigHornCrew[0] == "Ace"){
+            String bighorn = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                String bigHorn1 = bigHornCrew[bh1].toLowerCase();
+                // bigHorn1 equals all string elements from the bigHornCrew array
+                int bh2 = 0;
+                // first index of string
+                int bh3 = bigHorn1.length() - 1;
+                for(; bh2 < bh3; bh2++, bh3--){
+                    if(bigHorn1.charAt(bh2++) != bigHorn1.charAt(bh3--)){
+                        bighorn = bigHorn1 + " is not a palindrome.";
+                    }
+                    else
+                        bighorn = bigHorn1 + " is a palindrome.";
+                }
+                System.out.println(bighorn);
+            }
+        }
+
        if(samurai[7] == "Wushu Lizard"){
            // hybridInteger
            int hh1 = hybridInteger.reverseHybridInteger(37);
