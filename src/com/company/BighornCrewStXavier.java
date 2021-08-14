@@ -620,7 +620,16 @@ public class BighornCrewStXavier {
            int hh1 = 2001;
            int sum = 0;
            for(; hh1 > 0; hh1 = hh1 / 10){
+               // 2001
+               // 200
+               // 20
+               // 2
                  sum = sum + ( hh1 % 10);
+                 // 0 + (2001 % 10) = 1
+                 // 1 + (200 % 10) = 1
+                 // 1 + (20 % 10) = 1
+                 // 1 + (2 % 10) = 3
+                 // sum = 3
            }
            System.out.println(sum);
        }
