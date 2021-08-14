@@ -22,6 +22,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         RoboPalindrome roboCurler = new RoboPalindrome();
         // can implement a function from another class by doing this
+        Mellon_TechExclamationPoint mellon = new Mellon_TechExclamationPoint();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -680,6 +682,12 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(samurai[0] == "Lone Wolf Samurai"){
+            String loneWolfSamurai = samurai[0] + " is on the quest.";
+           loneWolfSamurai = loneWolfSamurai.replaceAll("\\s", "==");
+            System.out.println(loneWolfSamurai);
+        }
+
        if(samurai[7] == "Wushu Lizard"){
            // hybridInteger
            int hh1 = hybridInteger.reverseHybridInteger(37);
@@ -715,6 +723,15 @@ public class BighornCrewStXavier {
        }
        // this works!!!
 
+        if(robots[2] == "Mellon-Tech"){
+            for(int lws1 = 0; lws1 < samurai.length; lws1++){
+                String wushuLizard = samurai[lws1].toLowerCase();
+                // wushuLizard equals all strings from the samurai array
+                String kenji = roboCurler.robotPalindrome(wushuLizard);
+                System.out.println(kenji);
+            }
+        }
+
         if(samurai[1] == "Kenji the Crane"){
             for(int hh1 = 0; hh1 < troutString.length; hh1++){
                 String perch = troutString[hh1].toLowerCase();
@@ -724,6 +741,13 @@ public class BighornCrewStXavier {
             }
         }
         // This Works
+
+        if(trees[0] == "Cornelius"){
+            String cosmicTrout = hammerHead[5] + " will make all okay";
+            String trout1 = mellon.mellonTech(cosmicTrout);
+            System.out.println(trout1);
+        }
+        // it works!!!
 
 
 
