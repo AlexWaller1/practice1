@@ -26,6 +26,9 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         AddArrayDigits hybridArray = new AddArrayDigits();
         // can implement a function from another class by doing this
+        Hank_44AddDigits greenEgg = new Hank_44AddDigits();
+        // can implement a function from another class by doing this
+        HybridsArrayIteration cornelius = new HybridsArrayIteration();
 
 
         String ramHybrid1 = "Tony";
@@ -775,6 +778,23 @@ public class BighornCrewStXavier {
         // start with 37
         // reverse to 73
         // adds digits to 10
+
+        if(dachshunds[2] == "Bodhi"){
+            int hh1 = 374;
+            int hh2 = greenEgg.Warren_21(hh1);
+            System.out.println(hh2);
+        }
+
+        System.out.println(samurai[6]);
+        System.out.println(trees[2]);
+        System.out.println(rams[2]);
+
+        if(hammerHead[4] == "Wibaux"){
+            String[] treeHybrids = cornelius.randallPark(trees);
+            System.out.println(treeHybrids);
+        }
+
+
 
 
 
