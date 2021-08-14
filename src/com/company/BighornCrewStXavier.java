@@ -616,6 +616,42 @@ public class BighornCrewStXavier {
            // Eggplant-Head
        }
 
+       if(robots[2] == "Mellon-Tech"){
+           int hh1 = 2001;
+           int sum = 0;
+           for(; hh1 > 0; hh1 = hh1 / 10){
+                 sum = sum + ( hh1 % 10);
+           }
+           System.out.println(sum);
+       }
+       // 3
+
+        System.out.println(200 % 10);
+
+        if (hammerHead[0] == "Hammerhead"){
+            int hh1 = 2001, reverse = 0, remainder = 0;
+            for(; hh1 > 0; hh1 = hh1 / 10){
+                // 2001
+                // 200
+                // 20
+                // 2
+                // 0 , therefore loop ends
+                remainder = hh1 % 10;
+                // 2001 % 10 = 1
+                // 200 % 10 = 0
+                // 20 % 10 = 0
+                // 2 % 10 = 2
+                reverse = reverse * 10 + remainder;
+                // 0 * 10 + 1 = 1
+                // 1 * 10 + 0 = 10
+                // 10 * 10 + 0 = 100
+                // 100 * 10 + 2 = 1002
+                // reverse = 1002
+
+            }
+            System.out.println(reverse);
+        }
+
        if(samurai[7] == "Wushu Lizard"){
            // hybridInteger
            int hh1 = hybridInteger.reverseHybridInteger(37);
