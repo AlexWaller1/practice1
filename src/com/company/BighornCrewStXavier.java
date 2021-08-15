@@ -46,6 +46,8 @@ public class BighornCrewStXavier {
         PheasantKingStringInteger caterPillar = new PheasantKingStringInteger();
         // can implement a function from another class by doing this
         HadrianStringToInteger trench = new HadrianStringToInteger();
+        // can implement a function from another class by doing this
+        RamSkaterKB__Exponent skateBoard = new RamSkaterKB__Exponent();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -975,6 +977,16 @@ public class BighornCrewStXavier {
         // enter algorithm as 3737
         // 3 * 7 * 3 * 7 == 441
         // product = 441
+
+        if(hammerHead[1] == "Taylor"){
+            for(int hh1 = 0; hh1 < treeNo.length; hh1++){
+                int hh2 = treeNo[hh1];
+                // hh2 equals every integer of the tree no array
+                double miniMart = skateBoard.theSpruce(hh2);
+                System.out.println(miniMart);
+            }
+        }
+        // this works!!!
 
 
 
