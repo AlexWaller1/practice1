@@ -36,6 +36,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CosmicTroutPowerOfR troutExponent = new CosmicTroutPowerOfR();
         // can implement a function from another class by doing this
+        GeometryManPalindrome rightTriangle = new GeometryManPalindrome();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -854,6 +856,30 @@ public class BighornCrewStXavier {
             }
         }
         // this works
+
+        System.out.println(samurai[7]);
+        System.out.println(samurai[7]);
+        System.out.println(37 * 37);
+
+        if(hammerHead[2] == "Geometry Man"){
+            String racecar = "racecar";
+            String kayak = rightTriangle.geometryMan(racecar);
+            System.out.println(kayak);
+        }
+        // this works!!!
+        System.out.println(37);
+        System.out.println(37);
+        System.out.println(37);
+
+        if(hammerHead[2] == "Geometry Man"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String pickerelCola = hammerHead[hh1].toLowerCase();
+                String dietPickerelCola = rightTriangle.geometryMan(pickerelCola);
+                System.out.println(dietPickerelCola);
+
+            }
+        }
+        // this works!!!
 
 
 
