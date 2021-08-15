@@ -955,6 +955,15 @@ public class BighornCrewStXavier {
             // this works!!!
         }
 
+        if(pheasantKing[3] == "Caddis"){
+            for(int pk1 = 0; pk1 < hybridString.length; pk1++){
+                String hy_brid = hybridString[pk1];
+                int elevator = caterPillar.pheasantGravel(hy_brid);
+                System.out.println(elevator);
+            }
+        }
+        // this works!!!
+
 
 
 
