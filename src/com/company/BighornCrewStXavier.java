@@ -913,6 +913,16 @@ public class BighornCrewStXavier {
             System.out.println(orangeSoda);
         }
 
+        if(trees[4] == "Jasper"){
+            int[] stX = {22, 234, 434, 685, 3773, 78, 999};
+            for(int bh1 = 0; bh1 < stX.length; bh1++){
+                int cornDog1 = stX[bh1];
+                String orangeSoda = cornDog.cornDogStand(cornDog1);
+                System.out.println(orangeSoda);
+            }
+        }
+        // it works
+
 
 
 
