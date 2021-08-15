@@ -41,6 +41,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickerelColaSquareRoot sodaCan = new PickerelColaSquareRoot();
         // can implement a function from another class by doing this
+        RandallParkMallPalindromeInteger cornDog = new RandallParkMallPalindromeInteger();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -899,8 +901,17 @@ public class BighornCrewStXavier {
 
         }
         // this works!!!
+        System.out.println(trees[0]);
+        System.out.println(trees[1]);
+        System.out.println(trees[2]);
+        System.out.println(trees[3]);
+        System.out.println(trees[4]);
 
-
+        if(hammerHead[3] == "Harvey"){
+            int cornDog1 = 3773;
+            String orangeSoda = cornDog.cornDogStand(cornDog1);
+            System.out.println(orangeSoda);
+        }
 
 
 
