@@ -45,7 +45,7 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PheasantKingStringInteger caterPillar = new PheasantKingStringInteger();
         // can implement a function from another class by doing this
-
+        HadrianStringToInteger trench = new HadrianStringToInteger();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -83,7 +83,7 @@ public class BighornCrewStXavier {
         String[] hammerHead = {"Hammerhead", "Taylor", "Geometry Man", "Harvey", "Wibaux", "The Cosmic Trout"};
         String[] pisces = {"Galahad", "Governal", "Berinon", "Forthwind", "Hadrian", "Aetius", "Urbicus"};
         String[] ePetroleum = {"Thierry", "Laurent", "Antoine", "Hunzuu", "Gilgamesh"};
-        String[] pheasantKing = {"Pheasant King", "River Karp", "Goldeye", "Caddis", "Bighorn Caterpillar"};
+        String[] pheasantKing = {"Pheasant King", "River Carp", "Goldeye", "Caddis", "Bighorn Caterpillar"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
@@ -948,12 +948,14 @@ public class BighornCrewStXavier {
             }
         }
 
-        if(pheasantKing[1] == "River Karp"){
+        if(pheasantKing[1] == "River Carp"){
 
             int escalator = caterPillar.pheasantGravel(hybridString[0]);
             System.out.println(escalator);
             // this works!!!
         }
+
+        System.out.println(robots[2]);
 
         if(pheasantKing[3] == "Caddis"){
             for(int pk1 = 0; pk1 < hybridString.length; pk1++){
@@ -963,6 +965,17 @@ public class BighornCrewStXavier {
             }
         }
         // this works!!!
+
+        if(robots[2] == "Mellon-Tech"){
+            String scales = hybridString[0] + "37";
+            int seaWeed = trench.hadrianPisces(scales);
+            System.out.println(seaWeed);
+        }
+        // this works
+        // enter algorithm as 3737
+        // 3 * 7 * 3 * 7 == 441
+        // product = 441
+
 
 
 
