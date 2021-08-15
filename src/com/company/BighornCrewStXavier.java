@@ -1,5 +1,6 @@
 package com.company;
 import javax.swing.*;
+import java.sql.SQLOutput;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -37,6 +38,8 @@ public class BighornCrewStXavier {
         CosmicTroutPowerOfR troutExponent = new CosmicTroutPowerOfR();
         // can implement a function from another class by doing this
         GeometryManPalindrome rightTriangle = new GeometryManPalindrome();
+        // can implement a function from another class by doing this
+        PickerelColaSquareRoot sodaCan = new PickerelColaSquareRoot();
         // can implement a function from another class by doing this
 
 
@@ -880,6 +883,24 @@ public class BighornCrewStXavier {
             }
         }
         // this works!!!
+        System.out.println(Math.sqrt(144));
+        // 12.0
+        System.out.println(Math.sqrt(10000));
+        // 100.0
+        System.out.println(rams[3]);
+        // Stacey
+
+        if(rams[3] == "Stacey"){
+            for(int ram1 = 0; ram1 < treeNo.length; ram1++){
+                int ram2 = treeNo[ram1];
+                String ram3 = sodaCan.pickerelColaLemon(ram2);
+                System.out.println(ram3);
+            }
+
+        }
+        // this works!!!
+
+
 
 
 
