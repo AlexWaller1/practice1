@@ -32,6 +32,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HammerheadFirstCharacter taylor = new HammerheadFirstCharacter();
         // can implement a function from another class by doing this
+        KenjiRegexReverseStringBuilder redCrown = new KenjiRegexReverseStringBuilder();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -812,6 +814,16 @@ public class BighornCrewStXavier {
         //   H
         //   W
         //   T
+
+        if(samurai[1] == "Kenji the Crane"){
+            String kenji = samurai[1] + " won the Martial Arts tournament!";
+            StringBuilder crane1 = new StringBuilder();
+            crane1 = redCrown.crane(kenji);
+            System.out.println(crane1);
+            // this works!!!
+        }
+
+
 
 
 
