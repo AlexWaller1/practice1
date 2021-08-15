@@ -923,6 +923,22 @@ public class BighornCrewStXavier {
         }
         // it works
 
+        if(pisces[1] == "Governal"){
+            int fish1 = 0;
+            while(fish1 < pisces.length){
+                System.out.println(pisces[fish1]);
+                fish1++;
+            }
+        }
+
+        if(trout[0] == "Rainbow" && trout[1] == "Brown"){
+            int trout37 = 1;
+            do{
+                System.out.println(trout[trout37]);
+                trout37--;
+            }while(trout37 >= 0);
+        }
+
 
 
 
