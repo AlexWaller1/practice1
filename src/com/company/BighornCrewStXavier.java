@@ -817,11 +817,28 @@ public class BighornCrewStXavier {
 
         if(samurai[1] == "Kenji the Crane"){
             String kenji = samurai[1] + " won the Martial Arts tournament!";
-            StringBuilder crane1 = new StringBuilder();
+            StringBuilder crane1 = new StringBuilder(); // interesting how this didn't light up
             crane1 = redCrown.crane(kenji);
             System.out.println(crane1);
             // this works!!!
         }
+
+        System.out.println(samurai[5]);
+
+        if(samurai[5] == "Samos"){
+            int[] troutIntegers = {1, 2, 3, 4, 5};
+            for(int lws1 = 0; lws1 < troutIntegers.length; lws1++){
+                int lws2 = troutIntegers[lws1];
+                double lws3 = Math.pow(lws2, 2);
+                System.out.println(lws3);
+            }
+        }
+        // This works!!!
+        // 1.0
+        // 4.0
+        // 9.0
+        // 16.0
+        // 25.0
 
 
 
