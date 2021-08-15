@@ -34,6 +34,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         KenjiRegexReverseStringBuilder redCrown = new KenjiRegexReverseStringBuilder();
         // can implement a function from another class by doing this
+        CosmicTroutPowerOfR troutExponent = new CosmicTroutPowerOfR();
+        // can implement a function from another class by doing this
 
 
         String ramHybrid1 = "Tony";
@@ -839,6 +841,19 @@ public class BighornCrewStXavier {
         // 9.0
         // 16.0
         // 25.0
+
+        System.out.println(bigHornCrew[0]);
+        System.out.println(bigHornCrew[1]);
+        System.out.println(bigHornCrew[2]);
+
+        if(bigHornCrew[4] == "Axel"){
+            for(int bh1 = 0; bh1 < hybridNo.length; bh1++){
+                int bh2 = hybridNo[bh1];
+                double bh3 = troutExponent.cosmicBrownTrout(bh2);
+                System.out.println(bh3);
+            }
+        }
+        // this works
 
 
 
