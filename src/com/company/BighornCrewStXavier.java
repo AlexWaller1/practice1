@@ -51,6 +51,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         TheSpruceMaxInteger spruce = new TheSpruceMaxInteger();
         // can implement a function from another class by doing this
+        CaterpillarArrayOutput antenna = new CaterpillarArrayOutput();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1000,6 +1002,12 @@ public class BighornCrewStXavier {
         // since output is a String pisces4 must be a string
         // since the parameter in the algorithm is a String[]...
         // that is what we need to put in as the parameter when calling the algorithm
+
+        if(pheasantKing[0] == "Pheasant King"){
+            String bigHorn = antenna.bigHornCaterpillar(bigHornCrew);
+            System.out.println(bigHorn);
+        }
+        // currently only outputs last element of array
 
 
 
