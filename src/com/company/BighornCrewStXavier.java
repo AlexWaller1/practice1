@@ -1009,6 +1009,15 @@ public class BighornCrewStXavier {
         }
         // was able to modify it so all names print to console on the same line
 
+        if(hammerHead[3] == "Harvey"){
+            String pickerelCola = antenna.bigHornCaterpillar(hammerHead);
+            System.out.println(pickerelCola);
+            StringBuilder hardin_37 = new StringBuilder();
+            hardin_37.append(pickerelCola);
+            hardin_37 = hardin_37.reverse();
+            System.out.println(hardin_37);
+        }
+
 
 
 
