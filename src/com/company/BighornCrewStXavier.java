@@ -1040,6 +1040,55 @@ public class BighornCrewStXavier {
         }
         // This works!!!
 
+        if(hammerHead[0] == "Hammerhead"){
+            String spaceTruck = sodaBottle.hammerHeadBlue(hammerHead);
+            System.out.println(spaceTruck);
+            StringBuilder spaceHauler = new StringBuilder();
+            spaceHauler = redCrown.crane(spaceTruck);
+            System.out.println(spaceHauler);
+        }
+
+        if (dachshunds.length == 5){
+            for(int d1 = 0; d1 < dachshunds.length; d1++){
+                System.out.println(dachshunds[d1]);
+            }
+        }
+
+        if(bigHornCrew[0] == "Ace"){
+            String flyRod = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                String trollMotor = bigHornCrew[bh1].toLowerCase();
+                // all strings from bigHornCrew array in this string
+                int bh2 = 0;
+                // first index of string
+                int bh3 = trollMotor.length() - 1;
+                // last index of string
+                for(; bh2 < bh3; bh2++, bh3--){
+                    if (trollMotor.charAt(bh2++) != trollMotor.charAt(bh3--)){
+                        flyRod = trollMotor + " is not a palindrome";
+                    }
+                    else
+                        flyRod = trollMotor + " is a palindrome";
+                }
+                System.out.println(flyRod);
+            }
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int jerky = 37;
+            int product = 1;
+            for(; jerky > 0; jerky = jerky / 10){
+                // 37
+                // 37 / 10 = 3
+                product = product * (jerky % 10);
+                // 1 * (37 % 10) == 7
+                // 7 * (3 % 10) == 21
+                // product = 21
+            }
+            System.out.println(product);
+            // 21
+        }
+
 
 
 
