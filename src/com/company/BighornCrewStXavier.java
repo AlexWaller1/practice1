@@ -1089,6 +1089,21 @@ public class BighornCrewStXavier {
             // 21
         }
 
+        if(samurai[7] == "Wushu Lizard"){
+            int jerky = 37;
+            int difference = 0;
+            for(; jerky > 0; jerky = jerky / 10){
+                // 37
+                // 37 / 10 = 3
+                difference = (jerky % 10) - difference;
+                // (37 % 10) - 0 == 7
+                // (3 % 10) - 7 == -4
+                // difference = -4
+            }
+            System.out.println(difference);
+            // -4
+        }
+
 
 
 
