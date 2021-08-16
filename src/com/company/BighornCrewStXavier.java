@@ -1287,6 +1287,14 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(pisces[0] == "Galahad"){
+            String galahad = "9494";
+            int governal = trench.hadrianPisces(galahad);
+            System.out.println(governal);
+            // product of 9494 digits == 1296
+
+        }
+
 
 
 
