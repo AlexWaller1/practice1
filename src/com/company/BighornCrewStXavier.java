@@ -1007,7 +1007,7 @@ public class BighornCrewStXavier {
             String bigHorn = antenna.bigHornCaterpillar(bigHornCrew);
             System.out.println(bigHorn);
         }
-        // currently only outputs last element of array
+        // was able to modify it so all names print to console on the same line
 
 
 
