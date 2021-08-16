@@ -99,7 +99,7 @@ public class BighornCrewStXavier {
                 "Rimrock Tortillas", "Rimrock River Pretzels"};
         String[] pickerelCola37 = {"Pickerel Cola", "Diet Pickerel Cola", "Pickerel Cola Lemon Chill",
                 "Pickerel Cola Lime Fusion", "Pickerel Cola Cherry Party", "Pickerel Cola Midwest Mania",
-        "Pickerel Cola St Croix Shock"};
+        "Pickerel Cola St. Croix Shock"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
@@ -1135,6 +1135,37 @@ public class BighornCrewStXavier {
             while(pc1 < pickerelCola){
                 System.out.println(pickerelCola37[pc1]);
                 pc1++;
+            }
+        }
+
+        if(pickerelCola37[0] == "Pickerel Cola"){
+            int pc1 = pickerelCola37.length - 1;
+            do {
+                System.out.println(pickerelCola37[pc1]);
+                pc1--;
+            }while(pc1 >= 0);
+        }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            int pc1 = pickerelCola37.length - 1;
+            do{
+                String dietPickerelCola = pickerelCola37[pc1];
+                System.out.println(dietPickerelCola);
+                String wushuPickerel = blueTape.samuraiStringBuilder(dietPickerelCola);
+                System.out.println(wushuPickerel);
+                pc1--;
+            }while (pc1 >= 0);
+        }
+
+        if (pickerelCola37[2] == "Pickerel Cola Lemon Chill"){
+            int pc1 = pickerelCola37.length - 1;
+            while(pc1 >= 0){
+                String dietPickerelCola = pickerelCola37[pc1];
+                System.out.println(dietPickerelCola);
+                StringBuilder pickerelColaCan = new StringBuilder();
+                pickerelColaCan = redCrown.crane(dietPickerelCola);
+                System.out.println(pickerelColaCan);
+                pc1--;
             }
         }
 
