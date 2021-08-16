@@ -57,6 +57,7 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         DifferenceInt___WushuLizard trainingTape = new DifferenceInt___WushuLizard();
         // can implement a function from another class by doing this
+        kearneySandhillCranes craneParty = new kearneySandhillCranes();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1294,6 +1295,12 @@ public class BighornCrewStXavier {
             // product of 9494 digits == 1296
 
         }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String blueCrane = craneParty.sandHillCraneMigration(hammerHead);
+            System.out.println(blueCrane);
+        }
+        // still getting last element of the array's results but not the all of the array elements
 
 
 
