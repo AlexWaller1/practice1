@@ -48,6 +48,9 @@ public class BighornCrewStXavier {
         HadrianStringToInteger trench = new HadrianStringToInteger();
         // can implement a function from another class by doing this
         RamSkaterKB__Exponent skateBoard = new RamSkaterKB__Exponent();
+        // can implement a function from another class by doing this
+        TheSpruceMaxInteger spruce = new TheSpruceMaxInteger();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -987,6 +990,16 @@ public class BighornCrewStXavier {
             }
         }
         // this works!!!
+
+        if (hammerHead[0] == "Hammerhead"){
+
+                String pisces4 = spruce.spruceInteger(hammerHead);
+                System.out.println(pisces4);
+        }
+        // This works
+        // since output is a String pisces4 must be a string
+        // since the parameter in the algorithm is a String[]...
+        // that is what we need to put in as the parameter when calling the algorithm
 
 
 
