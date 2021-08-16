@@ -1034,6 +1034,9 @@ public class BighornCrewStXavier {
         if (hammerHead[5] == "The Cosmic Trout"){
             String spaceTruck = sodaBottle.hammerHeadBlue(hammerHead);
             System.out.println(spaceTruck);
+            String wushuBlue = blueTape.samuraiStringBuilder(spaceTruck);
+            // will reverse the string
+            System.out.println(wushuBlue);
         }
         // This works!!!
 
