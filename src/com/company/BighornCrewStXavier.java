@@ -1231,6 +1231,62 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(rimRockKettleChips[1] == "Rimrock Salt and Vinegar"){
+           String bigHornCrew37 = sodaBottle.hammerHeadBlue(bigHornCrew);
+            System.out.println(bigHornCrew37);
+        }
+
+        if(bigHornCrew[0] == "Ace"){
+            String bigHornCrew1 = "";
+            String bigHornCrew2 = "";
+            String bigHornCrew3 = "";
+            for(int bh1 = 0; bh1 < bigHornCrew.length; bh1++){
+                if(bh1 == bigHornCrew.length - 1){
+                    bigHornCrew1 = bigHornCrew[bh1];
+                }
+                if(bh1 == bigHornCrew.length -2){
+                    bigHornCrew2 = bigHornCrew[bh1];
+                }
+                bigHornCrew3 = bigHornCrew1 + " and " + bigHornCrew2;
+            }
+            System.out.println(bigHornCrew3);
+
+        }
+        // This works!!!
+        if(bigHornCrew[1] == "Columbus"){
+            String sandHillCrane = bigHornCrew[1] + " drinks tons of " + pickerelCola37[1] + "!";
+            System.out.println(sandHillCrane);
+            sandHillCrane = sandHillCrane.replaceAll("\\s", "@@");
+            System.out.println(sandHillCrane);
+            StringBuilder nebraskaCrane = new StringBuilder();
+            nebraskaCrane.append(sandHillCrane);
+            nebraskaCrane = nebraskaCrane.reverse();
+            System.out.println(nebraskaCrane);
+            nebraskaCrane = nebraskaCrane.reverse();
+            System.out.println(nebraskaCrane);
+
+        }
+
+        if(pickerelCola37[0] == "Pickerel Cola"){
+            String ramHybrid = "";
+            for(int ram1 = 0; ram1 < rams.length; ram1++){
+                String ram2 = rams[ram1].toLowerCase();
+                // all strings of rams array
+                int ram3 = 0;
+                // first index of string
+                int ram4 = ram2.length() - 1;
+                // last index of string
+                for(; ram3 < ram4; ram3++, ram4--){
+                    if(ram2.charAt(ram3++) != ram2.charAt(ram4--)){
+                        ramHybrid = ram2 + " is not a palindrome.";
+                    }
+                    else
+                        ramHybrid = ram2 + " is a palindrome.";
+                }
+                System.out.println(ramHybrid);
+            }
+        }
+
 
 
 
