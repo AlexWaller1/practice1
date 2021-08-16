@@ -1018,6 +1018,17 @@ public class BighornCrewStXavier {
             System.out.println(hardin_37);
         }
 
+        if(hammerHead[4] == "Wibaux"){
+            String pickerelCola = antenna.bigHornCaterpillar(ePetroleum);
+            System.out.println(pickerelCola);
+            pickerelCola = pickerelCola.replaceAll("\\s", "%%");
+            System.out.println(pickerelCola);
+            StringBuilder hardin_37 = new StringBuilder();
+            hardin_37.append(pickerelCola);
+            hardin_37 = hardin_37.reverse();
+            System.out.println(hardin_37);
+        }
+
 
 
 
