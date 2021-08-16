@@ -53,6 +53,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CaterpillarArrayOutput antenna = new CaterpillarArrayOutput();
         // can implement a function from another class by doing this
+        HammerheadConcatenation sodaBottle = new HammerheadConcatenation();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1028,6 +1030,12 @@ public class BighornCrewStXavier {
             hardin_37 = hardin_37.reverse();
             System.out.println(hardin_37);
         }
+
+        if (hammerHead[5] == "The Cosmic Trout"){
+            String spaceTruck = sodaBottle.hammerHeadBlue(hammerHead);
+            System.out.println(spaceTruck);
+        }
+        // This works!!!
 
 
 
