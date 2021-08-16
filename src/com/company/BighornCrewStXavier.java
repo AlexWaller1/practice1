@@ -55,6 +55,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HammerheadConcatenation sodaBottle = new HammerheadConcatenation();
         // can implement a function from another class by doing this
+        DifferenceInt___WushuLizard trainingTape = new DifferenceInt___WushuLizard();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -93,6 +95,11 @@ public class BighornCrewStXavier {
         String[] pisces = {"Galahad", "Governal", "Berinon", "Forthwind", "Hadrian", "Aetius", "Urbicus"};
         String[] ePetroleum = {"Thierry", "Laurent", "Antoine", "Hunzuu", "Gilgamesh"};
         String[] pheasantKing = {"Pheasant King", "River Carp", "Goldeye", "Caddis", "Bighorn Caterpillar"};
+        String[] rimRockKettleChips = {"Rimrock Kettle Chips", "Rimrock Salt and Vinegar", "Rimrock Olive Oil",
+                "Rimrock Tortillas", "Rimrock River Pretzels"};
+        String[] pickerelCola37 = {"Pickerel Cola", "Diet Pickerel Cola", "Pickerel Cola Lemon Chill",
+                "Pickerel Cola Lime Fusion", "Pickerel Cola Cherry Party", "Pickerel Cola Midwest Mania",
+        "Pickerel Cola St Croix Shock"};
         int[] hybridNo = {37, 9, 44, 23, 21, 102, 2309, 1992, 2002, 9229};
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
@@ -1102,6 +1109,33 @@ public class BighornCrewStXavier {
             }
             System.out.println(difference);
             // -4
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            int pickerelCola = 37;
+            int dietPickerelCola = trainingTape.blueLizard(pickerelCola);
+            System.out.println(dietPickerelCola);
+            // -4
+        }
+
+        // rimRockKettleChips
+
+        if(pisces[0] == "Galahad"){
+            for(int rrc1 = 0; rrc1 < rimRockKettleChips.length; rrc1++){
+                String rimRock = rimRockKettleChips[rrc1];
+                System.out.println(rimRock);
+            }
+        }
+
+        System.out.println(rimRockKettleChips.length);
+
+        if (rimRockKettleChips.length == 5){
+            int pickerelCola = pickerelCola37.length;
+            int pc1 = 0;
+            while(pc1 < pickerelCola){
+                System.out.println(pickerelCola37[pc1]);
+                pc1++;
+            }
         }
 
 
