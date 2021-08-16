@@ -58,6 +58,9 @@ public class BighornCrewStXavier {
         DifferenceInt___WushuLizard trainingTape = new DifferenceInt___WushuLizard();
         // can implement a function from another class by doing this
         kearneySandhillCranes craneParty = new kearneySandhillCranes();
+        // can implement a function from another class by doing this
+        DietPickerelCola twelvePack = new DietPickerelCola();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1301,6 +1304,13 @@ public class BighornCrewStXavier {
             System.out.println(blueCrane);
         }
         // still getting last element of the array's results but not the all of the array elements
+
+        if(hammerHead[0] == "Hammerhead"){
+            String mallard1 = bigHornCrew[2];
+            String mallard2 = bigHornCrew[3];
+            String mallard3 = twelvePack.pickerelColaCount(mallard1, mallard2);
+            System.out.println(mallard3);
+        }
 
 
 
