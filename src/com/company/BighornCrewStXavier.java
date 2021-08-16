@@ -1195,6 +1195,42 @@ public class BighornCrewStXavier {
             // dangling metacharacter!?!?
         }
 
+        if(pickerelCola37[4] == "Pickerel Cola Cherry Party"){
+            int pc1 = 37;
+            int pc2 = greenEgg.Warren_21(pc1);
+            System.out.println(pc2);
+            double pc4 = Double.valueOf(pc2);
+            System.out.println(pc4);
+          //  int pc3 = troutExponent.cosmicBrownTrout(pc4);
+            double pc3 = troutExponent.cosmicBrownTrout(pc2);
+            System.out.println(pc3);
+
+
+        }
+
+        System.out.println(pickerelCola37[5]);
+
+        if(pickerelCola37[5] == "Pickerel Cola Midwest Mania"){
+            String pc37 = "3744";
+            double pc371 = Double.valueOf(pc37);
+            System.out.println(pc371);
+        }
+
+        if(pickerelCola37[5] == "Pickerel Cola Midwest Mania"){
+            for(int pc1 = 0; pc1 < rimRockKettleChips.length; pc1++){
+                String pc2 = rimRockKettleChips[pc1];
+                System.out.println(pc2);
+            }
+        }
+
+        if(rimRockKettleChips[0] == "Rimrock Kettle Chips"){
+            for(int pc1 = 0; pc1 < rimRockKettleChips.length; pc1++){
+                String pc2 = rimRockKettleChips[pc1];
+                pc2 = pc2.replaceAll("\\s", "!!");
+                System.out.println(pc2);
+            }
+        }
+
 
 
 
