@@ -1169,6 +1169,32 @@ public class BighornCrewStXavier {
             }
         }
 
+        System.out.println(1);
+        System.out.println(2);
+        System.out.println(3);
+        System.out.println(4);
+
+        if(pickerelCola37[3] == "Pickerel Cola Lime Fusion"){
+            String dietPickerelCola = pickerelCola37[4];
+            System.out.println(dietPickerelCola);
+            String pickerelColaLime = blueTape.samuraiStringBuilder(dietPickerelCola);
+            // reverses string
+            System.out.println(pickerelColaLime);
+            StringBuilder cherryPickerelCola = new StringBuilder();
+            cherryPickerelCola = redCrown.crane(pickerelColaLime);
+            // reverses string and replaces whitespace with "=="
+            System.out.println(cherryPickerelCola);
+        }
+
+        if(pickerelCola37[4] == "Pickerel Cola Cherry Party"){
+            String dietPickerelCola = "Diet  Pickerel  Cola";
+            dietPickerelCola = dietPickerelCola.replaceAll("\\s", "**");
+            System.out.println(dietPickerelCola);
+           // dietPickerelCola = dietPickerelCola.replaceAll("*", "");
+         //   System.out.println(dietPickerelCola);
+            // dangling metacharacter!?!?
+        }
+
 
 
 
