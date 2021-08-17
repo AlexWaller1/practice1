@@ -1355,9 +1355,13 @@ public class BighornCrewStXavier {
         }
 
         if(hammerHead[0] == "Hammerhead"){
-            String coolJacket = "Hammerhead hammers.";
+            String coolJacket = "hammerhead hammers.";
             char firstChar = coolJacket.charAt(0);
 
+            System.out.println(firstChar);
+            String firstCharString = String.valueOf(firstChar);
+            coolJacket = coolJacket.replaceFirst("h", "9");
+            System.out.println(coolJacket);
 
         }
 
