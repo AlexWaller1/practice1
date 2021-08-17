@@ -61,6 +61,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         DietPickerelCola twelvePack = new DietPickerelCola();
         // can implement a function from another class by doing this
+        AppleHillcharAt goodNose = new AppleHillcharAt();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1310,6 +1312,29 @@ public class BighornCrewStXavier {
             String mallard2 = bigHornCrew[3];
             String mallard3 = twelvePack.pickerelColaCount(mallard1, mallard2);
             System.out.println(mallard3);
+        }
+
+        if(ePetroleum[0] == "Thierry"){
+            String anubis = "Anubis";
+            anubis = anubis.replace("A", "9");
+            System.out.println(anubis);
+            char firstChar = anubis.charAt(0);
+            System.out.println(firstChar);
+            String firstCharString = String.valueOf(firstChar);
+            System.out.println(firstCharString);
+            anubis = anubis.replaceAll(firstCharString, "");
+            System.out.println(anubis);
+
+        }
+
+        System.out.println(rimRockKettleChips[1]);
+
+        if(rimRockKettleChips[1] == "Rimrock Salt and Vinegar"){
+            for(int pc1 = 0; pc1 < pickerelCola37.length; pc1++){
+                String greenFizz = pickerelCola37[pc1];
+                String greenFizz2 = goodNose.wildDachshund(greenFizz);
+                System.out.println(greenFizz2);
+            }
         }
 
 
