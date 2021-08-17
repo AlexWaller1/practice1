@@ -63,6 +63,7 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         AppleHillcharAt goodNose = new AppleHillcharAt();
         // can implement a function from another class by doing this
+        contemplativeBass lineTug = new contemplativeBass();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1337,6 +1338,28 @@ public class BighornCrewStXavier {
             }
         }
         // This works!!!
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String greenFizz1 = "";
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String hardin37 = hammerHead[hh1];
+                if(hardin37.length() > 7){
+                    String greenFizz = goodNose.wildDachshund(hardin37);
+                    System.out.println(greenFizz);
+                }
+                else
+                    greenFizz1 = lineTug.lureSnag(hardin37);
+                    System.out.println(greenFizz1);
+
+            }
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            String coolJacket = "Hammerhead hammers.";
+            char firstChar = coolJacket.charAt(0);
+
+
+        }
 
 
 

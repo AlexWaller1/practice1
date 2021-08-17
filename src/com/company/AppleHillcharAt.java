@@ -5,7 +5,7 @@ public class AppleHillcharAt {
 
         char firstChar = badgerHound.charAt(0);
         String firstString = String.valueOf(firstChar);
-        badgerHound = badgerHound.replaceAll(firstString, "9");
+        badgerHound = badgerHound.replace(firstString, "9");
         return badgerHound;
     }
 }
