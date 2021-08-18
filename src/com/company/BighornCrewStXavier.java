@@ -1437,6 +1437,40 @@ public class BighornCrewStXavier {
 
         }
 
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String bodhi37 = dachshunds[2] + " ran up the Flume Trail";
+            System.out.println(bodhi37);
+            bodhi37 = bodhi37.replaceAll("\\s", "==");
+            System.out.println(bodhi37);
+            StringBuilder bodhi44 = new StringBuilder();
+            bodhi44.append(bodhi37);
+            bodhi44 = bodhi44.reverse();
+            System.out.println(bodhi44);
+
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            String wushu37 = samurai[7] + " is the ultimate martial artist";
+            StringBuilder wushu44 = new StringBuilder();
+            wushu44.append(wushu37);
+            wushu44 = wushu44.deleteCharAt(0);
+            System.out.println(wushu44);
+            wushu44 = wushu44.replace(0, 0, "W");
+            System.out.println(wushu44);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            for(int robo1 = 0; robo1 < robots.length; robo1++){
+                String roboTelecaster = robots[robo1];
+                System.out.println(roboTelecaster);
+                StringBuilder robo44 = new StringBuilder();
+                robo44.append(roboTelecaster);
+                robo44 = robo44.deleteCharAt(0);
+                robo44 = robo44.replace(0, 0, "!!!");
+                System.out.println(robo44);
+            }
+        }
+
 
 
 
