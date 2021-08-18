@@ -64,6 +64,9 @@ public class BighornCrewStXavier {
         AppleHillcharAt goodNose = new AppleHillcharAt();
         // can implement a function from another class by doing this
         contemplativeBass lineTug = new contemplativeBass();
+        // can implement a function from another class by doing this
+        PickerelRegex pickerelString = new PickerelRegex();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1362,6 +1365,75 @@ public class BighornCrewStXavier {
             String firstCharString = String.valueOf(firstChar);
             coolJacket = coolJacket.replaceFirst("h", "9");
             System.out.println(coolJacket);
+
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            String spaceTruck = hammerHead[0];
+            System.out.println(spaceTruck);
+            char firstChar = 4;
+            String firstCharString = String.valueOf(firstChar);
+            spaceTruck = spaceTruck.replace("m", "4");
+            System.out.println(spaceTruck);
+            StringBuilder shark = new StringBuilder();
+            shark.append(spaceTruck);
+        }
+
+        if(pickerelCola37[0] == "Pickerel Cola"){
+            for(int pc1 = 0; pc1 < pickerelCola37.length; pc1++){
+                String pickerel = pickerelCola37[pc1];
+                System.out.println(pickerel);
+            }
+        }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            for(int pc1 = 0; pc1 < pickerelCola37.length; pc1++){
+                String pickerel = pickerelCola37[pc1];
+                String pickerel3 = pickerelString.pickerelReplacement(pickerel);
+                System.out.println(pickerel3);
+            }
+        }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            for(int pc1 = 0; pc1 < pickerelCola37.length; pc1++){
+                String pickerel44 = pickerelCola37[pc1];
+                System.out.println(pickerel44);
+            }
+        }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            int pickerel44 = 374;
+            int product = 1;
+            for(; pickerel44 > 0; pickerel44 = pickerel44 / 10){
+                // 374
+                // 37
+                // 3
+                product = product * (pickerel44 % 10);
+                // 1 * (374 % 10) = 4
+                // 4 * (37 % 10) = 28
+                // 28 * (3 % 10) = 84
+
+            }
+            System.out.println(product);
+            // product = 84
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            int hammerHead37 = 374, reverse = 0, remainder = 0;
+            for(; hammerHead37 > 0; hammerHead37 = hammerHead37 / 10){
+                // 374
+                // 37
+                remainder = hammerHead37 % 10;
+                // 374 % 10 = 4
+                // 37 % 10 = 7
+                // 3 % 10 = 3
+                reverse = reverse * 10 + remainder;
+                // 0 * 10 + 4 = 4
+                // 4 * 10 + 7 = 47
+                // 47 * 10 + 3 = 473
+            }
+            System.out.println(reverse);
+            // reverse = 473
 
         }
 
