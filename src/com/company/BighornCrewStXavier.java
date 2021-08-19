@@ -1494,6 +1494,14 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            for(int pc2 = 0; pc2 < pickerelCola37.length; pc2++){
+                String pickerelColaMachine = pickerelCola37[pc2];
+                String dietPickerel = pickerelCombo.pickerelFizz(pickerelColaMachine);
+                System.out.println(dietPickerel);
+            }
+        }
+
 
 
 
