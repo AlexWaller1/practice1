@@ -77,6 +77,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         GreenDogGlynis greenDog = new GreenDogGlynis();
         // can implement a function from another class by doing this
+        ForthwindStringIntegerPalindrome threeMinds = new ForthwindStringIntegerPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1525,6 +1527,21 @@ public class BighornCrewStXavier {
                 String ramHybrid = rams[ram1].toLowerCase();
                 String ramSkateBoard = greenDog.glynisPisces(ramHybrid);
                 System.out.println(ramSkateBoard);
+            }
+        }
+
+        if(pisces[3] == "Forthwind"){
+            for(int hybrid = 0; hybrid < hybridString.length; hybrid++){
+                String randallPark = hybridString[hybrid];
+                String foodCourt = threeMinds.forthWindInteger(randallPark);
+                System.out.println(foodCourt);
+            }
+        }
+
+        if (trees[0] == "Cornelius"){
+            for(int tree1 = 0; tree1 < hybridString.length; tree1++){
+                String hybrid37 = hybridString[tree1];
+                System.out.println(hybrid37);
             }
         }
 
