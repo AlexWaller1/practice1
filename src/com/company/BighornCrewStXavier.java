@@ -73,6 +73,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickerelColaConcatenation pickerelCombo = new PickerelColaConcatenation();
         // can implement a function from another class by doing this
+        LoneWolfSamuraiConcatenation samuraiSentence = new LoneWolfSamuraiConcatenation();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1500,6 +1502,11 @@ public class BighornCrewStXavier {
                 String dietPickerel = pickerelCombo.pickerelFizz(pickerelColaMachine);
                 System.out.println(dietPickerel);
             }
+        }
+
+        if(samurai[3] == "Glynis"){
+            String glynis = samuraiSentence.loneWolfKungFu(samurai);
+            System.out.println(glynis);
         }
 
 
