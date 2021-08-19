@@ -67,6 +67,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickerelRegex pickerelString = new PickerelRegex();
         // can implement a function from another class by doing this
+        StringBuilderMellon__Tech mellonGuitar = new StringBuilderMellon__Tech();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1468,6 +1470,14 @@ public class BighornCrewStXavier {
                 robo44 = robo44.deleteCharAt(0);
                 robo44 = robo44.replace(0, 0, "!!!");
                 System.out.println(robo44);
+            }
+        }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            for(int pc2 = 0; pc2 < pickerelCola37.length; pc2++){
+                String pickerelColaCan = pickerelCola37[pc2];
+                StringBuilder sodaCan37 = mellonGuitar.mellontech37(pickerelColaCan);
+                System.out.println(sodaCan37);
             }
         }
 
