@@ -75,6 +75,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         LoneWolfSamuraiConcatenation samuraiSentence = new LoneWolfSamuraiConcatenation();
         // can implement a function from another class by doing this
+        GreenDogGlynis greenDog = new GreenDogGlynis();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1507,6 +1509,23 @@ public class BighornCrewStXavier {
         if(samurai[3] == "Glynis"){
             String glynis = samuraiSentence.loneWolfKungFu(samurai);
             System.out.println(glynis);
+        }
+
+        if(samurai[2] == "Laramie"){
+            for(int rcc1 = 0; rcc1 < rimRockKettleChips.length; rcc1++){
+                String rimRock = rimRockKettleChips[rcc1];
+                System.out.println(rimRock);
+            }
+        }
+
+        System.out.println(pisces[4]);
+
+        if(pisces[4] == "Hadrian"){
+            for(int ram1 = 0; ram1 < rams.length; ram1++){
+                String ramHybrid = rams[ram1].toLowerCase();
+                String ramSkateBoard = greenDog.glynisPisces(ramHybrid);
+                System.out.println(ramSkateBoard);
+            }
         }
 
 
