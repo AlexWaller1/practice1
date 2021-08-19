@@ -71,6 +71,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         EggplantHeadStringBuilder eggPlantGuitar = new EggplantHeadStringBuilder();
         // can implement a function from another class by doing this
+        PickerelColaConcatenation pickerelCombo = new PickerelColaConcatenation();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
