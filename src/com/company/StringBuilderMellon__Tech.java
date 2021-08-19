@@ -5,7 +5,7 @@ public class StringBuilderMellon__Tech {
         StringBuilder eggPlantHead = new StringBuilder();
         eggPlantHead.append(mellon44);
         eggPlantHead = eggPlantHead.deleteCharAt(0);
-        eggPlantHead = eggPlantHead.replace(0, 0, "#!#!");
+        eggPlantHead = eggPlantHead.replace(0, 0, "Hybrids ");
         return eggPlantHead;
     }
 }
