@@ -1590,6 +1590,26 @@ public class BighornCrewStXavier {
         }
         // This works!!!
 
+        if(ePetroleum[4] == "Gilgamesh"){
+            int fuel2 = 4569, reverse = 0;
+            for(; fuel2 != 0; fuel2 = fuel2 / 10){
+                // 4569
+                // 456
+                // 45
+                // 4
+                reverse = reverse * 10 + fuel2 % 10;
+                // 0 * 10 + 4569 % 10 = 9
+                // 9 * 10 + 456 % 10 = 96
+                // 96 * 10 + 45 % 10 = 965
+                // 965 * 10 + 4 % 10 = 9654
+                // reverse = 9654
+            }
+            System.out.println(reverse);
+            // 9654!!!
+            // This works
+
+        }
+
 
 
 
