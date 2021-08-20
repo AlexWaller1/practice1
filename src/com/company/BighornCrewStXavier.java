@@ -1545,6 +1545,40 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(trees[1] == "Magnus"){
+            String loneWolf37 = samurai[1];
+            System.out.println(loneWolf37.chars().max());
+        }
+
+        System.out.println(trees[3]);
+
+        if(trees[3] == "Everett"){
+            int tree2 = 4747;
+            int product = 1;
+            while(tree2 > 0){
+                product = product * (tree2 % 10);
+                tree2 = tree2 / 10;
+            }
+            System.out.println(product);
+        }
+
+        if(trout[0] == "Rainbow"){
+            for(int trout1 = 0; trout1 < trout.length; trout1++){
+                String riverPlants = trout[trout1] + " lives in the Bighorn River";
+                System.out.println(riverPlants);
+            }
+        }
+
+        if(trout[1] == "Brown"){
+            int hh1 = 37;
+            System.out.println(Integer.MAX_VALUE);
+            // 2147483647
+            System.out.println(Integer.MIN_VALUE);
+            // -2147483647
+        }
+
+
+
 
 
 
