@@ -79,6 +79,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         ForthwindStringIntegerPalindrome threeMinds = new ForthwindStringIntegerPalindrome();
         // can implement a function from another class by doing this
+        FastDataPickerel efficientPickerel = new FastDataPickerel();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1576,6 +1578,17 @@ public class BighornCrewStXavier {
             System.out.println(Integer.MIN_VALUE);
             // -2147483647
         }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int hh1 = 3745;
+            int hh2 = efficientPickerel.reverseIntegerPickerel(hh1);
+            System.out.println(hh2);
+            int hh3 = efficientPickerel.reverseIntegerPickerel(Integer.MAX_VALUE);
+            // 5473
+            System.out.println(hh3);
+            // 0
+        }
+        // This works!!!
 
 
 
