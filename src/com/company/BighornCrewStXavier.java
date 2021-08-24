@@ -1610,6 +1610,27 @@ public class BighornCrewStXavier {
 
         }
 
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            int cola1 = 3475;
+            int product = 1;
+            int remainder = 0;
+            for(; cola1 != 0; cola1 = cola1 / 10){
+                product = product * (cola1 % 10);
+
+
+
+
+            }
+            System.out.println(product);
+        }
+
+        if(pickerelCola37[0] == "Pickerel Cola"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String hh2 = hammerHead[hh1];
+                System.out.println(hh2);
+            }
+        }
+
 
 
 
