@@ -87,6 +87,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Mellon_Tech_2 cyberGuitar = new Mellon_Tech_2();
         // can implement a function from another class by doing this
+        Eggplant_Head_Exponent eggplantGrill = new Eggplant_Head_Exponent();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1704,6 +1706,15 @@ public class BighornCrewStXavier {
 
 
         }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String eggPlantString = eggplantGrill.eggplantHeadExponent(hh2);
+                System.out.println(eggPlantString);
+            }
+        }
+        // this works!!!
 
 
 
