@@ -1654,6 +1654,24 @@ public class BighornCrewStXavier {
         }
         // This works!!!
 
+        System.out.println(samurai[2]);
+
+        if(samurai[2] == "Laramie"){
+            int hh1 = 0;
+           do{
+               System.out.println(samurai[hh1]);
+               hh1++;
+           }while(hh1 < samurai.length);
+        }
+
+        if(samurai[3] == "Glynis"){
+            int hh1 = samurai.length - 1;
+            while(hh1 >= 0){
+                System.out.println(samurai[hh1]);
+                hh1--;
+            }
+        }
+
 
 
 
