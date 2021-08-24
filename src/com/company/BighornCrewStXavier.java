@@ -89,6 +89,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Eggplant_Head_Exponent eggplantGrill = new Eggplant_Head_Exponent();
         // can implement a function from another class by doing this
+        lemonPickerelColaStringBuilder lemonPickerel = new lemonPickerelColaStringBuilder();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1715,6 +1717,26 @@ public class BighornCrewStXavier {
             }
         }
         // this works!!!
+
+        System.out.println(pickerelCola37[4]);
+        // Pickerel Cola Cherry Party!!!
+        System.out.println(pickerelCola37[3]);
+        // Pickerel Cola Lime Fusion!!!
+        System.out.println(pickerelCola37[2]);
+        // Pickerel Cola Lemon Chill!!!
+
+        if(pickerelCola37[2] == "Pickerel Cola Lemon Chill"){
+            int hh1 = pickerelCola37.length - 1;
+            String pickerelColaCan = "";
+            StringBuilder pickerelColaXXL = new StringBuilder();
+            do{
+                pickerelColaCan = pickerelCola37[hh1];
+                hh1--;
+                pickerelColaXXL = lemonPickerel.lemonCola(pickerelColaCan);
+                System.out.println(pickerelColaXXL);
+            }while(hh1 >= 0);
+        }
+        // THis works!!!
 
 
 
