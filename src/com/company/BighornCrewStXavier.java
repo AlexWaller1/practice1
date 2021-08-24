@@ -83,6 +83,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HammerheadProductSodaCan whiteFishSodaCase = new HammerheadProductSodaCan();
         // can implement a function from another class by doing this
+        PickerelColaStringPalindrome fizz = new PickerelColaStringPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1641,6 +1643,16 @@ public class BighornCrewStXavier {
             }
 
         }
+
+        if(hammerHead[4] == "Wibaux"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String coolJacket = hammerHead[hh1].toLowerCase();
+                String cosmicTrout = fizz.pickerelColaIce(coolJacket);
+                System.out.println(cosmicTrout);
+
+            }
+        }
+        // This works!!!
 
 
 
