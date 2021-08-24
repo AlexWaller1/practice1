@@ -81,6 +81,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         FastDataPickerel efficientPickerel = new FastDataPickerel();
         // can implement a function from another class by doing this
+        HammerheadProductSodaCan whiteFishSodaCase = new HammerheadProductSodaCan();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1629,6 +1631,15 @@ public class BighornCrewStXavier {
                 String hh2 = hammerHead[hh1];
                 System.out.println(hh2);
             }
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String hh3 = whiteFishSodaCase.hammerHeadSodaFountain(hh2);
+                System.out.println(hh3);
+            }
+
         }
 
 
