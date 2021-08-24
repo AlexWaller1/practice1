@@ -1691,6 +1691,20 @@ public class BighornCrewStXavier {
             System.out.println(mellon_tech_1);
         }
 
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String colaHammerhead = "";
+            int hh1 = 0;
+            StringBuilder roboGuitar = new StringBuilder();
+            while(hh1 < hammerHead.length){
+                colaHammerhead = hammerHead[hh1];
+                hh1++;
+                roboGuitar = cyberGuitar.mellonShredder(colaHammerhead);
+                System.out.println(roboGuitar);
+            }
+
+
+        }
+
 
 
 
