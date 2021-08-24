@@ -85,6 +85,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickerelColaStringPalindrome fizz = new PickerelColaStringPalindrome();
         // can implement a function from another class by doing this
+        Mellon_Tech_2 cyberGuitar = new Mellon_Tech_2();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1670,6 +1672,23 @@ public class BighornCrewStXavier {
                 System.out.println(samurai[hh1]);
                 hh1--;
             }
+        }
+
+        if(pisces[4] == "Hadrian"){
+            for(int hh1 = 0; hh1 < pisces.length; hh1++){
+                String piscesTrench = pisces[hh1];
+                StringBuilder mellon_tech = cyberGuitar.mellonShredder(piscesTrench);
+                System.out.println(mellon_tech);
+            }
+        }
+
+        if(robots[3] == "Eggplant-Head"){
+            String mellon_tech = robots[2];
+            StringBuilder mellon_tech_1 = new StringBuilder();
+            mellon_tech_1.append(mellon_tech);
+            mellon_tech_1 = mellon_tech_1.deleteCharAt(6);
+            mellon_tech_1 = mellon_tech_1.replace(6, 6, "----_______----");
+            System.out.println(mellon_tech_1);
         }
 
 
