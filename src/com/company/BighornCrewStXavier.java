@@ -101,6 +101,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickerelColaFizzBuzz troutFizz = new PickerelColaFizzBuzz();
         // can implement a function from another class by doing this
+        SunFishCharCount sunFishStream = new SunFishCharCount();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1790,6 +1792,32 @@ public class BighornCrewStXavier {
                 System.out.println(hh3);
             }
         }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int hh1 = 45;
+            String hh2 = troutFizz.pickerelFizz(hh1);
+            System.out.println(hh2);
+            // 45 is FizzBuzz
+        }
+
+        if(samurai[6] == "The Wraith"){
+            for(int hh1 = 0; hh1 < samurai.length; hh1++){
+                String wayOfTheSamurai = samurai[hh1];
+                if(hh1 == 3){
+                    System.out.println(wayOfTheSamurai);
+                }
+            }
+        }
+
+        if(samurai[3] == "Glynis"){
+
+            long wayOfTheGreenDog = sunFishStream.sunFish(samurai);
+            System.out.println(wayOfTheGreenDog);
+            // whoah!!! 385560000
+
+        }
+
+
 
 
 
