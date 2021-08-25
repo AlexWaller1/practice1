@@ -103,6 +103,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         SunFishCharCount sunFishStream = new SunFishCharCount();
         // can implement a function from another class by doing this
+        FastDataHeron blueHeron = new FastDataHeron();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1837,6 +1839,15 @@ public class BighornCrewStXavier {
                 System.out.println(badgerHounds1);
             }
         }
+
+        if(badgerHounds.get(3) == "The Element"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int heronCurl = hybridNo[hh1];
+                int heronChillSpot = blueHeron.dataHeron(heronCurl);
+                System.out.println(heronChillSpot);
+            }
+        }
+        // This works
 
 
 
