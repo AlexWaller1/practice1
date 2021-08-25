@@ -99,6 +99,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         GeometryManMinimumCharacters geometryMan = new GeometryManMinimumCharacters();
         // can implement a function from another class by doing this
+        PickerelColaFizzBuzz troutFizz = new PickerelColaFizzBuzz();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1779,6 +1781,14 @@ public class BighornCrewStXavier {
             String pickerelCola44 = geometryMan.geometryMan1(pickerelCola37);
             System.out.println(pickerelCola44);
 
+        }
+
+        if(pickerelCola37[3] == "Pickerel Cola Lime Fusion"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String hh3 = troutFizz.pickerelFizz(hh2);
+                System.out.println(hh3);
+            }
         }
 
 
