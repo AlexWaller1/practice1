@@ -93,6 +93,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CorneliusFashionStatement corneliusCouture = new CorneliusFashionStatement();
         // can implement a function from another class by doing this
+        Hadrian_2_Exponent hadrianSeaWeed = new Hadrian_2_Exponent();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1748,6 +1750,14 @@ public class BighornCrewStXavier {
             }
         }
         // This worked!!!
+        if(rams[3] == "Stacey"){
+            for(int hh1 = 0; hh1 < treeNo.length; hh1++){
+                int hh2 = treeNo[hh1];
+                double hh3 = hadrianSeaWeed.piscesArmor(hh2);
+                System.out.println(hh3);
+
+            }
+        }
 
 
 
