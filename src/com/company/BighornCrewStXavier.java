@@ -107,6 +107,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CushetunkHeronArray lakeCushetunk = new CushetunkHeronArray();
         // can implement a function from another class by doing this
+        CosmicTroutTwoSumLessThanK troutMathematician = new CosmicTroutTwoSumLessThanK();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1857,6 +1859,15 @@ public class BighornCrewStXavier {
             System.out.println(blueHerons);
         }
         // doesn't quite work
+
+        System.out.println(Math.max(1, 37));
+        // Math.max compares two different integers and compares them, outputting whichever is greater
+
+        if(trout[0] == "Rainbow"){
+            int trout44 = troutMathematician.bigHornSum(hybridNo);
+            System.out.println(trout44);
+        }
+        // This works!!!
 
 
 
