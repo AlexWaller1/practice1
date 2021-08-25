@@ -95,6 +95,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Hadrian_2_Exponent hadrianSeaWeed = new Hadrian_2_Exponent();
         // can implement a function from another class by doing this
+        WibauxMaxCharacters whiteFishWibaux = new WibauxMaxCharacters();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1758,6 +1760,12 @@ public class BighornCrewStXavier {
 
             }
         }
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String hammerhead1 = whiteFishWibaux.wibauxRoboLegs(hammerHead);
+            System.out.println(hammerhead1);
+        }
+        // This works
 
 
 
