@@ -113,6 +113,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PaddleFishProductLessThanInt paddleFishCall = new PaddleFishProductLessThanInt();
         // can implement a function from another class by doing this
+        WildTurkeyTwoSumLessThan wildTurkey = new WildTurkeyTwoSumLessThan();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1884,6 +1886,13 @@ public class BighornCrewStXavier {
             System.out.println(paddleFish44);
             // whoah product is 483!!!
         }
+
+        if(pickerelCola37[2] == "Pickerel Cola Lemon Chill"){
+            System.out.println(pickerelCola37[2]);
+            int runningTurkey = wildTurkey.wildTurkey(hybridNo);
+            System.out.println(runningTurkey);
+        }
+        // This works
 
 
 
