@@ -97,6 +97,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         WibauxMaxCharacters whiteFishWibaux = new WibauxMaxCharacters();
         // can implement a function from another class by doing this
+        GeometryManMinimumCharacters geometryMan = new GeometryManMinimumCharacters();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1766,6 +1768,18 @@ public class BighornCrewStXavier {
             System.out.println(hammerhead1);
         }
         // This works!!!
+
+        if(pickerelCola37[0] == "Pickerel Cola"){
+            String robots1 = whiteFishWibaux.wibauxRoboLegs(robots);
+            System.out.println(robots1);
+        }
+
+        if(pickerelCola37[2] == "Pickerel Cola Lemon Chill"){
+            System.out.println(pickerelCola37[1]);
+            String pickerelCola44 = geometryMan.geometryMan1(pickerelCola37);
+            System.out.println(pickerelCola44);
+
+        }
 
 
 
