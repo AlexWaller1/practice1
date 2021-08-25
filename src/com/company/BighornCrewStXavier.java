@@ -109,6 +109,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CosmicTroutTwoSumLessThanK troutMathematician = new CosmicTroutTwoSumLessThanK();
         // can implement a function from another class by doing this
+        KarpTwoSumLessThanK karpLineWeight = new KarpTwoSumLessThanK();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1866,6 +1868,12 @@ public class BighornCrewStXavier {
         if(trout[0] == "Rainbow"){
             int trout44 = troutMathematician.bigHornSum(hybridNo);
             System.out.println(trout44);
+        }
+        // This works!!!
+
+        if(trout[1] == "Brown"){
+            int karp44 = karpLineWeight.karpBottomBounce(hybridNo);
+            System.out.println(karp44);
         }
         // This works!!!
 
