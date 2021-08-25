@@ -105,6 +105,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         FastDataHeron blueHeron = new FastDataHeron();
         // can implement a function from another class by doing this
+        CushetunkHeronArray lakeCushetunk = new CushetunkHeronArray();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -152,6 +154,7 @@ public class BighornCrewStXavier {
         int[] roboNo = {1, 2, 3, 4};
         int[] treeNo = {2, 4, 6, 9, 12};
         int[] troutNo = {37, 36, 121, 144};
+        int[] heronNo = {3, 6, 12, 19, 21};
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
         String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
         String[] robotString = {"1", "2", "3", "4", "5"};
@@ -1848,6 +1851,12 @@ public class BighornCrewStXavier {
             }
         }
         // This works
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            int[] blueHerons = lakeCushetunk.lakeHeron(heronNo);
+            System.out.println(blueHerons);
+        }
+        // doesn't quite work
 
 
 
