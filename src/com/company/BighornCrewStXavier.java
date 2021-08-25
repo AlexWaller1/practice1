@@ -91,6 +91,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         lemonPickerelColaStringBuilder lemonPickerel = new lemonPickerelColaStringBuilder();
         // can implement a function from another class by doing this
+        CorneliusFashionStatement corneliusCouture = new CorneliusFashionStatement();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1737,6 +1739,15 @@ public class BighornCrewStXavier {
             }while(hh1 >= 0);
         }
         // THis works!!!
+
+        if(pickerelCola37[3] == "Pickerel Cola Lime Fusion"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String corneliusString = corneliusCouture.treeHybrid(hh2);
+                System.out.println(corneliusString);
+            }
+        }
+        // This worked!!!
 
 
 
