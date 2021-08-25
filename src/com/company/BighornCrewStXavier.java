@@ -111,6 +111,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         KarpTwoSumLessThanK karpLineWeight = new KarpTwoSumLessThanK();
         // can implement a function from another class by doing this
+        PaddleFishProductLessThanInt paddleFishCall = new PaddleFishProductLessThanInt();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1876,6 +1878,12 @@ public class BighornCrewStXavier {
             System.out.println(karp44);
         }
         // This works!!!
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            int paddleFish44 = paddleFishCall.paddleFishRiver(hybridNo);
+            System.out.println(paddleFish44);
+            // whoah product is 483!!!
+        }
 
 
 
