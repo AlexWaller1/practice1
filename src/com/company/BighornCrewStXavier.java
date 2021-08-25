@@ -1817,6 +1817,27 @@ public class BighornCrewStXavier {
 
         }
 
+        System.out.println(badgerHounds.get(0));
+        // Anubis
+        System.out.println(badgerHounds.get(1));
+        // The Miner
+        System.out.println(badgerHounds.get(2));
+        // Gawain
+        System.out.println(badgerHounds.get(3));
+        // The Element
+        System.out.println(badgerHounds.get(4));
+        // M'arcuzz M'orzz
+
+
+        //System.out.println(badgerHounds.get(5));
+
+        if (badgerHounds.get(0) == "Anubis"){
+            for(int hh1 = 0; hh1 < badgerHounds.toArray().length; hh1++){
+                String badgerHounds1 = badgerHounds.get(hh1);
+                System.out.println(badgerHounds1);
+            }
+        }
+
 
 
 
