@@ -123,6 +123,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HarveyBeaverDam hardin37Minimart = new HarveyBeaverDam();
         // can implement a function from another class by doing this
+        SinclairPaddleFish lureSang = new SinclairPaddleFish();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1936,6 +1938,12 @@ public class BighornCrewStXavier {
             System.out.println(wushuLizard);
         }
         // not what was expected, printed all on 1 line instead line by line
+
+        if(hammerHead[4] == "Wibaux"){
+            String dvdSinclair = lureSang.sinclairPopCorn(pickerelCola37);
+            System.out.println(dvdSinclair);
+        }
+        // This Works!!!
 
 
 
