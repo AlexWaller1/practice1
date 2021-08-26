@@ -128,6 +128,9 @@ public class BighornCrewStXavier {
         PaddleFishCarpSodaMachine majorFizz = new PaddleFishCarpSodaMachine();
         // can implement a function from another class by doing this
         crashBandicootStringBuilder crashApple = new crashBandicootStringBuilder();
+        // can implement a function from another class by doing this
+        ripperRooBoolean ripperRoo = new ripperRooBoolean();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1979,6 +1982,13 @@ public class BighornCrewStXavier {
                 hh1--;
             }
         }
+
+        if(hammerHead[3] == "Harvey"){
+            int hh1 = 374;
+            boolean hammerheadPickerel = ripperRoo.tinyArena(hh1);
+            System.out.println(hammerheadPickerel);
+        }
+        // this works
 
 
 
