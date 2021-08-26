@@ -115,6 +115,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         WildTurkeyTwoSumLessThan wildTurkey = new WildTurkeyTwoSumLessThan();
         // can implement a function from another class by doing this
+        LaramieTwoSumScrapPile laramieCallback = new LaramieTwoSumScrapPile();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1893,6 +1895,12 @@ public class BighornCrewStXavier {
             System.out.println(runningTurkey);
         }
         // This works
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+           int funLovingLaramie = laramieCallback.laramieTruck(hybridNo);
+            System.out.println(funLovingLaramie);
+            // 3774!!!!!
+        }
 
 
 
