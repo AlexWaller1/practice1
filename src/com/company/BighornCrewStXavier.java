@@ -121,6 +121,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HeronSumProductReverse heronDunk = new HeronSumProductReverse();
         // can implement a function from another class by doing this
+        HarveyBeaverDam hardin37Minimart = new HarveyBeaverDam();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1928,6 +1930,12 @@ public class BighornCrewStXavier {
             }
         }
         // This works!!!
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            StringBuilder wushuLizard = hardin37Minimart.harveyPisces(samurai);
+            System.out.println(wushuLizard);
+        }
+        // not what was expected, printed all on 1 line instead line by line
 
 
 
