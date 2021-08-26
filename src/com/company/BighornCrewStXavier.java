@@ -1990,6 +1990,15 @@ public class BighornCrewStXavier {
         }
         // this works
 
+        if(pickerelCola37[0] == "Pickerel Cola"){
+            int hh1 = 0;
+            boolean hammerHeadPickerel = ripperRoo.tinyArena(hh1);
+            System.out.println(hammerHeadPickerel);
+        }
+        // this works but only to an extent as it doesn't account for zero. since we're evaluating based on a string
+        // its harder to test
+        // fixed it!!!
+
 
 
 
