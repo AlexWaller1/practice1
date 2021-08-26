@@ -133,6 +133,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         ElectronFreeWay spyroAstronaut = new ElectronFreeWay();
         // can implement a function from another class by doing this
+        OxideWheels oxideElectron = new OxideWheels();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2020,6 +2022,28 @@ public class BighornCrewStXavier {
             System.out.println(hammerHeadPickerel);
         }
         // whoah, cool!!!, 48489
+
+        System.out.println(pickerelCola37[3]);
+
+        if(pickerelCola37[3] == "Pickerel Cola Lime Fusion"){
+            boolean oxideGreen = oxideElectron.nitrousOxide(37);
+            System.out.println(oxideGreen);
+        }
+
+        System.out.println(pickerelCola37[4]);
+        // Pickerel Cola Cherry Party
+
+        if(pickerelCola37[4] == "Pickerel Cola Cherry Party"){
+            boolean oxideGreen = oxideElectron.nitrousOxide(-37);
+            System.out.println(oxideGreen);
+            boolean oxideYellow = oxideElectron.nitrousOxide(373);
+            System.out.println(oxideYellow);
+            boolean oxideTrack = oxideElectron.nitrousOxide(-373);
+            System.out.println(oxideTrack);
+        }
+        // This Works
+
+
 
 
 
