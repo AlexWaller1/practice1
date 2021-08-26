@@ -135,6 +135,7 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         OxideWheels oxideElectron = new OxideWheels();
         // can implement a function from another class by doing this
+        CortexExponent cortex44 = new CortexExponent();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2041,7 +2042,17 @@ public class BighornCrewStXavier {
             boolean oxideTrack = oxideElectron.nitrousOxide(-373);
             System.out.println(oxideTrack);
         }
-        // This Works
+        // This Works!!!
+
+        if(samurai[1] == "Kenji the Crane"){
+            int hammerheadPickerel = 81;
+            boolean cortexBoolean = cortex44.roboCortex(hammerheadPickerel);
+            System.out.println(cortexBoolean);
+            int paddleFish1 = 72;
+            boolean cortex2 = cortex44.roboCortex(paddleFish1);
+            System.out.println(cortex2);
+        }
+        // This Works!!!
 
 
 
