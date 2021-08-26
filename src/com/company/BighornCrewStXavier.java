@@ -125,6 +125,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         SinclairPaddleFish lureSang = new SinclairPaddleFish();
         // can implement a function from another class by doing this
+        PaddleFishCarpSodaMachine majorFizz = new PaddleFishCarpSodaMachine();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1944,6 +1946,13 @@ public class BighornCrewStXavier {
             System.out.println(dvdSinclair);
         }
         // This Works!!!
+
+        if(trees[1] == "Magnus"){
+           int crashBandicoot = majorFizz.sodaCanCarp(hybridNo);
+            System.out.println(crashBandicoot);
+            int crashBandicoot2 = majorFizz.sodaCanCarp(heronNo);
+            System.out.println(crashBandicoot2);
+        }
 
 
 
