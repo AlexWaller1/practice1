@@ -127,6 +127,7 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PaddleFishCarpSodaMachine majorFizz = new PaddleFishCarpSodaMachine();
         // can implement a function from another class by doing this
+        crashBandicootStringBuilder crashApple = new crashBandicootStringBuilder();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1953,6 +1954,33 @@ public class BighornCrewStXavier {
             int crashBandicoot2 = majorFizz.sodaCanCarp(heronNo);
             System.out.println(crashBandicoot2);
         }
+
+        if(rams[0] == "Tony"){
+            for(int hh1 = 0; hh1 < samurai.length; hh1++){
+                String ram37 = samurai[hh1];
+
+
+            }
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            int hh1 = 0;
+            do{
+                System.out.println(hammerHead[hh1]);
+                hh1++;
+            }while (hh1 < hammerHead.length);
+        }
+
+        if(hammerHead[1] == "Taylor"){
+            int hh1 = hammerHead.length - 1;
+            while (hh1 >= 0){
+                String hammerHead37 = hammerHead[hh1];
+                System.out.println(hammerHead37);
+                hh1--;
+            }
+        }
+
+
 
 
 
