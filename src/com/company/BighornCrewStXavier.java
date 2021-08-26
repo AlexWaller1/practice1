@@ -117,6 +117,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         LaramieTwoSumScrapPile laramieCallback = new LaramieTwoSumScrapPile();
         // can implement a function from another class by doing this
+        LaramiePalindromeScrapMetal laramiePalindrome = new LaramiePalindromeScrapMetal();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1900,6 +1902,14 @@ public class BighornCrewStXavier {
            int funLovingLaramie = laramieCallback.laramieTruck(hybridNo);
             System.out.println(funLovingLaramie);
             // 3774!!!!!
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                String hammerHeadString = hammerHead[hh1].toLowerCase();
+                String laramieString = laramiePalindrome.laramiePalindrome(hammerHeadString);
+                System.out.println(laramieString);
+            }
         }
 
 
