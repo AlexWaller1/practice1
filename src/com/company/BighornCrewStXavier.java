@@ -1920,6 +1920,15 @@ public class BighornCrewStXavier {
             System.out.println(hammerHeadPisces);
         }
 
+        if(hammerHead[2] == "Geometry Man"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String hammerHeadString = heronDunk.blueHeronString(hh2);
+                System.out.println(hammerHeadString);
+            }
+        }
+        // This works!!!
+
 
 
 
