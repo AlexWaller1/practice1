@@ -119,6 +119,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         LaramiePalindromeScrapMetal laramiePalindrome = new LaramiePalindromeScrapMetal();
         // can implement a function from another class by doing this
+        HeronSumProductReverse heronDunk = new HeronSumProductReverse();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -1910,6 +1912,12 @@ public class BighornCrewStXavier {
                 String laramieString = laramiePalindrome.laramiePalindrome(hammerHeadString);
                 System.out.println(laramieString);
             }
+        }
+
+        if(hammerHead[1] == "Taylor"){
+            int hh1 = 372;
+            String hammerHeadPisces = heronDunk.blueHeronString(hh1);
+            System.out.println(hammerHeadPisces);
         }
 
 
