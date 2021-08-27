@@ -2083,6 +2083,14 @@ public class BighornCrewStXavier {
         // System.out.println(myStr.indexOf("planet"));
         // the out put will be 6, since the string planet begins on the 6th index of myStr
 
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String pickerel44 = "The pickerel attacked the lure.";
+            int pickerel45 = pickerel44.indexOf("pickerel");
+            System.out.println(pickerel45);
+            // should be index 4
+            // it is 4!!!
+        }
+
 
 
 
