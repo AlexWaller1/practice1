@@ -2065,6 +2065,24 @@ public class BighornCrewStXavier {
         // This works!!!
         // Rimrock
 
+        System.out.println(hammerHead.length);
+        System.out.println(hammerHead[0].indexOf(hammerHead[1]));
+        // output is -1
+        System.out.println(hammerHead[1].indexOf(hammerHead[0]));
+        // output is -1
+        System.out.println(hammerHead[0].indexOf(robots[2]));
+        // out put is -1
+        // outputs -1 when specified letter or letters cannot be found
+
+        // the indexOf() method is used in Java to retrieve the index position at which a particular character
+        // or substring appears in another string. You can use a second argument to start your search after a
+        // particular index number in the string. If the specified letter or letters cannot be found, indexOf()
+        // returns -1
+
+        // String myStr = "Hello planet earth, you are a great planet.";
+        // System.out.println(myStr.indexOf("planet"));
+        // the out put will be 6, since the string planet begins on the 6th index of myStr
+
 
 
 
