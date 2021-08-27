@@ -136,6 +136,8 @@ public class BighornCrewStXavier {
         OxideWheels oxideElectron = new OxideWheels();
         // can implement a function from another class by doing this
         CortexExponent cortex44 = new CortexExponent();
+        // can implement a function from another class by doing this
+        shiftyMoose mooseCart = new shiftyMoose();
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2041,6 +2043,8 @@ public class BighornCrewStXavier {
             System.out.println(oxideYellow);
             boolean oxideTrack = oxideElectron.nitrousOxide(-373);
             System.out.println(oxideTrack);
+            boolean oxideSpaceShip = oxideElectron.nitrousOxide(9);
+            System.out.println(oxideSpaceShip);
         }
         // This Works!!!
 
@@ -2053,6 +2057,15 @@ public class BighornCrewStXavier {
             System.out.println(cortex2);
         }
         // This Works!!!
+
+        if(robots[2] == "Mellon-Tech"){
+            String mellonTech37 = mooseCart.longestMoosePrefix(rimRockKettleChips);
+            System.out.println(mellonTech37);
+        }
+        // This works!!!
+        // Rimrock
+
+
 
 
 
