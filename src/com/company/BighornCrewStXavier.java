@@ -138,6 +138,9 @@ public class BighornCrewStXavier {
         CortexExponent cortex44 = new CortexExponent();
         // can implement a function from another class by doing this
         shiftyMoose mooseCart = new shiftyMoose();
+        // can implement a function from another class by doing this
+        KenjiLongestCommonPrefix kenjiPrefix = new KenjiLongestCommonPrefix();
+        // can implement a funtion from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -189,6 +192,7 @@ public class BighornCrewStXavier {
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
         String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
         String[] robotString = {"1", "2", "3", "4", "5"};
+        String[] tString = {"toad", "tee-shirt", "timber"};
         ArrayList<String> badgerHounds = new ArrayList<String>();
         badgerHounds.add("Anubis");
         badgerHounds.add("The Miner");
@@ -2092,8 +2096,40 @@ public class BighornCrewStXavier {
         }
 
         if(pickerelCola37[2] == "Pickerel Cola Lemon Chill"){
-
+           String pickerel44 = "Hammerhead has a cool jacket";
+           int pickerel45 = pickerel44.indexOf(hammerHead[0]);
+            System.out.println(pickerel45);
         }
+        // index is 0!!!
+
+        if(pickerelCola37[1] == "Diet Pickerel Cola"){
+            String hammerHead37 = hammerHead[0].substring(0, 5);
+            System.out.println(hammerHead37);
+            // will output Hamme
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            String dachshund37 = "Chipper";
+            String dachshund44 = "Chipper is a rascal";
+            int dachshund11 = dachshund44.indexOf(dachshund37);
+            System.out.println(dachshund11);
+        }
+
+        if (robots[2] == "Mellon-Tech"){
+            String moose37 = mooseCart.longestMoosePrefix(tString);
+            System.out.println(moose37);
+        }
+
+        if(robots.length != 37){
+            int roboHighway = pickerelCola37[1].indexOf(pickerelCola37[0]);
+            System.out.println(roboHighway);
+        }
+
+        if(robots[0] == "Hank-44"){
+            boolean hank44 = robots[0].startsWith("milwaukee");
+            System.out.println(hank44);
+        }
+
 
 
 
