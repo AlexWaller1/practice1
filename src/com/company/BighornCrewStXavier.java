@@ -2130,6 +2130,21 @@ public class BighornCrewStXavier {
             System.out.println(hank44);
         }
 
+        if(rams[0] == "Tony"){
+            System.out.println(robots[2]);
+            String ram44 = kenjiPrefix.kenjiString(pickerelCola37);
+            System.out.println(ram44);
+        }
+        // outputted an empty string
+
+        if(dachshunds[2] == "Bodhi"){
+            String hammerhead37 = hammerHead[0];
+            String hammerhead44 = hammerhead37.substring(0, 7);
+            System.out.println(hammerhead44);
+            int hammerhead51 = hammerhead37.indexOf("r");
+            System.out.println(hammerhead51);
+        }
+
 
 
 
