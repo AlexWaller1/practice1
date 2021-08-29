@@ -140,7 +140,9 @@ public class BighornCrewStXavier {
         shiftyMoose mooseCart = new shiftyMoose();
         // can implement a function from another class by doing this
         KenjiLongestCommonPrefix kenjiPrefix = new KenjiLongestCommonPrefix();
-        // can implement a funtion from another class by doing this
+        // can implement a function from another class by doing this
+        Mellon_Tech_Prefix mellonPrefix = new Mellon_Tech_Prefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2143,6 +2145,15 @@ public class BighornCrewStXavier {
             System.out.println(hammerhead44);
             int hammerhead51 = hammerhead37.indexOf("r");
             System.out.println(hammerhead51);
+        }
+
+        if(dachshunds[0] == "Beezer"){
+            String beezer37 = mellonPrefix.mellonTechPrefix(tString);
+            System.out.println(beezer37);
+            // out puts "t" to console!
+            String chipper37 = mellonPrefix.mellonTechPrefix(dachshunds);
+            System.out.println(chipper37);
+            // "there is no common prefix in this array
         }
 
 
