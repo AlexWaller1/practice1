@@ -149,6 +149,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         TroutFizzBuzz troutCallBack = new TroutFizzBuzz();
         // can implement a function from another class by doing this
+        EggplantReverseIntegerMinAndMaxValue eggPlantCallBack = new EggplantReverseIntegerMinAndMaxValue();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2188,6 +2190,13 @@ public class BighornCrewStXavier {
                 String troutRiver = troutCallBack.troutString(hh2);
                 System.out.println(troutRiver);
             }
+        }
+
+        if(ePetroleum[2] == "Antoine"){
+            int hh1 = 34957;
+            int hh2 = eggPlantCallBack.eggPlantReverseInteger(hh1);
+            System.out.println(hh2);
+            // 95473 this works!!!
         }
 
 
