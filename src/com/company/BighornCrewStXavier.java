@@ -155,6 +155,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         FortwindArrayMaxCharacters forthwindCallBack = new FortwindArrayMaxCharacters();
         // can implement a function from another class by doing this
+        MallardsLongestCommonPrefix mallardsCallBack = new MallardsLongestCommonPrefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2231,7 +2233,12 @@ public class BighornCrewStXavier {
         }
 
         if(bigHornCrew[0] == "Ace"){
-
+             String mallards37 = mallardsCallBack.mallardPrefix(rams);
+            System.out.println(mallards37);
+            // "there is no common prefix"
+            String mallards44 = mallardsCallBack.mallardPrefix(tString);
+            System.out.println(mallards44);
+            // "t"
         }
 
 
