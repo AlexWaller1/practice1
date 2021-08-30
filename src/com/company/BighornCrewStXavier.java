@@ -147,6 +147,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         SpyroFizzBuzz spyroCallBack = new SpyroFizzBuzz();
         // can implement a function from another class by doing this
+        TroutFizzBuzz troutCallBack = new TroutFizzBuzz();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2178,6 +2180,14 @@ public class BighornCrewStXavier {
         if(samurai[7] == "Wushu Lizard"){
             String spyroString = spyroCallBack.spyroString(hybridNo);
             System.out.println(spyroString);
+        }
+
+        if(ePetroleum[0] == "Thierry"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String troutRiver = troutCallBack.troutString(hh2);
+                System.out.println(troutRiver);
+            }
         }
 
 
