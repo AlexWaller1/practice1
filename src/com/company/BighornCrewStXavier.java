@@ -2230,6 +2230,10 @@ public class BighornCrewStXavier {
             // The Cosmic Trout has 16 characters.
         }
 
+        if(bigHornCrew[0] == "Ace"){
+
+        }
+
 
 
 
