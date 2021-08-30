@@ -151,6 +151,10 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         EggplantReverseIntegerMinAndMaxValue eggPlantCallBack = new EggplantReverseIntegerMinAndMaxValue();
         // can implement a function from another class by doing this
+        ThierryIntegerPalindromeBoolean thierryBoolean = new ThierryIntegerPalindromeBoolean();
+        // can implement a function from another class by doing this
+        FortwindArrayMaxCharacters forthwindCallBack = new FortwindArrayMaxCharacters();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2197,6 +2201,33 @@ public class BighornCrewStXavier {
             int hh2 = eggPlantCallBack.eggPlantReverseInteger(hh1);
             System.out.println(hh2);
             // 95473 this works!!!
+        }
+
+        if(pisces[4] == "Hadrian"){
+            int hh1 = 3443;
+            boolean thierry37 = thierryBoolean.thierryBoolean(hh1);
+            System.out.println(thierry37);
+            // true
+            // evaluates to true because 3443 is a palindrome
+        }
+
+        System.out.println(pisces[2]);
+        // Berinon
+        System.out.println(pisces[3]);
+        // Forthwind
+
+        if(pisces[2] == "Berinon"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                boolean thierry37 = thierryBoolean.thierryBoolean(hh2);
+                System.out.println(thierry37);
+            }
+        }
+
+        if(pisces[3] == "Forthwind"){
+            String forthwind37 = forthwindCallBack.forthwindString(hammerHead);
+            System.out.println(forthwind37);
+            // The Cosmic Trout has 16 characters.
         }
 
 
