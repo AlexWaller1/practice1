@@ -143,6 +143,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Mellon_Tech_Prefix mellonPrefix = new Mellon_Tech_Prefix();
         // can implement a function from another class by doing this
+        CrunchBandicootProductLessThanTarget crunchBandicoot = new CrunchBandicootProductLessThanTarget();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2154,6 +2156,21 @@ public class BighornCrewStXavier {
             String chipper37 = mellonPrefix.mellonTechPrefix(dachshunds);
             System.out.println(chipper37);
             // "there is no common prefix in this array
+        }
+
+        if(dachshunds[1] == "Chipper"){
+            String chipper37 = dachshunds[1].substring(0, dachshunds[1].length());
+            System.out.println(chipper37);
+            // Chipper!!!!
+            String chipper44 = dachshunds[1].substring(0, dachshunds[1].length() - 1);
+            System.out.println(chipper44);
+            // Chippe
+        }
+
+        if(dachshunds[3] == "Jake"){
+            int jake37 = crunchBandicoot.crunchInteger(hybridNo);
+            System.out.println(jake37);
+            // 4488!!
         }
 
 
