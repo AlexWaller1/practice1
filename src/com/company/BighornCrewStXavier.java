@@ -145,6 +145,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CrunchBandicootProductLessThanTarget crunchBandicoot = new CrunchBandicootProductLessThanTarget();
         // can implement a function from another class by doing this
+        SpyroFizzBuzz spyroCallBack = new SpyroFizzBuzz();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2171,6 +2173,11 @@ public class BighornCrewStXavier {
             int jake37 = crunchBandicoot.crunchInteger(hybridNo);
             System.out.println(jake37);
             // 4488!!
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            String spyroString = spyroCallBack.spyroString(hybridNo);
+            System.out.println(spyroString);
         }
 
 
