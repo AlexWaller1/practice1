@@ -161,6 +161,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         ColumbusLongestCommonPrefix columbusCallBack = new ColumbusLongestCommonPrefix();
         // can implement a function from another class by doing this
+        MarekMallardTwoSumLessThanK marekCallBack = new MarekMallardTwoSumLessThanK();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2323,6 +2325,39 @@ public class BighornCrewStXavier {
             String timber3 = columbusCallBack.columbusString(emptyArray);
             System.out.println(timber3);
             // There are no elements in this array
+        }
+
+        if(samurai[6] == "The Wraith"){
+            int wraith1 = marekCallBack.mallardInteger(hybridNo);
+            System.out.println(wraith1);
+            // 11538
+        }
+
+        if(samurai[0] == "Lone Wolf Samurai"){
+            int kenji37 = 675;
+            int reverse = 0;
+            for(; kenji37 != 0; kenji37 = kenji37 / 10){
+                reverse = reverse * 10 + (kenji37 % 10);
+            }
+            System.out.println(reverse);
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            int kenji37 = 574;
+            int product = 1;
+            // incremental variable
+            for(; kenji37 != 0; kenji37 = kenji37 / 10){
+                // 574
+                // 574 / 10 = 57
+                // 57 / 10 = 5
+                product = product * (kenji37 % 10);
+                // 1 * (574 % 10) = 4
+                // 4 * (57 % 10) = 28
+                // 28 * (5 % 10) = 140
+                // product = 140
+            }
+            System.out.println(product);
+            // 140
         }
 
 
