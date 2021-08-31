@@ -163,6 +163,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         MarekMallardTwoSumLessThanK marekCallBack = new MarekMallardTwoSumLessThanK();
         // can implement a function from another class by doing this
+        MellonTechBoolean mt = new MellonTechBoolean();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2358,6 +2360,13 @@ public class BighornCrewStXavier {
             }
             System.out.println(product);
             // 140
+        }
+
+        if (pisces[0] == "Galahad"){
+            int galahad1 = 37;
+            boolean galahad2 = mt.mellonBoolean(galahad1);
+            System.out.println(galahad2);
+            // false, algorithm works!!!
         }
 
 
