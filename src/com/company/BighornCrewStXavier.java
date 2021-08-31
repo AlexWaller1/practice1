@@ -2241,6 +2241,36 @@ public class BighornCrewStXavier {
             // "t"
         }
 
+        if(bigHornCrew[1] == "Columbus"){
+            String hammerhead37 = hammerHead[0];
+            boolean hammerhead44 = hammerhead37.isEmpty();
+            System.out.println(hammerhead44);
+            // false
+        }
+
+        if(bigHornCrew[4] == "Axel"){
+           String axel37 = "V";
+           String axel44 = axel37.substring(0, 1);
+            System.out.println(axel44);
+          //  String axel11 = axel37.substring(0, 2);
+          //  System.out.println(axel11);
+            // throws an error
+            String axel12 = axel37.substring(0, 0);
+            System.out.println(axel12);
+            // no output
+            String mallard1 = "Radek";
+            String mallard2 = mallard1.substring(0, 2);
+            // will output string up to but not including index 2
+            System.out.println(mallard2);
+            // Ra
+            String mallard3 = mallard1.substring(0, mallard1.length() - 1);
+            // "k" would be the letter at mallard1.length() - 1
+            // but since the .substring method does not include the last index in its output, the "k" is not included
+            // so the output is "Rade"
+            System.out.println(mallard3);
+            // Rade
+        }
+
 
 
 
