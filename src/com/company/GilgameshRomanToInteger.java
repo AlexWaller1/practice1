@@ -53,35 +53,50 @@ public class GilgameshRomanToInteger {
 
     public int gilgameshInteger(String gilgameshString){
         // let's say string is "V"
+        // Now let's say the string is "IX"
         int sum = 0;
         int hh1 = 0;
         while(hh1 < gilgameshString.length()){
         // length of "V" is 1, so while hh1 < 1
+        // length of "IX" is 2, so while hh1 < 2, w
             String currentSymbol = gilgameshString.substring(hh1, hh1 + 1);
             // the substring of "V" at coordinates between coordinates 0 and 1 is "V"
-            //
+            // for "IX", we get the substring of at coordinates 0 and 1, which is "I"
             int currentValue = values.get(currentSymbol);
             // values.get("V") will equal 5
+            // so currentValue = 5;
+            // values.get("I") will equal 1;
             int nextValue = 0;
             // nextValue assigned to zero
             if(hh1 + 1 < gilgameshString.length()){
                 // since 1 is not less than 1, we'll skip this if condition for "V"
+                // for "IX", 0 + 1 < 2 is true, so we head into the if statement
                 String nextSymbol = gilgameshString.substring(hh1 + 1, hh1 + 2);
-                //
+                // the sub string at coordinates 1 and 2 will be "X"
                 nextValue = values.get(nextSymbol);
+                // values.get("X") will equal 10
             }
 
             if(currentValue < nextValue){
+                // for "V", we never assigned a new value to nextValue, so 5 is not less than 0, so this if statement
+                // is skipped
+                // for "IX" 1 is less than 10 so we enter this if statement
                 sum += (nextValue - currentValue);
+                // sum = 0 + (10 - 1) = 9
                 hh1 += 2;
+                // we add 2 so we can break out of the loop
             }
             else{
                 sum += currentValue;
+                // so for "V", sum = 0 + 5 == 5
                 hh1 += 1;
+                // we add 1 so we can break out of the loop
             }
 
 
         }
      return sum;
+        // sum returned for "V" is 5
+        // sum returned for "IX" is 9
     }
 }

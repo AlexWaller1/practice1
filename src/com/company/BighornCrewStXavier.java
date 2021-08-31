@@ -216,6 +216,19 @@ public class BighornCrewStXavier {
         badgerHounds.add("The Element");
         badgerHounds.add("M'arcuzz M'orzz");
 
+         Map<Integer, String> heron = new HashMap<>();
+
+        {
+            heron.put(1, "Blue Heron");
+            heron.put(2, "White Heron");
+            heron.put(3, "Night Heron");
+            heron.put(4, "Green Heron");
+
+        }
+
+
+
+
         int result = practiceObject.addDigits(hybridNo[7]);
         System.out.println(result);
         System.out.println("A" + "B");
@@ -2269,6 +2282,22 @@ public class BighornCrewStXavier {
             // so the output is "Rade"
             System.out.println(mallard3);
             // Rade
+        }
+
+        if(bigHornCrew[0] == "Ace"){
+            String heronString = heron.get(3);
+            System.out.println(heronString);
+            // Night Heron
+            String heronString2 = heron.get(1);
+            System.out.println(heronString2);
+            // Blue Heron
+        }
+
+        if(bigHornCrew[4] == "Axel"){
+            String bighorn = "St.X";
+            int bighorn1 = bighorn.length();
+            System.out.println(bighorn1);
+            // 4
         }
 
 
