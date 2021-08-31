@@ -157,6 +157,10 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         MallardsLongestCommonPrefix mallardsCallBack = new MallardsLongestCommonPrefix();
         // can implement a function from another class by doing this
+        GilgameshRomanToInteger gilgameshCallBack = new GilgameshRomanToInteger();
+        // can implement a function from another class by doing this
+        ColumbusLongestCommonPrefix columbusCallBack = new ColumbusLongestCommonPrefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -209,6 +213,8 @@ public class BighornCrewStXavier {
         String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
         String[] robotString = {"1", "2", "3", "4", "5"};
         String[] tString = {"toad", "tee-shirt", "timber"};
+        String[] timberTron = {"Timber-Io", "Timber Technoid", "Timber_Git"};
+        String[] emptyArray = {};
         ArrayList<String> badgerHounds = new ArrayList<String>();
         badgerHounds.add("Anubis");
         badgerHounds.add("The Miner");
@@ -2298,6 +2304,25 @@ public class BighornCrewStXavier {
             int bighorn1 = bighorn.length();
             System.out.println(bighorn1);
             // 4
+        }
+
+        if(bigHornCrew[1] == "Columbus"){
+            String axel1 = "XII";
+            int axel2 = gilgameshCallBack.gilgameshInteger(axel1);
+            System.out.println(axel2);
+            // 12, this works!!!
+        }
+
+        if(bigHornCrew[2] == "Marek"){
+            String timber1 = columbusCallBack.columbusString(timberTron);
+            System.out.println(timber1);
+            // Timber , this works!!!
+            String timber2 = columbusCallBack.columbusString(pickerelCola37);
+            System.out.println(timber2);
+            // There is no common prefix
+            String timber3 = columbusCallBack.columbusString(emptyArray);
+            System.out.println(timber3);
+            // There are no elements in this array
         }
 
 
