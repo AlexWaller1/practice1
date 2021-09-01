@@ -238,6 +238,14 @@ public class BighornCrewStXavier {
 
         }
 
+        Map<String, Integer> romanNumeral = new HashMap<>();
+        {
+            romanNumeral.put("I", 1);
+            romanNumeral.put("V", 5);
+            romanNumeral.put("X", 10);
+            romanNumeral.put("L", 50);
+        }
+
 
 
 
@@ -2383,6 +2391,27 @@ public class BighornCrewStXavier {
             StringBuilder urbicus = usb.urbicusBuilder(heron37);
             System.out.println(urbicus);
             // Blue=##ron
+        }
+
+        if(ePetroleum[1] == "Laurent"){
+            int laurent1 = romanNumeral.get("I");
+            int laurent2 = romanNumeral.get("V");
+            int laurent3 = laurent1 + laurent2;
+            System.out.println(laurent3);
+            // 6
+            int laurent4 = laurent1 * laurent2;
+            System.out.println(laurent4);
+            // 5
+            String numeral1 = "IX";
+            for(int hh1 = 0; hh1 < numeral1.length(); hh1++){
+                char currentChar = numeral1.charAt(hh1);
+                String currentCharAsString = String.valueOf(currentChar);
+                int laurent5 = romanNumeral.get(currentCharAsString);
+                System.out.println(laurent5);
+                // 1
+                // 10
+            }
+
         }
 
 
