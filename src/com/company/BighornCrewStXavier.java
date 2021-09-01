@@ -165,6 +165,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         MellonTechBoolean mt = new MellonTechBoolean();
         // can implement a function from another class by doing this
+        UrbicusStringBuilder usb = new UrbicusStringBuilder();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2366,7 +2368,21 @@ public class BighornCrewStXavier {
             int galahad1 = 37;
             boolean galahad2 = mt.mellonBoolean(galahad1);
             System.out.println(galahad2);
-            // false, algorithm works!!!
+            // false, algorithm works!!! 37 is not divisible by 5 with a remainder of 0
+        }
+
+        if(pisces[1] == "Governal"){
+            String heron1 = heron.get(1);
+            System.out.println(heron1);
+
+        }
+
+        if(pisces[4] == "Hadrian"){
+            String heron37 = heron.get(1);
+            // Blue Heron
+            StringBuilder urbicus = usb.urbicusBuilder(heron37);
+            System.out.println(urbicus);
+            // Blue=##ron
         }
 
 
