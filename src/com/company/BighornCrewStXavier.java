@@ -167,6 +167,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         UrbicusStringBuilder usb = new UrbicusStringBuilder();
         // can implement a function from another class by doing this
+        Warren_21_ReverseInteger warren = new Warren_21_ReverseInteger();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2413,6 +2415,15 @@ public class BighornCrewStXavier {
             }
 
         }
+
+        if(robots[2] == "Mellon-Tech"){
+            int hh1 = 37;
+            int hh2 = warren.warrenReverseInteger(hh1);
+            System.out.println(hh2);
+            // This works!!!
+        }
+
+
 
 
 
