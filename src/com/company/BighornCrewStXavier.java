@@ -2463,6 +2463,19 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(samurai[2] == "Laramie"){
+            for(String robot : robots){
+                // another way to iterate through each element of array
+                System.out.println(robot);
+                // prints each robot to console
+            }
+        }
+
+        if(samurai[3] == "Glynis"){
+            System.out.println(Arrays.toString(hammerHead));
+            // [Hammerhead, Taylor, Geometry Man, Harvey, Wibaux, The Cosmic Trout]
+        }
+
 
 
 
