@@ -169,6 +169,12 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Warren_21_ReverseInteger warren = new Warren_21_ReverseInteger();
         // can implement a function from another class by doing this
+        JakeEvenNumber jake = new JakeEvenNumber();
+        // can implement a function from another class by doing this
+        AceLongestCommonPrefix ace = new AceLongestCommonPrefix();
+        // can implement a function from another class by doing this
+        ColumbusPalindrome columbus37 = new ColumbusPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2422,6 +2428,42 @@ public class BighornCrewStXavier {
             System.out.println(hh2);
             // This works!!!
         }
+
+        if(hammerHead[0] == "Hammerhead"){
+            int hh1 = 37;
+            boolean hh2 = jake.jakeBoolean(hh1);
+            System.out.println(hh2);
+            // false
+            int hh3 = 12;
+            boolean hh4 = jake.jakeBoolean(hh3);
+            System.out.println(hh4);
+            // true
+        }
+
+        if(hammerHead[4] == "Wibaux"){
+            String ace2 = ace.aceS(tString);
+            System.out.println(ace2);
+            // t
+        }
+
+        if(hammerHead[3] == "Harvey"){
+           // for(int hh1 = 0, hh2 = hh1 + 1; hh1 < hybridNo.length; hh1++, hh2++){
+             //   int sum = hybridNo[hh1] + hybridNo[hh2];
+             //   System.out.println(sum);
+            // we'll get index out of bounds for this
+
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            String lizard1 = "";
+            for(int hh1 = 0; hh1 < troutString.length; hh1++){
+                lizard1 = troutString[hh1].toLowerCase();
+                String lizard2 = columbus37.columbus1(lizard1);
+                System.out.println(lizard2);
+            }
+        }
+
+
 
 
 
