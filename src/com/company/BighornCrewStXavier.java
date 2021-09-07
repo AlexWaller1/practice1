@@ -180,6 +180,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BrookTroutTwoSumLessThanTarget brookTrout37 = new BrookTroutTwoSumLessThanTarget();
         // can implement a function from another class by doing this
+        AntoineDigitsSumProduct antoineCallBack = new AntoineDigitsSumProduct();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2497,6 +2499,14 @@ public class BighornCrewStXavier {
             // "11538 is the greatest sum less than the target"
         }
 
+        if(ePetroleum[0] == "Thierry"){
+            for(int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                String hh3 = antoineCallBack.antoineReturnsInteger(hh2);
+                System.out.println(hh3);
+            }
+        }
+
         //////////////////////////////////////////////////////////////////////
 
         if(samurai[2] == "Laramie"){
@@ -2526,6 +2536,11 @@ public class BighornCrewStXavier {
                 // Everett
                 // Jasper
             }
+        }
+
+        if(dachshunds[2] == "Bodhi"){
+            System.out.println(Arrays.toString(dachshunds));
+            // [Beezer, Chipper, Bodhi, Jake, Star]
         }
 
 
