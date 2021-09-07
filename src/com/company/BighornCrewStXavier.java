@@ -178,6 +178,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BrownTroutLongestCommonPrefix brownTrout37 = new BrownTroutLongestCommonPrefix();
         // can implement a function from another class by doing this
+        BrookTroutTwoSumLessThanTarget brookTrout37 = new BrookTroutTwoSumLessThanTarget();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2480,6 +2482,19 @@ public class BighornCrewStXavier {
             }
             System.out.println(trout1);
             // Trout
+        }
+
+        if(ePetroleum[2] == "Antoine"){
+            String antoine1 = "Antoine runs Clichy Security Solutions";
+            antoine1 = antoine1.replaceAll("\\s", "==");
+            System.out.println(antoine1);
+        }
+
+        if (ePetroleum[1] == "Laurent"){
+            int laurent1 = brookTrout37.brookTroutInteger(hybridNo);
+            String laurent2 = laurent1 + " is the greatest sum less than the target";
+            System.out.println(laurent2);
+            // "11538 is the greatest sum less than the target"
         }
 
         //////////////////////////////////////////////////////////////////////
