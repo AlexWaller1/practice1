@@ -6,6 +6,7 @@ import java.lang.*;
 import java.io.*;
 
 import java.util.Arrays;
+
 import java.util.Locale;
 
 public class BighornCrewStXavier {
@@ -174,6 +175,8 @@ public class BighornCrewStXavier {
         AceLongestCommonPrefix ace = new AceLongestCommonPrefix();
         // can implement a function from another class by doing this
         ColumbusPalindrome columbus37 = new ColumbusPalindrome();
+        // can implement a function from another class by doing this
+        BrownTroutLongestCommonPrefix brownTrout37 = new BrownTroutLongestCommonPrefix();
         // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
@@ -2463,6 +2466,14 @@ public class BighornCrewStXavier {
             }
         }
 
+        if(robots[2] == "Mellon-Tech"){
+            String timber1 = brownTrout37.brownTroutString(timberTron);
+            System.out.println(timber1);
+            // "Timber" is the longest common prefix
+        }
+
+        //////////////////////////////////////////////////////////////////////
+
         if(samurai[2] == "Laramie"){
             for(String robot : robots){
                 // another way to iterate through each element of array
@@ -2475,6 +2486,26 @@ public class BighornCrewStXavier {
             System.out.println(Arrays.toString(hammerHead));
             // [Hammerhead, Taylor, Geometry Man, Harvey, Wibaux, The Cosmic Trout]
         }
+
+        if(samurai[6] == "The Wraith"){
+            System.out.println(Arrays.toString(robots));
+            // [Hank-44, Warren-21, Mellon-Tech, Eggplant-Head]
+        }
+
+        if(samurai[1] == "Kenji the Crane"){
+            for(String tree3 : trees){
+                System.out.println(tree3);
+                // Cornelius
+                // Magnus
+                // Owen
+                // Everett
+                // Jasper
+            }
+        }
+
+
+
+        /////////////////////////////////////////////////////////////////////
 
 
 
