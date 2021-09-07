@@ -2472,6 +2472,16 @@ public class BighornCrewStXavier {
             // "Timber" is the longest common prefix
         }
 
+        if(robots[3] == "Eggplant-Head"){
+            String trout1 = "Trout Soda";
+            String trout2 = "Trout Diet Soda";
+            while(trout2.indexOf(trout1) != 0){
+                trout1 = trout1.substring(0, trout1.length() - 1);
+            }
+            System.out.println(trout1);
+            // Trout
+        }
+
         //////////////////////////////////////////////////////////////////////
 
         if(samurai[2] == "Laramie"){
