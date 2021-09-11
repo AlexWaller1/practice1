@@ -2548,6 +2548,32 @@ public class BighornCrewStXavier {
         /////////////////////////////////////////////////////////////////////
 
 
+        if(robots[2] == "Mellon-Tech"){
+            int hh1 = robots.length - 1;
+            do{
+                System.out.println(robots[hh1]);
+                hh1--;
+            }while(hh1 >= 0);
+        }
+
+        if(robots[3] == "Eggplant-Head"){
+            int hh1 = 0;
+            while(hh1 < robots.length){
+                System.out.println(robots[hh1]);
+                hh1++;
+            }
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            for(int hh1 = 0; hh1 < hammerHead.length; hh1++){
+                if(hh1 == 0){
+                    System.out.println(hammerHead[hh1]);
+                    // Hammerhead
+                }
+            }
+        }
+
+
 
 
 
