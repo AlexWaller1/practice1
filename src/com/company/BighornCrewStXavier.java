@@ -182,6 +182,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         AntoineDigitsSumProduct antoineCallBack = new AntoineDigitsSumProduct();
         // can implement a function from another class by doing this
+        BlueJayReverseInteger blueJayCallBack = new BlueJayReverseInteger();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2571,6 +2573,11 @@ public class BighornCrewStXavier {
                     // Hammerhead
                 }
             }
+        }
+
+        if(bigHornCrew[0] == "Ace"){
+            String hh1 = blueJayCallBack.blueJayString(37);
+            System.out.println(hh1);
         }
 
 
