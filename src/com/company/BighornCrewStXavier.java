@@ -190,6 +190,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BodhiFizzBuzz bodhiCallBack = new BodhiFizzBuzz();
         // can implement a function from another
+        WushuLizardTwoSum wushuCallBack = new WushuLizardTwoSum();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2617,6 +2619,12 @@ public class BighornCrewStXavier {
             System.out.println(star1);
             // FizzBuzz
             ////
+        }
+
+        if(dachshunds[1] == "Chipper"){
+            int hh1 = wushuCallBack.wushuInteger(hybridNo);
+            System.out.println(hh1);
+            // 11538!!!!
         }
 
 
