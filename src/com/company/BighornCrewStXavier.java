@@ -184,6 +184,12 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BlueJayReverseInteger blueJayCallBack = new BlueJayReverseInteger();
         // can implement a function from another class by doing this
+        AceSumReverseDigits kennyCallback = new AceSumReverseDigits();
+        // can implement a function from another class by doing this
+        LoneWolfSamuraiBoolean loneWolfCallBack = new LoneWolfSamuraiBoolean();
+        // can implement a function from another class by doing this
+        BodhiFizzBuzz bodhiCallBack = new BodhiFizzBuzz();
+        // can implement a function from another
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2578,6 +2584,38 @@ public class BighornCrewStXavier {
         if(bigHornCrew[0] == "Ace"){
             String hh1 = blueJayCallBack.blueJayString(37);
             System.out.println(hh1);
+        }
+
+        if(bigHornCrew[1] == "Columbus"){
+            String ace1 = kennyCallback.aceString(3747595);
+            System.out.println(ace1);
+        }
+
+        if(samurai[7] == "Wushu Lizard"){
+            boolean ace1 = loneWolfCallBack.samuraiBoolean(37);
+            System.out.println(ace1);
+            // false
+            boolean ace2 = loneWolfCallBack.samuraiBoolean(44);
+            System.out.println(ace2);
+            // true
+        }
+
+        if(dachshunds[0] == "Beezer"){
+            String beezer1 = bodhiCallBack.fizz(458);
+            System.out.println(beezer1);
+            // Not a FizzBuzz
+            String chipper1 = bodhiCallBack.fizz(3);
+            System.out.println(chipper1);
+            // Buzz
+            String bodhi1 = bodhiCallBack.fizz(5);
+            System.out.println(bodhi1);
+            // Fizz
+            String jake1 = bodhiCallBack.fizz(15);
+            System.out.println(jake1);
+            // FizzBuzz
+            String star1 = bodhiCallBack.fizz(75);
+            System.out.println(star1);
+            // FizzBuzz
         }
 
 
