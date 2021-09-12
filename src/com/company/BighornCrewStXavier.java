@@ -192,6 +192,8 @@ public class BighornCrewStXavier {
         // can implement a function from another
         WushuLizardTwoSum wushuCallBack = new WushuLizardTwoSum();
         // can implement a function from another class by doing this
+        ChipperLongestCommonPrefix chipperCallBack = new ChipperLongestCommonPrefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2644,6 +2646,28 @@ public class BighornCrewStXavier {
             boolean dachshund6 = dachshund5.isEmpty();
             System.out.println(dachshund6);
             // false
+        }
+
+        if(robots[0] == "Hank-44"){
+            String prefix = robots[2];
+            // Mellon-Tech
+            prefix = prefix.substring(0, prefix.length() - 1);
+            System.out.println(prefix);
+            // Mellon-Tec
+            String prefix1 = robots[3];
+            prefix1 = prefix1.substring(0, prefix1.length());
+            System.out.println(prefix1);
+            // Eggplant-Head
+
+            // substring method will not include the second index of the parameters.
+            // for prefex1.length(), that index is actually out of bounds since the count for index positions starts
+            // at zero, but since we don't show that index, it actually means we'll show the string in full
+        }
+
+        if(ePetroleum[0] == "Thierry"){
+            String timber37 = chipperCallBack.chipperString(timberTron);
+            System.out.println(timber37);
+            // Timber
         }
 
 
