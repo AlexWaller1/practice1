@@ -194,6 +194,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         ChipperLongestCommonPrefix chipperCallBack = new ChipperLongestCommonPrefix();
         // can implement a function from another class by doing this
+        BeezerIntegerPalindrome beezerCallBack = new BeezerIntegerPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2668,6 +2670,15 @@ public class BighornCrewStXavier {
             String timber37 = chipperCallBack.chipperString(timberTron);
             System.out.println(timber37);
             // Timber
+        }
+
+        if (ePetroleum[2] == "Antoine"){
+            String beezer37 = beezerCallBack.beezerString(424);
+            System.out.println(beezer37);
+            String beezer44 = beezerCallBack.beezerString(37);
+            System.out.println(beezer44);
+            String beezer22 = beezerCallBack.beezerString(-44);
+            System.out.println(beezer22);
         }
 
 
