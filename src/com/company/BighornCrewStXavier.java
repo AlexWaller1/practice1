@@ -2627,6 +2627,25 @@ public class BighornCrewStXavier {
             // 11538!!!!
         }
 
+        if(robots[0] == "Hank-44"){
+            String dachshund1 = "iDachshund";
+            String dachshund2 = "Dachshund";
+            int dachshundInteger = dachshund1.indexOf(dachshund2);
+            System.out.println(dachshundInteger);
+            // 1
+        }
+
+        if(robots[1] == "Warren-21"){
+            String dachshund3 = "";
+            boolean dachshund4 = dachshund3.isEmpty();
+            System.out.println(dachshund4);
+            // true
+            String dachshund5 = "Apple Hill";
+            boolean dachshund6 = dachshund5.isEmpty();
+            System.out.println(dachshund6);
+            // false
+        }
+
 
 
 
