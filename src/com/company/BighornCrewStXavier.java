@@ -204,6 +204,10 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         MagnusStringFizzBuzz magnusCallBack = new MagnusStringFizzBuzz();
         // can implement a function from another class by doing this
+        PizzaRanchRegexReverse pizzaRanchCallBack = new PizzaRanchRegexReverse();
+        // can implement a function from another class by doing this
+        SandhillCraneSodaMachine craneCallBack = new SandhillCraneSodaMachine();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2725,6 +2729,31 @@ public class BighornCrewStXavier {
             String magnus4 = magnusCallBack.magnusString("Bighorn River");
             System.out.println(magnus4);
             // No FizzBuzz
+        }
+
+        if(timberTron[0] == "Timber-Io"){
+            StringBuilder timber1 = pizzaRanchCallBack.pizzaRanchStringBuilder(samurai[0]);
+            System.out.println(timber1);
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+           for(int hh1 = 0; hh1 < samurai.length; hh1++){
+               String pisces1 = samurai[hh1];
+               StringBuilder timber1 = pizzaRanchCallBack.pizzaRanchStringBuilder(pisces1);
+               System.out.println(timber1);
+           }
+        }
+
+        if (pheasantKing[0] == "Pheasant King"){
+            String pickerel1 = craneCallBack.craneString(.75);
+            System.out.println(pickerel1);
+            // 1 more quarter please
+            String pickerel2 = craneCallBack.craneString(.50);
+            System.out.println(pickerel2);
+            // 2 more quarters please
+            String pickerel3 = craneCallBack.craneString(1.00);
+            System.out.println(pickerel3);
+            // Enjoy your Pickerel Cola!
         }
 
 
