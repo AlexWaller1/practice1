@@ -196,6 +196,10 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BeezerIntegerPalindrome beezerCallBack = new BeezerIntegerPalindrome();
         // can implement a function from another class by doing this
+        LaurentMaxCharacters laurentCallBack = new LaurentMaxCharacters();
+        // can implement a function from another class by doing this
+        AxelSquareRootExponent axelCallBack = new AxelSquareRootExponent();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2679,6 +2683,20 @@ public class BighornCrewStXavier {
             System.out.println(beezer44);
             String beezer22 = beezerCallBack.beezerString(-44);
             System.out.println(beezer22);
+        }
+
+        if (samurai[1] == "Kenji the Crane"){
+            String kenji37 = laurentCallBack.laurentString(samurai);
+            System.out.println(kenji37);
+        }
+
+        if(bigHornCrew[4] == "Axel"){
+            String axel37 = axelCallBack.axelString(37);
+            System.out.println(axel37);
+            // 37 does not have a whole number for a square root, but the integer to the power of 2 is 1369.0
+            String axel44 = axelCallBack.axelString(36);
+            System.out.println(axel44);
+            // 36 has a whole number for a square root. The integer squared is 1296.0
         }
 
 
