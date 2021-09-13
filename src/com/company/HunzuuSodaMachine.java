@@ -9,7 +9,7 @@ public class HunzuuSodaMachine {
         if(hunzuuDouble < pickerelColaPrice) return "Please insert some more quarters";
         else if(hunzuuDouble == pickerelColaPrice) return "Awesome! Exact Change!";
         else if(hunzuuDouble > pickerelColaPrice){
-            pickerelColaString = "Thank You!, your change is " + exactChange;
+            pickerelColaString = "Thank You! Your change is " + exactChange;
         }
        return pickerelColaString;
     }

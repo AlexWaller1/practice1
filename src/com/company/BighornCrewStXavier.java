@@ -2761,13 +2761,16 @@ public class BighornCrewStXavier {
         if (pickerelCola37[1] == "Diet Pickerel Cola"){
             String pickerel1 = hunzuuCallBack.hunzuuString(34.56);
             System.out.println(pickerel1);
-            // Thank You!, your change is 33.31
+            // Thank You! Your change is 33.31
             String pickerel2 = hunzuuCallBack.hunzuuString(.75);
             System.out.println(pickerel2);
             // Please insert some more quarters
             String pickerel3 = hunzuuCallBack.hunzuuString(1.25);
             System.out.println(pickerel3);
             // Awesome! Exact Change!
+            String pickerel4 = hunzuuCallBack.hunzuuString(37.25);
+            System.out.println(pickerel4);
+            // Thank You! Your change is 36.0
         }
 
 
