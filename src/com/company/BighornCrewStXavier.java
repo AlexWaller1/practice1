@@ -200,6 +200,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         AxelSquareRootExponent axelCallBack = new AxelSquareRootExponent();
         // can implement a function from another class by doing this
+        TimberTronIndexOf timberCallBack = new TimberTronIndexOf();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2697,6 +2699,15 @@ public class BighornCrewStXavier {
             String axel44 = axelCallBack.axelString(36);
             System.out.println(axel44);
             // 36 has a whole number for a square root. The integer squared is 1296.0
+        }
+
+        if(trees[0] == "Cornelius"){
+            boolean timber1 = timberCallBack.timberBoolean("otters", "otter");
+            System.out.println(timber1);
+            // true
+            boolean timber2 = timberCallBack.timberBoolean("Beezer", "Chipper");
+            System.out.println(timber2);
+            // false
         }
 
 
