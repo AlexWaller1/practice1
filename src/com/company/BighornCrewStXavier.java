@@ -208,6 +208,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         SandhillCraneSodaMachine craneCallBack = new SandhillCraneSodaMachine();
         // can implement a function from another class by doing this
+        HunzuuSodaMachine hunzuuCallBack = new HunzuuSodaMachine();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2754,6 +2756,18 @@ public class BighornCrewStXavier {
             String pickerel3 = craneCallBack.craneString(1.00);
             System.out.println(pickerel3);
             // Enjoy your Pickerel Cola!
+        }
+
+        if (pickerelCola37[1] == "Diet Pickerel Cola"){
+            String pickerel1 = hunzuuCallBack.hunzuuString(34.56);
+            System.out.println(pickerel1);
+            // Thank You!, your change is 33.31
+            String pickerel2 = hunzuuCallBack.hunzuuString(.75);
+            System.out.println(pickerel2);
+            // Please insert some more quarters
+            String pickerel3 = hunzuuCallBack.hunzuuString(1.25);
+            System.out.println(pickerel3);
+            // Awesome! Exact Change!
         }
 
 
