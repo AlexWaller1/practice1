@@ -202,6 +202,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         TimberTronIndexOf timberCallBack = new TimberTronIndexOf();
         // can implement a function from another class by doing this
+        MagnusStringFizzBuzz magnusCallBack = new MagnusStringFizzBuzz();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2708,6 +2710,21 @@ public class BighornCrewStXavier {
             boolean timber2 = timberCallBack.timberBoolean("Beezer", "Chipper");
             System.out.println(timber2);
             // false
+        }
+
+        if(trees[1] == "Magnus"){
+            String magnus1 = magnusCallBack.magnusString("Jay");
+            System.out.println(magnus1);
+            // Buzz
+            String magnus2 = magnusCallBack.magnusString("Bodhi");
+            System.out.println(magnus2);
+            // Fizz
+            String magnus3 = magnusCallBack.magnusString("nebuchadnezzars");
+            System.out.println(magnus3);
+            // FizzBuzz
+            String magnus4 = magnusCallBack.magnusString("Bighorn River");
+            System.out.println(magnus4);
+            // No FizzBuzz
         }
 
 
