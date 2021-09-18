@@ -220,6 +220,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         ChipperTwoSumLessThanTarget chipperDuck = new ChipperTwoSumLessThanTarget();
         // can implement a function from another class by doing this
+        PickellFrogsSquareRoot frogCallBack = new PickellFrogsSquareRoot();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2835,6 +2837,21 @@ public class BighornCrewStXavier {
             int chipper2 = chipperDuck.chipperInteger(heronNo);
             System.out.println(chipper2);
             // 40
+        }
+
+        if (ePetroleum[0] == "Thierry"){
+            String frog1 = frogCallBack.frogString(64);
+            System.out.println(frog1);
+            // 64 has a whole number for a square root
+            String frog2 = frogCallBack.frogString(65);
+            System.out.println(frog2);
+            // 65 does not have a whole number for a square root
+            for (int hh1 = 0; hh1 < hybridNo.length; hh1++){
+                int hh2 = hybridNo[hh1];
+                // all instances of the hybridNo array
+                String frog3 = frogCallBack.frogString(hh2);
+                System.out.println(frog3);
+            }
         }
 
 
