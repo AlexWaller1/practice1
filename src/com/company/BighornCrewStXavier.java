@@ -212,6 +212,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         IncubatorIntegers incubatorCallBack = new IncubatorIntegers();
         // can implement a function from another class by doing this
+        TimberTronLongestCommonPrefix timberCallBack2 = new TimberTronLongestCommonPrefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2778,6 +2780,20 @@ public class BighornCrewStXavier {
         if(hammerHead[0] == "Hammerhead"){
             String blueJay1 = incubatorCallBack.incubatorString(37);
             System.out.println(blueJay1);
+            String blueJay2 = incubatorCallBack.incubatorString(-73);
+            System.out.println(blueJay2);
+        }
+
+        if(robots[2] == "Mellon-Tech"){
+            String pickerel1 = timberCallBack2.timberString(timberTron);
+            System.out.println(pickerel1);
+            // Timber
+            String pickerel2 = timberCallBack2.timberString(hammerHead);
+            System.out.println(pickerel2);
+            // There is no common prefix
+            String pickerel3 = timberCallBack2.timberString(emptyArray);
+            System.out.println(pickerel3);
+            // Array is empty
         }
 
 
