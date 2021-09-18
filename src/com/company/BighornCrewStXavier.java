@@ -216,6 +216,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         FrankenwurstWordCountdown franken1 = new FrankenwurstWordCountdown();
         // can implement a function from another class by doing this
+        FrankenWurstWordCountdown_2 franken2 = new FrankenWurstWordCountdown_2();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2811,6 +2813,17 @@ public class BighornCrewStXavier {
             String frankenWurst1 = franken1.frankenWurstString2("Frankenwurst");
             System.out.println(frankenWurst1);
             // Franke
+            // prints Franke to console since the loop increments by one as the string decreases by one
+            // so the loop will end  when half of the initial string has been deleted
+        }
+
+        if (samurai[2] == "Laramie"){
+            String bodhi1 = "Bodhi is Awesome!!!";
+            System.out.println(bodhi1);
+            // Bodhi is Awesome!!!
+            String bodhi2 = franken2.frankenWurstString2(bodhi1);
+            System.out.println(bodhi2);
+            // Bodhi==is==Awesome!!!
         }
 
 
