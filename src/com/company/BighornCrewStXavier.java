@@ -210,6 +210,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         HunzuuSodaMachine hunzuuCallBack = new HunzuuSodaMachine();
         // can implement a function from another class by doing this
+        IncubatorIntegers incubatorCallBack = new IncubatorIntegers();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2771,6 +2773,11 @@ public class BighornCrewStXavier {
             String pickerel4 = hunzuuCallBack.hunzuuString(37.25);
             System.out.println(pickerel4);
             // Thank You! Your change is 36.0
+        }
+
+        if(hammerHead[0] == "Hammerhead"){
+            String blueJay1 = incubatorCallBack.incubatorString(37);
+            System.out.println(blueJay1);
         }
 
 
