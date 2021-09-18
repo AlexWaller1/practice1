@@ -222,6 +222,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickellFrogsSquareRoot frogCallBack = new PickellFrogsSquareRoot();
         // can implement a function from another class by doing this
+        CubsPalindrome cubCallBack = new CubsPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2852,6 +2854,15 @@ public class BighornCrewStXavier {
                 String frog3 = frogCallBack.frogString(hh2);
                 System.out.println(frog3);
             }
+        }
+
+        if (ePetroleum[2] == "Antoine"){
+            String cub1 = cubCallBack.cubsString1("kayak");
+            System.out.println(cub1);
+            // kayak is a palindrome
+            String cub2 = cubCallBack.cubsString1("Kayak");
+            System.out.println(cub2);
+            // kayak is a palindrome
         }
 
 
