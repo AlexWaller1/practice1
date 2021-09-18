@@ -2796,6 +2796,15 @@ public class BighornCrewStXavier {
             // Array is empty
         }
 
+        if (robots[3] == "Eggplant-Head"){
+            String eggPlant1 = robots[3];
+            System.out.println(eggPlant1);
+            // Eggplant-Head
+            eggPlant1 = eggPlant1.substring(0, eggPlant1.length() - 1);
+            System.out.println(eggPlant1);
+            // Eggplant-Hea
+        }
+
 
 
 
