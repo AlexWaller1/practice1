@@ -218,6 +218,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         FrankenWurstWordCountdown_2 franken2 = new FrankenWurstWordCountdown_2();
         // can implement a function from another class by doing this
+        ChipperTwoSumLessThanTarget chipperDuck = new ChipperTwoSumLessThanTarget();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2824,6 +2826,15 @@ public class BighornCrewStXavier {
             String bodhi2 = franken2.frankenWurstString2(bodhi1);
             System.out.println(bodhi2);
             // Bodhi==is==Awesome!!!
+        }
+
+        if (samurai[3] == "Glynis"){
+            int chipper1 = chipperDuck.chipperInteger(hybridNo);
+            System.out.println(chipper1);
+            // 11538
+            int chipper2 = chipperDuck.chipperInteger(heronNo);
+            System.out.println(chipper2);
+            // 40
         }
 
 
