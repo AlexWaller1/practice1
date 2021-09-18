@@ -10,7 +10,7 @@ public class CubsPalindrome {
         // first index of string
         int cubsIndex2 = cubsString2.length() - 1;
         // last index of string
-        while(cubsIndex1 < cubsIndex2){
+        for(;cubsIndex1 < cubsIndex2; cubsIndex1++, cubsIndex2--){
             // two indexes will eventually meet in the middle
             if(cubsString2.charAt(cubsIndex1++) != cubsString2.charAt(cubsIndex2--)){
                 returnCub = cubsString2 + " is not a palindrome.";

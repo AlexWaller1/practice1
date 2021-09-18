@@ -2863,6 +2863,12 @@ public class BighornCrewStXavier {
             String cub2 = cubCallBack.cubsString1("Kayak");
             System.out.println(cub2);
             // kayak is a palindrome
+            for(int hh1 = 0; hh1 < troutString.length; hh1++){
+                String trout44 = troutString[hh1];
+                // every string of troutString array
+                String trout45 = cubCallBack.cubsString1(trout44);
+                System.out.println(trout45);
+            }
         }
 
 
