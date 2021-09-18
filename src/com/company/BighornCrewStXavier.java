@@ -214,6 +214,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         TimberTronLongestCommonPrefix timberCallBack2 = new TimberTronLongestCommonPrefix();
         // can implement a function from another class by doing this
+        FrankenwurstWordCountdown franken1 = new FrankenwurstWordCountdown();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2803,6 +2805,12 @@ public class BighornCrewStXavier {
             eggPlant1 = eggPlant1.substring(0, eggPlant1.length() - 1);
             System.out.println(eggPlant1);
             // Eggplant-Hea
+        }
+
+        if (samurai[1] == "Kenji the Crane"){
+            String frankenWurst1 = franken1.frankenWurstString2("Frankenwurst");
+            System.out.println(frankenWurst1);
+            // Franke
         }
 
 
