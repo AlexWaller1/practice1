@@ -226,6 +226,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         PickerelColaPremiumCustomer premiumCallBack = new PickerelColaPremiumCustomer();
         // can implement a function from another class by doing this
+        rimRockAlgorithm rimRockCallBack = new rimRockAlgorithm();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2919,6 +2921,18 @@ public class BighornCrewStXavier {
                 System.out.println(rimRockKettleChips[hh1]);
                 hh1--;
             }while (hh1 >= 0);
+        }
+
+        System.out.println(pickerelCola37[4]);
+        // Pickerel Cola Cherry Party
+        System.out.println(pickerelCola37[5]);
+        // Pickerel Cola Midwest Mania
+
+        if (pickerelCola37[4] == "Pickerel Cola Cherry Party"){
+            String pickerel1 = "Pickerel";
+            String pickerel2 = rimRockCallBack.rimRock2(pickerel1);
+            System.out.println(pickerel2);
+            // pickerel
         }
 
 
