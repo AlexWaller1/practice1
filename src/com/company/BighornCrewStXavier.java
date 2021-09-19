@@ -2884,6 +2884,9 @@ public class BighornCrewStXavier {
             String premiumPickerel1 = premiumCallBack.pickerelCustomerString("snag", 370.76);
             System.out.println(premiumPickerel1);
             // The price is 296.61
+            String premiumPickerel2 = premiumCallBack.pickerelCustomerString("SNAG", 5678.97);
+            System.out.println(premiumPickerel2);
+            // not getting the right response here, not sure why
         }
 
 
