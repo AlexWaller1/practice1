@@ -2939,6 +2939,13 @@ public class BighornCrewStXavier {
             // Working
         }
 
+        if (pickerelCola37[5] == "Pickerel Cola Midwest Mania"){
+            String pickerel1 = "seaweed";
+            String pickerel2 = premiumCallBack.pickerelCustomerString(pickerel1, 79857.24);
+            System.out.println(pickerel2);
+            // The price is 67878.65
+        }
+
 
 
 
