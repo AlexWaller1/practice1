@@ -228,6 +228,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         rimRockAlgorithm rimRockCallBack = new rimRockAlgorithm();
         // can implement a function from another class by doing this
+        CrashBandicootMaxInteger crashMax = new CrashBandicootMaxInteger();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2944,6 +2946,12 @@ public class BighornCrewStXavier {
             String pickerel2 = premiumCallBack.pickerelCustomerString(pickerel1, 79857.24);
             System.out.println(pickerel2);
             // The price is 67878.65
+        }
+
+        if (rams[0] == "Tony"){
+            String ram37 = crashMax.crashString(hybridNo);
+            System.out.println(ram37);
+            // The max integer is 9229
         }
 
 
