@@ -2889,6 +2889,38 @@ public class BighornCrewStXavier {
             // not getting the right response here, not sure why
         }
 
+        if (pickerelCola37[0] == "Pickerel Cola"){
+            int hh1 = 0;
+            while(hh1 < pickerelCola37.length){
+                System.out.println(pickerelCola37[hh1]);
+                hh1++;
+            }
+        }
+
+        if (pickerelCola37[2] == "Pickerel Cola Lemon Chill"){
+            int hh1 = pickerelCola37.length - 1;
+            while(hh1 >= 0){
+                System.out.println(pickerelCola37[hh1]);
+                hh1--;
+            }
+        }
+
+        if (pickerelCola37[3] == "Pickerel Cola Lime Fusion"){
+            int hh1 = 0;
+            do{
+                System.out.println(rimRockKettleChips[hh1]);
+                hh1++;
+            }while(hh1 < rimRockKettleChips.length);
+        }
+
+        if (pickerelCola37[3] == "Pickerel Cola Lime Fusion"){
+            int hh1 = rimRockKettleChips.length - 1;
+            do{
+                System.out.println(rimRockKettleChips[hh1]);
+                hh1--;
+            }while (hh1 >= 0);
+        }
+
 
 
 
