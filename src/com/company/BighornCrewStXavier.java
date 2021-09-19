@@ -2873,6 +2873,13 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (pisces[1] == "Governal"){
+            String hammerHead1 = "jAckEt";
+            hammerHead1 = hammerHead1.toLowerCase();
+            System.out.println(hammerHead1);
+            // jacket
+        }
+
         if (pickerelCola37[1] == "Diet Pickerel Cola"){
             String premiumPickerel1 = premiumCallBack.pickerelCustomerString("snag", 370.76);
             System.out.println(premiumPickerel1);
