@@ -224,6 +224,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CubsPalindrome cubCallBack = new CubsPalindrome();
         // can implement a function from another class by doing this
+        PickerelColaPremiumCustomer premiumCallBack = new PickerelColaPremiumCustomer();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -2869,6 +2871,12 @@ public class BighornCrewStXavier {
                 String trout45 = cubCallBack.cubsString1(trout44);
                 System.out.println(trout45);
             }
+        }
+
+        if (pickerelCola37[1] == "Diet Pickerel Cola"){
+            String premiumPickerel1 = premiumCallBack.pickerelCustomerString("snag", 370.76);
+            System.out.println(premiumPickerel1);
+            // The price is 296.61
         }
 
 
