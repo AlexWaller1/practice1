@@ -2952,7 +2952,26 @@ public class BighornCrewStXavier {
             String ram37 = crashMax.crashString(hybridNo);
             System.out.println(ram37);
             // The max integer is 9229
+            String ram38 = crashMax.crashString(heronNo);
+            System.out.println(ram38);
+            // The max integer is 21
+            String ram39 = crashMax.crashString(troutNo);
+            System.out.println(ram39);
+            // The max integer is 144
+
         }
+
+        System.out.println(badgerHounds.get(0));
+        // Anubis
+        System.out.println(badgerHounds.get(1));
+        // The Miner
+        System.out.println(badgerHounds.get(2));
+        // Gawain
+        System.out.println(badgerHounds.get(3));
+        // The Element
+        badgerHounds.add("The Blue Jay");
+        System.out.println(badgerHounds.get(badgerHounds.toArray().length - 1));
+        // The Blue Jay
 
 
 
