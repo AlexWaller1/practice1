@@ -16,6 +16,17 @@ public class ArrayPractice5 {
         list.remove(2);
         System.out.println(list);
         // [37, 44]
+        list.indexOf(0);
+        System.out.println(list);
+        // [37, 44]
+        System.out.println(list.indexOf(37));
+        // 0
+        System.out.println(list.indexOf(44));
+        // 1
+        System.out.println(list.contains(37));
+        // true
+        System.out.println(list.contains(45));
+        // false
 
     }
 }
