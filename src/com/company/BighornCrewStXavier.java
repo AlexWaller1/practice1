@@ -2984,6 +2984,19 @@ public class BighornCrewStXavier {
         // Blue HeronWhiteHeron
         System.out.println(heron.get(1) + " and " + heron.get(2));
         // Blue Heron and White Heron
+        System.out.println(romanNumeral.get("I"));
+        // 1
+        int roman49 = romanNumeral.get("V") + romanNumeral.get("X");
+        System.out.println(roman49);
+        // 15
+        int roman51 = romanNumeral.get("V") * romanNumeral.get("X");
+        System.out.println(roman51);
+        // 50
+        romanNumeral.put("VII", 7);
+
+
+
+
 
 
 
