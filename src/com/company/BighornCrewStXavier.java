@@ -2973,6 +2973,18 @@ public class BighornCrewStXavier {
         System.out.println(badgerHounds.get(badgerHounds.toArray().length - 1));
         // The Blue Jay
 
+        System.out.println(heron.get(1));
+        // Blue Heron
+        System.out.println(heron.get(2));
+        // White Heron
+        heron.put(5, "Grey Heron");
+        System.out.println(heron.get(5));
+        // Grey Heron
+        System.out.println(heron.get(1) + heron.get(2));
+        // Blue HeronWhiteHeron
+        System.out.println(heron.get(1) + " and " + heron.get(2));
+        // Blue Heron and White Heron
+
 
 
 
