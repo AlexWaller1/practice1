@@ -1,5 +1,6 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ArrayPractice5 {
@@ -27,6 +28,7 @@ public class ArrayPractice5 {
         // true
         System.out.println(list.contains(45));
         // false
+
 
     }
 }
