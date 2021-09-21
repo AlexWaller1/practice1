@@ -17,5 +17,9 @@ public class LinkedListPractice1 {
         // [37, 10, 20, 30]
         System.out.println(list.contains(37));
         // true
+        System.out.println(list.indexOf(37));
+        // 0
+        System.out.println(list.size());
+        // 4
     }
 }
