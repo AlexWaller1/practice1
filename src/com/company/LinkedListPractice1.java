@@ -15,5 +15,7 @@ public class LinkedListPractice1 {
         list.addFirst(37);
         System.out.println(list);
         // [37, 10, 20, 30]
+        System.out.println(list.contains(37));
+        // true
     }
 }
