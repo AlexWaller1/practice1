@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class LinkedListPractice1 {
@@ -21,5 +22,11 @@ public class LinkedListPractice1 {
         // 0
         System.out.println(list.size());
         // 4
+        var array = list.toArray();
+        for (java.lang.Object arrays: array){
+            System.out.println(arrays);
+        }
+        System.out.println(Arrays.toString(array));
+        // [37, 10, 20, 30]
     }
 }
