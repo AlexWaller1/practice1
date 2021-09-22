@@ -3012,6 +3012,23 @@ public class BighornCrewStXavier {
         romanNumeral.put("VII", 7);
 
 
+        System.out.println(ducks);
+        // [Mallard, Merganser, Wood Duck, Shoveler, Mandarin, Redhead]
+        ducks.addFirst("Bufflehead");
+        System.out.println(ducks);
+        // [Bufflehead, Mallard, Merganser, Wood Duck, Shoveler, Mandarin, Redhead]
+        ducks.addLast("Common Goldeye");
+        System.out.println(ducks);
+        // [Bufflehead, Mallard, Merganser, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye]
+        System.out.println(ducks.size());
+        // 8
+        ducks.add(3, "Canvasback");
+        System.out.println(ducks);
+        // [Bufflehead, Mallard, Merganser, Canvasback, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye]
+        System.out.println(ducks.size());
+        // 9
+
+
 
 
 
