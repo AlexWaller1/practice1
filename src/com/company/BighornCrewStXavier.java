@@ -315,6 +315,12 @@ public class BighornCrewStXavier {
         ducks.add("Mandarin");
         ducks.add("Redhead");
 
+        LinkedList robotsList = new LinkedList();
+        robotsList.add("Hank-44");
+        robotsList.add("Warren-21");
+        robotsList.add("Mellon-Tech");
+        robotsList.add("Eggplant-Head");
+
 
          Map<Integer, String> heron = new HashMap<>();
 
