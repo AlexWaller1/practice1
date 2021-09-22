@@ -3155,6 +3155,9 @@ public class BighornCrewStXavier {
                 // Warren-21
                 // Mellon-Tech
                 // Eggplant-Head
+                String hh2 = robotsList.get(hh1) + " shreads on the guitar.";
+                System.out.println(hh2);
+                // This Worked!!!
             }
         }
 
