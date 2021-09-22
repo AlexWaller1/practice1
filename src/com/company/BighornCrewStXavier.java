@@ -3027,6 +3027,14 @@ public class BighornCrewStXavier {
         // [Bufflehead, Mallard, Merganser, Canvasback, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye]
         System.out.println(ducks.size());
         // 9
+        System.out.println(ducks.contains("Mallard"));
+        // true
+        System.out.println(ducks.contains("Sandhill Crane"));
+        // false
+       // System.out.println(Arrays.toString(ducks));
+        var array9 = ducks.toArray();
+        System.out.println(Arrays.toString(array9));
+        // [Bufflehead, Mallard, Merganser, Canvasback, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye]
 
 
 
