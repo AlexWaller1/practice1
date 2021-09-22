@@ -1,4 +1,6 @@
 package com.company;
+import org.w3c.dom.Node;
+
 import javax.swing.*;
 import java.sql.SQLOutput;
 import java.util.*;
@@ -3047,7 +3049,9 @@ public class BighornCrewStXavier {
         // didn't really do anything
         System.out.println(ducks.getClass());
         // class java.util.LinkedList
-
+        var node1 = ducks.get(1);
+        System.out.println(node1);
+        // Mallard
 
 
 
