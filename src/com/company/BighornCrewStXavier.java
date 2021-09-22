@@ -3039,6 +3039,12 @@ public class BighornCrewStXavier {
         // Mallard
         System.out.println(ducks.get(2));
         // Merganser
+        System.out.println(ducks.getFirst());
+        // Bufflehead
+        System.out.println(ducks.getLast());
+        // Common Goldeye
+        System.out.println(ducks.descendingIterator());
+        // didn't really do anything
 
 
 
