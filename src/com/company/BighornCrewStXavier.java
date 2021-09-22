@@ -3045,6 +3045,8 @@ public class BighornCrewStXavier {
         // Common Goldeye
         System.out.println(ducks.descendingIterator());
         // didn't really do anything
+        System.out.println(ducks.getClass());
+        // class java.util.LinkedList
 
 
 
