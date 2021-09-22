@@ -3052,6 +3052,9 @@ public class BighornCrewStXavier {
         var node1 = ducks.get(1);
         System.out.println(node1);
         // Mallard
+        var node2 = ducks.get(2);
+        System.out.println(node2);
+        // Merganser
 
 
 
