@@ -3130,6 +3130,15 @@ public class BighornCrewStXavier {
         // 4
         System.out.println(crashBandicoot37);
         // all nodes of the crashBandicoot37 LinkedList
+        boolean crash1 = crashBandicoot37.contains("Dingodile");
+        System.out.println(crash1);
+        // true
+        boolean crash2 = crashBandicoot37.contains("Cortex");
+        System.out.println(crash2);
+        // true
+        boolean crash3 = crashBandicoot37.contains("Ratchet");
+        System.out.println(crash3);
+        // false
 
 
 
