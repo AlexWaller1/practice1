@@ -238,6 +238,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BuffleHeadReturnArray buffleHead1 = new BuffleHeadReturnArray();
         // can implement a function from another class by doing this
+        crashTeamRacing crashRacing = new crashTeamRacing();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3139,6 +3141,12 @@ public class BighornCrewStXavier {
         boolean crash3 = crashBandicoot37.contains("Ratchet");
         System.out.println(crash3);
         // false
+
+        if(robotsList.get(2) == "Mellon-Tech"){
+            String crashString1 = crashRacing.crashString(crashBandicoot37);
+            System.out.println(crashString1);
+            // not what we wanted
+        }
 
 
 
