@@ -291,6 +291,23 @@ public class BighornCrewStXavier {
         badgerHounds.add("The Element");
         badgerHounds.add("M'arcuzz M'orzz");
 
+        LinkedList parkingLotPond = new LinkedList();
+        parkingLotPond.add("Killdeer");
+        parkingLotPond.add("White Heron");
+        parkingLotPond.add("Canadian Goose");
+        parkingLotPond.add("Mallard Duck");
+        parkingLotPond.add("Gull");
+        parkingLotPond.add("Arctic Tern");
+
+        LinkedList ducks = new LinkedList();
+        ducks.add("Mallard");
+        ducks.add("Merganser");
+        ducks.add("Wood Duck");
+        ducks.add("Shoveler");
+        ducks.add("Mandarin");
+        ducks.add("Redhead");
+
+
          Map<Integer, String> heron = new HashMap<>();
 
         {
