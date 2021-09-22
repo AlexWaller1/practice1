@@ -3148,6 +3148,16 @@ public class BighornCrewStXavier {
             // not what we wanted
         }
 
+        if (robotsList.get(3) == "Eggplant-Head"){
+            for (int hh1 = 0; hh1 < robotsList.size(); hh1++){
+                System.out.println(robotsList.get(hh1));
+                // Hank-44
+                // Warren-21
+                // Mellon-Tech
+                // Eggplant-Head
+            }
+        }
+
 
 
 
