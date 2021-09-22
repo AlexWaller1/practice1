@@ -3102,6 +3102,21 @@ public class BighornCrewStXavier {
             // returns an array with every element of the array converted from a LinkedList
         }
 
+        System.out.println(robotsList.get(0));
+        // Hank-44
+        System.out.println(robotsList.getFirst());
+        // Hank-44
+        System.out.println(robotsList.get(1));
+        // Warren-21
+        System.out.println(robotsList.get(2));
+        // Mellon-Tech
+        System.out.println(robotsList.get(3));
+        // Eggplant-Head
+        System.out.println(robotsList.getLast());
+        // Eggplant-Head
+        System.out.println(robotsList.getClass());
+        // class java.util.LinkedList
+
 
 
 
