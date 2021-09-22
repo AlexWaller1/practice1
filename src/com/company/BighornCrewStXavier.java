@@ -240,6 +240,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         crashTeamRacing crashRacing = new crashTeamRacing();
         // can implement a function from another class by doing this
+        CrashNitroCart nitroCallBack = new CrashNitroCart();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3159,6 +3161,13 @@ public class BighornCrewStXavier {
                 System.out.println(hh2);
                 // This Worked!!!
             }
+        }
+
+        if (robotsList.get(0) == "Hank-44"){
+            String robo37 = nitroCallBack.bandicootString(crashBandicoot37);
+            System.out.println(robo37);
+            // only return the last string in the sequence
+            // N. Gin races in Crash Team Racing
         }
 
 
