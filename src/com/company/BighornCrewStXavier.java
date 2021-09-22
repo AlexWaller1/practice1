@@ -321,15 +321,15 @@ public class BighornCrewStXavier {
         robotsList.add("Mellon-Tech");
         robotsList.add("Eggplant-Head");
 
-        LinkedList crashBandicoot= new LinkedList();
-        crashBandicoot.add("Crash Bandicoot");
-        crashBandicoot.add("Cortex");
-        crashBandicoot.add("Ripper Roo");
-        crashBandicoot.add("Dingodile");
-        crashBandicoot.add("Tiny Tiger");
-        crashBandicoot.add("Spyro");
-        crashBandicoot.add("Crunch Bandicoot");
-        crashBandicoot.add("N. Gin");
+        LinkedList crashBandicoot37 = new LinkedList();
+        crashBandicoot37.add("Crash Bandicoot");
+        crashBandicoot37.add("Cortex");
+        crashBandicoot37.add("Ripper Roo");
+        crashBandicoot37.add("Dingodile");
+        crashBandicoot37.add("Tiny Tiger");
+        crashBandicoot37.add("Spyro");
+        crashBandicoot37.add("Crunch Bandicoot");
+        crashBandicoot37.add("N. Gin");
 
 
          Map<Integer, String> heron = new HashMap<>();
@@ -3128,6 +3128,8 @@ public class BighornCrewStXavier {
         // class java.util.LinkedList
         System.out.println(robotsList.size());
         // 4
+        System.out.println(crashBandicoot37);
+        // all nodes of the crashBandicoot37 LinkedList
 
 
 
