@@ -236,6 +236,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         ShovelerAddLast shoveler1 = new ShovelerAddLast();
         // can implement a function from another class by doing this
+        BuffleHeadReturnArray buffleHead1 = new BuffleHeadReturnArray();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3086,6 +3088,12 @@ public class BighornCrewStXavier {
                 System.out.println(array6[hh1]);
             }
             // this worked
+        }
+
+        if (robots.length == 4){
+            String robo1 = buffleHead1.BuffleHeadArray(ducks);
+            System.out.println(robo1);
+            // returns an array with every element of the array converted from a LinkedList
         }
 
 
