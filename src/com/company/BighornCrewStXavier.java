@@ -3035,6 +3035,10 @@ public class BighornCrewStXavier {
         var array9 = ducks.toArray();
         System.out.println(Arrays.toString(array9));
         // [Bufflehead, Mallard, Merganser, Canvasback, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye]
+        System.out.println(ducks.get(1));
+        // Mallard
+        System.out.println(ducks.get(2));
+        // Merganser
 
 
 
