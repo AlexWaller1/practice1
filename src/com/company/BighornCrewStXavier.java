@@ -321,6 +321,16 @@ public class BighornCrewStXavier {
         robotsList.add("Mellon-Tech");
         robotsList.add("Eggplant-Head");
 
+        LinkedList crashBandicoot= new LinkedList();
+        crashBandicoot.add("Crash Bandicoot");
+        crashBandicoot.add("Cortex");
+        crashBandicoot.add("Ripper Roo");
+        crashBandicoot.add("Dingodile");
+        crashBandicoot.add("Tiny Tiger");
+        crashBandicoot.add("Spyro");
+        crashBandicoot.add("Crunch Bandicoot");
+        crashBandicoot.add("N. Gin");
+
 
          Map<Integer, String> heron = new HashMap<>();
 
@@ -3116,6 +3126,8 @@ public class BighornCrewStXavier {
         // Eggplant-Head
         System.out.println(robotsList.getClass());
         // class java.util.LinkedList
+        System.out.println(robotsList.size());
+        // 4
 
 
 
