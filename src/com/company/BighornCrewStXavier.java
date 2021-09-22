@@ -3059,6 +3059,7 @@ public class BighornCrewStXavier {
         var node2 = ducks.get(2);
         System.out.println(node2);
         // Merganser
+        System.out.println(ducks);
 
         if (ducks.get(1) == "Mallard"){
             LinkedList rr2 = merganser1.duck1(ducks);
@@ -3075,6 +3076,16 @@ public class BighornCrewStXavier {
             LinkedList rr2 = shoveler1.shoveler1(ducks);
             System.out.println(rr2);
             // [Hooded Merganser, Bufflehead, Mallard, Merganser, Canvasback, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye, Ring Necked Duck]
+        }
+
+        System.out.println(ducks);
+
+        if (robots[2] == "Mellon-Tech"){
+            var array6 = ducks.toArray();
+            for(int hh1 = 0; hh1 < array6.length; hh1++){
+                System.out.println(array6[hh1]);
+            }
+            // this worked
         }
 
 
