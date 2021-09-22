@@ -233,7 +233,9 @@ public class BighornCrewStXavier {
         CrashBandicootMaxInteger crashMax = new CrashBandicootMaxInteger();
         // can implement a function from another class by doing this
         MerganserAddFirst merganser1 = new MerganserAddFirst();
-        // can implement a functionfrom another class by doing this
+        // can implement a function from another class by doing this
+        ShovelerAddLast shoveler1 = new ShovelerAddLast();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3068,6 +3070,12 @@ public class BighornCrewStXavier {
         // First Element
         System.out.println(ducks);
         // same as within above if statement
+
+        if(ducks.get(0) == "Hooded Merganser"){
+            LinkedList rr2 = shoveler1.shoveler1(ducks);
+            System.out.println(rr2);
+            // [Hooded Merganser, Bufflehead, Mallard, Merganser, Canvasback, Wood Duck, Shoveler, Mandarin, Redhead, Common Goldeye, Ring Necked Duck]
+        }
 
 
 
