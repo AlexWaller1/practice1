@@ -248,6 +248,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         TroutLinkedList troutLink = new TroutLinkedList();
         // can implement a function from another class by doing this
+        BodhiTwoSumTarget bodhi47 = new BodhiTwoSumTarget();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3223,6 +3225,12 @@ public class BighornCrewStXavier {
             System.out.println(kenji2);
             // false
 
+        }
+
+        if (samurai[2] == "Laramie"){
+            int bodhi45 = bodhi47.bodhiInteger(hybridNo);
+            System.out.println(bodhi45);
+            // 11538
         }
 
 
