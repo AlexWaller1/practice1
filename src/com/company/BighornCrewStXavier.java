@@ -246,6 +246,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         EggplantHeadLongestCommonPrefix eggPlant44 = new EggplantHeadLongestCommonPrefix();
         // can implement a function from another class by doing this
+        TroutLinkedList troutLink = new TroutLinkedList();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3211,6 +3213,16 @@ public class BighornCrewStXavier {
             String timber44 = eggPlant44.eggPlantString(timberTron);
             System.out.println(timber44);
             // Timber
+        }
+
+        if (samurai[1] == "Kenji the Crane"){
+            boolean kenji1 = troutLink.troutBoolean(robotsList);
+            System.out.println(kenji1);
+            // true
+            boolean kenji2 = troutLink.troutBoolean(crashBandicoot37);
+            System.out.println(kenji2);
+            // false
+
         }
 
 
