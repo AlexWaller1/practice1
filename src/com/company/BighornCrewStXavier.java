@@ -3263,6 +3263,14 @@ public class BighornCrewStXavier {
             // This works!!!
         }
 
+        if(robots[3] == "Eggplant-Head"){
+
+            var robo = robotsList.get(1);
+            System.out.println(robo);
+            String robo78 = robo.toString();
+            System.out.println(robo78);
+        }
+
 
 
 
