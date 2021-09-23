@@ -242,6 +242,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CrashNitroCart nitroCallBack = new CrashNitroCart();
         // can implement a function from another class by doing this
+        MellonTechPalindrome mellonTech44 = new MellonTechPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3165,7 +3167,7 @@ public class BighornCrewStXavier {
                 // Warren-21
                 // Mellon-Tech
                 // Eggplant-Head
-                String hh2 = robotsList.get(hh1) + " shreads on the guitar.";
+                String hh2 = robotsList.get(hh1) + " shreds on the guitar.";
                 System.out.println(hh2);
                 // This Worked!!!
             }
@@ -3186,6 +3188,26 @@ public class BighornCrewStXavier {
         // 9
         System.out.println(robotNumbers.get(3));
         // 22
+
+        if (robotsList.get(1) == "Warren-21"){
+            for (int hh1 = 0; hh1 < troutString.length; hh1++){
+                String hh2 = troutString[hh1].toLowerCase();
+                String hh3 = mellonTech44.mellonTech2(hh2);
+                System.out.println(hh3);
+            }
+        }
+
+        if (trout[0] == "Rainbow"){
+            String hh1 = "";
+            String hh2 = mellonTech44.mellonTech2(hh1);
+            System.out.println(hh2);
+            // This is an empty string
+            // This Works!!!
+        }
+
+
+
+
 
 
 
