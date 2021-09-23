@@ -13,5 +13,7 @@ public class StackPractice1 {
         var top = stack.pop();
         System.out.println(top);
         // 30
+        System.out.println(stack);
+        // [10, 20]
     }
 }
