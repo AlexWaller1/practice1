@@ -3271,6 +3271,9 @@ public class BighornCrewStXavier {
             System.out.println(robo78);
         }
 
+        System.out.println(robots[2].length());
+        // 11
+
 
 
 

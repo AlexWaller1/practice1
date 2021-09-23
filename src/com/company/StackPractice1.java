@@ -15,5 +15,10 @@ public class StackPractice1 {
         // 30
         System.out.println(stack);
         // [10, 20]
+        top = stack.peek();
+        System.out.println(top);
+        // 20
+        // stacks are great when asked to complete a task in reverse order
+
     }
 }
