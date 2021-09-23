@@ -335,6 +335,14 @@ public class BighornCrewStXavier {
         crashBandicoot37.add("Crunch Bandicoot");
         crashBandicoot37.add("N. Gin");
 
+        LinkedList robotNumbers = new LinkedList();
+        robotNumbers.add(37);
+        robotNumbers.add(44);
+        robotNumbers.add(9);
+        robotNumbers.add(22);
+        robotNumbers.add(109);
+        robotNumbers.add(212);
+
 
          Map<Integer, String> heron = new HashMap<>();
 
