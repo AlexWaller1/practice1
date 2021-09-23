@@ -254,6 +254,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         AxelIntegerSum axel47 = new AxelIntegerSum();
         // can implement a function from another class by doing this
+        AxelStringRegex axel34 = new AxelStringRegex();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3253,6 +3255,12 @@ public class BighornCrewStXavier {
             int axel32 = axel47.axelInt2(347689);
             System.out.println(axel32);
             // 37
+        }
+
+        if (robotsList.get(0) == "Hank-44"){
+            String axelString = axel34.axelString2("Axel dives to the bottom of the Bighorn");
+            System.out.println(axelString);
+            // This works!!!
         }
 
 
