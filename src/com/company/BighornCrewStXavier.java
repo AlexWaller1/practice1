@@ -244,6 +244,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         MellonTechPalindrome mellonTech44 = new MellonTechPalindrome();
         // can implement a function from another class by doing this
+        EggplantHeadLongestCommonPrefix eggPlant44 = new EggplantHeadLongestCommonPrefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3203,6 +3205,12 @@ public class BighornCrewStXavier {
             System.out.println(hh2);
             // This is an empty string
             // This Works!!!
+        }
+
+        if (trout[1] == "Brown"){
+            String timber44 = eggPlant44.eggPlantString(timberTron);
+            System.out.println(timber44);
+            // Timber
         }
 
 
