@@ -250,6 +250,10 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BodhiTwoSumTarget bodhi47 = new BodhiTwoSumTarget();
         // can implement a function from another class by doing this
+        AxelReverseInteger axel65 = new AxelReverseInteger();
+        // can implement a function from another class by doing this
+        AxelIntegerSum axel47 = new AxelIntegerSum();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3232,6 +3236,26 @@ public class BighornCrewStXavier {
             System.out.println(bodhi45);
             // 11538
         }
+
+        if (samurai[3] == "Glynis"){
+            int axel49 = axel65.axelInteger2(37);
+            System.out.println(axel49);
+            // 37
+            int axel50 = axel65.axelInteger2(57604732);
+            System.out.println(axel50);
+            // 23740675
+        }
+
+        if (ePetroleum[0] == "Thierry"){
+            int axel56 = axel47.axelInt2(37);
+            System.out.println(axel56);
+            // 10
+            int axel32 = axel47.axelInt2(347689);
+            System.out.println(axel32);
+            // 37
+        }
+
+
 
 
 
