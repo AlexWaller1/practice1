@@ -3178,6 +3178,15 @@ public class BighornCrewStXavier {
             // N. Gin races in Crash Team Racing
         }
 
+        System.out.println(robotNumbers.get(0));
+        // 37
+        System.out.println(robotNumbers.get(1));
+        // 44
+        System.out.println(robotNumbers.get(2));
+        // 9
+        System.out.println(robotNumbers.get(3));
+        // 22
+
 
 
 
