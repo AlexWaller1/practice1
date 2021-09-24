@@ -3315,6 +3315,9 @@ public class BighornCrewStXavier {
         // true
         System.out.println(bigHornFish);
         // Perch is now part of the stack
+        System.out.println(bigHornFish.pop());
+        System.out.println(bigHornFish);
+        // Perch is now out of the stack
 
 
 
