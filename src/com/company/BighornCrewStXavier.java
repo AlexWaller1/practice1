@@ -258,6 +258,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         MerganserReverseInteger merganserGreen = new MerganserReverseInteger();
         // can implement a function from another class by doing this
+        BodhiPalindrome bodhi32 = new BodhiPalindrome();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -394,6 +396,12 @@ public class BighornCrewStXavier {
         hardinNumbers.add(16);
         hardinNumbers.add(55);
         hardinNumbers.add(89);
+
+        Stack<String> palindromes = new Stack<>();
+        palindromes.add("racecar");
+        palindromes.add("kayak");
+        palindromes.add("redivider");
+        palindromes.add("roxxon");
 
 
 
@@ -3408,6 +3416,23 @@ public class BighornCrewStXavier {
             }while (hh1 < bigHornFish.size());
         }
         // This Works
+        palindromes.add("bandicoot");
+
+        if (bigHornFish.get(3) == "Carp"){
+            for (int hh1 = 0; hh1 < palindromes.size(); hh1++){
+                String hh2 = palindromes.get(hh1).toLowerCase();
+                String hh3 = bodhi32.bodhi2(hh2);
+                System.out.println(hh3);
+            }
+        }
+
+        if (robots[2] == "Mellon-Tech"){
+            for (int hh1 = 0; hh1 < troutString.length; hh1++){
+                String hh2 = troutString[hh1];
+                String hh3 = bodhi32.bodhi2(hh2);
+                System.out.println(hh3);
+            }
+        }
 
 
 
