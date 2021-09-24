@@ -3384,6 +3384,22 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (bigHornFish.get(2) == "Whitefish") {
+            int hh1 = 0;
+            while(hh1 < hardinNumbers.size()){
+                int hh2 = hardinNumbers.get(hh1);
+                int hh3 = merganserGreen.merganser2(hh2);
+                System.out.println(hh3);
+                hh1++;
+                // 73
+                // 44
+                // 94
+                // 61
+                // 55
+                // 98
+            }
+        }
+
 
 
 
