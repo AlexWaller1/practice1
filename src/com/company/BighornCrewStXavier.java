@@ -385,6 +385,14 @@ public class BighornCrewStXavier {
         bigHornFish.push("Sucker");
         bigHornFish.push("Paddlefish");
 
+        Stack<Integer> hardinNumbers = new Stack<>();
+        hardinNumbers.add(37);
+        hardinNumbers.add(44);
+        hardinNumbers.add(49);
+        hardinNumbers.add(16);
+        hardinNumbers.add(55);
+        hardinNumbers.add(89);
+
 
 
 
@@ -3322,6 +3330,24 @@ public class BighornCrewStXavier {
         // 5, seems like it read backwards since Whitefish is fifth from the last element
         if(bigHornFish.get(3) == "Carp"){
             System.out.println("Hi!");
+            // It Works! Prints Hi! to console
+        }
+
+        System.out.println(hardinNumbers.get(0) + hardinNumbers.get(1));
+        // 81
+        System.out.println(hardinNumbers.size());
+        // 6
+
+        if (hardinNumbers.get(0) == 37){
+            for (int hh1 = 0; hh1 < hardinNumbers.size(); hh1++){
+                System.out.println(hardinNumbers.get(hh1));
+                // 37
+                // 44
+                // 49
+                // 16
+                // 55
+                // 89
+            }
         }
 
 
