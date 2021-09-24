@@ -3400,6 +3400,15 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (bigHornFish.get(1) == "Brown Trout"){
+            int hh1 = 0;
+            do{
+                System.out.println(bigHornFish.get(hh1));
+                hh1++;
+            }while (hh1 < bigHornFish.size());
+        }
+        // This Works
+
 
 
 
