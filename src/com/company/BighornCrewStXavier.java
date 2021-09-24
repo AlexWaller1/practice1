@@ -3320,6 +3320,9 @@ public class BighornCrewStXavier {
         // Perch is now out of the stack
         System.out.println(bigHornFish.search("Whitefish"));
         // 5, seems like it read backwards since Whitefish is fifth from the last element
+        if(bigHornFish.get(3) == "Carp"){
+            System.out.println("Hi!");
+        }
 
 
 
