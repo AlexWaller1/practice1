@@ -376,6 +376,14 @@ public class BighornCrewStXavier {
             romanNumeral.put("L", 50);
         }
 
+        Stack<String> bigHornFish = new Stack<>();
+        bigHornFish.push("Rainbow Trout");
+        bigHornFish.push("Brown Trout");
+        bigHornFish.push("Whitefish");
+        bigHornFish.push("Carp");
+        bigHornFish.push("Goldeye");
+        bigHornFish.push("Sucker");
+
 
 
 
