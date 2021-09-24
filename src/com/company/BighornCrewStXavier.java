@@ -3351,6 +3351,19 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (hardinNumbers.get(1) == 44){
+            for (int hh1 = 0; hh1 < hardinNumbers.size(); hh1++){
+                String hh2 = hardinNumbers.get(hh1) + " is a Hardin Number";
+                System.out.println(hh2);
+                // 37 is a Hardin Number
+                // 44 is a Hardin Number
+                // 49 is a Hardin Number
+                // 16 is a Hardin Number
+                // 55 is a Hardin Number
+                // 89 is a Hardin Number
+            }
+        }
+
 
 
 
