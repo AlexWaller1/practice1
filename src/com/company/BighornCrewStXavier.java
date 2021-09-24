@@ -3296,6 +3296,21 @@ public class BighornCrewStXavier {
         // false
         System.out.println(bigHornFish.contains("Paddlefish"));
         // true
+        System.out.println(bigHornFish.indexOf("Whitefish"));
+        // 2
+        System.out.println(bigHornFish.indexOf("Sunfish"));
+        // -1
+        System.out.println(bigHornFish.firstElement());
+        // Rainbow Trout
+        System.out.println(bigHornFish.peek());
+        // Paddlefish
+        System.out.println(bigHornFish.pop());
+        // Paddlefish
+        System.out.println(bigHornFish);
+        // Paddlefish is out of the stack
+        bigHornFish.push("Paddlefish");
+        System.out.println(bigHornFish);
+        // Paddlefish is back in the stack
 
 
 
