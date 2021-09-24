@@ -3311,6 +3311,10 @@ public class BighornCrewStXavier {
         bigHornFish.push("Paddlefish");
         System.out.println(bigHornFish);
         // Paddlefish is back in the stack
+        System.out.println(bigHornFish.add("Perch"));
+        // true
+        System.out.println(bigHornFish);
+        // Perch is now part of the stack
 
 
 
