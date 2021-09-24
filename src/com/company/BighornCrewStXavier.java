@@ -256,6 +256,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         AxelStringRegex axel34 = new AxelStringRegex();
         // can implement a function from another class by doing this
+        MerganserReverseInteger merganserGreen = new MerganserReverseInteger();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3361,6 +3363,20 @@ public class BighornCrewStXavier {
                 // 16 is a Hardin Number
                 // 55 is a Hardin Number
                 // 89 is a Hardin Number
+            }
+        }
+
+        if (hardinNumbers.get(2) == 49){
+            for (int hh1 = 0; hh1 < hardinNumbers.size(); hh1++){
+                int hh2 = hardinNumbers.get(hh1);
+                int hh3 = merganserGreen.merganser2(hh2);
+                System.out.println(hh3);
+                // 73
+                // 44
+                // 94
+                // 61
+                // 55
+                // 98
             }
         }
 
