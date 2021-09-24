@@ -3318,6 +3318,8 @@ public class BighornCrewStXavier {
         System.out.println(bigHornFish.pop());
         System.out.println(bigHornFish);
         // Perch is now out of the stack
+        System.out.println(bigHornFish.search("Whitefish"));
+        // 5, seems like it read backwards since Whitefish is fifth from the last element
 
 
 
