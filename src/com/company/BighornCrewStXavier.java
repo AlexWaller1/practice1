@@ -383,6 +383,7 @@ public class BighornCrewStXavier {
         bigHornFish.push("Carp");
         bigHornFish.push("Goldeye");
         bigHornFish.push("Sucker");
+        bigHornFish.push("Paddlefish");
 
 
 
@@ -3281,6 +3282,14 @@ public class BighornCrewStXavier {
 
         System.out.println(robots[2].length());
         // 11
+        System.out.println(bigHornFish.get(0));
+        // Rainbow Trout
+        System.out.println(bigHornFish.get(1));
+        // Brown Trout
+        System.out.println(bigHornFish.lastElement());
+        // Paddlefish
+        System.out.println(bigHornFish.empty());
+        // false
 
 
 
