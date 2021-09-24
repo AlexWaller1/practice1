@@ -3290,6 +3290,12 @@ public class BighornCrewStXavier {
         // Paddlefish
         System.out.println(bigHornFish.empty());
         // false
+        System.out.println(bigHornFish);
+        // [Rainbow Trout, Brown Trout, Whitefish, Carp, Goldeye, Sucker, Paddlefish]
+        System.out.println(bigHornFish.contains("Perch"));
+        // false
+        System.out.println(bigHornFish.contains("Paddlefish"));
+        // true
 
 
 
