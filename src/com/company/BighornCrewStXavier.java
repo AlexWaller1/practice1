@@ -404,6 +404,14 @@ public class BighornCrewStXavier {
         palindromes.add("redivider");
         palindromes.add("roxxon");
 
+        Queue<Integer> dachshundInteger = new ArrayDeque<>();
+        dachshundInteger.add(37);
+        dachshundInteger.add(44);
+        dachshundInteger.add(55);
+        dachshundInteger.add(9);
+        dachshundInteger.add(92);
+        dachshundInteger.add(2001);
+
 
 
 
