@@ -3445,6 +3445,22 @@ public class BighornCrewStXavier {
 
         System.out.println(dachshundInteger);
         // [37, 44, 55, 9, 92, 2001]
+        System.out.println(dachshundInteger.peek());
+        // 37
+        System.out.println(dachshundInteger.add(56));
+        // true
+        System.out.println(dachshundInteger);
+        // 56 added to back of the queue
+        System.out.println(dachshundInteger.element());
+        // 37
+
+        PriorityQueue<Integer> perchInt = new PriorityQueue<>();
+        perchInt.add(37);
+        perchInt.add(44);
+        perchInt.add(105);
+        perchInt.add(2001);
+        System.out.println(perchInt);
+        // [37, 44, 105, 2001]
 
 
 
