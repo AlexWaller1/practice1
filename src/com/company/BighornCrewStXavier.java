@@ -309,7 +309,8 @@ public class BighornCrewStXavier {
         int[] troutNo = {37, 36, 121, 144};
         int[] heronNo = {3, 6, 12, 19, 21};
         String[] hybridString = {"37", "102", "2309", "1992", "44"};
-        String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill"};
+        String[] troutString = {"racecar", "dachshund", "pickerel", "kayak", "level", "redivider", "sandhill", "roxxon"
+        , "donnor"};
         String[] robotString = {"1", "2", "3", "4", "5"};
         String[] tString = {"toad", "tee-shirt", "timber"};
         String[] timberTron = {"Timber-Io", "Timber Technoid", "Timber_Git"};
