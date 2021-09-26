@@ -3459,8 +3459,24 @@ public class BighornCrewStXavier {
         perchInt.add(44);
         perchInt.add(105);
         perchInt.add(2001);
+        perchInt.add(1);
+        perchInt.add(96);
+        perchInt.add(74);
         System.out.println(perchInt);
         // [37, 44, 105, 2001]
+        if (pickerelCola37[1] == "Diet Pickerel Cola"){
+            while(!perchInt.isEmpty()){
+                System.out.println(perchInt.remove());
+                // 1
+                // 37
+                // 44
+                // 74
+                // 96
+                // 105
+                // 2001
+                // prints integers by ascending value rather than order they were put int he queue
+            }
+        }
 
 
 
