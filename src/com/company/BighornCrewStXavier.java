@@ -3463,6 +3463,7 @@ public class BighornCrewStXavier {
         perchInt.add(96);
         perchInt.add(74);
         System.out.println(perchInt);
+        System.out.println(perchInt.isEmpty());
         // [37, 44, 105, 2001]
         if (pickerelCola37[1] == "Diet Pickerel Cola"){
             while(!perchInt.isEmpty()){
@@ -3475,8 +3476,14 @@ public class BighornCrewStXavier {
                 // 105
                 // 2001
                 // prints integers by ascending value rather than order they were put int he queue
+                // smallest numbers are printed to the console first in PriorityQueues
             }
         }
+
+        System.out.println(perchInt.isEmpty());
+        // true, as the loop above emptied out the array
+        System.out.println(perchInt);
+        // []
 
 
 
