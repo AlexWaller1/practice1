@@ -2771,8 +2771,8 @@ public class BighornCrewStXavier {
         if(robots[0] == "Hank-44"){
             String dachshund1 = "iDachshund";
             String dachshund2 = "Dachshund";
-            int dachshundInteger = dachshund1.indexOf(dachshund2);
-            System.out.println(dachshundInteger);
+            int dachshundInteger1 = dachshund1.indexOf(dachshund2);
+            System.out.println(dachshundInteger1);
             // 1
         }
 
@@ -3442,6 +3442,9 @@ public class BighornCrewStXavier {
                 System.out.println(hh3);
             }
         }
+
+        System.out.println(dachshundInteger);
+        // [37, 44, 55, 9, 92, 2001]
 
 
 
