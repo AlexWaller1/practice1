@@ -3499,6 +3499,10 @@ public class BighornCrewStXavier {
         // true
         System.out.println(perchInt.stream().findFirst());
         // Optional[37]
+        System.out.println(perchInt.add(55));
+        // true
+        System.out.println(perchInt);
+        // 55 now in the queue in the third spot
 
 
 
