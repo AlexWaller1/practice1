@@ -265,6 +265,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         OtterIntegers otterCallBack = new OtterIntegers();
         // can implement a function from another class by doing this
+        TroutExponent troutExp = new TroutExponent();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3599,6 +3601,15 @@ public class BighornCrewStXavier {
             // Whitefish
             // Brown Trout
             // Rainbow Trout
+        }
+
+        if (bigHornFish.get(2) == "Whitefish"){
+            for (int hh1 = 0; hh1 < hardinNumbers.size(); hh1++){
+                int hh2 = hardinNumbers.get(hh1);
+                String hh3 = troutExp.troutString(hh2);
+                System.out.println(hh3);
+                // this works!!!
+            }
         }
 
 
