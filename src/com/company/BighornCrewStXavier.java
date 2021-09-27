@@ -3586,6 +3586,21 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (hardinNumbers.get(3) == 16){
+            int hh1 = bigHornFish.size() - 1;
+            do {
+                System.out.println(bigHornFish.get(hh1));
+                hh1--;
+            }while(hh1 >= 0);
+            // Paddlefish
+            // Sucker
+            // Goldeye
+            // Carp
+            // Whitefish
+            // Brown Trout
+            // Rainbow Trout
+        }
+
 
 
 
