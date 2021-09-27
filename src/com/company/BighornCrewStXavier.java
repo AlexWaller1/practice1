@@ -3503,6 +3503,10 @@ public class BighornCrewStXavier {
         // true
         System.out.println(perchInt);
         // 55 now in the queue in the third spot
+        System.out.println(perchInt.iterator());
+        // didn't do much
+        System.out.println(perchInt.comparator());
+        // null
 
 
 
