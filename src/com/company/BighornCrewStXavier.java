@@ -3572,6 +3572,20 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (hardinNumbers.get(1) == 44){
+            int hh1 = hardinNumbers.size() - 1;
+            while (hh1 >= 0){
+                System.out.println(hardinNumbers.get(hh1));
+                hh1--;
+                // 89
+                // 55
+                // 16
+                // 49
+                // 44
+                // 37
+            }
+        }
+
 
 
 
