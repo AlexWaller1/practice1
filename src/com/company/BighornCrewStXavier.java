@@ -3491,6 +3491,14 @@ public class BighornCrewStXavier {
         perchInt.add(96);
         perchInt.add(2001);
         System.out.println(perchInt);
+        System.out.println(perchInt.peek());
+        // 37
+        System.out.println(perchInt.size());
+        // 6
+        System.out.println(perchInt.contains(37));
+        // true
+        System.out.println(perchInt.stream().findFirst());
+        // Optional[37]
 
 
 
