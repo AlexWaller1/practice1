@@ -3624,6 +3624,22 @@ public class BighornCrewStXavier {
         lawAndOrder.add("Anita");
         lawAndOrder.add("Rey");
         System.out.println(lawAndOrder);
+        // [Jack, Abbie, Serena, Arthur, Paul, Jamie, Adam, Lenny, Anita, Rey]
+        if (lawAndOrder.get(0) == "Jack"){
+            for (int hh1 = 0; hh1 < lawAndOrder.size(); hh1++){
+                System.out.println(lawAndOrder.get(hh1));
+                // Jack
+                // Abbie
+                // Serena
+                // Arthur
+                // Paul
+                // Jamie
+                // Adam
+                // Lenny
+                // Anita
+                // Rey
+            }
+        }
 
 
 
