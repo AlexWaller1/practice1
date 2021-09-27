@@ -267,6 +267,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         TroutExponent troutExp = new TroutExponent();
         // can implement a function from another class by doing this
+        CushetunkMaxInteger cushetunkMax = new CushetunkMaxInteger();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3684,6 +3686,12 @@ public class BighornCrewStXavier {
         // 44, not sure why its 44
         System.out.println(cushetunkNo.get(0) * cushetunkNo.get(1));
         // 2464
+
+        if (lawAndOrder.get(0) == "Jack"){
+            String hh4 = cushetunkMax.cushetunkString(cushetunkNo);
+            System.out.println(hh4);
+            // 56 is the biggest integer in the linked list
+        }
 
 
 
