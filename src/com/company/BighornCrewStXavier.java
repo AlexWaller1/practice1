@@ -3700,6 +3700,8 @@ public class BighornCrewStXavier {
         // should add 37 back to the front of the Linked List
         System.out.println(cushetunkNo);
         // [37, 44, 56, 47, 22]
+        System.out.println(cushetunkNo.hashCode());
+        // 64165527, not sure what this means
 
 
 
