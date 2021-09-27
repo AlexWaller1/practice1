@@ -3658,6 +3658,24 @@ public class BighornCrewStXavier {
         cushetunkNo.add(22);
         System.out.println(cushetunkNo);
         // [37, 44, 56, 47, 22]
+        System.out.println(cushetunkNo.size());
+        // 5
+        System.out.println(cushetunkNo.getFirst());
+        // 37
+        System.out.println(cushetunkNo.getLast());
+        // 22
+        System.out.println(cushetunkNo.descendingIterator());
+        // didn't do much
+        System.out.println(cushetunkNo.lastIndexOf(37));
+        // 0
+        System.out.println(cushetunkNo.peek());
+        // 37
+        System.out.println(cushetunkNo.peekFirst());
+        // 37
+        System.out.println(cushetunkNo.peekLast());
+        // 22
+        System.out.println(cushetunkNo);
+        // [37, 44, 56, 47, 22]
 
 
 
