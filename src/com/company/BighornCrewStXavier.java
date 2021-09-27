@@ -2,6 +2,7 @@ package com.company;
 import org.w3c.dom.Node;
 
 import javax.swing.*;
+import java.sql.Array;
 import java.sql.SQLOutput;
 import java.util.*;
 import java.lang.*;
@@ -3509,6 +3510,33 @@ public class BighornCrewStXavier {
         // null
         System.out.println(perchInt.element());
         // 37
+        System.out.println(perchInt.size());
+        // 7
+
+        // Switching back to Stacks
+        System.out.println(bigHornFish);
+        // [Rainbow Trout, Brown Trout, Whitefish, Carp, Goldeye, Sucker, Paddlefish]
+        System.out.println(bigHornFish.get(0));
+        // Rainbow Trout
+        System.out.println(bigHornFish.get(1));
+        // Brown Trout
+        System.out.println(bigHornFish.peek());
+        // Paddlefish
+        bigHornFish.pop();
+        System.out.println(bigHornFish);
+        // pop() takes the last element out of the Stack
+        bigHornFish.add("Paddlefish");
+        System.out.println(bigHornFish);
+        // Paddlefish is back in the Stack
+        System.out.println(bigHornFish.size());
+        // 7
+        System.out.println(bigHornFish.firstElement());
+        // Rainbow Trout
+        System.out.println(bigHornFish.lastElement());
+        // Paddlefish
+
+
+
 
 
 
