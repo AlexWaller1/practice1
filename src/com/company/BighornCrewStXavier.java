@@ -3507,6 +3507,8 @@ public class BighornCrewStXavier {
         // didn't do much
         System.out.println(perchInt.comparator());
         // null
+        System.out.println(perchInt.element());
+        // 37
 
 
 
