@@ -3650,6 +3650,15 @@ public class BighornCrewStXavier {
             // 4
         }
 
+        LinkedList<Integer> cushetunkNo = new LinkedList<>();
+        cushetunkNo.add(37);
+        cushetunkNo.add(44);
+        cushetunkNo.add(56);
+        cushetunkNo.add(47);
+        cushetunkNo.add(22);
+        System.out.println(cushetunkNo);
+        // [37, 44, 56, 47, 22]
+
 
 
 
