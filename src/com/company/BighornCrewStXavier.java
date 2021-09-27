@@ -3676,6 +3676,12 @@ public class BighornCrewStXavier {
         // 22
         System.out.println(cushetunkNo);
         // [37, 44, 56, 47, 22]
+        System.out.println(cushetunkNo.poll());
+        // 37
+        System.out.println(cushetunkNo.isEmpty());
+        // false
+        System.out.println(cushetunkNo.element());
+        // 44, not sure why its 44
 
 
 
