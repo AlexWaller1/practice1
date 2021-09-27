@@ -3484,6 +3484,13 @@ public class BighornCrewStXavier {
         // true, as the loop above emptied out the array
         System.out.println(perchInt);
         // []
+        perchInt.add(37);
+        perchInt.add(44);
+        perchInt.add(105);
+        perchInt.add(74);
+        perchInt.add(96);
+        perchInt.add(2001);
+        System.out.println(perchInt);
 
 
 
