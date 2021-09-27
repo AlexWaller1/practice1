@@ -3612,6 +3612,19 @@ public class BighornCrewStXavier {
             }
         }
 
+        LinkedList<String> lawAndOrder = new LinkedList<>();
+        lawAndOrder.add("Jack");
+        lawAndOrder.add("Abbie");
+        lawAndOrder.add("Serena");
+        lawAndOrder.add("Arthur");
+        lawAndOrder.add("Paul");
+        lawAndOrder.add("Jamie");
+        lawAndOrder.add("Adam");
+        lawAndOrder.add("Lenny");
+        lawAndOrder.add("Anita");
+        lawAndOrder.add("Rey");
+        System.out.println(lawAndOrder);
+
 
 
 
