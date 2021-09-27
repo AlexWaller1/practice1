@@ -263,6 +263,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         Hank_44LongestCommonPrefix hankPrefix = new Hank_44LongestCommonPrefix();
         // can implement a function from another class by doing this
+        OtterIntegers otterCallBack = new OtterIntegers();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3559,6 +3561,15 @@ public class BighornCrewStXavier {
             String timber45 = hankPrefix.hankString(timberTech);
             System.out.println(timber45);
             // Timber-
+        }
+
+        if (hardinNumbers.get(0) == 37){
+            for (int hh1 = 0; hh1 < hardinNumbers.size(); hh1++){
+                int hh2 = hardinNumbers.get(hh1);
+                String hh3 = otterCallBack.otterString1(hh2);
+                System.out.println(hh3);
+                // This Works
+            }
         }
 
 
