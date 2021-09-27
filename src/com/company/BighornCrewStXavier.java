@@ -3641,6 +3641,15 @@ public class BighornCrewStXavier {
             }
         }
 
+        if (lawAndOrder.get(1) == "Abbie"){
+            int hh1 = lawAndOrder.size();
+            System.out.println(hh1);
+            // 10
+            int hh2 = lawAndOrder.indexOf("Paul");
+            System.out.println(hh2);
+            // 4
+        }
+
 
 
 
