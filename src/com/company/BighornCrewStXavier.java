@@ -3534,6 +3534,12 @@ public class BighornCrewStXavier {
         // Rainbow Trout
         System.out.println(bigHornFish.lastElement());
         // Paddlefish
+        System.out.println(dachshundInteger.stream());
+        // didn't do much
+        System.out.println(dachshundInteger.equals(0));
+        // false
+        System.out.println(hardinNumbers);
+        // [37, 44, 49, 16, 55, 89]
 
 
 
