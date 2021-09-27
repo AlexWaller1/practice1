@@ -3540,6 +3540,12 @@ public class BighornCrewStXavier {
         // false
         System.out.println(hardinNumbers);
         // [37, 44, 49, 16, 55, 89]
+        System.out.println(hardinNumbers.get(0) * hardinNumbers.get(1));
+        // 37 * 44 = 1628
+        System.out.println(hardinNumbers.lastElement());
+        // 89
+        System.out.println(hardinNumbers.firstElement());
+        // 37
 
 
 
