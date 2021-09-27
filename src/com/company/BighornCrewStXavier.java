@@ -261,6 +261,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         BodhiPalindrome bodhi32 = new BodhiPalindrome();
         // can implement a function from another class by doing this
+        Hank_44LongestCommonPrefix hankPrefix = new Hank_44LongestCommonPrefix();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3546,12 +3548,18 @@ public class BighornCrewStXavier {
         // 89
         System.out.println(hardinNumbers.firstElement());
         // 37
-        Stack timberTech = new Stack();
+        Stack<String> timberTech = new Stack();
         timberTech.add("Timber-Io");
         timberTech.add("Timber-Tron");
         timberTech.add("Timber-Tech");
         timberTech.add("Timber-Code");
         timberTech.add("Timber-Stack");
+
+        if (timberTech.get(0) == "Timber-Io"){
+            String timber45 = hankPrefix.hankString(timberTech);
+            System.out.println(timber45);
+            // Timber-
+        }
 
 
 
