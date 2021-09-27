@@ -3682,6 +3682,8 @@ public class BighornCrewStXavier {
         // false
         System.out.println(cushetunkNo.element());
         // 44, not sure why its 44
+        System.out.println(cushetunkNo.get(0) * cushetunkNo.get(1));
+        // 2464
 
 
 
