@@ -3702,6 +3702,13 @@ public class BighornCrewStXavier {
         // [37, 44, 56, 47, 22]
         System.out.println(cushetunkNo.hashCode());
         // 64165527, not sure what this means
+        System.out.println(cushetunkNo.pop());
+        // 37
+        System.out.println(cushetunkNo);
+        // [44, 56, 47, 22]
+        cushetunkNo.add(0, 37);
+        System.out.println(cushetunkNo);
+        // [37, 44, 56, 47, 22]
 
 
 
