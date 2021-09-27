@@ -3693,6 +3693,14 @@ public class BighornCrewStXavier {
             // 56 is the biggest integer in the linked list
         }
 
+        System.out.println(cushetunkNo);
+        // [44, 56, 47, 22]
+        // poll() method must have taken 37 out of the Linked List
+        cushetunkNo.add(0, 37);
+        // should add 37 back to the front of the Linked List
+        System.out.println(cushetunkNo);
+        // [37, 44, 56, 47, 22]
+
 
 
 
