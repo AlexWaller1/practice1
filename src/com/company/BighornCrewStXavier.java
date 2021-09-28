@@ -3767,10 +3767,43 @@ public class BighornCrewStXavier {
             boolean hh9 = lawAndOrder.get(0).contains("Chipper");
             System.out.println(hh9);
             // false
+            double hh7 = beezer29.beezerDouble(22, 30);
+            System.out.println(hh7);
+            // 260.0
         }
 
         System.out.println(robots);
         // doesn't work the same as a stack or linked list
+        System.out.println(lawAndOrder.peek());
+        // Jack
+        System.out.println(lawAndOrder.peekLast());
+        // Rey
+        System.out.println(lawAndOrder.listIterator());
+        // didn't do much
+        System.out.println(lawAndOrder.size());
+        // 10
+        System.out.println(lawAndOrder);
+        System.out.println(lawAndOrder.add("Ed"));
+        // true
+        System.out.println(lawAndOrder);
+        // Ed now part of Linked List
+        System.out.println(lawAndOrder.get(10));
+        // Ed
+        if (lawAndOrder.get(10) == "Ed"){
+            int hh1 = lawAndOrder.size() - 1;
+            while(hh1 >= 0){
+                System.out.println(lawAndOrder.get(hh1));
+                hh1--;
+            }
+        }
+
+        if (lawAndOrder.get(9) == "Rey"){
+            int hh1 = 0;
+            do {
+                System.out.println(lawAndOrder.get(hh1));
+                hh1++;
+            }while(hh1 < lawAndOrder.size());
+        }
 
 
 
