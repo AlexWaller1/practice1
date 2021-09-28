@@ -3734,6 +3734,11 @@ public class BighornCrewStXavier {
             // it worked!!!
         }
 
+        System.out.println(lawAndOrder.size());
+        // 10
+        System.out.println(lawAndOrder.subList(2, 5));
+        // [Serena, Arthur, Paul]
+
 
 
 
