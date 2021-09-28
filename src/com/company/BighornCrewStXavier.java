@@ -3819,6 +3819,11 @@ public class BighornCrewStXavier {
         System.out.println(hardinNumbers);
         // [37, 44, 49, 16, 55, 89]
 
+        if (lawAndOrder.get(10) == "Ed"){
+            System.out.println(crashBandicoot37.get(0));
+            // Crash Bandicoot
+        }
+
 
 
 
