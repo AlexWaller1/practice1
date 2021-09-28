@@ -3758,6 +3758,12 @@ public class BighornCrewStXavier {
             double hh4 = beezer29.beezerDouble(10, 20);
             System.out.println(hh4);
             // 15.0
+            double hh5 = beezer29.beezerDouble(0, 74);
+            System.out.println(hh5);
+            // 37.0
+            double hh6 = beezer29.beezerDouble(0, 88);
+            System.out.println(hh6);
+            // 44.0
         }
 
 
