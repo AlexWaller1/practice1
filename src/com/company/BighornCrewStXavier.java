@@ -3740,7 +3740,8 @@ public class BighornCrewStXavier {
         // [Serena, Arthur, Paul]
         System.out.println(lawAndOrder.stream().sorted());
         // didn't do much
-
+        System.out.println(lawAndOrder.hashCode());
+        // -1332358495, not sure what that's all about
 
 
 
