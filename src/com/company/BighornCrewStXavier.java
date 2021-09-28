@@ -3749,6 +3749,15 @@ public class BighornCrewStXavier {
             double hh1 = beezer29.beezerDouble(0, 50);
             System.out.println(hh1);
             // 25.0!!! It Worked!!!
+            double hh2 = beezer29.beezerDouble(1, 30);
+            System.out.println(hh2);
+            // 0.0
+            double hh3 = beezer29.beezerDouble(15, 30);
+            System.out.println(hh3);
+            // 0.0 since loop only increments and decrements by 1, we're not getting numbers like 9.5
+            double hh4 = beezer29.beezerDouble(10, 20);
+            System.out.println(hh4);
+            // 15.0
         }
 
 
