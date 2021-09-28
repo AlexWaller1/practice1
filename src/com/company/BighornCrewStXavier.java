@@ -3808,6 +3808,14 @@ public class BighornCrewStXavier {
         Set<Integer> set = new HashSet<>();
         int[] testNumbers = {1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5 , 5};
 
+        if (hardinNumbers.get(0) == 37) {
+            for (var testNumber : testNumbers) {
+                set.add(testNumber);
+                System.out.println(set);
+                // [1, 2, 3, 4, 5]
+            }
+        }
+
 
 
 
