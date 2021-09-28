@@ -3764,7 +3764,15 @@ public class BighornCrewStXavier {
             double hh6 = beezer29.beezerDouble(0, 88);
             System.out.println(hh6);
             // 44.0
+            boolean hh9 = lawAndOrder.get(0).contains("Chipper");
+            System.out.println(hh9);
+            // false
         }
+
+        System.out.println(robots);
+        // doesn't work the same as a stack or linked list
+
+
 
 
 
