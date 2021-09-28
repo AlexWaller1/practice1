@@ -3816,6 +3816,9 @@ public class BighornCrewStXavier {
             }
         }
 
+        System.out.println(hardinNumbers);
+        // [37, 44, 49, 16, 55, 89]
+
 
 
 
