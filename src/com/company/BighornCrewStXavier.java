@@ -3805,6 +3805,9 @@ public class BighornCrewStXavier {
             }while(hh1 < lawAndOrder.size());
         }
 
+        Set<Integer> set = new HashSet<>();
+        int[] testNumbers = {1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5 , 5};
+
 
 
 
