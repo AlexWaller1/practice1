@@ -3738,6 +3738,8 @@ public class BighornCrewStXavier {
         // 10
         System.out.println(lawAndOrder.subList(2, 5));
         // [Serena, Arthur, Paul]
+        System.out.println(lawAndOrder.stream().sorted());
+        // didn't do much
 
 
 
