@@ -269,6 +269,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CushetunkMaxInteger cushetunkMax = new CushetunkMaxInteger();
         // can implement a function from another class by doing this
+        LawAndOrderBoolean jackMcCoy = new LawAndOrderBoolean();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3709,6 +3711,28 @@ public class BighornCrewStXavier {
         cushetunkNo.add(0, 37);
         System.out.println(cushetunkNo);
         // [37, 44, 56, 47, 22]
+        System.out.println(cushetunkNo.add(63));
+        // true
+        System.out.println(cushetunkNo);
+        // [37, 44, 56, 47, 22, 63]
+
+        System.out.println(lawAndOrder);
+        //
+        if (lawAndOrder.get(3) == "Arthur"){
+            boolean branch1 = jackMcCoy.lo1(lawAndOrder);
+            System.out.println(branch1);
+            // true
+        }
+
+        if (lawAndOrder.size() != 37){
+            int hh1 = lawAndOrder.size() - 1;
+            do {
+                String hh2 = lawAndOrder.get(hh1) + " is a character on Law & Order.";
+                System.out.println(hh2);
+                hh1--;
+            }while (hh1 >= 0);
+            // it worked!!!
+        }
 
 
 
