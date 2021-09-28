@@ -271,6 +271,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         LawAndOrderBoolean jackMcCoy = new LawAndOrderBoolean();
         // can implement a function from another class by doing this
+        BeezerTwoIntegersMidPoint beezer29 = new BeezerTwoIntegersMidPoint();
+        // can implment a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3742,6 +3744,12 @@ public class BighornCrewStXavier {
         // didn't do much
         System.out.println(lawAndOrder.hashCode());
         // -1332358495, not sure what that's all about
+
+        if (robots[2] == "Mellon-Tech"){
+            double hh1 = beezer29.beezerDouble(0, 50);
+            System.out.println(hh1);
+            // 25.0!!! It Worked!!!
+        }
 
 
 
