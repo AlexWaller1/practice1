@@ -275,6 +275,8 @@ public class BighornCrewStXavier {
         // can implement a function from another class by doing this
         CrashBandicootRegex crashRegex = new CrashBandicootRegex();
         // can implement a function from another class by doing this
+        CortexCharArray cortexArray = new CortexCharArray();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3850,6 +3852,13 @@ public class BighornCrewStXavier {
                 // c
                 // k
             }
+        }
+
+        if (robots[2] == "Mellon-Tech"){
+            String cortex1 = "Cortex";
+            char cortex2 = cortexArray.cortexChar(cortex1);
+            System.out.println(cortex2);
+            // just returns 'x' because we're outside of the for loop
         }
 
 
