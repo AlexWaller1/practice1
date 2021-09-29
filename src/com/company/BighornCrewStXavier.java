@@ -272,7 +272,9 @@ public class BighornCrewStXavier {
         LawAndOrderBoolean jackMcCoy = new LawAndOrderBoolean();
         // can implement a function from another class by doing this
         BeezerTwoIntegersMidPoint beezer29 = new BeezerTwoIntegersMidPoint();
-        // can implment a function from another class by doing this
+        // can implement a function from another class by doing this
+        CrashBandicootRegex crashRegex = new CrashBandicootRegex();
+        // can implement a function from another class by doing this
 
         String ramHybrid1 = "Tony";
         String ramHybrid2 = "Otto";
@@ -3830,6 +3832,13 @@ public class BighornCrewStXavier {
                 System.out.println(crashBandicoot37.get(hh1));
                 hh1++;
             }while(hh1 < crashBandicoot37.size());
+        }
+
+        if (crashBandicoot37.get(1) == "Cortex"){
+            String hh1 = "Crash Bandicoot is the man!!!";
+            String hh2 = crashRegex.bandicootString2(hh1);
+            System.out.println(hh2);
+            // CRASH==BANDICOOT==IS==THE==MAN!!!
         }
 
 
