@@ -3841,6 +3841,17 @@ public class BighornCrewStXavier {
             // CRASH==BANDICOOT==IS==THE==MAN!!!
         }
 
+        if (crashBandicoot37.get(2) == "Ripper Roo"){
+            char[] crash44 = lawAndOrder.get(0).toCharArray();
+            for (int hh1 = 0; hh1 < crash44.length; hh1++){
+                System.out.println(crash44[hh1]);
+                // J
+                // a
+                // c
+                // k
+            }
+        }
+
 
 
 
