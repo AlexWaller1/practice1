@@ -3824,6 +3824,14 @@ public class BighornCrewStXavier {
             // Crash Bandicoot
         }
 
+        if (lawAndOrder.get(0) == "Jack"){
+            int hh1 = 0;
+            do {
+                System.out.println(crashBandicoot37.get(hh1));
+                hh1++;
+            }while(hh1 < crashBandicoot37.size());
+        }
+
 
 
 
